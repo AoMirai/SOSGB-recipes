@@ -1,0 +1,4431 @@
+Macaroni salad Type Salad
+MATERIAL
+Pasta
+Cucumbers
+Mayonnaise
+Carrots
+Arrangement
+Penne pasta
+Herbal pasta
+Onions
+Salt
+pepper
+Price
+Buy price: 2602 / Sell price: 1859
+Power
+Lv4 Stamina saver
+Obtain
+Ristorante Bimi Purchased at
+
+Guacamole salad Type Salad
+MATERIAL
+Avocados
+Onions
+Tomatoes
+Salt
+Arrangement
+Lemons
+Salt
+pepper
+Price
+Buy price: 1832 / Sell price: 1309
+Power
+Lv3 Stamina saver
+Obtain
+Ristorante Bimi Purchased at
+Achieved the title "Master of Mulberry"
+
+Kinpira Gobo Type Salad
+MATERIAL
+Burdock
+Carrots
+Chili peppers
+Salt
+Arrangement
+Sugar
+Soy sauce
+Oils
+Price
+Buy price: 1272 / Sell price: 909
+Power
+Lv2 Stamina saver
+Obtain
+Claire restaurant Purchased in (country)
+
+Marinated Peppers
+ Type Salad
+MATERIAL
+Red pepper
+Vinegar
+Oils
+Arrangement
+Radishes
+Onions
+Olive oil
+Honey
+Price
+Buy price: 837 / Sell price: 598
+Power
+Lv2 Stamina saver
+Obtain
+Open Cafe Melina Purchased at
+
+Mixed salad Type Salad
+MATERIAL
+Tomatoes
+Cucumbers
+Vegetables for salad
+Arrangement
+Avocados
+Corn
+Cheeses
+Price
+Buy price: 565 / Sell price: 404
+Power
+Lv1 Stamina saver
+Obtain
+Claire restaurant Purchased at
+
+Turnip salad Type Salad
+MATERIAL
+Turnip
+Arrangement
+Cucumbers
+Tomatoes
+Red pepper
+Price
+Selling price: 260
+Power
+Lv1 Stamina saver
+Obtain
+It can be made from scratch
+
+Herbal salad Type Salad
+MATERIAL
+Herbs
+Herbs
+Arrangement
+Broccoli
+Tomatoes
+Boiled eggs
+Olive oil
+Salt
+pepper
+Price
+Selling price: 137
+Power
+Lv1 Stamina saver
+Obtain
+It can be made from scratch
+
+Tomato salad Type Salad
+MATERIAL
+Tomatoes
+Herbs
+Arrangement
+Cucumbers
+Red pepper
+Cheeses
+Price
+Buy price: 176 / Sell price: 126
+Power
+Lv1 Stamina saver
+Obtain
+Open Cafe Melina Purchased at
+
+Caprese salad Type Salad
+MATERIAL
+Tomatoes
+Cheeses
+Olive oil
+Salt
+Arrangement
+Avocados
+Baguette
+Soy sauce
+Nut oil
+Herb oil
+Pumpkin oil
+Grape oil
+Salt
+Price
+Selling price: 2429
+Power
+Watering rare crop % Lv4
+Obtain
+Erich Request " Isakumotsu incorporates it into new works Get the recipe with "Achievement
+
+Poke Type Salad
+MATERIAL
+Avocados
+Salmon
+Soy sauce
+Arrangement
+Onions
+Green onion
+Oils
+Price
+Buy price: 1675 / Sell price: 1197
+Power
+Watering rare crop % Lv3
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Mashed potatoes Type Salad
+MATERIAL
+Potatoes
+Butter
+Arrangement
+Milk class
+Mint
+Salt
+pepper
+Price
+Buy price: 947 / Sell price: 677
+Power
+Watering rare crop % Lv2
+Obtain
+Cafe Melina Purchased at (village)
+
+Onion salad Type Salad
+MATERIAL
+Onions
+Arrangement
+Milk class
+Mint
+Salt
+pepper
+Price
+Buy price: 455 / Sell price: 325
+Power
+Watering rare crop % Lv1
+Obtain
+Cafe Melina Purchased at
+
+Asparagus soup type Soup
+MATERIAL
+Asparagus
+Milk class
+Oils
+Onions
+Arrangement
+Boletus
+Morille
+Salt
+pepper
+Olive oil
+Pumpkin oil
+Grape oil
+Price
+Buy price: 2419 / Sell price: 1728
+Power
+Fishing rod durability up Lv4
+Obtain
+Claire restaurant Purchased in (country)
+
+Onion soup type Soup
+MATERIAL
+Onions
+Butter
+Arrangement
+Garlic
+Salt
+pepper
+Baguette
+Price
+Buy price: 1433 / Sell price: 1024
+Power
+Fishing rod durability up Lv3
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Radish soup type Soup
+MATERIAL
+Radishes
+Milk class
+Salt
+Arrangement
+Onions
+Butter
+pepper
+Price
+Selling price: 770
+Power
+Fishing rod durability up Lv2
+Obtain
+Meena Please get the recipe with the goal of achieving "you you can rely on"
+
+Miso soup type Soup
+MATERIAL
+Miso
+Miso soup ingredients
+Arrangement
+Onions
+Spinach
+Radishes
+Eggplant
+Salt
+Price
+Buy price: 364 / Sell price: 260
+Power
+Fishing rod durability up Lv1
+Obtain
+Claire restaurant Purchased at
+
+Corn soup type Soup
+MATERIAL
+Corn
+Milk class
+Butter
+Onions
+Arrangement
+Potatoes
+Eggs
+Salt
+Price
+Buy price: 2541 / Sell price: 1815
+Power
+Movement speed up Lv4
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Pumpkin soup type Soup
+MATERIAL
+Pumpkins
+Milk class
+Onions
+Arrangement
+Butter
+Salt
+pepper
+Price
+Selling price: 1320
+Power
+Movement speed up Lv3
+Obtain
+Claire Request " Claire's carelessness Get the recipe with "Achievement"
+
+Vichyssoise soup type Soup
+MATERIAL
+Potatoes
+Onions
+Milk class
+Arrangement
+Butter
+Salt
+pepper
+Price
+Buy price: 992 / Sell price: 709
+Power
+Movement speed up Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Gaspacho soup type Soup
+MATERIAL
+Tomatoes
+Garlic
+Bread 2
+Arrangement
+Cucumbers
+Onions
+Green peppers
+Olive oil
+Salt
+Price
+Buy price: 686 / Sell price: 490
+Power
+Movement speed up Lv1
+Obtain
+Cafe Melina Purchased at (village)
+
+Herbal soup type Soup
+MATERIAL
+Herbs
+Herbs
+Arrangement
+Onions
+Cabbage
+Carrots
+Broccoli
+Salt
+Olive oil
+Price
+Selling price: 137
+Power
+Movement speed up Lv1
+Obtain
+It can be made from scratch
+
+Egg soup type Soup
+MATERIAL
+Eggs
+Arrangement
+Green onion
+Soy sauce
+Salt
+pepper
+Oils
+Price
+Selling price: 117
+Power
+Movement speed up Lv1
+Obtain
+It can be made from scratch
+
+Hachapuri type Side
+MATERIAL
+Wheat flour
+Cheese+
+Yogurt+
+Butter+
+Arrangement
+Eggs
+Rice flour
+Sugar
+Salt
+Olive oil
+Pumpkin oil
+Grape oil
+Price
+Selling price: 10098
+Power
+Double the amount obtained during collection
+Obtain
+Schmidt Request " I want to eat your home-cooked meal Get the recipe with "Achievement"
+
+Cream of morille type Side
+MATERIAL
+Morille
+Buffalo milk
+Butter
+Urchin
+Arrangement
+Onions
+Garlic
+Pasta
+Salt
+pepper
+Nut oil
+Herb oil
+Olive oil
+Price
+Buy price: 3628 / Sell price: 2592
+Power
+Max stamina up Lv4
+Obtain
+Ristorante Bimi Purchased at
+
+Quiche type Side
+MATERIAL
+Wheat flour
+Spinach
+Pumpkins
+Mushrooms
+Arrangement
+Onions
+Cheeses
+Salt
+pepper
+Pumpkin oil
+Grape oil
+Price
+Selling price: 1892
+Power
+Max stamina up Lv4
+Obtain
+Meena Request " What is the main character of the new dish? Get the recipe with "Achievement"
+
+Fish & Chips type Side
+MATERIAL
+Fish 4
+Potatoes
+Cereal flour
+Oils
+Arrangement
+Chili peppers
+Mayonnaise
+Mayonnaise+
+Vinegar
+Salt
+pepper
+Price
+Buy price: 2217 / Sell price: 1584
+Power
+Max stamina up Lv3
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Spring roll type Side
+MATERIAL
+Wheat flour
+Shiitake mushrooms
+Carrots
+Oils
+Arrangement
+Cabbage
+Eggplant
+Soy sauce
+Sugar
+Salt
+Price
+Buy price: 2142 / Sell price: 1530
+Power
+Max stamina up Lv3
+Obtain
+Claire restaurant Purchased at
+
+Steamed Bun type Side
+MATERIAL
+Wheat flour
+Napa cabbage
+Shiitake mushrooms
+Green onion
+Arrangement
+Sugar
+Salt
+pepper
+Oils
+Price
+Buy price: 1927 / Sell price: 1377
+Power
+Max stamina up Lv3
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Gyoza type Side
+MATERIAL
+Wheat flour
+Cabbage
+Oils
+Arrangement
+Napa cabbage
+Soy sauce
+Sugar
+Salt
+pepper
+Miso
+Vinegar
+Price
+Buy price: 1894 / Sell price: 1353
+Power
+Max stamina up Lv3
+Obtain
+Claire restaurant Purchased at
+
+Stir-fried vagetables type Side
+MATERIAL
+Cabbage
+Napa cabbage
+Arrangement
+Carrots
+Green peppers
+Asparagus
+Pumpkins
+Salt
+pepper
+Price
+Buy price: 1786 / Sell price: 1276
+Power
+Max stamina up Lv3
+Obtain
+Claire restaurant Purchased at
+
+Cabbage rolls type Side
+MATERIAL
+Cabbage
+Carrots
+Arrangement
+Salt
+pepper
+Nut oil
+Herb oil
+Olive oil
+Pumpkin oil
+Grape oil
+Price
+Selling price: 1213
+Power
+Max stamina up Lv3
+Obtain
+Mellini Request " Dishes served to important customers Get the recipe with "Achievement"
+
+Scone type Side
+MATERIAL
+Wheat flour
+Butter
+Milk class
+Arrangement
+Jams
+Price
+Buy price: 1617 / Sell price: 1155
+Power
+Max stamina up Lv3
+Obtain
+Cafe Melina Purchased at (town)
+
+Galette type Side
+MATERIAL
+Buckwheat flour
+Potatoes
+Oils
+Arrangement
+Eggs
+Cheeses
+Olive oil
+Pumpkin oil
+Grape pole oil
+Salt
+pepper
+Price
+Buy price: 1570 / Sell price: 1122
+Power
+Max stamina up Lv3
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Butter roll type Side
+MATERIAL
+Wheat flour
+Eggs
+Butter
+Arrangement
+Milk class
+Sugar
+Salt
+Price
+Buy price: 1478 / Sell price: 1056
+Power
+Max stamina up Lv3
+Obtain
+Cafe Melina Purchased at (town)
+
+Chiriconcan type Side
+MATERIAL
+Tomatoes
+Soybean
+Chili peppers
+pepper
+Arrangement
+Cheeses
+Price
+Buy price: 1275 / Sell price: 911
+Power
+Max stamina up Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Sauteed turnip with butter type Side
+MATERIAL
+Turnip
+Butter
+Arrangement
+Garlic
+Salt
+pepper
+Oils
+Nut oil
+Herb oil
+Olive oil
+Miso
+Price
+Buy price: 1234 / Sell price: 882
+Power
+Max stamina up Lv2
+Obtain
+Cafe Melina Purchased at (village)
+
+Focaccia type Side
+MATERIAL
+Wheat flour
+Olive oil
+Arrangement
+Tomatoes
+Cheeses
+Sugar
+Salt
+Price
+Selling price: 843
+Power
+Max stamina up Lv2
+Obtain
+Lloyd Check the bookshelf at home and get the recipe
+
+Koya tofu type Side
+MATERIAL
+Tofu
+Soy sauce
+Oils
+Arrangement
+Soybean
+Shiitake mushrooms
+Sugar
+Salt
+Price
+Buy price: 1153 / Sell price: 824
+Power
+Max stamina up Lv2
+Obtain
+Claire restaurant Purchased in (country)
+
+Fried tofu type Side
+MATERIAL
+Tofu
+Cereal flour
+Oils
+Arrangement
+Radishes
+Green onion
+Soy sauce
+Price
+Buy price: 1132 / Sell price: 809
+Power
+Max stamina up Lv2
+Obtain
+Claire restaurant Purchased in (country)
+
+Dashimaki type Side
+MATERIAL
+Eggs
+Soy sauce
+Sugar
+Arrangement
+Radishes
+Salt
+Oils
+Price
+Buy price: 1121 / Sell price: 801
+Power
+Max stamina up Lv2
+Obtain
+Claire restaurant Purchased in (country)
+
+Chawanmushi type Side
+MATERIAL
+Eggs
+Shiitake mushrooms
+Fish cake
+Arrangement
+Spinach
+Carrots
+Broccoli
+Soybean
+Shimeji mushroom
+Salt
+Price
+Buy price: 1045 / Sell price: 747
+Power
+Max stamina up Lv2
+Obtain
+Claire restaurant Purchased at
+
+Okara type Side
+MATERIAL
+Tofu
+Carrots
+Arrangement
+Burdock
+Green onion
+Shiitake mushrooms
+Fried tofu
+Soy sauce
+Sugar
+Price
+Buy price: 1040 / Sell price: 743
+Power
+Max stamina up Lv2
+Obtain
+Claire restaurant Purchased in (country)
+
+Potato butter type Side
+MATERIAL
+Potatoes
+Butter
+Arrangement
+Corn
+Garlic
+Soy sauce
+Salt
+Seaweed
+Urchin
+Price
+Selling price: 677
+Power
+Max stamina up Lv2
+Obtain
+Freya Request " Are you a cooking teacher? Get the recipe with "Achievement"
+
+Bucket type Side
+MATERIAL
+Wheat flour
+Salt
+Arrangement
+Nut oil
+Herb oil
+Olive oil
+Pumpkin oil
+Grape oil
+Price
+Buy price: 926 / Sell price: 662
+Power
+Max stamina up Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Hashd potatoes type Side
+MATERIAL
+Potatoes
+Wheat flour
+Oils
+Arrangement
+Tomatoes
+Mayonnaise
+Wheat flour
+Salt
+pepper
+Price
+Buy price: 884 / Sell price: 632
+Power
+Max stamina up Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Mushipan type Side
+MATERIAL
+Wheat flour
+Eggs
+Sweet potatoes
+Arrangement
+Milk class
+Sugar
+Salt
+Price
+Buy: 852 / Sell: 609
+Power
+Max stamina up Lv2
+Obtain
+Claire restaurant Achieved the title "Insect Collection" and the title "Insect Osusowake"
+
+Sauteed cauliflower type Side
+MATERIAL
+Cauliflowers
+Arrangement
+Garlic
+Nut oil
+Herb oil
+Olive oil
+Salt
+pepper
+Price
+Buy price: 842 / Sell price: 602
+Power
+Max stamina up Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Sauteed broccoli with garlic type Side
+MATERIAL
+Broccoli
+Garlic
+Oils
+Arrangement
+Soy sauce
+Salt
+pepper
+Nut oil
+Herb oil
+Olive oil
+Pumpkin oil
+Grape oil
+Price
+Buy price: 788 / Sell price: 563
+Power
+Max stamina up Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Chilled tofu type Side
+MATERIAL
+Tofu
+Soy sauce
+Arrangement
+Green onion
+Salt
+Oils
+Seaweed
+Urchin
+Price
+Buy price: 641 / Sell price: 458
+Power
+Max stamina up Lv1
+Obtain
+Claire restaurant Purchased at
+
+Potato pancakes type Side
+MATERIAL
+Potatoes
+Wheat flour
+Eggs
+Arrangement
+Onions
+Sugar
+Salt
+Nut oil
+Herb oil
+Olive oil
+Price
+Buy price: 600 / Sell price: 429
+Power
+Max stamina up Lv1
+Obtain
+Cafe Melina Purchased at (village)
+
+Cornflakes type Side
+MATERIAL
+Corn
+Milk class
+Arrangement
+Strawberries
+Bananas
+Blueberries
+Yogurts
+Sugar
+Chocolate
+Price
+Buy price: 564 / Sell price: 403
+Power
+Max stamina up Lv1
+Obtain
+Claire restaurant Purchased at
+
+Fried egg type Side
+MATERIAL
+Eggs
+Oils
+Arrangement
+Tomatoes
+Mayonnaise
+Soy sauce
+Salt
+pepper
+Price
+Buy price: 554 / Sell price: 396
+Power
+Max stamina up Lv1
+Obtain
+Cafe Melina Purchased at (village)
+
+Fried tofu type Side
+MATERIAL
+Tofu
+Arrangement
+Green onion
+Nut oil
+Herb oil
+Olive oil
+Price
+Buy price: 373 / Sell price: 267
+Power
+Max stamina up Lv1
+Obtain
+Ristorante Bimi Purchased at
+
+Eggplant Dengaku type Side
+MATERIAL
+Eggplant
+Miso
+Arrangement
+Soy sauce
+Sugar
+Oils
+Price
+Buy price: 344 / Sell price: 246
+Power
+Max stamina up Lv1
+Obtain
+Ristorante Bimi Purchased at
+
+Toast type Side
+MATERIAL
+Bread 1
+Arrangement
+Butter
+Mayonnaise
+Honey
+Price
+Selling price: 234
+Power
+Max stamina up Lv1
+Obtain
+Enju Check the bookshelf in your house
+
+Tofu type Side
+MATERIAL
+Soybean
+Soy milk
+Arrangement
+Green onion
+Soy sauce
+Salt
+Oils
+Seaweed
+Urchin
+Price
+Buy price: 287 / Sell price: 205
+Power
+Max stamina up Lv1
+Obtain
+Open Cafe Melina Purchased at
+
+Grilled mushrooms type Side
+MATERIAL
+Mushrooms
+Arrangement
+Salt
+pepper
+Nut oil
+Herb oil
+Olive oil
+Price
+Buy price: 273 / Sell price: 195
+Power
+Max stamina up Lv1
+Obtain
+Felix's Purchased and achieved the title "Kinokoosusowake"
+
+Boiled eggs type Side
+MATERIAL
+Eggs
+Arrangement
+Broccoli
+Mayonnaise
+Salt
+Price
+Selling price: 117
+Power
+Max stamina up Lv1
+Obtain
+It can be made from scratch
+
+Yuba type Side
+MATERIAL
+Soy milk
+Arrangement
+Tofu
+Soy sauce
+Salt
+Seaweed
+Price
+Buy price: 155 / Sell price: 111
+Power
+Max stamina up Lv1
+Obtain
+Claire restaurant Purchased at
+
+Shumai type Side
+MATERIAL
+Wheat flour
+Onions
+Fish 2
+Arrangement
+Soybean
+Sugar
+Soy sauce
+Salt
+pepper
+Price
+Selling price: 924
+Power
+Fishing rod durability up Lv2
+Obtain
+Sania Request " Affordable fish for fish dishes Achieve "
+ Harvest Moon: Sashimi from the Windy Grand Bazaar 
+
+Sashimi type Side
+MATERIAL
+Fish 1
+Arrangement
+Radishes
+Carrots
+Soy sauce
+Price
+Selling price: 195
+Power
+Fishing rod durability up Lv1
+Obtain
+It can be made from scratch
+
+Fish cake type Side
+MATERIAL
+Fish 1
+Arrangement
+Avocados
+Cheeses
+Soy sauce
+Price
+Selling price: 195
+Power
+Fishing rod durability up Lv1
+Obtain
+Nerine Request " I want a lot of bottling Achieved the title "Uosusowake"
+
+Happona type Side
+MATERIAL
+Napa cabbage
+Carrots
+Green peppers
+Mushrooms
+Arrangement
+Cabbage
+Onions
+Chingensai
+Burdock
+Red pepper
+Price
+Buy price: 2112 / Sell price: 1509
+Power
+Watering rare crop % Lv3
+Obtain
+Ristorante Bimi Purchased and achieved the title "Watering Can Master"
+
+Grilled corn type Side
+MATERIAL
+Corn
+Soy sauce
+Sugar
+Arrangement
+Garlic
+Butter
+Oils
+Price
+Buy price: 1240 / Sell price: 886
+Power
+Watering rare crop % Lv2
+Obtain
+Felix's Purchased at
+
+Curry bun type Side
+MATERIAL
+Wheat flour
+Curry powder
+Onions
+Carrots
+Arrangement
+Garlic
+Milk class
+Sugar
+Salt
+pepper
+Oils
+Price
+Buy price: 2688 / Sell price: 1920
+Power
+Chat friendship boost Lv4
+Obtain
+Claire restaurant Purchased in (country)
+
+Cheese croquettes type Side
+MATERIAL
+Potatoes
+Bread crumbs
+Oils
+Cheeses
+Arrangement
+Onions
+Cabbage
+Eggs
+Sugar
+Salt
+pepper
+Price
+Buy price: 2581 / Sell price: 1844
+Power
+Chat friendship boost Lv4
+Obtain
+Ristorante Bimi Purchased at
+
+Cheese bun type Side
+MATERIAL
+Wheat flour
+Cheeses
+Buffalo milk
+Arrangement
+Garlic
+Milk class
+Sugar
+Salt
+pepper
+Oils
+Price
+Buy price: 1848 / Sell price: 1320
+Power
+Chat friendship boost Lv3
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Cream croquette type Side
+MATERIAL
+Potatoes
+Bread crumbs
+Oils
+Milk class
+Arrangement
+Onions
+Cabbage
+Eggs
+Sugar
+Salt
+pepper
+Price
+Buy price: 1573 / Sell price: 1098
+Power
+Chat friendship boost Lv3
+Obtain
+Ristorante Bimi Purchased at
+
+Stew type Side
+MATERIAL
+Wheat flour
+Milk class
+Stew ingredients
+Arrangement
+Cheeses
+Butter
+Salt
+pepper
+Price
+Buy price: 1078 / Sell price: 770
+Power
+Chat friendship boost Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Croquette type Side
+MATERIAL
+Potatoes
+Bread crumbs
+Oils
+Arrangement
+Onions
+Cabbage
+Eggs
+Sugar
+Salt
+pepper
+Price
+Buy price: 992 / Sell price: 709
+Power
+Chat friendship boost Lv2
+Obtain
+Claire restaurant Purchased at
+
+French toast type Side
+MATERIAL
+Bread 1
+Eggs
+Milk class
+Arrangement
+Butter
+Honey
+Sugar
+Price
+Buy price: 905 / Sell price: 647
+Power
+Chat friendship boost Lv2
+Obtain
+Ristorante Bimi Purchased at
+ Harvest Moon: Popcorn from the Windy Grand Bazaar 
+Popcorn type Side
+MATERIAL
+Corn
+Oils
+Arrangement
+Butter
+Soy sauce
+Salt
+Curry powder
+Honey
+Price
+Buy price: 711 / Sell price: 508
+Power
+Chat friendship boost Lv2
+Obtain
+Open Cafe Melina Purchased and achieved the title "Soyokaze Life"
+
+French fries type Side
+MATERIAL
+Potatoes
+Oils
+Arrangement
+Tomatoes
+Mayonnaise
+Wheat flour
+Salt
+pepper
+Price
+Buy price: 497 / Sell price: 355
+Power
+Lv1 Chat friendship boost
+Obtain
+Open Cafe Melina Purchased at
+
+Hot spring eggs type Side
+MATERIAL
+Eggs
+Soy sauce
+Arrangement
+Green onion
+Nut oil
+Herb oil
+Olive oil
+Salt
+Price
+Buy price: 421 / Sell price: 301
+Power
+Lv1 Chat friendship boost
+Obtain
+Cafe Melina Purchased at (village)
+
+Grilled sweet potatoes type Side
+MATERIAL
+Sweet potatoes
+Arrangement
+Sugar
+Butter
+Honey
+Soy sauce
+Oils
+Price
+Buy price: 282 / Sell price: 202
+Power
+Lv1 Chat friendship boost
+Obtain
+Felix's Purchased at
+
+Bread type Side
+MATERIAL
+Wheat flour
+Arrangement
+Milk class
+Butter
+Sugar
+Salt
+Price
+Buy price: 273 / Sell price: 195
+Power
+Obtain
+Cafe Melina Purchased at, Open Cafe Melina Purchased at, Claire restaurant Purchased at, Ristorante Bimi Purchased at
+
+White bread type Side
+MATERIAL
+Rice flour
+Arrangement
+Milk class
+Butter
+Sugar
+Salt
+Price
+Buy price: 254 / Sell price: 182
+Power
+Obtain
+Ristorante Bimi Purchased at
+ Harvest Moon: Meals from the Windy Grand Bazaar 
+Rice type Side
+MATERIAL
+Rice
+Arrangement
+Salt
+Boiled seaweed
+Price
+Buy price: 127 / Sell price: 91
+Power
+Obtain
+Cafe Melina Purchased at, Open Cafe Melina Purchased at, Claire restaurant Purchased at, Ristorante Bimi Purchased at
+
+The ultimate curry type Main
+MATERIAL
+The ultimate curry
+Giant tomato
+Nail chili pepper
+Yogurt+
+Arrangement
+Star-shaped potatoes
+Musky onion
+Three-pronged carrots
+Golden apple
+Price
+Selling price: 12353
+Power
+Obtain
+Mellini Request " Recipes for unusual dishes Achieve "
+
+Grilled rice noodles type Main
+MATERIAL
+Rice flour
+King mushroom
+Cabbage
+Carrots
+Arrangement
+Onions
+Green peppers
+Soy sauce
+pepper
+Oils
+Price
+Selling price: 7508
+Power
+Obtain
+Nerine Request " A special piece for your family Achieve "
+
+Farmer's breakfast type Main
+MATERIAL
+Potatoes
+Onions
+Cheese+
+Mayonnaise+
+Arrangement
+Nut oil
+Olive oil
+Pumpkin oil
+Grape oil
+Price
+Selling price: 6957
+Power
+Obtain
+Mellini Achieved the request of ''a chef with a reputation in the city.''
+
+The ultimate curry type Main
+MATERIAL
+Curry rice
+Star-shaped potatoes
+Three-pronged carrots
+Arrangement
+Giant tomato
+Musky onion
+Golden apple
+Milk+
+Buffalo milk+
+Price
+Selling price: 3724
+Power
+Obtain
+Participate in the main part of the cooking festival
+
+Pizzocheri type Main
+MATERIAL
+Buckwheat flour
+Cheeses
+Cabbage
+Potatoes
+Arrangement
+Garlic
+Butter
+Salt
+Price
+Buy price: 3897 / Sell price: 2784
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Tempura soba type Main
+MATERIAL
+Buckwheat flour
+Tempura
+Arrangement
+Green onion
+Spinach
+Eggs
+Soy sauce
+Price
+Buy price: 3697 / Sell price: 2641
+Power
+Obtain
+Claire restaurant Purchased at
+
+Milk pot type Main
+MATERIAL
+Milk+
+Carrots
+Napa cabbage
+Spinach
+Arrangement
+Potatoes
+Cabbage
+Green onion
+Shimeji mushroom
+Butter
+Price
+Buy price: 3696 / Sell price: 2640
+Power
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Macaroni & cheese type Main
+MATERIAL
+Wheat flour
+Cheeses
+Butter
+Mayonnaise
+Arrangement
+Onions
+Shimeji mushroom
+Mushroom
+Boletus
+Morille
+Milk class
+Salt
+pepper
+Price
+Buy price: 3628 / Sell price: 2592
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Hot pot type Main
+MATERIAL
+Radishes
+Napa cabbage
+Green onion
+Fish 5
+Arrangement
+Carrots
+Spinach
+Chingensai
+Chili peppers
+Soy milk
+Soy sauce
+Price
+Buy price: 3481 / Sell price: 2487
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Uha type Main
+MATERIAL
+Fish 5
+Carrots
+Potatoes
+Onions
+Arrangement
+Lemons
+Butter
+Salmon
+Salt
+pepper
+Price
+Buy price: 3253 / Sell price: 2324
+Power
+Obtain
+Ristorante Bimi Purchased in (country)
+
+Mushroom polenta type Main
+MATERIAL
+Mushrooms
+Corn
+Butter
+Cheeses
+Arrangement
+Milk class
+Salt
+pepper
+Pumpkin oil
+Grape oil
+Price
+Buy price: 3213 / Sell price: 2295
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Tempura udon type Main
+MATERIAL
+Wheat flour
+Tempura
+Arrangement
+Eggs
+Seaweed
+Fried tofu
+Soy sauce
+Price
+Buy price: 3063 / Sell price: 2188
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Marinated fish type Main
+MATERIAL
+Fish 5
+Onions
+Vinegar
+Lemons
+Arrangement
+Salt
+pepper
+Pumpkin oil
+Grape oil
+Price
+Selling price: 2160
+Power
+Obtain
+Meena Request: "Blow away the haze!" Achieved
+
+Tempura bowl type Main
+MATERIAL
+Tempura
+Rice
+Arrangement
+Eggs
+Soy sauce
+Salt
+Sugar
+Price
+Bidding price: 2924 / Selling price: 2089
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Raclette type Main
+MATERIAL
+Cheeses
+Corn
+Carrots
+Broccoli
+Arrangement
+Asparagus
+French fries
+Toast
+Butter
+Salt
+pepper
+Pumpkin oil
+Grape oil
+Price
+Buy price: 2661 / Sell price: 1901
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+ Type Salad pasta type Main
+MATERIAL
+Pasta
+Mixed salad
+Mayonnaise
+Arrangement
+Penne pasta
+Herbal pasta
+Milk class
+Olive oil
+Salt
+pepper
+Vinegar
+Hot spring eggs
+Price
+Selling price: 1617
+Power
+Obtain
+Ulysse Request " Just a little bit of a big selfish person Achieve "
+
+Matsutake rice type Main
+MATERIAL
+Rice
+Matsutake
+Soy sauce
+Arrangement
+Carrots
+Pumpkins
+Fried tofu
+Salt
+Price
+Buy price: 2464 / Sell price: 1760
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Gratin type Main
+MATERIAL
+Wheat flour
+Cheeses
+Mayonnaise
+Arrangement
+Onions
+Shiitake mushrooms
+Pasta
+Butter
+Salt
+pepper
+Price
+Selling price: 1568
+Power
+Obtain
+Nerine Request " Add the taste of the farm to your new dishes Achieve "
+
+ type Soup spaghetti type Main
+MATERIAL
+Pasta
+Tomatoes
+Fish 3
+Oils
+Arrangement
+Onions
+Cabbage
+Soybean
+Shimeji mushroom
+Mint
+Nut oil
+Herb oil
+Olive oil
+Price
+Buy price: 2192 / Sell price: 1566
+Power
+Obtain
+Cafe Melina Purchased at (town)
+
+Risotto type Main
+MATERIAL
+Rice
+Cheeses
+Tomatoes
+Onions
+Arrangement
+Garlic
+Milk class
+Butter
+Olive oil
+Salt
+pepper
+Price
+Buy price: 2172 / Sell price: 1552
+Power
+Obtain
+Cafe Melina Purchased at (town)
+
+Carpaccio type Main
+MATERIAL
+Fish 4
+Onions
+Vinegar
+Arrangement
+Salt
+pepper
+Olive oil
+Price
+Buy price: 2056 / Sell price: 1469
+Power
+Obtain
+Ristorante Bimi Purchased and achieved the title "Kiki Polo Daisuki"
+
+Cheese fondue type Main
+MATERIAL
+Cheeses
+Bread 2
+Fondue
+Arrangement
+Garlic
+Salt
+pepper
+Price
+Buy price: 2032 / Sell price: 1452
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Mushroom pasta type Main
+MATERIAL
+Pasta
+Mushrooms
+Butter
+Arrangement
+Green onion
+Garlic
+Salt
+pepper
+Soy sauce
+Olive oil
+Cheeses
+Price
+Buy price: 2028 / Sell price: 1449
+Power
+Obtain
+Cafe Melina Purchased at (town)
+
+Grilled udon type Main
+MATERIAL
+Wheat flour
+Cabbage
+Green peppers
+Soy sauce
+Arrangement
+Carrots
+Green onion
+Shiitake mushrooms
+Fish cake
+Sugar
+Oils
+Price
+Buy price: 2011 / Sell price: 1437
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Inari sushi type Main
+MATERIAL
+Rice
+Fried tofu
+Vinegar
+Sugar
+Arrangement
+Carrots
+Burdock
+Soybean
+Shiitake mushrooms
+Soy sauce
+Price
+Buy price: 2011 / Sell price: 1437
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Dry curry type Main
+MATERIAL
+Rice
+Curry powder
+Spice
+Curry ingredients
+Arrangement
+Tomatoes
+Garlic
+Apples
+Price
+Selling price: 1424
+Power
+Obtain
+Sherfa Request " Cheese fondue ingredients, please! Achieve "
+
+Omelet rice type Main
+MATERIAL
+Omelet
+Rice
+Arrangement
+Onions
+Tomatoes
+Milk class
+Butter
+Salt
+pepper
+Oils
+Price
+Selling price: 1410
+Power
+Obtain
+Agi Check the bookshelf in your house
+
+Peperoncino type Main
+MATERIAL
+Pasta
+Chili peppers
+Garlic
+Oils
+Arrangement
+Shimeji mushroom
+Mushroom
+Salt
+pepper
+Cheeses
+Price
+Bidding price: 1974 / Selling price: 1410
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Seaweed curry type Main
+MATERIAL
+Rice
+Curry powder
+Seaweed
+Curry ingredients
+Arrangement
+Tomatoes
+Garlic
+Apples
+Price
+Buy price: 1943 / Sell price: 1388
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Jam bread type Main
+MATERIAL
+Wheat flour
+Jams
+Arrangement
+Milk class
+Butter
+Sugar
+Salt
+Price
+Buy price: 1874 / Sell price: 1339
+Power
+Obtain
+Cafe Melina Purchased at (town)
+
+Milk curry type Main
+MATERIAL
+Rice
+Curry powder
+Milk class
+Curry ingredients
+Arrangement
+Tomatoes
+Garlic
+Apples
+Butter
+Cheeses
+Price
+Buy price: 1867 / Sell price: 1334
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Oil fondue type Main
+MATERIAL
+Olive oil
+Bread 2
+Fondue
+Arrangement
+Garlic
+Salt
+pepper
+Price
+Buy price: 1855 / Sell price: 1325
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Grilled rice type Main
+MATERIAL
+Rice
+Eggs
+Onions
+Carrots
+Arrangement
+Cabbage
+Green peppers
+Green onion
+Soy sauce
+Salt
+pepper
+Price
+Buy price: 1842 / Sell price: 1316
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Rainbow curry type Main
+MATERIAL
+Rice
+Curry powder
+Spinach
+Red pepper
+Arrangement
+Tomatoes
+Garlic
+Apples
+Price
+Buy price: 1825 / Sell price: 1304
+Power
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Yakisoba type Main
+MATERIAL
+Wheat flour
+Mushrooms
+Cabbage
+Arrangement
+Carrots
+Green onion
+Shiitake mushrooms
+Shimeji mushroom
+Soy sauce
+Sugar
+Oils
+Price
+Buy price: 1779 / Sell price: 1271
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Unadon type Main
+MATERIAL
+Rice
+Eels
+Soy sauce
+Sugar
+Arrangement
+Green onion
+Seaweed
+Sencha
+Price
+Buy price: 1766 / Sell price: 1262
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Grilled matsutake type Main
+MATERIAL
+Matsutake
+Arrangement
+Salt
+pepper
+Pumpkin oil
+Grape oil
+Price
+Buy price: 1680 / Sell price: 1200
+Power
+Obtain
+Felix's Purchased and achieved the title "Kekeporo Daisuki"
+
+Doria type Main
+MATERIAL
+Rice
+Cheeses
+Buffalo milk
+Arrangement
+Onions
+Shimeji mushroom
+Mushroom
+Boletus
+Morille
+Butter
+Salt
+pepper
+Price
+Buy price: 1663 / Sell price: 1188
+Power
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Herbal bread type Main
+MATERIAL
+Wheat flour
+Herbal butter
+Arrangement
+Milk class
+Butter
+Sugar
+Salt
+Price
+Buy price: 1654 / Sell price: 1182
+Power
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Okonomiyaki type Main
+MATERIAL
+Wheat flour
+Cabbage
+Eggs
+Arrangement
+Green onion
+Mayonnaise
+Mochi
+Fried egg
+Pasta
+Price
+Buy price: 1640 / Sell price: 1172
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Tempura type Main
+MATERIAL
+Wheat flour
+Oils
+Eggs
+Tempura seeds
+Arrangement
+Radishes
+Salt
+Price
+Buy price: 1612 / Sell price: 1152
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Paella type Main
+MATERIAL
+Rice
+Fish 3
+Red pepper
+Spice
+Arrangement
+Tomatoes
+Mushroom
+Boletus
+Morille
+Olive oil
+Salt
+pepper
+Price
+Buy price: 1611 / Sell price: 1151
+Power
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Yutofu type Main
+MATERIAL
+Tofu
+Napa cabbage
+Mushrooms
+Arrangement
+Spinach
+Chingensai
+Radishes
+Green onion
+Soy sauce
+Vinegar
+Price
+Selling price: 1147
+Power
+Obtain
+Dirka Request " I want good materials! Achieve "
+
+Pizza type Main
+MATERIAL
+Wheat flour
+Tomatoes
+Cheeses
+Arrangement
+Green peppers
+Onions
+Asparagus
+Corn
+Pineapples
+Price
+Buy price: 1598 / Sell price: 1142
+Power
+Obtain
+Ristorante Bimi Purchased and achieved the title "Face of Soyokaze Town"
+
+Chingen sai boiled in soy milk cream type Main
+MATERIAL
+Chingensai
+Soy milk
+Butter
+Arrangement
+Sugar
+Salt
+pepper
+Oils
+Shimeji mushroom
+Price
+Buy price: 1583 / Sell price: 1131
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Curry bread type Main
+MATERIAL
+Wheat flour
+Curry powder
+Oils
+Arrangement
+Eggs
+Sugar
+Salt
+Price
+Buy price: 1502 / Sell price: 1073
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Meuniere type Main
+MATERIAL
+Fish 3
+Wheat flour
+Oils
+Arrangement
+Lemons
+Butter
+Olive oil
+Price
+Buy price: 1502 / Sell price: 1073
+Power
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Takikomi rice type Main
+MATERIAL
+Rice
+Fried tofu
+Carrots
+Arrangement
+Radishes
+Burdock
+Shimeji mushroom
+Shiitake mushrooms
+Soy sauce
+Salt
+Price
+Buy price: 1472 / Sell price: 1052
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Pink fondue type Main
+MATERIAL
+Grape juice
+Bread 2
+Fondue
+Arrangement
+Garlic
+Salt
+pepper
+Price
+Buy price: 1311 / Sell price: 937
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Curry rice type Main
+MATERIAL
+Rice
+Curry powder
+Curry ingredients
+Arrangement
+Tomatoes
+Garlic
+Apples
+Price
+Buy price: 1275 / Sell price: 911
+Power
+Obtain
+Claire restaurant Purchased at
+
+Vegetable curry type Main
+MATERIAL
+Rice
+Curry powder
+ Type Salad ingredients
+Arrangement
+Garlic
+Apples
+Price
+Selling price: 911
+Power
+Obtain
+Deanna Request " The best curry for my brother Achieve "
+
+Mushroom rice type Main
+MATERIAL
+Rice
+Mushrooms
+Mushrooms
+Mushrooms
+Arrangement
+Green onion
+Fried tofu
+Soy sauce
+Salt
+Price
+Selling price: 874
+Power
+Obtain
+Mellini Request " Let's cook Achieve "
+
+Chirashi sushi type Main
+MATERIAL
+Sashimi
+Rice
+Vinegar
+Eggs
+Arrangement
+Carrots
+Shiitake mushrooms
+Soybean
+Soy sauce
+Sugar
+Salt
+Seaweed
+Price
+Buy price: 1213 / Sell price: 867
+Power
+Obtain
+Claire restaurant Purchased in (country)
+
+Zaru soba type Main
+MATERIAL
+Buckwheat flour
+Wheat flour
+Arrangement
+Green onion
+Seaweed
+Soy sauce
+Sugar
+Price
+Buy price: 1173 / Sell price: 838
+Power
+Obtain
+Claire restaurant Purchased at
+
+Dry curry type Main
+MATERIAL
+Rice
+Curry powder
+Tomatoes
+Soybean
+Arrangement
+Onions
+Garlic
+Carrots
+Green peppers
+Boiled eggs
+Price
+Selling price: 837
+Power
+Obtain
+Erich Request " Special dinner ingredients Achieve "
+
+Bouillabaisse type Main
+MATERIAL
+Tomatoes
+Fish 3
+Oils
+Arrangement
+Onions
+Garlic
+Salt
+pepper
+Nut oil
+Herb oil
+Olive oil
+Price
+Buy price: 1169 / Sell price: 835
+Power
+Obtain
+Open Cafe Melina Purchased at
+
+Herbal sandwich type Main
+MATERIAL
+Bread 2
+Herbs
+Mayonnaise
+Arrangement
+Tomatoes
+Onions
+Mayonnaise
+Nut oil
+Herb oil
+Olive oil
+Price
+Selling price: 817
+Power
+Obtain
+Meena Request " Secret material Achieve "
+
+Grilled mushroom beetle type Main
+MATERIAL
+Mushrooms
+Butter
+Arrangement
+Salt
+pepper
+Nut oil
+Herb oil
+Olive oil
+Price
+Selling price: 809
+Power
+Obtain
+Claire Request " Mushroom dishes that will help my people Achieve "
+
+Tofu steak type Main
+MATERIAL
+Tofu
+Cereal flour
+Oils
+Arrangement
+Green onion
+Soy sauce
+Sugar
+Price
+Buy price: 1132 / Sell price: 809
+Power
+Obtain
+Open Cafe Melina Purchased at
+
+Milk boil type Main
+MATERIAL
+Rice
+Salt
+Milk class
+Arrangement
+Onions
+Shiitake mushrooms
+Shimeji mushroom
+Butter
+Salt
+pepper
+Price
+Buy price: 1121 / Sell price: 801
+Power
+Obtain
+Open Cafe Melina Purchased at
+
+Grilled rice balls type Main
+MATERIAL
+Onigiri
+Soy sauce
+Arrangement
+Seaweed
+Green tea
+Sencha
+Price
+Buy price: 1029 / Sell price: 735
+Power
+Obtain
+Open Cafe Melina Purchased at
+
+Omelet type Main
+MATERIAL
+Eggs
+Butter
+Arrangement
+Onions
+Tomatoes
+Milk class
+Salt
+pepper
+Price
+Buy price: 1009 / Sell price: 721
+Power
+Obtain
+Cafe Melina Purchased at (village)
+
+Egg bowl type Main
+MATERIAL
+Eggs
+Onions
+Rice
+Arrangement
+Green onion
+Soy sauce
+Sugar
+Seaweed
+Price
+Buy price: 929 / Sell price: 664
+Power
+Obtain
+Claire restaurant Purchased at
+ Harvest Moon Sushi from the Windy Grand Bazaar 
+
+Sushi type Main
+MATERIAL
+Sashimi
+Rice
+Vinegar
+Arrangement
+Cucumbers
+Soy sauce
+Sugar
+Salt
+Seaweed
+Price
+Buy price: 919 / Sell price: 657
+Power
+Obtain
+Claire restaurant Purchased at
+
+Tomato fondue type Main
+MATERIAL
+Tomatoes
+Bread 2
+Fondue
+Arrangement
+Garlic
+Salt
+pepper
+Price
+Buy price: 910 / Sell price: 650
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Udon type Main
+MATERIAL
+Wheat flour
+Fish cake
+Green onion
+Arrangement
+Eggs
+Shiitake mushrooms
+Seaweed
+Fried tofu
+Soy sauce
+Price
+Buy price: 905 / Sell price: 647
+Power
+Obtain
+Claire restaurant Purchased at
+
+Herb Gayu type Main
+MATERIAL
+Rice
+Salt
+Herbs
+Arrangement
+Green onion
+Eggs
+Price
+Selling price: 647
+Power
+Obtain
+Sherfa Request " Could you please give me some herbs? Achieve "
+
+Fruit sandwich type Main
+MATERIAL
+Bread 2
+Fruits 1
+Fruits 1
+Arrangement
+Milk class
+Mint
+Chocolate
+Sugar
+Price
+Buy price: 905 / Sell price: 647
+Power
+Obtain
+Open Cafe Melina Purchased at
+
+Herbal pasta type Main
+MATERIAL
+Wheat flour
+Herbs
+Oils
+Arrangement
+Tomatoes
+Cucumbers
+Garlic
+Avocados
+Cheeses
+Price
+Selling price: 616
+Power
+Obtain
+Examine the bookshelf at the brother's house
+
+Penne pasta type Main
+MATERIAL
+Wheat flour
+Oils
+Tomatoes
+Arrangement
+Avocados
+Cheeses
+Price
+Buy price: 845 / Sell price: 604
+Power
+Obtain
+Ristorante Bimi Purchased at
+
+Porridge type Main
+MATERIAL
+Rice
+Salt
+Arrangement
+Green onion
+Eggs
+Price
+Buy price: 761 / Sell price: 544
+Power
+Obtain
+Cafe Melina Purchased at (village)
+
+Boiled fish type Main
+MATERIAL
+Fish 2
+Soy sauce
+Arrangement
+Green onion
+Burdock
+Sugar
+Price
+Buy price: 631 / Sell price: 451
+Power
+Obtain
+Claire restaurant Purchased at
+
+Grape bread type Main
+MATERIAL
+Wheat flour
+Grape species
+Arrangement
+Milk class
+Butter
+Sugar
+Salt
+Price
+Buy price: 621 / Sell price: 444
+Power
+Obtain
+Claire restaurant Purchased at
+
+Sandwich type Main
+MATERIAL
+Bread 2
+Tomatoes
+Cucumbers
+Arrangement
+Boiled eggs
+Cheeses
+Butter
+Mayonnaise
+Price
+Buy price: 525 / Sell price: 375
+Power
+Obtain
+Cafe Melina Purchased at
+ Harvest Moon: Rice balls from the Grand Bazaar of the Wind 
+
+Onigiri type Main
+MATERIAL
+Rice
+Seaweed
+Arrangement
+Soybean
+Shimeji mushroom
+Matsutake
+Salmon
+Salt
+Price
+Buy price: 518 / Sell price: 370
+Power
+Obtain
+Can be made from scratch Cafe Melina Purchased at
+
+Grilled eggplant type Main
+MATERIAL
+Eggplant
+Oils
+Arrangement
+Green onion
+Soy sauce
+Salt
+Price
+Buy price: 478 / Sell price: 342
+Power
+Obtain
+Felix's Purchased at
+
+Kurigohan type Main
+MATERIAL
+Rice
+Chestnut
+Arrangement
+Sweet potatoes
+Bottling of kuri
+Salt
+Price
+Buy price: 460 / Sell price: 329
+Power
+Obtain
+Claire restaurant Purchased at
+
+Pasta type Main
+MATERIAL
+Wheat flour
+Eggs
+Arrangement
+Tomatoes
+Cucumbers
+Garlic
+Eggplant
+Cheeses
+Price
+Buy price: 459 / Sell price: 328
+Power
+Obtain
+Cafe Melina Purchased at
+
+Egg-cooked rice type Main
+MATERIAL
+Eggs
+Rice
+Arrangement
+Green onion
+Cheeses
+Soy sauce
+Salt
+pepper
+Price
+Selling price: 246
+Power
+Obtain
+It can be made from scratch
+ Harvest Moon Grilled fish from the Windy Grand Bazaar 
+
+Grilled fish type Main
+MATERIAL
+Fish 1
+Arrangement
+Radishes
+Soy sauce
+Price
+Selling price: 195
+Power
+Obtain
+It can be made from scratch
+
+Lube Littorte type Dessert
+MATERIAL
+Wheat flour
+Silkie eggs
+Three-pronged carrots
+Lemons
+Arrangement
+Almonds
+Milk class
+Bread crumbs
+Price
+Selling price: 2506
+Power
+Jump distance up
+Obtain
+Sigyn Request " For the best dish! "
+
+Trifle type Dessert
+MATERIAL
+Castella
+The finest silky eggs
+Yogurt+
+Fruits 1
+Arrangement
+Cookies
+Herbal cookies
+Walnut cookies
+Chocolate cookies
+Price
+Selling price: 6192
+Power
+Petting happiness Lv4
+Obtain
+Schmidt Request " I want to make a dish of gratitude Achieve "
+
+Pineapple pie type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Butter
+Jewelry pineapple
+Arrangement
+Lemons
+Sugar
+Salt
+Price
+Selling price: 3130
+Power
+Petting happiness Lv4
+Obtain
+ type Other Tea party Participate in
+
+Cheesecake type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Buffalo milk
+Cheeses
+Arrangement
+Lemons
+Butter
+Sugar
+Price
+Buy price: 2242 / Sell price: 1602
+Power
+Petting happiness Lv3
+Obtain
+Ristorante Bimi Purchased and achieved the first issue of ''Master of Milk Squeezers''
+
+Bug cake type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Milk class
+Pumpkins
+Arrangement
+Sweet potatoes
+Butter
+Rice flour
+Sugar
+Price
+Bidding price: 1990 / Selling price: 1422
+Power
+Petting happiness Lv3
+Obtain
+Open Cafe Melina Purchased (local) and achieved the title "Cocoporo Daisuki"
+
+Cherry pie type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Butter
+Cherries
+Arrangement
+Lemons
+Sugar
+Salt
+Price
+Selling price: 1404
+Power
+Petting happiness Lv3
+Obtain
+Maple Request " We will make special dishes! "
+
+Blueberry pie type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Butter
+Blueberries
+Arrangement
+Lemons
+Sugar
+Salt
+Price
+Buy price: 1927 / Sell price: 1377
+Power
+Petting happiness Lv3
+Obtain
+Ristorante Bimi Purchased at
+
+Strawberry pie type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Butter
+Strawberries
+Arrangement
+Lemons
+Sugar
+Salt
+Price
+Buy price: 1915 / Sell price: 1368
+Power
+Petting happiness Lv3
+Obtain
+Cafe Melina Purchased (town) and achieved the title "Acrobatic Star"
+
+Donuts type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Sugar
+Oils
+Arrangement
+Milk class
+Butter
+Price
+Selling price: 1332
+Power
+Petting happiness Lv3
+Obtain
+Sigyn Request " Shiny eggs Achieve "
+
+Churros type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Sugar
+Oils
+Arrangement
+Honey
+Butter
+Chocolate
+Price
+Buy price: 1864 / Sell price: 1332
+Power
+Petting happiness Lv3
+Obtain
+Open Cafe Melina Purchased at (local)
+Achieved the title "Charisma"
+
+Chocolate cake type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Milk class
+Chocolate
+Arrangement
+Cocoa
+Butter
+Macha
+Price
+Buy price: 1738 / Sell price: 1242
+Power
+Petting happiness Lv3
+Obtain
+Claire restaurant Purchased in (country)
+
+Baumkuchen type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Milk class
+Sugar
+Arrangement
+Honey
+Butter
+Price
+Selling price: 1242
+Power
+Petting happiness Lv3
+Obtain
+Laramie Obtain the recipe after completing the request for ''dishes you want to make deliciously.''
+
+Engadiner type Dessert
+MATERIAL
+Wheat flour
+Silkie eggs
+Sugar
+Walnut
+Arrangement
+Milk class
+Butter
+Honey
+Price
+Buy price: 1688 / Sell price: 1206
+Power
+Petting happiness Lv3
+Obtain
+Ristorante Bimi Purchased at
+
+Pancakes type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Milk class
+Honey
+Arrangement
+Butter
+Sugar
+Price
+Buy price: 1612 / Sell price: 1152
+Power
+Petting happiness Lv3
+Obtain
+Cafe Melina Purchased at (town)
+
+Fruit shiratama type Dessert
+MATERIAL
+Shiratama powder
+Fruits 1
+Fruits 1
+Arrangement
+Mint
+Sugar
+Price
+Buy price: 1524 / Sell price: 1089
+Power
+Petting happiness Lv3
+Obtain
+Open Cafe Melina Purchased at
+
+Sweet potato type Dessert
+MATERIAL
+Milk class
+Sugar
+Sweet potatoes
+Arrangement
+Eggs
+Butter
+Salt
+Price
+Buy price: 1304 / Sell price: 932
+Power
+Petting happiness Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Chocolate fondue type Dessert
+MATERIAL
+Chocolate
+Bread 2
+Fruits 2
+Arrangement
+Milk class
+Sugar
+Price
+Buy price: 1293 / Sell price: 924
+Power
+Petting happiness Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Grilled apples type Dessert
+MATERIAL
+Apples
+Butter
+Arrangement
+Honey
+Sugar
+Price
+Buy price: 1173 / Sell price: 838
+Power
+Petting happiness Lv2
+Obtain
+Felix's Purchased at
+
+Ice cream type Dessert
+MATERIAL
+Milk class
+Eggs
+Sugar
+Arrangement
+Mint
+Chocolate
+Straight tea
+Price
+Selling price: 832
+Power
+Petting happiness Lv2
+Obtain
+Enju Check the bookshelf at home and get the recipe
+
+Castella type Dessert
+MATERIAL
+Wheat flour
+Silkie eggs
+Honey
+Arrangement
+Milk class
+Rice flour
+Sugar
+Price
+Buy price: 1121 / Sell price: 801
+Power
+Petting happiness Lv2
+Obtain
+Claire restaurant Purchased at
+
+Strawberry Daifuku type Dessert
+MATERIAL
+Mochi
+Strawberries
+Arrangement
+Shiratama powder
+Sugar
+Salt
+Price
+Buy price: 865 / Sell price: 618
+Power
+Petting happiness Lv2
+Obtain
+Claire restaurant Purchased at
+Title: "Jump Jump!" Achieved
+
+Cake type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Milk class
+Arrangement
+Strawberries
+Lemons
+Mango species
+Cheeses
+Butter
+Price
+Buy price: 841 / Sell price: 601
+Power
+Petting happiness Lv2
+Obtain
+Ristorante Bimi Purchased at
+Achieved the title "Koropokkuru and Friends"
+
+Egg tart type Dessert
+MATERIAL
+Eggs
+Milk class
+Wheat flour
+Arrangement
+Sugar
+Butter
+Almonds
+Price
+Selling price: 601
+Power
+Petting happiness Lv2
+Obtain
+At Hotel Saniwart Maple Check the bookshelf in the room and get the recipe
+Achieved the title "Milk Squeezer"
+
+Tsukimi dango type Dessert
+MATERIAL
+Shiratama powder
+Arrangement
+Rice flour
+Soybean flour
+Sugar
+Price
+Buy price: 823 / Sell price: 588
+Power
+Petting happiness Lv2
+Obtain
+Cafe Melina Purchased at
+
+Chimaki type Dessert
+MATERIAL
+Mochi
+Summer tea leaves
+Arrangement
+Carrots
+Eggs
+Shiitake mushrooms
+Sugar
+Soy sauce
+Price
+Buy price: 761 / Sell price: 544
+Power
+Petting happiness Lv2
+Obtain
+Claire restaurant Purchased at
+
+Walnut cookies type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Walnut
+Arrangement
+Milk class
+Butter
+Sugar
+Price
+Buy price: 733 / Sell price: 524
+Power
+Petting happiness Lv2
+Obtain
+Cafe Melina Purchased at (village)
+ type Other Tea party Win a prize
+Achieved the title "Kakaporo Daisuki"
+
+Soy milk pudding type Dessert
+MATERIAL
+Milk class
+Eggs
+Soy milk
+Arrangement
+Honey
+Sugar
+Price
+Buy price: 701 / Sell price: 501
+Power
+Petting happiness Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Herbal cookies type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Herbs
+Arrangement
+Milk class
+Butter
+Sugar
+Price
+Buy price: 581 / Sell price: 415
+Power
+Petting happiness Lv1
+Obtain
+Open Cafe Melina Purchased at
+
+Grilled mochi type Dessert
+MATERIAL
+Mochi
+Arrangement
+Soybean flour
+Sugar
+Soy sauce
+Seaweed
+Price
+Buy price: 546 / Sell price: 390
+Power
+Petting happiness Lv1
+Obtain
+Open Cafe Melina Purchased at
+
+Kurikinton type Dessert
+MATERIAL
+Bottling of kuri
+Arrangement
+Sweet potatoes
+Sugar
+Salt
+Price
+Selling price: 390
+Power
+Petting happiness Lv1
+Obtain
+Nerine Request " Delicious tempura for my daughters Get the recipe with "achievement"
+
+Cheese whole cake type Dessert
+MATERIAL
+Wheat flour
+Superlative eggs
+Buffalo milk+
+Cheeses
+Arrangement
+Lemons
+Honey
+Butter
+Sugar
+Cookies
+Price
+Buy price: 3844 / Sell price: 2746
+Power
+Petting rare item % Lv4
+Obtain
+Ristorante Bimi Purchased at
+
+Chocolate whole cake type Dessert
+MATERIAL
+Wheat flour
+Superlative eggs
+Top milk products
+Chocolate
+Arrangement
+Butter
+Sugar
+Chocolate cookies
+Price
+Selling price: 1786
+Power
+Petting rare item % Lv4
+Obtain
+Participate in the dessert section of the cooking festival
+
+Apple pie type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Butter
+Apples
+Arrangement
+Lemons
+Sugar
+Salt
+Price
+Selling price: 1458
+Power
+Petting rare item % Lv3
+Obtain
+Claire Request " A polite and comfortable life Get the recipe with "achievement"
+
+Whole cake type Dessert
+MATERIAL
+Wheat flour
+Superlative eggs
+Top milk products
+Strawberries
+Arrangement
+Butter
+Sugar
+Chocolate
+Price
+Buy price: 1890 / Sell price: 1350
+Power
+Petting rare item % Lv3
+Obtain
+Ristorante Bimi Purchased at
+ type Other Tea party Win a prize
+
+Montblanc type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Milk class
+Bottling of kuri
+Arrangement
+Butter
+Sugar
+Price
+Buy price: 1738 / Sell price: 1242
+Power
+Petting rare item % Lv3
+Obtain
+Ristorante Bimi Purchased at
+Achieved the title "Koropokkuru and Family"
+
+Pumpkin pudding type Dessert
+MATERIAL
+Milk class
+Eggs
+Pumpkins
+Arrangement
+Pumpkin seeds
+Sugar
+Butter
+Price
+Buy price: 1380 / Sell price: 986
+Power
+Petting rare item % Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Chocolate cookies type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Chocolate
+Arrangement
+Milk class
+Butter
+Sugar
+Price
+Buy price: 1164 / Sell price: 832
+Power
+Petting rare item % Lv2
+Obtain
+Claire restaurant Purchased at (local)
+
+Honey cake type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Honey
+Arrangement
+Honey
+Chamomile
+Price
+Selling price: 755
+Power
+Petting rare item % Lv2
+Obtain
+The day before the My Honey Festival Felix Get the recipe from
+
+Chocolate banana type Dessert
+MATERIAL
+Bananas
+Chocolate
+Arrangement
+Sugar
+Oils
+Price
+Buy price: 1029 / Sell price: 735
+Power
+Petting rare item % Lv2
+Obtain
+Cafe Melina Purchased at
+
+Pudding type Dessert
+MATERIAL
+Milk class
+Eggs
+Arrangement
+Sugar
+Butter
+Price
+Buy price: 459 / Sell price: 328
+Power
+Petting rare item % Lv1
+Obtain
+Ristorante Bimi Purchased at
+Achieved the title "Collected Items"
+ Harvest Moon: Cookies in the Windy Grand Bazaar 
+
+Cookies type Dessert
+MATERIAL
+Wheat flour
+Eggs
+Arrangement
+Milk class
+Butter
+Sugar
+Price
+Buy price: 459 / Sell price: 328
+Power
+Petting rare item % Lv1
+Obtain
+Cafe Melina Purchased at
+Achieved the title "Together with Koropokkuru"
+
+Soy milk type Other
+MATERIAL
+Soybean
+Arrangement
+Bananas
+Honey
+ type Other Tea can
+Sugar
+Soybean flour
+Price
+Buy price: 199 / Sell price: 85
+Power
+Max stamina up Lv1
+Obtain
+Cafe Melina Purchased at
+
+Honey juice type Other Juice
+MATERIAL
+Honey
+Arrangement
+Lemons
+Milk class
+Yogurts
+Price
+Buy price: 455 / Sell price: 325
+Power
+Lv1 Stamina saver
+Obtain
+Cafe Melina Purchased at
+Achieved the title "Honey Osusowake"
+
+Boiled seaweed type Other
+MATERIAL
+Seaweed
+Soy sauce
+Arrangement
+Shiitake mushrooms
+Soy sauce
+Sugar
+Price
+Buy price: 593 / Sell price: 424
+Power
+Fishing rod durability up Lv1
+Obtain
+Claire restaurant Purchased at
+
+Summer color blend tea type Other Tea
+MATERIAL
+Summer color blend tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 1801 / Sell price: 1287
+Power
+Movement speed up Lv3
+Obtain
+Cafe Melina Purchased in (provincial, summer)
+
+Summer breeze juice type Other Juice
+MATERIAL
+Banana juice
+Momo juice
+Lemon juice
+Arrangement
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 1428 / Sell price: 1020
+Power
+Movement speed up Lv3
+Obtain
+Open Cafe Melina Purchased in (provincial, summer)
+
+Straight tea type Other Tea
+MATERIAL
+ type Other Tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 561 / Sell price: 401
+Power
+Watering rare crop % Lv1
+Obtain
+Cafe Melina Purchased at (village)
+
+Golden blend tea type Other Tea
+MATERIAL
+Golden blend tea can
+Arrangement
+Heart lemon
+Milk+
+Royal honey
+Price
+Selling price: 13031
+Power
+Chat friendship boost Lv4
+Obtain
+Claire Request " Reward apple pie Get the recipe with "achievement"
+
+Watermelon tea type Other Tea
+MATERIAL
+Watermelon tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 3007 / Sell price: 2148
+Power
+Chat friendship boost Lv4
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Melon tea type Other Tea
+MATERIAL
+Melon tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 2661 / Sell price: 1901
+Power
+Chat friendship boost Lv4
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Russian tea type Other Tea
+MATERIAL
+Straight tea
+Jams
+Arrangement
+Milk+
+Royal honey
+Sugar
+Price
+Buy price: 2590 / Sell price: 1850
+Power
+Chat friendship boost Lv4
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Pine tea type Other Tea
+MATERIAL
+Pineapple tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 1848 / Sell price: 1320
+Power
+Chat friendship boost Lv3
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Spring color blend tea type Other Tea
+MATERIAL
+Spring color blend tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 2342 / Sell price: 1287
+Power
+Chat friendship boost Lv3
+Obtain
+Cafe Melina Purchased at (local/spring)
+
+Royal milk tea type Other Tea
+MATERIAL
+ type Other Tea can
+Milk+
+Arrangement
+Royal honey
+Sugar
+Price
+Buy price: 1671 / Sell price: 1194
+Power
+Chat friendship boost Lv3
+Obtain
+Ristorante Bimi Purchased at
+
+Spring breeze juice type Other Juice
+MATERIAL
+Strawberry juice
+Orange juice
+Cherry juice
+Arrangement
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 1309 / Sell price: 935
+Power
+Chat friendship boost Lv3
+Obtain
+Open Cafe Melina Purchased at (local/spring)
+
+Strawberry jam type Other
+MATERIAL
+Strawberries
+Sugar
+Lemons
+Arrangement
+Honey
+Price
+Buy price: 1197 / Sell price: 855
+Power
+Chat friendship boost Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Sangria juice type Other Juice
+MATERIAL
+Grape juice
+Apples
+Oranges
+Arrangement
+Strawberries
+Cherries
+Peaches
+Blueberries
+Price
+Buy price: 1156 / Sell price: 826
+Power
+Chat friendship boost Lv2
+Obtain
+Ristorante Bimi Purchased at
+Win a prize at the juice festival
+
+Cappuccino type Other
+MATERIAL
+Hot coffee
+Milk class
+Arrangement
+Cocoa
+Walnut
+Price
+Buy price: 1092 / Sell price: 780
+Power
+Chat friendship boost Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Cafe au lait type Other
+MATERIAL
+Hot coffee
+Milk class
+Arrangement
+Butter
+Sugar
+Chocolate
+Soy milk
+Ice cream
+Price
+Selling price: 780
+Power
+Chat friendship boost Lv2
+Obtain
+Freya Check the bookshelf at home and get the recipe
+
+Watermelon juice type Other Juice
+MATERIAL
+Watermelons
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 1058 / Sell price: 756
+Power
+Chat friendship boost Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Milk tea type Other Tea
+MATERIAL
+ type Other Tea can
+Milk class
+Arrangement
+Honey
+Sugar
+Price
+Buy price: 943 / Sell price: 674
+Power
+Chat friendship boost Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Melon juice type Other Juice
+MATERIAL
+Melons
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 921 / Sell price: 658
+Power
+Chat friendship boost Lv2
+Obtain
+Ristorante Bimi Purchased at
+Win a prize at the juice festival
+
+Strawberry tea type Other Tea
+MATERIAL
+Strawberry tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 820 / Sell price: 586
+Power
+Chat friendship boost Lv2
+Obtain
+Cafe Melina Purchased at (village)
+
+Pine juice type Other Juice
+MATERIAL
+Pineapples
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 600 / Sell price: 429
+Power
+Lv1 Chat friendship boost
+Obtain
+Open Cafe Melina Purchased at
+
+Sencha type Other Tea
+MATERIAL
+Sencha can
+Arrangement
+Milk class
+Sugar
+Price
+Buy price: 561 / Sell price: 401
+Power
+Lv1 Chat friendship boost
+Obtain
+Claire restaurant Purchased at
+
+Pu'er tea type Other Tea
+MATERIAL
+Pu'er tea can
+Arrangement
+Milk class
+Sugar
+Price
+Buy price: 561 / Sell price: 401
+Power
+Lv1 Chat friendship boost
+Obtain
+Claire restaurant Purchased at
+
+Oolong tea type Other Tea
+MATERIAL
+Oolong tea can
+Arrangement
+Milk class
+Sugar
+Mint
+Chamomile
+Price
+Selling price: 401
+Power
+Lv1 Chat friendship boost
+Obtain
+Dirka Request " I want to drink delicious juice! Get the recipe with "Achievement"
+
+Marron juice type Other Juice
+MATERIAL
+Bottling of kuri
+Arrangement
+Milk class
+Sugar
+Chocolate
+Soybean flour
+Price
+Buy price: 546 / Sell price: 390
+Power
+Lv1 Chat friendship boost
+Obtain
+Ristorante Bimi Purchased at
+
+Hot coffee type Other
+MATERIAL
+Coffee pack
+Arrangement
+Butter
+Sugar
+Chocolate
+Soy milk
+Ice cream
+Price
+Buy price: 532 / Sell price: 380
+Power
+Lv1 Chat friendship boost
+Obtain
+Cafe Melina Purchased at (village)
+
+Macha type Other Tea
+MATERIAL
+Macha can
+Arrangement
+Milk class
+Sugar
+Price
+Buy price: 509 / Sell price: 364
+Power
+Lv1 Chat friendship boost
+Obtain
+Claire restaurant Purchased at
+
+Mint tea type Other Tea
+MATERIAL
+Mint tea can
+Arrangement
+Lemons
+Honey
+Sugar
+Price
+Selling price: 344
+Power
+Lv1 Chat friendship boost
+Obtain
+Freya Obtain the recipe by completing the request "Turn your house into a cafe"
+
+Chamomile tea type Other Tea
+MATERIAL
+Chamomile tea can
+Arrangement
+Lemons
+Honey
+Sugar
+Price
+Buy price: 481 / Sell price: 344
+Power
+Lv1 Chat friendship boost
+Obtain
+Cafe Melina Purchased at
+Achieved the title "Insect Girl"
+
+Lavender tea type Other Tea
+MATERIAL
+Lavender tea can
+Arrangement
+Lemons
+Honey
+Sugar
+Price
+Buy price: 481 / Sell price: 344
+Power
+Lv1 Chat friendship boost
+Obtain
+Ristorante Bimi Purchased at
+ Harvest Moon Walnut juice from the Grand Bazaar of the Wind 
+Walnut juice type Other Juice
+MATERIAL
+Bottled walnuts
+Arrangement
+Bananas
+Milk class
+Mint
+Honey
+Price
+Selling price: 260
+Power
+Lv1 Chat friendship boost
+Obtain
+It can be made from scratch
+
+Hot milk type Other
+MATERIAL
+Milk class
+Arrangement
+Bananas
+Honey
+Chocolate
+Soybean flour
+Price
+Buy price: 273 / Sell price: 195
+Power
+Lv1 Chat friendship boost
+Obtain
+Cafe Melina Purchased at
+Achieved the title "Sleep soundly"
+
+Green tea type Other Tea
+MATERIAL
+Green tea can
+Arrangement
+Milk class
+Sugar
+Price
+Buy price: 254 / Sell price: 182
+Power
+Lv1 Chat friendship boost
+Obtain
+Claire restaurant Purchased at
+
+Strawberry juice type Other Juice
+MATERIAL
+Strawberries
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 218 / Sell price: 156
+Power
+Lv1 Chat friendship boost
+Obtain
+Cafe Melina Purchased at
+
+Tomato juice type Other Juice
+MATERIAL
+Tomatoes
+Arrangement
+Lemons
+Mint
+Salt
+Price
+Buy price: 770 / Sell price: 55
+Power
+Lv1 Chat friendship boost
+Obtain
+Cafe Melina Purchased at
+
+Special juice type Other Juice
+MATERIAL
+Spring breeze juice
+Summer breeze juice
+Autumn wind juice
+Royal honey
+Arrangement
+Milk+
+Fruit yogurt
+Royal honey
+Price
+Selling price: 9511
+Power
+Pet training up Lv4
+Obtain
+Participate in juice festivals
+
+Autumn color blend tea type Other Tea
+MATERIAL
+Autumn color blend tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 2032 / Sell price: 1452
+Power
+Pet training up Lv3
+Obtain
+Cafe Melina Purchased at (local/autumn)
+
+Autumn style juice type Other Juice
+MATERIAL
+Blueberry juice
+Grape juice
+Apple juice
+Arrangement
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 1414 / Sell price: 1010
+Power
+Pet training up Lv3
+Obtain
+Open Cafe Melina Purchased at (local/autumn)
+
+Grape jam type Other
+MATERIAL
+Grape species
+Sugar
+Lemons
+Arrangement
+Honey
+Price
+Buy price: 1409 / Sell price: 1007
+Power
+Pet training up Lv3
+Obtain
+Open Cafe Melina Purchased at
+
+Apple jam type Other
+MATERIAL
+Apples
+Sugar
+Lemons
+Arrangement
+Honey
+Price
+Buy price: 1304 / Sell price: 932
+Power
+Pet training up Lv3
+Obtain
+Open Cafe Melina Purchased at
+
+Blueberry jam type Other
+MATERIAL
+Blueberries
+Sugar
+Lemons
+Arrangement
+Honey
+Price
+Buy price: 1208 / Sell price: 863
+Power
+Pet training up Lv3
+Obtain
+Open Cafe Melina Purchased at (local)
+
+Banana tea type Other Tea
+MATERIAL
+Banana tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 1164 / Sell price: 832
+Power
+Pet training up Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Mango tea type Other Tea
+MATERIAL
+Mango tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 1164 / Sell price: 832
+Power
+Pet training up Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Muscat tea type Other Tea
+MATERIAL
+Muscat tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 1087 / Sell price: 777
+Power
+Pet training up Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Grape tea type Other Tea
+MATERIAL
+Grape tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 1057 / Sell price: 755
+Power
+Pet training up Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Apple tea type Other Tea
+MATERIAL
+Apple tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 1036 / Sell price: 740
+Power
+Pet training up Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Cherry tea type Other Tea
+MATERIAL
+Cherry tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 905 / Sell price: 647
+Power
+Pet training up Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Peach tea type Other Tea
+MATERIAL
+Momo tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 905 / Sell price: 647
+Power
+Pet training up Lv2
+Obtain
+Ristorante Bimi Purchased at
+
+Orange tea type Other Tea
+MATERIAL
+Orange tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 898 / Sell price: 642
+Power
+Pet training up Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Lemon tea type Other Tea
+MATERIAL
+Lemon tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 884 / Sell price: 632
+Power
+Pet training up Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Blueberry tea type Other Tea
+MATERIAL
+Blueberry tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 841 / Sell price: 601
+Power
+Pet training up Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Olive tea type Other Tea
+MATERIAL
+Olive tea can
+Arrangement
+Lemons
+Milk class
+Honey
+Sugar
+Price
+Buy price: 820 / Sell price: 586
+Power
+Pet training up Lv2
+Obtain
+Open Cafe Melina Purchased at
+
+Banana juice type Other Juice
+MATERIAL
+Bananas
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 364 / Sell price: 260
+Power
+Pet training up Lv1
+Obtain
+Ristorante Bimi Purchased at
+
+Mango juice type Other Juice
+MATERIAL
+Mango species
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 364 / Sell price: 260
+Power
+Pet training up Lv1
+Obtain
+Ristorante Bimi Purchased at
+
+Grape juice type Other Juice
+MATERIAL
+Grape species
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 319 / Sell price: 228
+Power
+Pet training up Lv1
+Obtain
+Ristorante Bimi Purchased at
+
+Apple juice type Other Juice
+MATERIAL
+Apples
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 309 / Sell price: 221
+Power
+Pet training up Lv1
+Obtain
+Open Cafe Melina Purchased at
+
+Cherry juice type Other Juice
+MATERIAL
+Cherries
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 254 / Sell price: 182
+Power
+Pet training up Lv1
+Obtain
+Open Cafe Melina Purchased at
+
+Momo juice type Other Juice
+MATERIAL
+Peaches
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 254 / Sell price: 182
+Power
+Pet training up Lv1
+Obtain
+Ristorante Bimi Purchased at
+
+Orange juice type Other Juice
+MATERIAL
+Oranges
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 252 / Sell price: 180
+Power
+Pet training up Lv1
+Obtain
+Open Cafe Melina Purchased at
+
+Lemon juice type Other Juice
+MATERIAL
+Lemons
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 246 / Sell price: 176
+Power
+Pet training up Lv1
+Obtain
+Ristorante Bimi Purchased at
+
+Blueberry juice type Other Juice
+MATERIAL
+Blueberries
+Arrangement
+Lemons
+Milk class
+Yogurts
+Honey
+Price
+Buy price: 228 / Sell price: 163
+Power
+Pet training up Lv1
+Obtain
+Open Cafe Melina Purchased at
+
+Assorted happy fruits type Other
+MATERIAL
+Heart watermelon
+Fruits 1
+Fruits 2
+Arrangement
+Sugar
+Salt
+Walnut
+Milk class
+Honey
+Price
+Selling price: 3274
+Power
+Happy Energy up Lv4
+Obtain
+Polo Polo Shop Purchased at (local)
+Title: "Happy!" Achieved
+
+Happy egg vegetables type Other
+MATERIAL
+Eggs
+Corn
+Onions
+Vegetables for salad
+Arrangement
+Sugar
+Salt
+Walnut
+Milk class
+Honey
+Price
+Selling price: 1233
+Power
+Happy Energy up Lv3
+Obtain
+Polo Polo Shop Buy in (city)
+
+Happy mushroom grill type Other
+MATERIAL
+Mushrooms
+Salt
+Arrangement
+Sugar
+Salt
+Walnut
+Milk class
+Honey
+Price
+Selling price: 662
+Power
+Happy Energy up Lv2
+Obtain
+Polo Polo Shop Purchased at (town)
+
+Happy grilled nuts type Other
+MATERIAL
+Walnut
+Arrangement
+Sugar
+Salt
+Walnut
+Milk class
+Honey
+Price
+Selling price: 130
+Power
+Happy Energy up Lv1
+Obtain
+Polo Polo Shop Purchased at
+
+Correspondances groupes :
+
+Vegetables for salad 
+Cucumbers, onions, asparagus, tomatoes, Red pepper, carrots, turnips, sweet potatoes, pumpkins, eggplants 
+
+Miso soup ingredients 
+Tofu , green onions , oil , Potatoes , Shimeji mushroom 
+
+Bread 2 
+Bread , White bread , Bucket, Focaccia 
+
+Fish 4 
+Yellow perch , snakehead , Masu trout , Char , Salmon , Icefish , Cherry salmon 
+
+Bread 1 
+Bread , White bread 
+
+Fish 2 
+Bluegill , Willow shiner , Killifish , Stone motsugo , Pond smelt , Sweetfish , Eel , Marbled eel , Goldfish , Crucian carp 
+
+Fish 1 
+Amur minnow , Dace , Pale chub , sculpin , Dark chub , Bitterling , Tamoroko , Rainbow trout , Silter carp , Basa 
+
+Bread crumbs 
+Bread crumbs , White breadcrumbs 
+
+Stew ingredients 
+Potatoes, asparagus, carrots, cabbage, turnips, cauliflower 
+
+Fish 5 
+Nile perch , Salmon , Masu trout , Cherry salmon , Brown trout , Yellow perch , Sweetfish 
+
+Fish 3 
+Grayling , Bigdead carp , Nile perch , Barbel steed , Three-lips carp , Brown trout , Black bass , Mugitsuku 
+
+Curry ingredients 
+Potatoes, carrots, onions 
+
+Tempura seeds 
+Shiitake mushrooms, pumpkins, eggplants, sweet potatoes, Whitefish , Smelt 
+
+Mushrooms 
+Shiitake mushrooms , Shimeji mushroom , Commun Mushroom , Borcini mushrooms, Morille mushrooms , Matsutake mushrooms , King mushroom 
+
+Cereal flour 
+Wheat flour , Rice flour 
+
+Milk class 
+Milk , Buffalo milk , milk+ , buffalo milk+ 
+
+Fruits 1 
+Cherries, blueberries, green grape, strawberries, mangoes, pineapples, bananas, peaches, oranges, melons 
+
+Honey 
+Honey , Refreshing honey , Mellow honey , Royal honey 
+
+Jams 
+Grape jam , Apple jam , Blueberry jam , Strawberry jam 
+
+Fruits 2 
+Apples, grapes, green grape, strawberries, mangoes, pineapples, bananas, peaches, oranges, melons
+
+Superlative eggs
+Egg+, Silkie egg+
+
+Top milk products
+Milk+, Buffalo milk+
+
+Eggs
+Egg, Silkie egg

@@ -1,0 +1,5226 @@
+// Recipes data with images
+export const recipes = [
+  {
+    name: "Macaroni Salad",
+    image: "Macaroni_Salad.avif",
+    ingredients: [
+      "Pasta",
+      "Cucumber",
+      "Mayonaise",
+      "Carrot",
+    ],
+    arrangements: [
+      "Penne pasta",
+      "Herbal pasta",
+      "Onion",
+      "Salt",
+      "pepper",
+    ],
+    category: "salad",
+    price: 1859,
+    bonus: "Stamina saver Lv4"
+  },
+  {
+    name: "Guacamole Salad",
+    image: "Guacamole_Salad.avif",
+    ingredients: [
+      "Avocado",
+      "Onion",
+      "Tomato",
+      "Salt",
+    ],
+    arrangements: [
+      "Lemon",
+      "Salt",
+      "pepper",
+    ],
+    category: "salad",
+    price: 1309,
+    bonus: "Stamina saver Lv3"
+  },
+  {
+    name: "Kinpira Gobo",
+    image: "Kinpira_Gobo.avif",
+    ingredients: [
+      "Burdock",
+      "Carrot",
+      "Chili pepper",
+      "Salt",
+    ],
+    arrangements: [
+      "Sugar",
+      "Soy sauce",
+      "Oil",
+    ],
+    category: "salad",
+    price: 909,
+    bonus: "Stamina saver Lv2"
+  },
+  {
+    name: "Marinated Peppers",
+    image: "Marinated_Peppers.avif",
+    ingredients: [
+      "Red bell pepper",
+      "Vinegar",
+      "Oil",
+    ],
+    arrangements: [
+      "Radish",
+      "Onion",
+      "Olive oil",
+      "Honey",
+    ],
+    category: "salad",
+    price: 598,
+    bonus: "Stamina saver Lv2"
+  },
+  {
+    name: "Mixed Salad",
+    image: "Mixed_Salad.avif",
+    ingredients: [
+      "Tomato",
+      "Cucumber",
+      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red bell pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
+    ],
+    arrangements: [
+      "Avocado",
+      "Corn",
+      "Cheese",
+    ],
+    category: "salad",
+    price: 404,
+    bonus: "Stamina saver Lv1"
+  },
+  {
+    name: "Turnip Salad",
+    image: "Turnip_Salad.avif",
+    ingredients: [
+      "Turnip",
+    ],
+    arrangements: [
+      "Cucumber",
+      "Tomato",
+      "Red bell pepper",
+    ],
+    category: "salad",
+    price: 260,
+    bonus: "Stamina saver Lv1"
+  },
+  {
+    name: "Herb Salad",
+    image: "Herb_Salad.avif",
+    ingredients: [
+      "Herb",
+      "Herb",
+    ],
+    arrangements: [
+      "Broccoli",
+      "Tomato",
+      "Boiled egg",
+      "Olive oil",
+      "Salt",
+      "pepper",
+    ],
+    category: "salad",
+    price: 137,
+    bonus: "Stamina saver Lv1"
+  },
+  {
+    name: "Tomato Salad",
+    image: "Tomato_Salad.avif",
+    ingredients: [
+      "Tomato",
+      "Herb",
+    ],
+    arrangements: [
+      "Cucumber",
+      "Red bell pepper",
+      "Cheese",
+    ],
+    category: "salad",
+    price: 126,
+    bonus: "Stamina saver Lv1"
+  },
+  {
+    name: "Caprese Salad",
+    image: "Caprese_Salad.avif",
+    ingredients: [
+      "Tomato",
+      "Cheese",
+      "Olive oil",
+      "Salt",
+    ],
+    arrangements: [
+      "Avocado",
+      "Baguette",
+      "Soy sauce",
+      "Nut oil",
+      "Herb oil",
+      "Pumpkin oil",
+      "Grape oil",
+      "Salt",
+    ],
+    category: "salad",
+    price: 2429,
+    bonus: "Watering rare crop % Lv4"
+  },
+  {
+    name: "Poke",
+    image: "Poke.avif",
+    ingredients: [
+      "Avocado",
+      "Salmon",
+      "Soy sauce",
+    ],
+    arrangements: [
+      "Onion",
+      "Green onion",
+      "Oil",
+    ],
+    category: "salad",
+    price: 1197,
+    bonus: "Watering rare crop % Lv3"
+  },
+  {
+    name: "Mashed Potatoes",
+    image: "Mashed_Potatoes.avif",
+    ingredients: [
+      "Potato",
+      "Butter",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Mint",
+      "Salt",
+      "pepper",
+    ],
+    category: "salad",
+    price: 677,
+    bonus: "Watering rare crop % Lv2"
+  },
+  {
+    name: "Onion Salad",
+    image: "Onion_Salad.avif",
+    ingredients: [
+      "Onion",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Mint",
+      "Salt",
+      "pepper",
+    ],
+    category: "salad",
+    price: 325,
+    bonus: "Watering rare crop % Lv1"
+  },
+  {
+    name: "Asparagus Soup",
+    image: "Asparagus_Soup.avif",
+    ingredients: [
+      "Asparagus",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Oil",
+      "Onion",
+    ],
+    arrangements: [
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Salt",
+      "pepper",
+      "Olive oil",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "soup",
+    price: 1728,
+    bonus: "Fishing rod durability up Lv4"
+  },
+  {
+    name: "Onion Soup",
+    image: "Onion_Soup.avif",
+    ingredients: [
+      "Onion",
+      "Butter",
+    ],
+    arrangements: [
+      "Garlic",
+      "Salt",
+      "pepper",
+      "Baguette",
+    ],
+    category: "soup",
+    price: 1024,
+    bonus: "Fishing rod durability up Lv3"
+  },
+  {
+    name: "Radish Soup",
+    image: "Radish_Soup.avif",
+    ingredients: [
+      "Radish",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Salt",
+    ],
+    arrangements: [
+      "Onion",
+      "Butter",
+      "pepper",
+    ],
+    category: "soup",
+    price: 770,
+    bonus: "Fishing rod durability up Lv2"
+  },
+  {
+    name: "Miso Soup",
+    image: "Miso_Soup.avif",
+    ingredients: [
+      "Miso",
+      ["Tofu", "Green onion", "Oil", "Potato", "Shimeji mushroom"],
+    ],
+    arrangements: [
+      "Onion",
+      "Spinach",
+      "Radish",
+      "Eggplant",
+      "Salt",
+    ],
+    category: "soup",
+    price: 260,
+    bonus: "Fishing rod durability up Lv1"
+  },
+  {
+    name: "Corn soup",
+    image: "Corn_soup.avif",
+    ingredients: [
+      "Corn",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Butter",
+      "Onion",
+    ],
+    arrangements: [
+      "Potato",
+      "Egg",
+      "Silkie egg",
+      "Salt",
+    ],
+    category: "soup",
+    price: 1815,
+    bonus: "Movement speed up Lv4"
+  },
+  {
+    name: "Pumpkin Soup",
+    image: "Pumpkin_Soup.avif",
+    ingredients: [
+      "Pumpkin",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Onion",
+    ],
+    arrangements: [
+      "Butter",
+      "Salt",
+      "pepper",
+    ],
+    category: "soup",
+    price: 1320,
+    bonus: "Movement speed up Lv3"
+  },
+  {
+    name: "Vichyssoise Soup",
+    image: "Vichyssoise_Soup.avif",
+    ingredients: [
+      "Potato",
+      "Onion",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Butter",
+      "Salt",
+      "pepper",
+    ],
+    category: "soup",
+    price: 709,
+    bonus: "Movement speed up Lv2"
+  },
+  {
+    name: "Gazpacho Salad",
+    image: "Gazpacho_Salad.avif",
+    ingredients: [
+      "Tomato",
+      "Garlic",
+      ["Bread", "White bread", "Bucket", "Focaccia"],
+    ],
+    arrangements: [
+      "Cucumber",
+      "Onion",
+      "Green bell pepper",
+      "Olive oil",
+      "Salt",
+    ],
+    category: "soup",
+    price: 490,
+    bonus: "Movement speed up Lv1"
+  },
+  {
+    name: "Herb Soup",
+    image: "Herb_Soup.avif",
+    ingredients: [
+      "Herb",
+      "Herb",
+    ],
+    arrangements: [
+      "Onion",
+      "Cabbage",
+      "Carrot",
+      "Broccoli",
+      "Salt",
+      "Olive oil",
+    ],
+    category: "soup",
+    price: 137,
+    bonus: "Movement speed up Lv1"
+  },
+  {
+    name: "Egg Drop Soup",
+    image: "Egg_Drop_Soup.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+    ],
+    arrangements: [
+      "Green onion",
+      "Soy sauce",
+      "Salt",
+      "pepper",
+      "Oil",
+    ],
+    category: "soup",
+    price: 117,
+    bonus: "Movement speed up Lv1"
+  },
+  {
+    name: "Khachapuri",
+    image: "Khachapuri.avif",
+    ingredients: [
+      "Wheat flour",
+      "Cheese+",
+      "Yogurt+",
+      "Butter+",
+    ],
+    arrangements: [
+      "Egg",
+      "Silkie egg",
+      "Rice flour",
+      "Sugar",
+      "Salt",
+      "Olive oil",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "side",
+    price: 10098,
+    bonus: "Double the amount obtained during collection"
+  },
+  {
+    name: "Morel Cream Stew",
+    image: "Morel_Cream_Stew.avif",
+    ingredients: [
+      "Morel mushroom",
+      "Buffalo milk",
+      "Butter",
+      "Urchin",
+    ],
+    arrangements: [
+      "Onion",
+      "Garlic",
+      "Pasta",
+      "Salt",
+      "pepper",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+    ],
+    category: "side",
+    price: 2592,
+    bonus: "Max stamina up Lv4"
+  },
+  {
+    name: "Quiche",
+    image: "Quiche.avif",
+    ingredients: [
+      "Wheat flour",
+      "Spinach",
+      "Pumpkin",
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+    ],
+    arrangements: [
+      "Onion",
+      "Cheese",
+      "Salt",
+      "pepper",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "side",
+    price: 1892,
+    bonus: "Max stamina up Lv4"
+  },
+  {
+    name: "Fish & Chips",
+    image: "Fish_&_Chips.avif",
+    ingredients: [
+      ["Yellow perch", "Snakehead", "Masu trout", "Char", "Salmon", "Icefish", "Cherry salmon"],
+      "Potato",
+      ["Wheat flour", "Rice flour"],
+      "Oil",
+    ],
+    arrangements: [
+      "Chili pepper",
+      "Mayonaise",
+      "Mayonaise+",
+      "Vinegar",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 1584,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Spring Roll",
+    image: "Spring_Roll.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      "Carrot",
+      "Oil",
+    ],
+    arrangements: [
+      "Cabbage",
+      "Eggplant",
+      "Soy sauce",
+      "Sugar",
+      "Salt",
+    ],
+    category: "side",
+    price: 1530,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Steamed Bun",
+    image: "Steamed_Bun.avif",
+    ingredients: [
+      "Wheat flour",
+      "Napa cabbage",
+      "Shiitake mushroom",
+      "Green onion",
+    ],
+    arrangements: [
+      "Sugar",
+      "Salt",
+      "Pepper",
+      "Oil",
+    ],
+    category: "side",
+    price: 1377,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Gyoza",
+    image: "Gyoza.avif",
+    ingredients: [
+      "Wheat flour",
+      "Napa cabbage",
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      "Green onion",
+    ],
+    arrangements: [
+      "Sugar",
+      "Salt",
+      "pepper",
+      "Oil",
+    ],
+    category: "side",
+    price: 1377,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Stir-Fried Vegetables",
+    image: "Stir-Fried_Vegetables.avif",
+    ingredients: [
+      "Wheat flour",
+      "Cabbage",
+      "Oil",
+    ],
+    arrangements: [
+      "Napa cabbage",
+      "Soy sauce",
+      "Sugar",
+      "Salt",
+      "pepper",
+      "Miso",
+      "Vinegar",
+    ],
+    category: "side",
+    price: 1353,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Stuffed Cabbage",
+    image: "Stuffed_Cabbage.avif",
+    ingredients: [
+      "Cabbage",
+      "Napa cabbage",
+    ],
+    arrangements: [
+      "Carrot",
+      "Green bell pepper",
+      "Asparagus",
+      "Pumpkin",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 1276,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Scones",
+    image: "Scones.avif",
+    ingredients: [
+      "Cabbage",
+      "Carrot",
+    ],
+    arrangements: [
+      "Salt",
+      "pepper",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "side",
+    price: 1213,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Galette",
+    image: "Galette.avif",
+    ingredients: [
+      "Wheat flour",
+      "Butter",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Grape jam",
+      "Apple jam",
+      "Blueberry jam",
+      "Strawberry jam",
+    ],
+    category: "side",
+    price: 1155,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Buttered Roll",
+    image: "Buttered_Roll.avif",
+    ingredients: [
+      "Buckweat",
+      "Potato",
+      "Oil",
+    ],
+    arrangements: [
+      "Egg",
+      "Silkie egg",
+      "Cheese",
+      "Olive oil",
+      "Pumpkin oil",
+      "Grape oil",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 1122,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Chili con Carne",
+    image: "Chili_con_Carne.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Butter",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+      "Salt",
+    ],
+    category: "side",
+    price: 1056,
+    bonus: "Max stamina up Lv3"
+  },
+  {
+    name: "Sauteed Turnips",
+    image: "Sauteed_Turnips.avif",
+    ingredients: [
+      "Tomato",
+      "Soybean",
+      "Chili pepper",
+      "pepper",
+    ],
+    arrangements: [
+      "Cheese",
+    ],
+    category: "side",
+    price: 911,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Focaccia Bread",
+    image: "Focaccia_Bread.avif",
+    ingredients: [
+      "Turnip",
+      "Butter",
+    ],
+    arrangements: [
+      "Garlic",
+      "Salt",
+      "pepper",
+      "Oil",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+      "Miso",
+    ],
+    category: "side",
+    price: 882,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Freeze-Dried Tofu",
+    image: "Freeze-Dried_Tofu.avif",
+    ingredients: [
+      "Wheat flour",
+      "Olive oil",
+    ],
+    arrangements: [
+      "Tomato",
+      "Cheese",
+      "Sugar",
+      "Salt",
+    ],
+    category: "side",
+    price: 843,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Lightly Fried Tofu",
+    image: "Lightly_Fried_Tofu.avif",
+    ingredients: [
+      "Tofu",
+      "Soy sauce",
+      "Oil",
+    ],
+    arrangements: [
+      "Soybean",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Sugar",
+      "Salt",
+    ],
+    category: "side",
+    price: 824,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Rolled Egg",
+    image: "Rolled_Egg.avif",
+    ingredients: [
+      "Tofu",
+      ["Wheat flour", "Rice flour"],
+      "Oil",
+    ],
+    arrangements: [
+      "Radish",
+      "Green onion",
+      "Soy sauce",
+    ],
+    category: "side",
+    price: 809,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Steamed Egg Custard",
+    image: "Steamed_Egg_Custard.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+      "Soy sauce",
+      "Sugar",
+    ],
+    arrangements: [
+      "Radish",
+      "Salt",
+      "Oil",
+    ],
+    category: "side",
+    price: 801,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Soy Okara",
+    image: "Soy_Okara.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      "Fish cake",
+    ],
+    arrangements: [
+      "Spinach",
+      "Carrot",
+      "Broccoli",
+      "Soybean",
+      "Shimeji mushroom",
+      "Salt",
+    ],
+    category: "side",
+    price: 747,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Buttered Potato",
+    image: "Buttered_Potato.avif",
+    ingredients: [
+      "Tofu",
+      "Carrot",
+    ],
+    arrangements: [
+      "Burdock",
+      "Green onion",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Fried tofu",
+      "Soy sauce",
+      "Sugar",
+    ],
+    category: "side",
+    price: 743,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Baguettes",
+    image: "Baguettes.avif",
+    ingredients: [
+      "Potato",
+      "Butter",
+    ],
+    arrangements: [
+      "Corn",
+      "Garlic",
+      "Soy sauce",
+      "Salt",
+      "Seaweed",
+      "Urchin",
+    ],
+    category: "side",
+    price: 677,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Hash Browns",
+    image: "Hash_Browns.avif",
+    ingredients: [
+      "Wheat flour",
+      "Salt",
+    ],
+    arrangements: [
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "side",
+    price: 662,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Steamed Muffin",
+    image: "Steamed_Muffin.avif",
+    ingredients: [
+      "Potato",
+      "Wheat flour",
+      "Oil",
+    ],
+    arrangements: [
+      "Tomato",
+      "Mayonaise",
+      "Wheat flour",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 632,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Sauteed Cauliflower",
+    image: "Sauteed_Cauliflower.avif",
+    ingredients: [
+      "Cauliflower",
+    ],
+    arrangements: [
+      "Garlic",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 602,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Broccoli & Garlic Saute",
+    image: "Broccoli_&_Garlic_Saute.avif",
+    ingredients: [
+      "Broccoli",
+      "Garlic",
+      "Oil",
+    ],
+    arrangements: [
+      "Soy sauce",
+      "Salt",
+      "pepper",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "side",
+    price: 563,
+    bonus: "Max stamina up Lv2"
+  },
+  {
+    name: "Chilled Tofu",
+    image: "Chilled_Tofu.avif",
+    ingredients: [
+      "Tofu",
+      "Soy sauce",
+    ],
+    arrangements: [
+      "Green onion",
+      "Salt",
+      "Oil",
+      "Seaweed",
+      "Urchin",
+    ],
+    category: "side",
+    price: 458,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Potato Pancakes",
+    image: "Potato_Pancakes.avif",
+    ingredients: [
+      "Potato",
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+    ],
+    arrangements: [
+      "Onion",
+      "Sugar",
+      "Salt",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+    ],
+    category: "side",
+    price: 429,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Corn Flakes Cereal",
+    image: "Corn_Flakes_Cereal.avif",
+    ingredients: [
+      "Corn",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Strawberry",
+      "Banana",
+      "Blueberry",
+      "Yogurt",
+      "Sugar",
+      "Chocolate",
+    ],
+    category: "side",
+    price: 403,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Fried Egg",
+    image: "Fried_Egg.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+      "Oil",
+    ],
+    arrangements: [
+      "Tomato",
+      "Mayonaise",
+      "Soy sauce",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 396,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Fried Tofu",
+    image: "Fried_Tofu.avif",
+    ingredients: [
+      "Tofu",
+    ],
+    arrangements: [
+      "Green onion",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+    ],
+    category: "side",
+    price: 267,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Miso Glazed Eggplant",
+    image: "Miso_Glazed_Eggplant.avif",
+    ingredients: [
+      "Eggplant",
+      "Miso",
+    ],
+    arrangements: [
+      "Soy sauce",
+      "Sugar",
+      "Oil",
+    ],
+    category: "side",
+    price: 246,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Toast",
+    image: "Toast.avif",
+    ingredients: [
+      ["Bread", "White bread"],
+    ],
+    arrangements: [
+      "Butter",
+      "Mayonaise",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "side",
+    price: 234,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Tofu",
+    image: "Tofu.avif",
+    ingredients: [
+      "Soybean",
+      "Soy milk",
+    ],
+    arrangements: [
+      "Green onion",
+      "Soy sauce",
+      "Salt",
+      "Oil",
+      "Seaweed",
+      "Urchin",
+    ],
+    category: "side",
+    price: 205,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Fried Mushrooms",
+    image: "Fried_Mushrooms.avif",
+    ingredients: [
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+    ],
+    arrangements: [
+      "Salt",
+      "pepper",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+    ],
+    category: "side",
+    price: 195,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Boiled Egg",
+    image: "Boiled_Egg.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+    ],
+    arrangements: [
+      "Broccoli",
+      "Mayonaise",
+      "Salt",
+    ],
+    category: "side",
+    price: 117,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Tofu Skin",
+    image: "Tofu_Skin.avif",
+    ingredients: [
+      "Soy milk",
+    ],
+    arrangements: [
+      "Tofu",
+      "Soy sauce",
+      "Salt",
+      "Seaweed",
+    ],
+    category: "side",
+    price: 111,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Shumai Dumplings",
+    image: "Shumai_Dumplings.avif",
+    ingredients: [
+      "Wheat flour",
+      "Onion",
+      ["Blugill", "Willow shiner", "Killifish", "Stone moroko", "Pond smelt", "Sweetfish", "Eel", "Eel", "Goldfish", "Crucian carp"],
+    ],
+    arrangements: [
+      "Soybean",
+      "Sugar",
+      "Soy sauce",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 924,
+    bonus: "Fishing rod durability up Lv2"
+  },
+  {
+    name: "Sashimi",
+    image: "Sashimi.avif",
+    ingredients: [
+      ["Amur minnow", "Dace", "Pale chub", "Sculpin", "Dark chub", "Bitterling", "Tamoroko", "Rainbow trout", "Silver carp", "Basa"],
+    ],
+    arrangements: [
+      "Radish",
+      "Carrot",
+      "Soy sauce",
+    ],
+    category: "side",
+    price: 195,
+    bonus: "Fishing rod durability up Lv1"
+  },
+  {
+    name: "Fish Cake",
+    image: "Fish_Cake.avif",
+    ingredients: [
+      ["Amur minnow", "Dace", "Pale chub", "Sculpin", "Dark chub", "Bitterling", "Tamoroko", "Rainbow trout", "Silver carp", "Basa"],
+    ],
+    arrangements: [
+      "Avocado",
+      "Cheese",
+      "Soy sauce",
+    ],
+    category: "side",
+    price: 195,
+    bonus: "Fishing rod durability up Lv1"
+  },
+  {
+    name: "Babaocai",
+    image: "Babaocai.avif",
+    ingredients: [
+      "Napa cabbage",
+      "Carrot",
+      "Green bell pepper",
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+    ],
+    arrangements: [
+      "Cabbage",
+      "Onion",
+      "Bok choy",
+      "Burdock",
+      "Red bell pepper",
+    ],
+    category: "side",
+    price: 1509,
+    bonus: "Watering rare crop % Lv3"
+  },
+  {
+    name: "Grilled Corn",
+    image: "Grilled_Corn.avif",
+    ingredients: [
+      "Corn",
+      "Soy sauce",
+      "Sugar",
+    ],
+    arrangements: [
+      "Garlic",
+      "Butter",
+      "Oil",
+    ],
+    category: "side",
+    price: 886,
+    bonus: "Watering rare crop % Lv2"
+  },
+  {
+    name: "Curry Bun",
+    image: "Curry_Bun.avif",
+    ingredients: [
+      "Wheat flour",
+      "Curry powder",
+      "Onion",
+      "Carrot",
+    ],
+    arrangements: [
+      "Garlic",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+      "Salt",
+      "pepper",
+      "Oil",
+    ],
+    category: "side",
+    price: 1920,
+    bonus: "Chat friendship boost Lv4"
+  },
+  {
+    name: "Cheese Croquettes",
+    image: "Cheese_Croquettes.avif",
+    ingredients: [
+      "Potato",
+      ["Breadcrumbs", "White breadcrumbs"],
+      "Oil",
+      "Cheese",
+    ],
+    arrangements: [
+      "Onion",
+      "Cabbage",
+      "Egg",
+      "Silkie egg",
+      "Sugar",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 1844,
+    bonus: "Chat friendship boost Lv4"
+  },
+  {
+    name: "Cheese Bun",
+    image: "Cheese_Bun.avif",
+    ingredients: [
+      "Wheat flour",
+      "Cheese",
+      "Buffalo milk",
+    ],
+    arrangements: [
+      "Garlic",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+      "Salt",
+      "pepper",
+      "Oil",
+    ],
+    category: "side",
+    price: 1320,
+    bonus: "Chat friendship boost Lv3"
+  },
+  {
+    name: "Cream Croquettes",
+    image: "Cream_Croquettes.avif",
+    ingredients: [
+      "Potato",
+      ["Breadcrumbs", "White breadcrumbs"],
+      "Oil",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Onion",
+      "Cabbage",
+      "Egg",
+      "Silkie egg",
+      "Sugar",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 1098,
+    bonus: "Chat friendship boost Lv3"
+  },
+  {
+    name: "Stew",
+    image: "Stew.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      ["Potato", "Asparagus", "Carrot", "Cabbage", "Turnip", "Cauliflower"],
+    ],
+    arrangements: [
+      "Cheese",
+      "Butter",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 770,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Croquettes",
+    image: "Croquettes.avif",
+    ingredients: [
+      "Potato",
+      ["Breadcrumbs", "White breadcrumbs"],
+      "Oil",
+    ],
+    arrangements: [
+      "Onion",
+      "Cabbage",
+      "Egg",
+      "Silkie egg",
+      "Sugar",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 709,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "French Toast",
+    image: "French_Toast.avif",
+    ingredients: [
+      ["Bread", "White bread"],
+      ["Egg", "Silkie egg"],
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Butter",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "side",
+    price: 647,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Popcorn",
+    image: "Popcorn.avif",
+    ingredients: [
+      "Corn",
+      "Oil",
+    ],
+    arrangements: [
+      "Butter",
+      "Soy sauce",
+      "Salt",
+      "Curry powder",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "side",
+    price: 508,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "French Fries",
+    image: "French_Fries.avif",
+    ingredients: [
+      "Potato",
+      "Oil",
+    ],
+    arrangements: [
+      "Tomato",
+      "Mayonaise",
+      "Wheat flour",
+      "Salt",
+      "pepper",
+    ],
+    category: "side",
+    price: 355,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Poached Egg",
+    image: "Poached_Egg.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+      "Soy sauce",
+    ],
+    arrangements: [
+      "Green onion",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+      "Salt",
+    ],
+    category: "side",
+    price: 301,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Baked Sweet Potato",
+    image: "Baked_Sweet_Potato.avif",
+    ingredients: [
+      "Sweet potato",
+    ],
+    arrangements: [
+      "Sugar",
+      "Butter",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Soy sauce",
+      "Oil",
+    ],
+    category: "side",
+    price: 202,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Bread",
+    image: "Bread.avif",
+    ingredients: [
+      "Wheat flour",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Sugar",
+      "Salt",
+    ],
+    category: "side",
+    price: 195,
+    bonus: "None"
+  },
+  {
+    name: "White Bread",
+    image: "White_Bread.avif",
+    ingredients: [
+      "Rice flour",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Sugar",
+      "Salt",
+    ],
+    category: "side",
+    price: 182,
+    bonus: "None"
+  },
+  {
+    name: "Cooked Rice",
+    image: "Cooked_Rice.avif",
+    ingredients: [
+      "Rice",
+    ],
+    arrangements: [
+      "Salt",
+      "Boiled seaweed",
+    ],
+    category: "side",
+    price: 91,
+    bonus: "None"
+  },
+  {
+    name: "Ultimate Curry",
+    image: "Ultimate_Curry.avif",
+    ingredients: [
+      "The ultimate curry",
+      "Giant tomato",
+      "Curled chili pepper",
+      "Yogurt+",
+    ],
+    arrangements: [
+      "Star potato",
+      "Brawny onion",
+      "Three-forked carrot",
+      "Golden apple",
+    ],
+    category: "main",
+    price: 12353,
+    bonus: "None"
+  },
+  {
+    name: "Fried rice noodle",
+    image: "Fried_rice_noodle.avif",
+    ingredients: [
+      "Rice flour",
+      "Monarch mushroom",
+      "Cabbage",
+      "Carrot",
+    ],
+    arrangements: [
+      "Onion",
+      "Green bell pepper",
+      "Soy sauce",
+      "pepper",
+      "Oil",
+    ],
+    category: "main",
+    price: 7508,
+    bonus: "None"
+  },
+  {
+    name: "Farmer's Breakfast",
+    image: "Farmer's_Breakfast.avif",
+    ingredients: [
+      "Potato",
+      "Onion",
+      "Cheese+",
+      "Mayonaise+",
+    ],
+    arrangements: [
+      "Nut oil",
+      "Olive oil",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "main",
+    price: 6957,
+    bonus: "None"
+  },
+  {
+    name: "Supreme curry",
+    image: "Supreme_curry.avif",
+    ingredients: [
+      "Curry rice",
+      "Star potato",
+      "Three-forked carrot",
+    ],
+    arrangements: [
+      "Giant tomato",
+      "Brawny onion",
+      "Golden apple",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+    ],
+    category: "main",
+    price: 3724,
+    bonus: "None"
+  },
+  {
+    name: "Pizzoccheri",
+    image: "Pizzoccheri.avif",
+    ingredients: [
+      "Buckweat",
+      "Cheese",
+      "Cabbage",
+      "Potato",
+    ],
+    arrangements: [
+      "Garlic",
+      "Butter",
+      "Salt",
+    ],
+    category: "main",
+    price: 2784,
+    bonus: "None"
+  },
+  {
+    name: "Tempura Soba",
+    image: "Tempura_Soba.avif",
+    ingredients: [
+      "Buckweat",
+      "Tempura",
+    ],
+    arrangements: [
+      "Green onion",
+      "Spinach",
+      "Egg",
+      "Silkie egg",
+      "Soy sauce",
+    ],
+    category: "main",
+    price: 2641,
+    bonus: "None"
+  },
+  {
+    name: "Milk Hot Pot",
+    image: "Milk_Hot_Pot.avif",
+    ingredients: [
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Carrot",
+      "Napa cabbage",
+      "Spinach",
+    ],
+    arrangements: [
+      "Potato",
+      "Cabbage",
+      "Green onion",
+      "Shimeji mushroom",
+      "Butter",
+    ],
+    category: "main",
+    price: 2640,
+    bonus: "None"
+  },
+  {
+    name: "Macaroni & Cheese",
+    image: "Macaroni_&_Cheese.avif",
+    ingredients: [
+      "Wheat flour",
+      "Cheese",
+      "Butter",
+      "Mayonaise",
+    ],
+    arrangements: [
+      "Onion",
+      "Shimeji mushroom",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 2592,
+    bonus: "None"
+  },
+  {
+    name: "Hot Pot",
+    image: "Hot_Pot.avif",
+    ingredients: [
+      "Radish",
+      "Napa cabbage",
+      "Green onion",
+      ["Nile perch", "Salmon", "Masu trout", "Cherry salmon", "Brown trout", "Yellow perch", "Sweetfish"],
+    ],
+    arrangements: [
+      "Carrot",
+      "Spinach",
+      "Bok choy",
+      "Chili pepper",
+      "Soy milk",
+      "Soy sauce",
+    ],
+    category: "main",
+    price: 2487,
+    bonus: "None"
+  },
+  {
+    name: "Ukha",
+    image: "Ukha.avif",
+    ingredients: [
+      ["Nile perch", "Salmon", "Masu trout", "Cherry salmon", "Brown trout", "Yellow perch", "Sweetfish"],
+      "Carrot",
+      "Potato",
+      "Onion",
+    ],
+    arrangements: [
+      "Lemon",
+      "Butter",
+      "Salmon",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 2324,
+    bonus: "None"
+  },
+  {
+    name: "Mushroom Polenta",
+    image: "Mushroom_Polenta.avif",
+    ingredients: [
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      "Corn",
+      "Butter",
+      "Cheese",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Salt",
+      "pepper",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "main",
+    price: 2295,
+    bonus: "None"
+  },
+  {
+    name: "Tempura Udon",
+    image: "Tempura_Udon.avif",
+    ingredients: [
+      "Wheat flour",
+      "Tempura",
+    ],
+    arrangements: [
+      "Egg",
+      "Silkie egg",
+      "Seaweed",
+      "Fried tofu",
+      "Soy sauce",
+    ],
+    category: "main",
+    price: 2188,
+    bonus: "None"
+  },
+  {
+    name: "Marinated Fish",
+    image: "Marinated_Fish.avif",
+    ingredients: [
+      ["Nile perch", "Salmon", "Masu trout", "Cherry salmon", "Brown trout", "Yellow perch", "Sweetfish"],
+      "Onion",
+      "Vinegar",
+      "Lemon",
+    ],
+    arrangements: [
+      "Salt",
+      "pepper",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "main",
+    price: 2160,
+    bonus: "None"
+  },
+  {
+    name: "Tempura Rice Bowl",
+    image: "Tempura_Rice_Bowl.avif",
+    ingredients: [
+      "Tempura",
+      "Rice",
+    ],
+    arrangements: [
+      "Egg",
+      "Silkie egg",
+      "Soy sauce",
+      "Salt",
+      "Sugar",
+    ],
+    category: "main",
+    price: 2089,
+    bonus: "None"
+  },
+  {
+    name: "Raclette Cheese",
+    image: "Raclette_Cheese.avif",
+    ingredients: [
+      "Cheese",
+      "Corn",
+      "Carrot",
+      "Broccoli",
+    ],
+    arrangements: [
+      "Asparagus",
+      "French fries",
+      "Toast",
+      "Butter",
+      "Salt",
+      "pepper",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "main",
+    price: 1901,
+    bonus: "None"
+  },
+  {
+    name: "Pasta Salad",
+    image: "Pasta_Salad.avif",
+    ingredients: [
+      "Pasta",
+      "Mixed salad",
+      "Mayonaise",
+    ],
+    arrangements: [
+      "Penne pasta",
+      "Herbal pasta",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Olive oil",
+      "Salt",
+      "pepper",
+      "Vinegar",
+      "Hot spring eggs",
+    ],
+    category: "main",
+    price: 1617,
+    bonus: "None"
+  },
+  {
+    name: "Matsutake Rice",
+    image: "Matsutake_Rice.avif",
+    ingredients: [
+      "Rice",
+      "Matsutake mushroom",
+      "Soy sauce",
+    ],
+    arrangements: [
+      "Carrot",
+      "Pumpkin",
+      "Fried tofu",
+      "Salt",
+    ],
+    category: "main",
+    price: 1760,
+    bonus: "None"
+  },
+  {
+    name: "Gratin",
+    image: "Gratin.avif",
+    ingredients: [
+      "Wheat flour",
+      "Cheese",
+      "Mayonaise",
+    ],
+    arrangements: [
+      "Onion",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Pasta",
+      "Butter",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 1568,
+    bonus: "None"
+  },
+  {
+    name: "Spaghetti Soup",
+    image: "Spaghetti_Soup.avif",
+    ingredients: [
+      "Pasta",
+      "Tomato",
+      ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
+      "Oil",
+    ],
+    arrangements: [
+      "Onion",
+      "Cabbage",
+      "Soybean",
+      "Shimeji mushroom",
+      "Mint",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+    ],
+    category: "main",
+    price: 1566,
+    bonus: "None"
+  },
+  {
+    name: "Risotto",
+    image: "Risotto.avif",
+    ingredients: [
+      "Rice",
+      "Cheese",
+      "Tomato",
+      "Onion",
+    ],
+    arrangements: [
+      "Garlic",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Olive oil",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 1552,
+    bonus: "None"
+  },
+  {
+    name: "Carpaccio",
+    image: "Carpaccio.avif",
+    ingredients: [
+      ["Yellow perch", "Snakehead", "Masu trout", "Char", "Salmon", "Icefish", "Cherry salmon"],
+      "Onion",
+      "Vinegar",
+    ],
+    arrangements: [
+      "Salt",
+      "pepper",
+      "Olive oil",
+    ],
+    category: "main",
+    price: 1469,
+    bonus: "None"
+  },
+  {
+    name: "Cheese Fondue",
+    image: "Cheese_Fondue.avif",
+    ingredients: [
+      "Cheese",
+      ["Bread", "White bread", "Bucket", "Focaccia"],
+      "Fondue",
+    ],
+    arrangements: [
+      "Garlic",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 1452,
+    bonus: "None"
+  },
+  {
+    name: "Mushroom Pasta",
+    image: "Mushroom_Pasta.avif",
+    ingredients: [
+      "Pasta",
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      "Butter",
+    ],
+    arrangements: [
+      "Green onion",
+      "Garlic",
+      "Salt",
+      "pepper",
+      "Soy sauce",
+      "Olive oil",
+      "Cheese",
+    ],
+    category: "main",
+    price: 1449,
+    bonus: "None"
+  },
+  {
+    name: "Fried Udon",
+    image: "Fried_Udon.avif",
+    ingredients: [
+      "Wheat flour",
+      "Cabbage",
+      "Green bell pepper",
+      "Soy sauce",
+    ],
+    arrangements: [
+      "Carrot",
+      "Green onion",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Fish cake",
+      "Sugar",
+      "Oil",
+    ],
+    category: "main",
+    price: 1437,
+    bonus: "None"
+  },
+  {
+    name: "Inari Sushi",
+    image: "Inari_Sushi.avif",
+    ingredients: [
+      "Rice",
+      "Fried tofu",
+      "Vinegar",
+      "Sugar",
+    ],
+    arrangements: [
+      "Carrot",
+      "Burdock",
+      "Soybean",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Soy sauce",
+    ],
+    category: "main",
+    price: 1437,
+    bonus: "None"
+  },
+  {
+    name: "Spicy Curry",
+    image: "Spicy_Curry.avif",
+    ingredients: [
+      "Rice",
+      "Curry powder",
+      "Spice",
+      ["Potato", "Carrot", "Onion"],
+    ],
+    arrangements: [
+      "Tomato",
+      "Garlic",
+      "Apple",
+    ],
+    category: "main",
+    price: 1424,
+    bonus: "None"
+  },
+  {
+    name: "Omelet Rice",
+    image: "Omelet_Rice.avif",
+    ingredients: [
+      "Omelet",
+      "Rice",
+    ],
+    arrangements: [
+      "Onion",
+      "Tomato",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Salt",
+      "pepper",
+      "Oil",
+    ],
+    category: "main",
+    price: 1410,
+    bonus: "None"
+  },
+  {
+    name: "Spaghetti Peperoncino",
+    image: "Spaghetti_Peperoncino.avif",
+    ingredients: [
+      "Pasta",
+      "Chili pepper",
+      "Garlic",
+      "Oil",
+    ],
+    arrangements: [
+      "Shimeji mushroom",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Salt",
+      "pepper",
+      "Cheese",
+    ],
+    category: "main",
+    price: 1410,
+    bonus: "None"
+  },
+  {
+    name: "Seaweed Curry",
+    image: "Seaweed_Curry.avif",
+    ingredients: [
+      "Rice",
+      "Curry powder",
+      "Seaweed",
+      ["Potato", "Carrot", "Onion"],
+    ],
+    arrangements: [
+      "Tomato",
+      "Garlic",
+      "Apple",
+    ],
+    category: "main",
+    price: 1388,
+    bonus: "None"
+  },
+  {
+    name: "Jam-Filled Bun",
+    image: "Jam-Filled_Bun.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Grape jam", "Apple jam", "Blueberry jam", "Strawberry jam"],
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Sugar",
+      "Salt",
+    ],
+    category: "main",
+    price: 1339,
+    bonus: "None"
+  },
+  {
+    name: "Milk Curry",
+    image: "Milk_Curry.avif",
+    ingredients: [
+      "Rice",
+      "Curry powder",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      ["Potato", "Carrot", "Onion"],
+    ],
+    arrangements: [
+      "Tomato",
+      "Garlic",
+      "Apple",
+      "Butter",
+      "Cheese",
+    ],
+    category: "main",
+    price: 1334,
+    bonus: "None"
+  },
+  {
+    name: "Burgandy Fondue",
+    image: "Burgandy_Fondue.avif",
+    ingredients: [
+      "Olive oil",
+      ["Bread", "White bread", "Bucket", "Focaccia"],
+      "Fondue",
+    ],
+    arrangements: [
+      "Garlic",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 1325,
+    bonus: "None"
+  },
+  {
+    name: "Fried Rice",
+    image: "Fried_Rice.avif",
+    ingredients: [
+      "Rice",
+      ["Egg", "Silkie egg"],
+      "Onion",
+      "Carrot",
+    ],
+    arrangements: [
+      "Cabbage",
+      "Green bell pepper",
+      "Green onion",
+      "Soy sauce",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 1316,
+    bonus: "None"
+  },
+  {
+    name: "Rainbow Curry",
+    image: "Rainbow_Curry.avif",
+    ingredients: [
+      "Rice",
+      "Curry powder",
+      "Spinach",
+      "Red bell pepper",
+    ],
+    arrangements: [
+      "Tomato",
+      "Garlic",
+      "Apple",
+    ],
+    category: "main",
+    price: 1304,
+    bonus: "None"
+  },
+  {
+    name: "Yakisoba",
+    image: "Yakisoba.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      "Cabbage",
+    ],
+    arrangements: [
+      "Carrot",
+      "Green onion",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Shimeji mushroom",
+      "Soy sauce",
+      "Sugar",
+      "Oil",
+    ],
+    category: "main",
+    price: 1271,
+    bonus: "None"
+  },
+  {
+    name: "Unadon",
+    image: "Unadon.avif",
+    ingredients: [
+      "Rice",
+      "Eel",
+      "Soy sauce",
+      "Sugar",
+    ],
+    arrangements: [
+      "Green onion",
+      "Seaweed",
+      "Sencha",
+    ],
+    category: "main",
+    price: 1262,
+    bonus: "None"
+  },
+  {
+    name: "Fried Matsutake Mushrooms",
+    image: "Fried_Matsutake_Mushrooms.avif",
+    ingredients: [
+      "Matsutake mushroom",
+    ],
+    arrangements: [
+      "Salt",
+      "pepper",
+      "Pumpkin oil",
+      "Grape oil",
+    ],
+    category: "main",
+    price: 1200,
+    bonus: "None"
+  },
+  {
+    name: "Rice Gratin",
+    image: "Rice_Gratin.avif",
+    ingredients: [
+      "Rice",
+      "Cheese",
+      "Buffalo milk",
+    ],
+    arrangements: [
+      "Onion",
+      "Shimeji mushroom",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Butter",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 1188,
+    bonus: "None"
+  },
+  {
+    name: "Herb Bread",
+    image: "Herb_Bread.avif",
+    ingredients: [
+      "Wheat flour",
+      "Herbal butter",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Sugar",
+      "Salt",
+    ],
+    category: "main",
+    price: 1182,
+    bonus: "None"
+  },
+  {
+    name: "Okonomikaki",
+    image: "Okonomikaki.avif",
+    ingredients: [
+      "Wheat flour",
+      "Cabbage",
+      ["Egg", "Silkie egg"],
+    ],
+    arrangements: [
+      "Green onion",
+      "Mayonaise",
+      "Mochi",
+      "Fried egg",
+      "Pasta",
+    ],
+    category: "main",
+    price: 1172,
+    bonus: "None"
+  },
+  {
+    name: "Tempura",
+    image: "Tempura.avif",
+    ingredients: [
+      "Wheat flour",
+      "Oil",
+      ["Egg", "Silkie egg"],
+      ["Shiitake mushroom", "Pumpkin", "Eggplant", "Sweet potato", "Icefish", "Pond smelt"],
+    ],
+    arrangements: [
+      "Radish",
+      "Salt",
+    ],
+    category: "main",
+    price: 1152,
+    bonus: "None"
+  },
+  {
+    name: "Paella",
+    image: "Paella.avif",
+    ingredients: [
+      "Rice",
+      ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
+      "Red bell pepper",
+      "Spice",
+    ],
+    arrangements: [
+      "Tomato",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Olive oil",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 1151,
+    bonus: "None"
+  },
+  {
+    name: "Boiled Tofu",
+    image: "Boiled_Tofu.avif",
+    ingredients: [
+      "Tofu",
+      "Napa cabbage",
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+    ],
+    arrangements: [
+      "Spinach",
+      "Bok choy",
+      "Radish",
+      "Green onion",
+      "Soy sauce",
+      "Vinegar",
+    ],
+    category: "main",
+    price: 1147,
+    bonus: "None"
+  },
+  {
+    name: "Pizza",
+    image: "Pizza.avif",
+    ingredients: [
+      "Wheat flour",
+      "Tomato",
+      "Cheese",
+    ],
+    arrangements: [
+      "Green bell pepper",
+      "Onion",
+      "Asparagus",
+      "Corn",
+      "Pineapple",
+    ],
+    category: "main",
+    price: 1142,
+    bonus: "None"
+  },
+  {
+    name: "Bok Choy Soy Cream Stew",
+    image: "Bok_Choy_Soy_Cream_Stew.avif",
+    ingredients: [
+      "Bok choy",
+      "Soy milk",
+      "Butter",
+    ],
+    arrangements: [
+      "Sugar",
+      "Salt",
+      "pepper",
+      "Oil",
+      "Shimeji mushroom",
+    ],
+    category: "main",
+    price: 1131,
+    bonus: "None"
+  },
+  {
+    name: "Curry Bread",
+    image: "Curry_Bread.avif",
+    ingredients: [
+      "Wheat flour",
+      "Curry powder",
+      "Oil",
+    ],
+    arrangements: [
+      "Egg",
+      "Silkie egg",
+      "Sugar",
+      "Salt",
+    ],
+    category: "main",
+    price: 1073,
+    bonus: "None"
+  },
+  {
+    name: "Meuniere Fish",
+    image: "Meuniere_Fish.avif",
+    ingredients: [
+      ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
+      "Wheat flour",
+      "Oil",
+    ],
+    arrangements: [
+      "Lemon",
+      "Butter",
+      "Olive oil",
+    ],
+    category: "main",
+    price: 1073,
+    bonus: "None"
+  },
+  {
+    name: "Rice & Mixed Vegetables",
+    image: "Rice_&_Mixed_Vegetables.avif",
+    ingredients: [
+      "Rice",
+      "Fried tofu",
+      "Carrot",
+    ],
+    arrangements: [
+      "Radish",
+      "Burdock",
+      "Shimeji mushroom",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Soy sauce",
+      "Salt",
+    ],
+    category: "main",
+    price: 1052,
+    bonus: "None"
+  },
+  {
+    name: "Pink Fondue",
+    image: "Pink_Fondue.avif",
+    ingredients: [
+      "Red grape",
+      ["Bread", "White bread", "Bucket", "Focaccia"],
+      "Fondue",
+    ],
+    arrangements: [
+      "Garlic",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 937,
+    bonus: "None"
+  },
+  {
+    name: "Curry Rice",
+    image: "Curry_Rice.avif",
+    ingredients: [
+      "Rice",
+      "Curry powder",
+      ["Potato", "Carrot", "Onion"],
+    ],
+    arrangements: [
+      "Tomato",
+      "Garlic",
+      "Apple",
+    ],
+    category: "main",
+    price: 911,
+    bonus: "None"
+  },
+  {
+    name: "Vegetable Curry",
+    image: "Vegetable_Curry.avif",
+    ingredients: [
+      "Rice",
+      "Curry powder",
+      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red bell pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
+    ],
+    arrangements: [
+      "Garlic",
+      "Apple",
+    ],
+    category: "main",
+    price: 911,
+    bonus: "None"
+  },
+  {
+    name: "Mushroom Rice",
+    image: "Mushroom_Rice.avif",
+    ingredients: [
+      "Rice",
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+    ],
+    arrangements: [
+      "Green onion",
+      "Fried tofu",
+      "Soy sauce",
+      "Salt",
+    ],
+    category: "main",
+    price: 874,
+    bonus: "None"
+  },
+  {
+    name: "Chirashi Sushi",
+    image: "Chirashi_Sushi.avif",
+    ingredients: [
+      "Sashimi",
+      "Rice",
+      "Vinegar",
+      ["Egg", "Silkie egg"],
+    ],
+    arrangements: [
+      "Carrot",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Soybean",
+      "Soy sauce",
+      "Sugar",
+      "Salt",
+      "Seaweed",
+    ],
+    category: "main",
+    price: 867,
+    bonus: "None"
+  },
+  {
+    name: "Zaru Soba",
+    image: "Zaru_Soba.avif",
+    ingredients: [
+      "Buckweat",
+      "Wheat flour",
+    ],
+    arrangements: [
+      "Green onion",
+      "Seaweed",
+      "Soy sauce",
+      "Sugar",
+    ],
+    category: "main",
+    price: 838,
+    bonus: "None"
+  },
+  {
+    name: "Dry curry",
+    image: "Dry_curry.avif",
+    ingredients: [
+      "Rice",
+      "Curry powder",
+      "Tomato",
+      "Soybean",
+    ],
+    arrangements: [
+      "Onion",
+      "Garlic",
+      "Carrot",
+      "Green bell pepper",
+      "Boiled egg",
+    ],
+    category: "main",
+    price: 837,
+    bonus: "None"
+  },
+  {
+    name: "Bouillabaisse",
+    image: "Bouillabaisse.avif",
+    ingredients: [
+      "Tomato",
+      ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
+      "Oil",
+    ],
+    arrangements: [
+      "Onion",
+      "Garlic",
+      "Salt",
+      "pepper",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+    ],
+    category: "main",
+    price: 835,
+    bonus: "None"
+  },
+  {
+    name: "Herb Sandwich",
+    image: "Herb_Sandwich.avif",
+    ingredients: [
+      ["Bread", "White bread", "Bucket", "Focaccia"],
+      "Herb",
+      "Mayonaise",
+    ],
+    arrangements: [
+      "Tomato",
+      "Onion",
+      "Mayonaise",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+    ],
+    category: "main",
+    price: 817,
+    bonus: "None"
+  },
+  {
+    name: "Steamed Mushrooms",
+    image: "Steamed_Mushrooms.avif",
+    ingredients: [
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      "Butter",
+    ],
+    arrangements: [
+      "Salt",
+      "pepper",
+      "Nut oil",
+      "Herb oil",
+      "Olive oil",
+    ],
+    category: "main",
+    price: 809,
+    bonus: "None"
+  },
+  {
+    name: "Tofu Steak",
+    image: "Tofu_Steak.avif",
+    ingredients: [
+      "Tofu",
+      ["Wheat flour", "Rice flour"],
+      "Oil",
+    ],
+    arrangements: [
+      "Green onion",
+      "Soy sauce",
+      "Sugar",
+    ],
+    category: "main",
+    price: 809,
+    bonus: "None"
+  },
+  {
+    name: "Milk Rice Porridge",
+    image: "Milk_Rice_Porridge.avif",
+    ingredients: [
+      "Rice",
+      "Salt",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Onion",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Shimeji mushroom",
+      "Butter",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 801,
+    bonus: "None"
+  },
+  {
+    name: "Fried Onigiri",
+    image: "Fried_Onigiri.avif",
+    ingredients: [
+      "Onigiri",
+      "Soy sauce",
+    ],
+    arrangements: [
+      "Seaweed",
+      "Green tea",
+      "Sencha",
+    ],
+    category: "main",
+    price: 735,
+    bonus: "None"
+  },
+  {
+    name: "Omelet",
+    image: "Omelet.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+      "Butter",
+    ],
+    arrangements: [
+      "Onion",
+      "Tomato",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 721,
+    bonus: "None"
+  },
+  {
+    name: "Donburi Rice Bowl",
+    image: "Donburi_Rice_Bowl.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+      "Onion",
+      "Rice",
+    ],
+    arrangements: [
+      "Green onion",
+      "Soy sauce",
+      "Sugar",
+      "Seaweed",
+    ],
+    category: "main",
+    price: 664,
+    bonus: "None"
+  },
+  {
+    name: "Sushi",
+    image: "Sushi.avif",
+    ingredients: [
+      "Sashimi",
+      "Rice",
+      "Vinegar",
+    ],
+    arrangements: [
+      "Cucumber",
+      "Soy sauce",
+      "Sugar",
+      "Salt",
+      "Seaweed",
+    ],
+    category: "main",
+    price: 657,
+    bonus: "None"
+  },
+  {
+    name: "Tomato Fondue",
+    image: "Tomato_Fondue.avif",
+    ingredients: [
+      "Tomato",
+      ["Bread", "White bread", "Bucket", "Focaccia"],
+      "Fondue",
+    ],
+    arrangements: [
+      "Garlic",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 650,
+    bonus: "None"
+  },
+  {
+    name: "Udon",
+    image: "Udon.avif",
+    ingredients: [
+      "Wheat flour",
+      "Fish cake",
+      "Green onion",
+    ],
+    arrangements: [
+      "Egg",
+      "Silkie egg",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Seaweed",
+      "Fried tofu",
+      "Soy sauce",
+    ],
+    category: "main",
+    price: 647,
+    bonus: "None"
+  },
+  {
+    name: "Herb Rice Porridge",
+    image: "Herb_Rice_Porridge.avif",
+    ingredients: [
+      "Rice",
+      "Salt",
+      "Herb",
+    ],
+    arrangements: [
+      "Green onion",
+      "Egg",
+      "Silkie egg",
+    ],
+    category: "main",
+    price: 647,
+    bonus: "None"
+  },
+  {
+    name: "Fruit Sandwich",
+    image: "Fruit_Sandwich.avif",
+    ingredients: [
+      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Mint",
+      "Chocolate",
+      "Sugar",
+    ],
+    category: "main",
+    price: 647,
+    bonus: "None"
+  },
+  {
+    name: "Herb Pasta",
+    image: "Herb_Pasta.avif",
+    ingredients: [
+      "Wheat flour",
+      "Herb",
+      "Oil",
+    ],
+    arrangements: [
+      "Tomato",
+      "Cucumber",
+      "Garlic",
+      "Avocado",
+      "Cheese",
+    ],
+    category: "main",
+    price: 616,
+    bonus: "None"
+  },
+  {
+    name: "Penne Pasta",
+    image: "Penne_Pasta.avif",
+    ingredients: [
+      "Wheat flour",
+      "Oil",
+      "Tomato",
+    ],
+    arrangements: [
+      "Avocado",
+      "Cheese",
+    ],
+    category: "main",
+    price: 604,
+    bonus: "None"
+  },
+  {
+    name: "Rice Porridge",
+    image: "Rice_Porridge.avif",
+    ingredients: [
+      "Rice",
+      "Salt",
+    ],
+    arrangements: [
+      "Green onion",
+      "Egg",
+      "Silkie egg",
+    ],
+    category: "main",
+    price: 544,
+    bonus: "None"
+  },
+  {
+    name: "Simmered Fish",
+    image: "Simmered_Fish.avif",
+    ingredients: [
+      ["Blugill", "Willow shiner", "Killifish", "Stone moroko", "Pond smelt", "Sweetfish", "Eel", "Eel", "Goldfish", "Crucian carp"],
+      "Soy sauce",
+    ],
+    arrangements: [
+      "Green onion",
+      "Burdock",
+      "Sugar",
+    ],
+    category: "main",
+    price: 451,
+    bonus: "None"
+  },
+  {
+    name: "Raisin Bread",
+    image: "Raisin_Bread.avif",
+    ingredients: [
+      "Wheat flour",
+      "Red grape",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Sugar",
+      "Salt",
+    ],
+    category: "main",
+    price: 444,
+    bonus: "None"
+  },
+  {
+    name: "Sandwich",
+    image: "Sandwich.avif",
+    ingredients: [
+      ["Bread", "White bread", "Bucket", "Focaccia"],
+      "Tomato",
+      "Cucumber",
+    ],
+    arrangements: [
+      "Boiled egg",
+      "Cheese",
+      "Butter",
+      "Mayonaise",
+    ],
+    category: "main",
+    price: 375,
+    bonus: "None"
+  },
+  {
+    name: "Onigiri",
+    image: "Onigiri.avif",
+    ingredients: [
+      "Rice",
+      "Seaweed",
+    ],
+    arrangements: [
+      "Soybean",
+      "Shimeji mushroom",
+      "Matsutake mushroom",
+      "Salmon",
+      "Salt",
+    ],
+    category: "main",
+    price: 370,
+    bonus: "None"
+  },
+  {
+    name: "Fried Eggplant",
+    image: "Fried_Eggplant.avif",
+    ingredients: [
+      "Eggplant",
+      "Oil",
+    ],
+    arrangements: [
+      "Green onion",
+      "Soy sauce",
+      "Salt",
+    ],
+    category: "main",
+    price: 342,
+    bonus: "None"
+  },
+  {
+    name: "Chestnut Rice",
+    image: "Chestnut_Rice.avif",
+    ingredients: [
+      "Rice",
+      "Chestnut",
+    ],
+    arrangements: [
+      "Sweet potato",
+      "Chestnut powder",
+      "Salt",
+    ],
+    category: "main",
+    price: 329,
+    bonus: "None"
+  },
+  {
+    name: "Pasta",
+    image: "Pasta.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+    ],
+    arrangements: [
+      "Tomato",
+      "Cucumber",
+      "Garlic",
+      "Eggplant",
+      "Cheese",
+    ],
+    category: "main",
+    price: 328,
+    bonus: "None"
+  },
+  {
+    name: "Egg Over Rice",
+    image: "Egg_Over_Rice.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+      "Rice",
+    ],
+    arrangements: [
+      "Green onion",
+      "Cheese",
+      "Soy sauce",
+      "Salt",
+      "pepper",
+    ],
+    category: "main",
+    price: 246,
+    bonus: "None"
+  },
+  {
+    name: "Grilled Fish",
+    image: "Grilled_Fish.avif",
+    ingredients: [
+      ["Amur minnow", "Dace", "Pale chub", "Sculpin", "Dark chub", "Bitterling", "Tamoroko", "Rainbow trout", "Silver carp", "Basa"],
+    ],
+    arrangements: [
+      "Radish",
+      "Soy sauce",
+    ],
+    category: "main",
+    price: 195,
+    bonus: "None"
+  },
+  {
+    name: "Rüeblitorte",
+    image: "Rüeblitorte.avif",
+    ingredients: [
+      "Wheat flour",
+      "Silkie egg",
+      "Three-forked carrot",
+      "Lemon",
+    ],
+    arrangements: [
+      "Almond",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Breadcrumbs",
+      "White breadcrumbs",
+    ],
+    category: "dessert",
+    price: 2506,
+    bonus: "Jump distance up"
+  },
+  {
+    name: "Trifle",
+    image: "Trifle.avif",
+    ingredients: [
+      "Castella",
+      "Silkie egg+",
+      "Yogurt+",
+      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+    ],
+    arrangements: [
+      "Cookies",
+      "Herbal cookies",
+      "Walnut cookies",
+      "Chocolate cookies",
+    ],
+    category: "dessert",
+    price: 6192,
+    bonus: "Petting happiness Lv4"
+  },
+  {
+    name: "Pineapple pie",
+    image: "Pineapple_pie.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Butter",
+      "Jewej pineapple",
+    ],
+    arrangements: [
+      "Lemon",
+      "Sugar",
+      "Salt",
+    ],
+    category: "dessert",
+    price: 3130,
+    bonus: "Petting happiness Lv4"
+  },
+  {
+    name: "Cheese Cake",
+    image: "Cheese_Cake.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Buffalo milk",
+      "Cheese",
+    ],
+    arrangements: [
+      "Lemon",
+      "Butter",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 1602,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Steamed Cake",
+    image: "Steamed_Cake.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Pumpkin",
+    ],
+    arrangements: [
+      "Sweet potato",
+      "Butter",
+      "Rice flour",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 1422,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Cherry Pie",
+    image: "Cherry_Pie.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Butter",
+      "Cherry",
+    ],
+    arrangements: [
+      "Lemon",
+      "Sugar",
+      "Salt",
+    ],
+    category: "dessert",
+    price: 1404,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Blueberry Pie",
+    image: "Blueberry_Pie.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Butter",
+      "Blueberry",
+    ],
+    arrangements: [
+      "Lemon",
+      "Sugar",
+      "Salt",
+    ],
+    category: "dessert",
+    price: 1377,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Strawberry Pie",
+    image: "Strawberry_Pie.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Butter",
+      "Strawberry",
+    ],
+    arrangements: [
+      "Lemon",
+      "Sugar",
+      "Salt",
+    ],
+    category: "dessert",
+    price: 1368,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Donuts",
+    image: "Donuts.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Sugar",
+      "Oil",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+    ],
+    category: "dessert",
+    price: 1332,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Churros",
+    image: "Churros.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Sugar",
+      "Oil",
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Butter",
+      "Chocolate",
+    ],
+    category: "dessert",
+    price: 1332,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Chocolate Cake",
+    image: "Chocolate_Cake.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Chocolate",
+    ],
+    arrangements: [
+      "Cocoa",
+      "Butter",
+      "Matcha tea tin",
+    ],
+    category: "dessert",
+    price: 1242,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Baumkuchen",
+    image: "Baumkuchen.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Sugar",
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Butter",
+    ],
+    category: "dessert",
+    price: 1242,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Engadiner Nusstorte",
+    image: "Engadiner_Nusstorte.avif",
+    ingredients: [
+      "Wheat flour",
+      "Silkie egg",
+      "Sugar",
+      "Walnut",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "dessert",
+    price: 1206,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Pancakes",
+    image: "Pancakes.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      ["Honey", "Invigorating honey", "Mellow honey", "Royal honey"],
+    ],
+    arrangements: [
+      "Butter",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 1152,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Fruit Dumplings",
+    image: "Fruit_Dumplings.avif",
+    ingredients: [
+      "Shiratama powder",
+      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+    ],
+    arrangements: [
+      "Mint",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 1089,
+    bonus: "Petting happiness Lv3"
+  },
+  {
+    name: "Sweet Potato Cakes",
+    image: "Sweet_Potato_Cakes.avif",
+    ingredients: [
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Sugar",
+      "Sweet potato",
+    ],
+    arrangements: [
+      "Egg",
+      "Silkie egg",
+      "Butter",
+      "Salt",
+    ],
+    category: "dessert",
+    price: 932,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Chocolate Fondue",
+    image: "Chocolate_Fondue.avif",
+    ingredients: [
+      "Chocolate",
+      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Apple", "Red grape", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 924,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Baked Apple",
+    image: "Baked_Apple.avif",
+    ingredients: [
+      "Apple",
+      "Butter",
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 838,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Ice Cream",
+    image: "Ice_Cream.avif",
+    ingredients: [
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      ["Egg", "Silkie egg"],
+      "Sugar",
+    ],
+    arrangements: [
+      "Mint",
+      "Chocolate",
+      "Straight tea",
+    ],
+    category: "dessert",
+    price: 832,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Castella",
+    image: "Castella.avif",
+    ingredients: [
+      "Wheat flour",
+      "Silkie egg",
+      ["Honey", "Invigorating honey", "Mellow honey", "Royal honey"],
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Rice flour",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 801,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Strawberry Mochi",
+    image: "Strawberry_Mochi.avif",
+    ingredients: [
+      "Mochi",
+      "Strawberry",
+    ],
+    arrangements: [
+      "Shiratama powder",
+      "Sugar",
+      "Salt",
+    ],
+    category: "dessert",
+    price: 618,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Cake",
+    image: "Cake.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Strawberry",
+      "Lemon",
+      "Mango",
+      "Cheese",
+      "Butter",
+    ],
+    category: "dessert",
+    price: 601,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Egg Tart",
+    image: "Egg_Tart.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Wheat flour",
+    ],
+    arrangements: [
+      "Sugar",
+      "Butter",
+      "Almond",
+    ],
+    category: "dessert",
+    price: 601,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Dango",
+    image: "Dango.avif",
+    ingredients: [
+      "Shiratama powder",
+    ],
+    arrangements: [
+      "Rice flour",
+      "Soy flour",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 588,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Wrapped Rice Cakes",
+    image: "Wrapped_Rice_Cakes.avif",
+    ingredients: [
+      "Mochi",
+      "Summer blend tea tin",
+    ],
+    arrangements: [
+      "Carrot",
+      "Egg",
+      "Silkie egg",
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Sugar",
+      "Soy sauce",
+    ],
+    category: "dessert",
+    price: 544,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Walnut Cookies",
+    image: "Walnut_Cookies.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Walnut",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 524,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Soy Milk Pudding",
+    image: "Soy_Milk_Pudding.avif",
+    ingredients: [
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      ["Egg", "Silkie egg"],
+      "Soy milk",
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 501,
+    bonus: "Petting happiness Lv2"
+  },
+  {
+    name: "Herb Cookies",
+    image: "Herb_Cookies.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Herb",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 415,
+    bonus: "Petting happiness Lv1"
+  },
+  {
+    name: "Toasted Mochi",
+    image: "Toasted_Mochi.avif",
+    ingredients: [
+      "Mochi",
+    ],
+    arrangements: [
+      "Soy flour",
+      "Sugar",
+      "Soy sauce",
+      "Seaweed",
+    ],
+    category: "dessert",
+    price: 390,
+    bonus: "Petting happiness Lv1"
+  },
+  {
+    name: "Chestnut Paste",
+    image: "Chestnut_Paste.avif",
+    ingredients: [
+      "Chestnut powder",
+    ],
+    arrangements: [
+      "Sweet potato",
+      "Sugar",
+      "Salt",
+    ],
+    category: "dessert",
+    price: 390,
+    bonus: "Petting happiness Lv1"
+  },
+  {
+    name: "Whole Cheesecake",
+    image: "Whole_Cheesecake.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg+", "Silkie egg+"],
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Cheese",
+    ],
+    arrangements: [
+      "Lemon",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Butter",
+      "Sugar",
+      "Cookies",
+    ],
+    category: "dessert",
+    price: 2746,
+    bonus: "Petting rare item % Lv4"
+  },
+  {
+    name: "Whole chocolate cake",
+    image: "Whole_chocolate_cake.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg+", "Silkie egg+"],
+      ["Milk+", "Buffalo milk+"],
+      "Chocolate",
+    ],
+    arrangements: [
+      "Butter",
+      "Sugar",
+      "Chocolate cookies",
+    ],
+    category: "dessert",
+    price: 1786,
+    bonus: "Petting rare item % Lv4"
+  },
+  {
+    name: "Apple Pie",
+    image: "Apple_Pie.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Butter",
+      "Apple",
+    ],
+    arrangements: [
+      "Lemon",
+      "Sugar",
+      "Salt",
+    ],
+    category: "dessert",
+    price: 1458,
+    bonus: "Petting rare item % Lv3"
+  },
+  {
+    name: "Whole Cake",
+    image: "Whole_Cake.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg+", "Silkie egg+"],
+      ["Milk+", "Buffalo milk+"],
+      "Strawberry",
+    ],
+    arrangements: [
+      "Butter",
+      "Sugar",
+      "Chocolate",
+    ],
+    category: "dessert",
+    price: 1350,
+    bonus: "Petting rare item % Lv3"
+  },
+  {
+    name: "Mont Blanc Cake",
+    image: "Mont_Blanc_Cake.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      "Chestnut powder",
+    ],
+    arrangements: [
+      "Butter",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 1242,
+    bonus: "Petting rare item % Lv3"
+  },
+  {
+    name: "Pumpkin Pudding",
+    image: "Pumpkin_Pudding.avif",
+    ingredients: [
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      ["Egg", "Silkie egg"],
+      "Pumpkin",
+    ],
+    arrangements: [
+      "Pumpkin seeds",
+      "Sugar",
+      "Butter",
+    ],
+    category: "dessert",
+    price: 986,
+    bonus: "Petting rare item % Lv2"
+  },
+  {
+    name: "Chocolate Cookies",
+    image: "Chocolate_Cookies.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Chocolate",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 832,
+    bonus: "Petting rare item % Lv2"
+  },
+  {
+    name: "Honey Cake",
+    image: "Honey_Cake.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      ["Honey", "Invigorating honey", "Mellow honey", "Royal honey"],
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Chamomile",
+    ],
+    category: "dessert",
+    price: 755,
+    bonus: "Petting rare item % Lv2"
+  },
+  {
+    name: "Chocolate-Covered Banana",
+    image: "Chocolate-Covered_Banana.avif",
+    ingredients: [
+      "Banana",
+      "Chocolate",
+    ],
+    arrangements: [
+      "Sugar",
+      "Oil",
+    ],
+    category: "dessert",
+    price: 735,
+    bonus: "Petting rare item % Lv2"
+  },
+  {
+    name: "Pudding",
+    image: "Pudding.avif",
+    ingredients: [
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      ["Egg", "Silkie egg"],
+    ],
+    arrangements: [
+      "Sugar",
+      "Butter",
+    ],
+    category: "dessert",
+    price: 328,
+    bonus: "Petting rare item % Lv1"
+  },
+  {
+    name: "Cookies",
+    image: "Cookies.avif",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Butter",
+      "Sugar",
+    ],
+    category: "dessert",
+    price: 328,
+    bonus: "Petting rare item % Lv1"
+  },
+  {
+    name: "Soy Milk",
+    image: "Soy_Milk.avif",
+    ingredients: [
+      "Soybean",
+    ],
+    arrangements: [
+      "Banana",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Black tea tin",
+      "Sugar",
+      "Soy flour",
+    ],
+    category: "other",
+    price: 85,
+    bonus: "Max stamina up Lv1"
+  },
+  {
+    name: "Honey Juice",
+    image: "Honey_Juice.avif",
+    ingredients: [
+      ["Honey", "Invigorating honey", "Mellow honey", "Royal honey"],
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+    ],
+    category: "other juice",
+    price: 325,
+    bonus: "Stamina saver Lv1"
+  },
+  {
+    name: "Simmered Seaweed",
+    image: "Simmered_Seaweed.avif",
+    ingredients: [
+      "Seaweed",
+      "Soy sauce",
+    ],
+    arrangements: [
+      "Shiitake mushroom",
+      "Shimeji mushroom",
+      "Common mushroom",
+      "Porcini mushroom",
+      "Morel mushroom",
+      "Matsutake mushroom",
+      "Monarch mushroom",
+      "Soy sauce",
+      "Sugar",
+    ],
+    category: "other",
+    price: 424,
+    bonus: "Fishing rod durability up Lv1"
+  },
+  {
+    name: "Summer Blend Tea",
+    image: "Summer_Blend_Tea.avif",
+    ingredients: [
+      "Summer blend tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 1287,
+    bonus: "Movement speed up Lv3"
+  },
+  {
+    name: "Summer Juice",
+    image: "Summer_Juice.avif",
+    ingredients: [
+      "Banana",
+      "Peach",
+      "Lemon",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 1020,
+    bonus: "Movement speed up Lv3"
+  },
+  {
+    name: "Black Tea",
+    image: "Black_Tea.avif",
+    ingredients: [
+      "Black tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 401,
+    bonus: "Watering rare crop % Lv1"
+  },
+  {
+    name: "Golden blend tea",
+    image: "Golden_blend_tea.avif",
+    ingredients: [
+      "Golden blend tea tin",
+    ],
+    arrangements: [
+      "Heart lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Royal honey",
+    ],
+    category: "other tea",
+    price: 13031,
+    bonus: "Chat friendship boost Lv4"
+  },
+  {
+    name: "Watermelon Tea",
+    image: "Watermelon_Tea.avif",
+    ingredients: [
+      "Watermelon tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 2148,
+    bonus: "Chat friendship boost Lv4"
+  },
+  {
+    name: "Melon Tea",
+    image: "Melon_Tea.avif",
+    ingredients: [
+      "Melon tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 1901,
+    bonus: "Chat friendship boost Lv4"
+  },
+  {
+    name: "Jam Tea",
+    image: "Jam_Tea.avif",
+    ingredients: [
+      "Straight tea",
+      ["Grape jam", "Apple jam", "Blueberry jam", "Strawberry jam"],
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 1850,
+    bonus: "Chat friendship boost Lv4"
+  },
+  {
+    name: "Pineapple Tea",
+    image: "Pineapple_Tea.avif",
+    ingredients: [
+      "Pineapple tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 1320,
+    bonus: "Chat friendship boost Lv3"
+  },
+  {
+    name: "Spring Blend Tea",
+    image: "Spring_Blend_Tea.avif",
+    ingredients: [
+      "Sping blend tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 1287,
+    bonus: "Chat friendship boost Lv3"
+  },
+  {
+    name: "Royal Milk Tea",
+    image: "Royal_Milk_Tea.avif",
+    ingredients: [
+      "Black tea tin",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 1194,
+    bonus: "Chat friendship boost Lv3"
+  },
+  {
+    name: "Spring Juice",
+    image: "Spring_Juice.avif",
+    ingredients: [
+      "Strawberry",
+      "Orange",
+      "Cherry",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 935,
+    bonus: "Chat friendship boost Lv3"
+  },
+  {
+    name: "Strawberry Jam",
+    image: "Strawberry_Jam.avif",
+    ingredients: [
+      "Strawberry",
+      "Sugar",
+      "Lemon",
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other",
+    price: 855,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Fruit Juice",
+    image: "Fruit_Juice.avif",
+    ingredients: [
+      "Red grape",
+      "Apple",
+      "Orange",
+    ],
+    arrangements: [
+      "Strawberry",
+      "Cherry",
+      "Peach",
+      "Blueberry",
+    ],
+    category: "other juice",
+    price: 826,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Cappuccino",
+    image: "Cappuccino.avif",
+    ingredients: [
+      "Hot coffee",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Cocoa",
+      "Walnut",
+    ],
+    category: "other",
+    price: 780,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Cafe au Lait",
+    image: "Cafe_au_Lait.avif",
+    ingredients: [
+      "Hot coffee",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Butter",
+      "Sugar",
+      "Chocolate",
+      "Soy milk",
+      "Ice cream",
+    ],
+    category: "other",
+    price: 780,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Watermelon Juice",
+    image: "Watermelon_Juice.avif",
+    ingredients: [
+      "Watermelon",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 756,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Milk Tea",
+    image: "Milk_Tea.avif",
+    ingredients: [
+      "Black tea tin",
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 674,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Melon Juice",
+    image: "Melon_Juice.avif",
+    ingredients: [
+      "Melon",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 658,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Strawberry Tea",
+    image: "Strawberry_Tea.avif",
+    ingredients: [
+      "Strawberry tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 586,
+    bonus: "Chat friendship boost Lv2"
+  },
+  {
+    name: "Pineapple Juice",
+    image: "Pineapple_Juice.avif",
+    ingredients: [
+      "Pineapple",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 429,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Sencha Tea",
+    image: "Sencha_Tea.avif",
+    ingredients: [
+      "Sencha tea tin",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 401,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Pu'er Tea",
+    image: "Pu'er_Tea.avif",
+    ingredients: [
+      "Pu'er tea tin",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 401,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Oolong Tea",
+    image: "Oolong_Tea.avif",
+    ingredients: [
+      "Oolong tea tin",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+      "Mint",
+      "Chamomile",
+    ],
+    category: "other tea",
+    price: 401,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Chestnut Juice",
+    image: "Chestnut_Juice.avif",
+    ingredients: [
+      "Chestnut powder",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+      "Chocolate",
+      "Soy flour",
+    ],
+    category: "other juice",
+    price: 390,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Hot Coffee",
+    image: "Hot_Coffee.avif",
+    ingredients: [
+      "Coffee pack",
+    ],
+    arrangements: [
+      "Butter",
+      "Sugar",
+      "Chocolate",
+      "Soy milk",
+      "Ice cream",
+    ],
+    category: "other",
+    price: 380,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Matcha Tea",
+    image: "Matcha_Tea.avif",
+    ingredients: [
+      "Matcha tea tin",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 364,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Mint Tea",
+    image: "Mint_Tea.avif",
+    ingredients: [
+      "Mint tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 344,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Chamomile Tea",
+    image: "Chamomile_Tea.avif",
+    ingredients: [
+      "Chamomile tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 344,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Lavender Tea",
+    image: "Lavender_Tea.avif",
+    ingredients: [
+      "Lavender tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 344,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Walnut Juice",
+    image: "Walnut_Juice.avif",
+    ingredients: [
+      "Walnut powder",
+    ],
+    arrangements: [
+      "Banana",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Mint",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 260,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Warm Milk",
+    image: "Warm_Milk.avif",
+    ingredients: [
+      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    ],
+    arrangements: [
+      "Banana",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Chocolate",
+      "Soy flour",
+    ],
+    category: "other",
+    price: 195,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Green Tea",
+    image: "Green_Tea.avif",
+    ingredients: [
+      "Green tea tin",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 182,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Strawberry Juice",
+    image: "Strawberry_Juice.avif",
+    ingredients: [
+      "Strawberry",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 156,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Tomato Juice",
+    image: "Tomato_Juice.avif",
+    ingredients: [
+      "Tomato",
+    ],
+    arrangements: [
+      "Lemon",
+      "Mint",
+      "Salt",
+    ],
+    category: "other juice",
+    price: 55,
+    bonus: "Chat friendship boost Lv1"
+  },
+  {
+    name: "Speciality Juice",
+    image: "Speciality_Juice.avif",
+    ingredients: [
+      "Spring juice",
+      "Summer juice",
+      "Autumn juice",
+      "Royal honey",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Fruit yogurt",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 9511,
+    bonus: "Pet training up Lv4"
+  },
+  {
+    name: "Autumn blend tea",
+    image: "Autumn_blend_tea.avif",
+    ingredients: [
+      "Automn blend tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 1452,
+    bonus: "Pet training up Lv3"
+  },
+  {
+    name: "Autumn Juice",
+    image: "Autumn_Juice.avif",
+    ingredients: [
+      "Blueberry",
+      "Red grape",
+      "Apple",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 1010,
+    bonus: "Pet training up Lv3"
+  },
+  {
+    name: "Grape Jam",
+    image: "Grape_Jam.avif",
+    ingredients: [
+      "Red grape",
+      "Sugar",
+      "Lemon",
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other",
+    price: 1007,
+    bonus: "Pet training up Lv3"
+  },
+  {
+    name: "Apple Jam",
+    image: "Apple_Jam.avif",
+    ingredients: [
+      "Apple",
+      "Sugar",
+      "Lemon",
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other",
+    price: 932,
+    bonus: "Pet training up Lv3"
+  },
+  {
+    name: "Blueberry Jam",
+    image: "Blueberry_Jam.avif",
+    ingredients: [
+      "Blueberry",
+      "Sugar",
+      "Lemon",
+    ],
+    arrangements: [
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other",
+    price: 863,
+    bonus: "Pet training up Lv3"
+  },
+  {
+    name: "Banana Tea",
+    image: "Banana_Tea.avif",
+    ingredients: [
+      "Banana tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 832,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Mango Tea",
+    image: "Mango_Tea.avif",
+    ingredients: [
+      "Mango tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 832,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Green Grape Tea",
+    image: "Green_Grape_Tea.avif",
+    ingredients: [
+      "Green grape tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 777,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Red Grape Tea",
+    image: "Red_Grape_Tea.avif",
+    ingredients: [
+      "Red grape tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 755,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Apple Tea",
+    image: "Apple_Tea.avif",
+    ingredients: [
+      "Apple tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 740,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Cherry Tea",
+    image: "Cherry_Tea.avif",
+    ingredients: [
+      "Cherry tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 647,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Peach Tea",
+    image: "Peach_Tea.avif",
+    ingredients: [
+      "Peach tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 647,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Orange Tea",
+    image: "Orange_Tea.avif",
+    ingredients: [
+      "Orange tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 642,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Lemon Tea",
+    image: "Lemon_Tea.avif",
+    ingredients: [
+      "Lemon tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 632,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Blueberry Tea",
+    image: "Blueberry_Tea.avif",
+    ingredients: [
+      "Blueberry tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 601,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Olive Tea",
+    image: "Olive_Tea.avif",
+    ingredients: [
+      "Olive tea tin",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+      "Sugar",
+    ],
+    category: "other tea",
+    price: 586,
+    bonus: "Pet training up Lv2"
+  },
+  {
+    name: "Banana Juice",
+    image: "Banana_Juice.avif",
+    ingredients: [
+      "Banana",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 260,
+    bonus: "Pet training up Lv1"
+  },
+  {
+    name: "Mango Juice",
+    image: "Mango_Juice.avif",
+    ingredients: [
+      "Mango",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 260,
+    bonus: "Pet training up Lv1"
+  },
+  {
+    name: "Grape Juice",
+    image: "Grape_Juice.avif",
+    ingredients: [
+      "Red grape",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 228,
+    bonus: "Pet training up Lv1"
+  },
+  {
+    name: "Apple Juice",
+    image: "Apple_Juice.avif",
+    ingredients: [
+      "Apple",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 221,
+    bonus: "Pet training up Lv1"
+  },
+  {
+    name: "Cherry Juice",
+    image: "Cherry_Juice.avif",
+    ingredients: [
+      "Cherry",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 182,
+    bonus: "Pet training up Lv1"
+  },
+  {
+    name: "Peach Juice",
+    image: "Peach_Juice.avif",
+    ingredients: [
+      "Peach",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 182,
+    bonus: "Pet training up Lv1"
+  },
+  {
+    name: "Orange Juice",
+    image: "Orange_Juice.avif",
+    ingredients: [
+      "Orange",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 180,
+    bonus: "Pet training up Lv1"
+  },
+  {
+    name: "Lemon Juice",
+    image: "Lemon_Juice.avif",
+    ingredients: [
+      "Lemon",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 176,
+    bonus: "Pet training up Lv1"
+  },
+  {
+    name: "Blueberry Juice",
+    image: "Blueberry_Juice.avif",
+    ingredients: [
+      "Blueberry",
+    ],
+    arrangements: [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other juice",
+    price: 163,
+    bonus: "Pet training up Lv1"
+  },
+  {
+    name: "Happy Fruit Platter",
+    image: "Happy_Fruit_Platter.avif",
+    ingredients: [
+      "Heart watermelon",
+      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+      ["Apple", "Red grape", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+    ],
+    arrangements: [
+      "Sugar",
+      "Salt",
+      "Walnut",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other",
+    price: 3274,
+    bonus: "Happy Energy up Lv4"
+  },
+  {
+    name: "Happy Chef Salad",
+    image: "Happy_Chef_Salad.avif",
+    ingredients: [
+      ["Egg", "Silkie egg"],
+      "Corn",
+      "Onion",
+      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red bell pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
+    ],
+    arrangements: [
+      "Sugar",
+      "Salt",
+      "Walnut",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other",
+    price: 1233,
+    bonus: "Happy Energy up Lv3"
+  },
+  {
+    name: "Happy Forest Mix",
+    image: "Happy_Forest_Mix.avif",
+    ingredients: [
+      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      "Salt",
+    ],
+    arrangements: [
+      "Sugar",
+      "Salt",
+      "Walnut",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other",
+    price: 662,
+    bonus: "Happy Energy up Lv2"
+  },
+  {
+    name: "Happy Mushroom Fry",
+    image: "Happy_Mushroom_Fry.avif",
+    ingredients: [
+      "Walnut",
+    ],
+    arrangements: [
+      "Sugar",
+      "Salt",
+      "Walnut",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey",
+    ],
+    category: "other",
+    price: 130,
+    bonus: "Happy Energy up Lv1"
+  }
+];
+
+export default recipes;
