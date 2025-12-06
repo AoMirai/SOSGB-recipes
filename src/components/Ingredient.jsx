@@ -3,11 +3,11 @@ function Ingredient({ name, type = 'ingredient' }) {
     <div className={type}>
       <div className='image'>
         <img 
-          src={`/pictures/${name.toLowerCase().replace(' ', '_')}.jpg`} 
+          src={`/pictures/${name.toLowerCase().replaceAll(' ', '_')}.jpg`} 
           alt="" 
         />
       </div>
-      <span className='toolpick'>{name}</span>
+      <span className='tooltip'>{name}</span>
     </div>
   );
 }

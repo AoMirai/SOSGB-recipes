@@ -1483,7 +1483,7 @@ export const recipes = [
     name: "Ultimate Curry",
     image: "ultimate_curry.jpg",
     ingredients: [
-      "The ultimate curry",
+      "Supreme curry",
       "Giant tomato",
       "Curled chili Pepper",
       "Yogurt+",
@@ -3359,7 +3359,7 @@ export const recipes = [
     name: "Fruit Dumplings",
     image: "fruit_dumplings.jpg",
     ingredients: [
-      "Shiratama powder",
+      "Refined Rice Flour",
       ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
       ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
     ],
@@ -3437,7 +3437,7 @@ export const recipes = [
     arrangements: [
       "Mint",
       "Chocolate",
-      "Straight tea",
+      "Black Tea",
     ],
     category: "dessert",
     price: 832,
@@ -3471,7 +3471,7 @@ export const recipes = [
       "Strawberry",
     ],
     arrangements: [
-      "Shiratama powder",
+      "Refined Rice Flour",
       "Sugar",
       "Salt",
     ],
@@ -3519,7 +3519,7 @@ export const recipes = [
     name: "Dango",
     image: "dango.jpg",
     ingredients: [
-      "Shiratama powder",
+      "Refined Rice Flour",
     ],
     arrangements: [
       "Rice flour",
@@ -4037,7 +4037,7 @@ export const recipes = [
     name: "Jam Tea",
     image: "jam_tea.jpg",
     ingredients: [
-      "Straight tea",
+      "Black Tea",
       ["Grape jam", "Apple jam", "Blueberry jam", "Strawberry jam"],
     ],
     arrangements: [
@@ -5176,8 +5176,8 @@ export const recipes = [
     bonus: "Happy Energy up Lv3"
   },
   {
-    name: "Happy Forest Mix",
-    image: "happy_forest_mix.jpg",
+    name: "Happy Mushroom Fry",
+    image: "happy_mushroom_fry.jpg",
     ingredients: [
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
       "Salt",
@@ -5200,8 +5200,8 @@ export const recipes = [
     bonus: "Happy Energy up Lv2"
   },
   {
-    name: "Happy Mushroom Fry",
-    image: "happy_mushroom_fry.jpg",
+    name: "Happy Forest Mix",
+    image: "happy_forest_mix.jpg",
     ingredients: [
       "Walnut",
     ],
@@ -5222,6 +5222,8 @@ export const recipes = [
     price: 130,
     bonus: "Happy Energy up Lv1"
   }
+    
+  
 ];
 
 export default recipes;
