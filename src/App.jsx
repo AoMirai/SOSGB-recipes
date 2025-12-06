@@ -5,12 +5,14 @@ import { ingredients } from './assets/ingredients';
 import Gallery from './components/Gallery';
 import RecipeDetails from './components/RecipeDetails';
 import IngredientDetails from './components/IngredientDetails';
+import RecipeSearch from './components/RecipeSearch';
 import Tabs from './components/Tabs';
 
 function App() {
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [selectedIngredient, setSelectedIngredient] = useState(null);
   const [activeTab, setActiveTab] = useState('recipes');
+  const [selectedSearchIngredients, setSelectedSearchIngredients] = useState([]);
 
   const getRecipesAsSpecificIngredient = (ingredientName) => {
     return recipies.filter(recipe => {
@@ -85,7 +87,7 @@ function App() {
             />
             <RecipeDetails recipe={selectedRecipe} onIngredientClick={handleIngredientClick} />
           </>
-        ) : (
+        ) : activeTab === 'ingredients' ? (
           <>
             <Gallery 
               items={ingredients} 
@@ -100,6 +102,13 @@ function App() {
               onRecipeClick={handleRecipeClick}
             />
           </>
+        ) : (
+          <RecipeSearch 
+            recipes={recipies} 
+            onRecipeClick={handleRecipeClick}
+            selectedIngredients={selectedSearchIngredients}
+            onIngredientsChange={setSelectedSearchIngredients}
+          />
         )}
       </div>
     </div>

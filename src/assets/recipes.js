@@ -1,156 +1,194 @@
-// Recipes data with images
+// Recipes data with images and profitability
 export const recipes = [
   {
-    name: "Macaroni Salad",
-    image: "macaroni_salad.jpg",
-    ingredients: [
+    "name": "Macaroni Salad",
+    "image": "macaroni_salad.jpg",
+    "ingredients": [
       "Pasta",
       "Cucumber",
       "Mayonaise",
-      "Carrot",
+      "Carrot"
     ],
-    arrangements: [
+    "arrangements": [
       "Penne pasta",
       "Herb pasta",
       "Onion",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Salad",
-    price: 1859,
-    bonus: "Stamina saver Lv4"
+    "category": "Salad",
+    "price": 1859,
+    "bonus": "Stamina saver Lv4",
+    "profitability": 1133
   },
   {
-    name: "Guacamole Salad",
-    image: "guacamole_salad.jpg",
-    ingredients: [
+    "name": "Guacamole Salad",
+    "image": "guacamole_salad.jpg",
+    "ingredients": [
       "Avocado",
       "Onion",
       "Tomato",
-      "Salt",
+      "Salt"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Salad",
-    price: 1309,
-    bonus: "Stamina saver Lv3"
+    "category": "Salad",
+    "price": 1309,
+    "bonus": "Stamina saver Lv3",
+    "profitability": 764
   },
   {
-    name: "Kinpira Gobo",
-    image: "kinpira_gobo.jpg",
-    ingredients: [
+    "name": "Kinpira Gobo",
+    "image": "kinpira_gobo.jpg",
+    "ingredients": [
       "Burdock",
       "Carrot",
       "Chili Pepper",
-      "Salt",
+      "Salt"
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
       "Soy sauce",
-      "Oil",
+      "Oil"
     ],
-    category: "Salad",
-    price: 909,
-    bonus: "Stamina saver Lv2"
+    "category": "Salad",
+    "price": 909,
+    "bonus": "Stamina saver Lv2",
+    "profitability": 242
   },
   {
-    name: "Marinated Peppers",
-    image: "marinated_peppers.jpg",
-    ingredients: [
+    "name": "Marinated Peppers",
+    "image": "marinated_peppers.jpg",
+    "ingredients": [
       "Red Pepper",
       "Vinegar",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Radish",
       "Onion",
       "Olive oil",
-      "Honey",
+      "Honey"
     ],
-    category: "Salad",
-    price: 598,
-    bonus: "Stamina saver Lv2"
+    "category": "Salad",
+    "price": 598,
+    "bonus": "Stamina saver Lv2",
+    "profitability": 339
   },
   {
-    name: "Mixed Salad",
-    image: "mixed_salad.jpg",
-    ingredients: [
+    "name": "Mixed Salad",
+    "image": "mixed_salad.jpg",
+    "ingredients": [
       "Tomato",
       "Cucumber",
-      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red Pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
+      [
+        "Cucumber",
+        "Onion",
+        "Asparagus",
+        "Tomato",
+        "Red Pepper",
+        "Carrot",
+        "Turnip",
+        "Sweet potato",
+        "Pumpkin",
+        "Eggplant"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Avocado",
       "Corn",
-      "Cheese",
+      "Cheese"
     ],
-    category: "Salad",
-    price: 404,
-    bonus: "Stamina saver Lv1"
+    "category": "Salad",
+    "price": 404,
+    "bonus": "Stamina saver Lv1",
+    "profitability": 337
   },
   {
-    name: "Turnip Salad",
-    image: "turnip_salad.jpg",
-    ingredients: [
-      "Turnip",
+    "name": "Turnip Salad",
+    "image": "turnip_salad.jpg",
+    "ingredients": [
+      "Turnip"
     ],
-    arrangements: [
+    "arrangements": [
       "Cucumber",
       "Tomato",
-      "Red Pepper",
+      "Red Pepper"
     ],
-    category: "Salad",
-    price: 260,
-    bonus: "Stamina saver Lv1"
+    "category": "Salad",
+    "price": 260,
+    "bonus": "Stamina saver Lv1",
+    "profitability": 260
   },
   {
-    name: "Herb Salad",
-    image: "herb_salad.jpg",
-    ingredients: [
-      ["Mint", "Chamomile", "Lavender"],
-      ["Mint", "Chamomile", "Lavender"],
+    "name": "Herb Salad",
+    "image": "herb_salad.jpg",
+    "ingredients": [
+      [
+        "Mint",
+        "Chamomile",
+        "Lavender"
+      ],
+      [
+        "Mint",
+        "Chamomile",
+        "Lavender"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Broccoli",
       "Tomato",
       "Boiled egg",
       "Olive oil",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Salad",
-    price: 137,
-    bonus: "Stamina saver Lv1"
+    "category": "Salad",
+    "price": 137,
+    "bonus": "Stamina saver Lv1",
+    "profitability": 137
   },
   {
-    name: "Tomato Salad",
-    image: "tomato_salad.jpg",
-    ingredients: [
+    "name": "Tomato Salad",
+    "image": "tomato_salad.jpg",
+    "ingredients": [
       "Tomato",
-      ["Mint", "Chamomile", "Lavender"],
+      [
+        "Mint",
+        "Chamomile",
+        "Lavender"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Cucumber",
       "Red Pepper",
-      "Cheese",
+      "Cheese"
     ],
-    category: "Salad",
-    price: 126,
-    bonus: "Stamina saver Lv1"
+    "category": "Salad",
+    "price": 126,
+    "bonus": "Stamina saver Lv1",
+    "profitability": 80
   },
   {
-    name: "Caprese Salad",
-    image: "caprese_salad.jpg",
-    ingredients: [
+    "name": "Caprese Salad",
+    "image": "caprese_salad.jpg",
+    "ingredients": [
       "Tomato",
       "Cheese",
       "Olive oil",
-      "Salt",
+      "Salt"
     ],
-    arrangements: [
+    "arrangements": [
       "Avocado",
       "Baguette",
       "Soy sauce",
@@ -158,260 +196,328 @@ export const recipes = [
       "Herb oil",
       "Pumpkin oil",
       "Grape oil",
-      "Salt",
+      "Salt"
     ],
-    category: "Salad",
-    price: 2429,
-    bonus: "Watering rare crop % Lv4"
+    "category": "Salad",
+    "price": 2429,
+    "bonus": "Watering rare crop % Lv4",
+    "profitability": 1480
   },
   {
-    name: "Poke",
-    image: "poke.jpg",
-    ingredients: [
+    "name": "Poke",
+    "image": "poke.jpg",
+    "ingredients": [
       "Avocado",
       "Salmon",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Green onion",
-      "Oil",
+      "Oil"
     ],
-    category: "Salad",
-    price: 1197,
-    bonus: "Watering rare crop % Lv3"
+    "category": "Salad",
+    "price": 1197,
+    "bonus": "Watering rare crop % Lv3",
+    "profitability": 714
   },
   {
-    name: "Mashed Potatoes",
-    image: "mashed_potatoes.jpg",
-    ingredients: [
+    "name": "Mashed Potatoes",
+    "image": "mashed_potatoes.jpg",
+    "ingredients": [
       "Potato",
-      "Butter",
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Mint",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Salad",
-    price: 677,
-    bonus: "Watering rare crop % Lv2"
+    "category": "Salad",
+    "price": 677,
+    "bonus": "Watering rare crop % Lv2",
+    "profitability": 447
   },
   {
-    name: "Onion Salad",
-    image: "onion_salad.jpg",
-    ingredients: [
-      "Onion",
+    "name": "Onion Salad",
+    "image": "onion_salad.jpg",
+    "ingredients": [
+      "Onion"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Mint",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Salad",
-    price: 325,
-    bonus: "Watering rare crop % Lv1"
+    "category": "Salad",
+    "price": 325,
+    "bonus": "Watering rare crop % Lv1",
+    "profitability": 325
   },
   {
-    name: "Asparagus Soup",
-    image: "asparagus_soup.jpg",
-    ingredients: [
+    "name": "Asparagus Soup",
+    "image": "asparagus_soup.jpg",
+    "ingredients": [
       "Asparagus",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
-      "Onion",
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ],
+      "Onion"
     ],
-    arrangements: [
+    "arrangements": [
       "Porcini mushroom",
       "Morel mushroom",
       "Salt",
       "Pepper",
       "Olive oil",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "soup",
-    price: 1728,
-    bonus: "Fishing rod durability up Lv4"
+    "category": "soup",
+    "price": 1728,
+    "bonus": "Fishing rod durability up Lv4",
+    "profitability": 1053
   },
   {
-    name: "Onion Soup",
-    image: "onion_soup.jpg",
-    ingredients: [
+    "name": "Onion Soup",
+    "image": "onion_soup.jpg",
+    "ingredients": [
       "Onion",
-      "Butter",
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Salt",
       "Pepper",
-      "Baguette",
+      "Baguette"
     ],
-    category: "soup",
-    price: 1024,
-    bonus: "Fishing rod durability up Lv3"
+    "category": "soup",
+    "price": 1024,
+    "bonus": "Fishing rod durability up Lv3",
+    "profitability": 699
   },
   {
-    name: "Radish Soup",
-    image: "radish_soup.jpg",
-    ingredients: [
+    "name": "Radish Soup",
+    "image": "radish_soup.jpg",
+    "ingredients": [
       "Radish",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      "Salt",
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Salt"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Butter",
-      "Pepper",
+      "Pepper"
     ],
-    category: "soup",
-    price: 770,
-    bonus: "Fishing rod durability up Lv2"
+    "category": "soup",
+    "price": 770,
+    "bonus": "Fishing rod durability up Lv2",
+    "profitability": 437
   },
   {
-    name: "Miso Soup",
-    image: "miso_soup.jpg",
-    ingredients: [
+    "name": "Miso Soup",
+    "image": "miso_soup.jpg",
+    "ingredients": [
       "Miso",
-      ["Tofu", "Green onion", "Oil", "Potato", "Shimeji mushroom"],
+      [
+        "Tofu",
+        "Green onion",
+        "Oil",
+        "Potato",
+        "Shimeji mushroom"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Spinach",
       "Radish",
       "Eggplant",
-      "Salt",
+      "Salt"
     ],
-    category: "soup",
-    price: 260,
-    bonus: "Fishing rod durability up Lv1"
+    "category": "soup",
+    "price": 260,
+    "bonus": "Fishing rod durability up Lv1",
+    "profitability": 165
   },
   {
-    name: "Corn soup",
-    image: "corn_soup.jpg",
-    ingredients: [
+    "name": "Corn soup",
+    "image": "corn_soup.jpg",
+    "ingredients": [
       "Corn",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
       "Butter",
-      "Onion",
+      "Onion"
     ],
-    arrangements: [
+    "arrangements": [
       "Potato",
       "Egg",
       "Silkie egg",
-      "Salt",
+      "Salt"
     ],
-    category: "soup",
-    price: 1815,
-    bonus: "Movement speed up Lv4"
+    "category": "soup",
+    "price": 1815,
+    "bonus": "Movement speed up Lv4",
+    "profitability": 1106
   },
   {
-    name: "Pumpkin Soup",
-    image: "pumpkin_soup.jpg",
-    ingredients: [
+    "name": "Pumpkin Soup",
+    "image": "pumpkin_soup.jpg",
+    "ingredients": [
       "Pumpkin",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      "Onion",
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Onion"
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "soup",
-    price: 1320,
-    bonus: "Movement speed up Lv3"
+    "category": "soup",
+    "price": 1320,
+    "bonus": "Movement speed up Lv3",
+    "profitability": 787
   },
   {
-    name: "Vichyssoise Soup",
-    image: "vichyssoise_soup.jpg",
-    ingredients: [
+    "name": "Vichyssoise Soup",
+    "image": "vichyssoise_soup.jpg",
+    "ingredients": [
       "Potato",
       "Onion",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "soup",
-    price: 709,
-    bonus: "Movement speed up Lv2"
+    "category": "soup",
+    "price": 709,
+    "bonus": "Movement speed up Lv2",
+    "profitability": 402
   },
   {
-    name: "Gazpacho Salad",
-    image: "gazpacho_salad.jpg",
-    ingredients: [
+    "name": "Gazpacho Salad",
+    "image": "gazpacho_salad.jpg",
+    "ingredients": [
       "Tomato",
       "Garlic",
-      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
+      [
+        "Bread",
+        "White bread",
+        "Baguette",
+        "Focaccia Bread"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Cucumber",
       "Onion",
       "Green Pepper",
       "Olive oil",
-      "Salt",
+      "Salt"
     ],
-    category: "soup",
-    price: 490,
-    bonus: "Movement speed up Lv1"
+    "category": "soup",
+    "price": 490,
+    "bonus": "Movement speed up Lv1",
+    "profitability": 261
   },
   {
-    name: "Herb Soup",
-    image: "herb_soup.jpg",
-    ingredients: [
-      ["Mint", "Chamomile", "Lavender"],
-      ["Mint", "Chamomile", "Lavender"],
+    "name": "Herb Soup",
+    "image": "herb_soup.jpg",
+    "ingredients": [
+      [
+        "Mint",
+        "Chamomile",
+        "Lavender"
+      ],
+      [
+        "Mint",
+        "Chamomile",
+        "Lavender"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Cabbage",
       "Carrot",
       "Broccoli",
       "Salt",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "soup",
-    price: 137,
-    bonus: "Movement speed up Lv1"
+    "category": "soup",
+    "price": 137,
+    "bonus": "Movement speed up Lv1",
+    "profitability": 137
   },
   {
-    name: "Egg Drop Soup",
-    image: "egg_drop_soup.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
+    "name": "Egg Drop Soup",
+    "image": "egg_drop_soup.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Soy sauce",
       "Salt",
       "Pepper",
-      "Oil",
+      "Oil"
     ],
-    category: "soup",
-    price: 117,
-    bonus: "Movement speed up Lv1"
+    "category": "soup",
+    "price": 117,
+    "bonus": "Movement speed up Lv1",
+    "profitability": 117
   },
   {
-    name: "Khachapuri",
-    image: "khachapuri.jpg",
-    ingredients: [
+    "name": "Khachapuri",
+    "image": "khachapuri.jpg",
+    "ingredients": [
       "Wheat flour",
       "Cheese+",
       "Yogurt+",
-      "Butter+",
+      "Butter+"
     ],
-    arrangements: [
+    "arrangements": [
       "Egg",
       "Silkie egg",
       "Rice flour",
@@ -419,22 +525,23 @@ export const recipes = [
       "Salt",
       "Olive oil",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Side",
-    price: 10098,
-    bonus: "Double the amount obtained during collection"
+    "category": "Side",
+    "price": 10098,
+    "bonus": "Double the amount obtained during collection",
+    "profitability": 6386
   },
   {
-    name: "Morel Cream Stew",
-    image: "morel_cream_stew.jpg",
-    ingredients: [
+    "name": "Morel Cream Stew",
+    "image": "morel_cream_stew.jpg",
+    "ingredients": [
       "Morel mushroom",
       "Buffalo milk",
       "Butter",
-      "Urchin",
+      "Urchin"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Garlic",
       "Pasta",
@@ -442,180 +549,241 @@ export const recipes = [
       "Pepper",
       "Nut oil",
       "Herb oil",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Side",
-    price: 2592,
-    bonus: "Max stamina up Lv4"
+    "category": "Side",
+    "price": 2592,
+    "bonus": "Max stamina up Lv4",
+    "profitability": 1542
   },
   {
-    name: "Quiche",
-    image: "quiche.jpg",
-    ingredients: [
+    "name": "Quiche",
+    "image": "quiche.jpg",
+    "ingredients": [
       "Wheat flour",
       "Spinach",
       "Pumpkin",
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Cheese",
       "Salt",
       "Pepper",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Side",
-    price: 1892,
-    bonus: "Max stamina up Lv4"
+    "category": "Side",
+    "price": 1892,
+    "bonus": "Max stamina up Lv4",
+    "profitability": 1153
   },
   {
-    name: "Fish & Chips",
-    image: "fish_&_chips.jpg",
-    ingredients: [
-      ["Yellow perch", "Snakehead", "Masu trout", "Char", "Salmon", "Icefish", "Cherry salmon"],
+    "name": "Fish & Chips",
+    "image": "fish_&_chips.jpg",
+    "ingredients": [
+      [
+        "Yellow perch",
+        "Snakehead",
+        "Masu trout",
+        "Char",
+        "Salmon",
+        "Icefish",
+        "Cherry salmon"
+      ],
       "Potato",
-      ["Wheat flour", "Rice flour"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Wheat flour",
+        "Rice flour"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Chili Pepper",
       "Mayonaise",
       "Mayonaise+",
       "Vinegar",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 1584,
-    bonus: "Max stamina up Lv3"
+    "category": "Side",
+    "price": 1584,
+    "bonus": "Max stamina up Lv3",
+    "profitability": 1149
   },
   {
-    name: "Spring Roll",
-    image: "spring_roll.jpg",
-    ingredients: [
+    "name": "Spring Roll",
+    "image": "spring_roll.jpg",
+    "ingredients": [
       "Wheat flour",
       "Shiitake mushroom",
       "Carrot",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Cabbage",
       "Eggplant",
       "Soy sauce",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 1530,
-    bonus: "Max stamina up Lv3"
+    "category": "Side",
+    "price": 1530,
+    "bonus": "Max stamina up Lv3",
+    "profitability": 893
   },
   {
-    name: "Steamed Bun",
-    image: "steamed_bun.jpg",
-    ingredients: [
+    "name": "Steamed Bun",
+    "image": "steamed_bun.jpg",
+    "ingredients": [
       "Wheat flour",
       "Napa cabbage",
       "Shiitake mushroom",
-      "Green onion",
+      "Green onion"
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
       "Salt",
       "Pepper",
-      "Oil",
+      "Oil"
     ],
-    category: "Side",
-    price: 1377,
-    bonus: "Max stamina up Lv3"
+    "category": "Side",
+    "price": 1377,
+    "bonus": "Max stamina up Lv3",
+    "profitability": 803
   },
   {
-    name: "Gyoza",
-    image: "gyoza.jpg",
-    ingredients: [
+    "name": "Gyoza",
+    "image": "gyoza.jpg",
+    "ingredients": [
       "Wheat flour",
       "Cabbage",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Napa cabbage",
       "Soy sauce",
       "Sugar",
       "Salt",
       "Pepper",
       "Miso",
-      "Vinegar",
+      "Vinegar"
     ],
-    category: "Side",
-    price: 1353,
-    bonus: "Max stamina up Lv3"
+    "category": "Side",
+    "price": 1353,
+    "bonus": "Max stamina up Lv3",
+    "profitability": 806
   },
   {
-    name: "Stir-Fried Vegetables",
-    image: "stir-fried_vegetables.jpg",
-    ingredients: [
+    "name": "Stir-Fried Vegetables",
+    "image": "stir-fried_vegetables.jpg",
+    "ingredients": [
       "Cabbage",
-      "Napa cabbage",
+      "Napa cabbage"
     ],
-    arrangements: [
+    "arrangements": [
       "Carrot",
       "Green Pepper",
       "Asparagus",
       "Pumpkin",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 1276,
-    bonus: "Max stamina up Lv3"
+    "category": "Side",
+    "price": 1276,
+    "bonus": "Max stamina up Lv3",
+    "profitability": 871
   },
   {
-    name: "Stuffed Cabbage",
-    image: "stuffed_cabbage.jpg",
-    ingredients: [
+    "name": "Stuffed Cabbage",
+    "image": "stuffed_cabbage.jpg",
+    "ingredients": [
       "Cabbage",
-      "Carrot",
+      "Carrot"
     ],
-    arrangements: [
+    "arrangements": [
       "Salt",
       "Pepper",
       "Nut oil",
       "Herb oil",
       "Olive oil",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Side",
-    price: 1213,
-    bonus: "Max stamina up Lv3"
+    "category": "Side",
+    "price": 1213,
+    "bonus": "Max stamina up Lv3",
+    "profitability": 828
   },
   {
-    name: "Scones",
-    image: "scones.jpg",
-    ingredients: [
+    "name": "Scones",
+    "image": "scones.jpg",
+    "ingredients": [
       "Wheat flour",
       "Butter",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Grape jam",
       "Apple jam",
       "Blueberry jam",
-      "Strawberry jam",
+      "Strawberry jam"
     ],
-    category: "Side",
-    price: 1155,
-    bonus: "Max stamina up Lv3"
+    "category": "Side",
+    "price": 1155,
+    "bonus": "Max stamina up Lv3",
+    "profitability": 688
   },
   {
-    name: "Galette",
-    image: "galette.jpg",
-    ingredients: [
+    "name": "Galette",
+    "image": "galette.jpg",
+    "ingredients": [
       "Buckweat",
       "Potato",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Egg",
       "Silkie egg",
       "Cheese",
@@ -623,56 +791,62 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 1122,
-    bonus: "Max stamina up Lv3"
+    "category": "Side",
+    "price": 1122,
+    "bonus": "Max stamina up Lv3",
+    "profitability": 749
   },
   {
-    name: "Buttered Roll",
-    image: "buttered_roll.jpg",
-    ingredients: [
+    "name": "Buttered Roll",
+    "image": "buttered_roll.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      "Butter",
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 1056,
-    bonus: "Max stamina up Lv3"
+    "category": "Side",
+    "price": 1056,
+    "bonus": "Max stamina up Lv3",
+    "profitability": 629
   },
   {
-    name: "Chili con Carne",
-    image: "chili_con_carne.jpg",
-    ingredients: [
+    "name": "Chili con Carne",
+    "image": "chili_con_carne.jpg",
+    "ingredients": [
       "Tomato",
       "Soybean",
       "Chili Pepper",
-      "Pepper",
+      "Pepper"
     ],
-    arrangements: [
-      "Cheese",
+    "arrangements": [
+      "Cheese"
     ],
-    category: "Side",
-    price: 911,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 911,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 505
   },
   {
-    name: "Sauteed Turnips",
-    image: "sauteed_turnips.jpg",
-    ingredients: [
+    "name": "Sauteed Turnips",
+    "image": "sauteed_turnips.jpg",
+    "ingredients": [
       "Turnip",
-      "Butter",
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Salt",
       "Pepper",
@@ -680,38 +854,47 @@ export const recipes = [
       "Nut oil",
       "Herb oil",
       "Olive oil",
-      "Miso",
+      "Miso"
     ],
-    category: "Side",
-    price: 882,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 882,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 582
   },
   {
-    name: "Focaccia Bread",
-    image: "focaccia_bread.jpg",
-    ingredients: [
+    "name": "Focaccia Bread",
+    "image": "focaccia_bread.jpg",
+    "ingredients": [
       "Wheat flour",
-      "Olive oil",
+      "Olive oil"
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Cheese",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 843,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 843,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 557
   },
   {
-    name: "Freeze-Dried Tofu",
-    image: "freeze-dried_tofu.jpg",
-    ingredients: [
+    "name": "Freeze-Dried Tofu",
+    "image": "freeze-dried_tofu.jpg",
+    "ingredients": [
       "Tofu",
       "Soy sauce",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Soybean",
       "Shiitake mushroom",
       "Shimeji mushroom",
@@ -721,74 +904,102 @@ export const recipes = [
       "Matsutake mushroom",
       "Monarch mushroom",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 824,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 824,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 467
   },
   {
-    name: "Lightly Fried Tofu",
-    image: "lightly_fried_tofu.jpg",
-    ingredients: [
+    "name": "Lightly Fried Tofu",
+    "image": "lightly_fried_tofu.jpg",
+    "ingredients": [
       "Tofu",
-      ["Wheat flour", "Rice flour"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Wheat flour",
+        "Rice flour"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Radish",
       "Green onion",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Side",
-    price: 809,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 809,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 446
   },
   {
-    name: "Rolled Egg",
-    image: "rolled_egg.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
+    "name": "Rolled Egg",
+    "image": "rolled_egg.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Soy sauce",
-      "Sugar",
+      "Sugar"
     ],
-    arrangements: [
+    "arrangements": [
       "Radish",
       "Salt",
-      "Oil",
+      "Oil"
     ],
-    category: "Side",
-    price: 801,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 801,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 454
   },
   {
-    name: "Steamed Egg Custard",
-    image: "steamed_egg_custard.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
-      "Fish cake",
+    "name": "Steamed Egg Custard",
+    "image": "steamed_egg_custard.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ],
+      "Fish cake"
     ],
-    arrangements: [
+    "arrangements": [
       "Spinach",
       "Carrot",
       "Broccoli",
       "Soybean",
       "Shimeji mushroom",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 747,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 747,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 457
   },
   {
-    name: "Soy Okara",
-    image: "soy_okara.jpg",
-    ingredients: [
+    "name": "Soy Okara",
+    "image": "soy_okara.jpg",
+    "ingredients": [
       "Tofu",
-      "Carrot",
+      "Carrot"
     ],
-    arrangements: [
+    "arrangements": [
       "Burdock",
       "Green onion",
       "Shiitake mushroom",
@@ -800,115 +1011,138 @@ export const recipes = [
       "Monarch mushroom",
       "Fried tofu",
       "Soy sauce",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Side",
-    price: 743,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 743,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 491
   },
   {
-    name: "Buttered Potato",
-    image: "buttered_potato.jpg",
-    ingredients: [
+    "name": "Buttered Potato",
+    "image": "buttered_potato.jpg",
+    "ingredients": [
       "Potato",
-      "Butter",
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Corn",
       "Garlic",
       "Soy sauce",
       "Salt",
       "Seaweed",
-      "Urchin",
+      "Urchin"
     ],
-    category: "Side",
-    price: 677,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 677,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 447
   },
   {
-    name: "Baguette",
-    image: "baguette.jpg",
-    ingredients: [
+    "name": "Baguette",
+    "image": "baguette.jpg",
+    "ingredients": [
       "Wheat flour",
-      "Salt",
+      "Salt"
     ],
-    arrangements: [
+    "arrangements": [
       "Nut oil",
       "Herb oil",
       "Olive oil",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Side",
-    price: 662,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 662,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 437
   },
   {
-    name: "Hash Browns",
-    image: "hash_browns.jpg",
-    ingredients: [
+    "name": "Hash Browns",
+    "image": "hash_browns.jpg",
+    "ingredients": [
       "Potato",
       "Wheat flour",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Mayonaise",
       "Wheat flour",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 632,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 632,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 359
   },
   {
-    name: "Steamed Muffin",
-    image: "steamed_muffin.jpg",
-    ingredients: [
+    "name": "Steamed Muffin",
+    "image": "steamed_muffin.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      "Sweet potato",
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Sweet potato"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 609,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 609,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 346
   },
   {
-    name: "Sauteed Cauliflower",
-    image: "sauteed_cauliflower.jpg",
-    ingredients: [
-      "Cauliflower",
+    "name": "Sauteed Cauliflower",
+    "image": "sauteed_cauliflower.jpg",
+    "ingredients": [
+      "Cauliflower"
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Nut oil",
       "Herb oil",
       "Olive oil",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 602,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 602,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 602
   },
   {
-    name: "Broccoli & Garlic Saute",
-    image: "broccoli_&_garlic_saute.jpg",
-    ingredients: [
+    "name": "Broccoli & Garlic Saute",
+    "image": "broccoli_&_garlic_saute.jpg",
+    "ingredients": [
       "Broccoli",
       "Garlic",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Soy sauce",
       "Salt",
       "Pepper",
@@ -916,300 +1150,390 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Side",
-    price: 563,
-    bonus: "Max stamina up Lv2"
+    "category": "Side",
+    "price": 563,
+    "bonus": "Max stamina up Lv2",
+    "profitability": 320
   },
   {
-    name: "Chilled Tofu",
-    image: "chilled_tofu.jpg",
-    ingredients: [
+    "name": "Chilled Tofu",
+    "image": "chilled_tofu.jpg",
+    "ingredients": [
       "Tofu",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Salt",
       "Oil",
       "Seaweed",
-      "Urchin",
+      "Urchin"
     ],
-    category: "Side",
-    price: 458,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 458,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 291
   },
   {
-    name: "Potato Pancakes",
-    image: "potato_pancakes.jpg",
-    ingredients: [
+    "name": "Potato Pancakes",
+    "image": "potato_pancakes.jpg",
+    "ingredients": [
       "Potato",
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Sugar",
       "Salt",
       "Nut oil",
       "Herb oil",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Side",
-    price: 429,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 429,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 229
   },
   {
-    name: "Corn Flakes Cereal",
-    image: "corn_flakes_cereal.jpg",
-    ingredients: [
+    "name": "Corn Flakes Cereal",
+    "image": "corn_flakes_cereal.jpg",
+    "ingredients": [
       "Corn",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Strawberry",
       "Banana",
       "Blueberry",
       "Yogurt",
       "Sugar",
-      "Chocolate",
+      "Chocolate"
     ],
-    category: "Side",
-    price: 403,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 403,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 256
   },
   {
-    name: "Fried Egg",
-    image: "fried_egg.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+    "name": "Fried Egg",
+    "image": "fried_egg.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Mayonaise",
       "Soy sauce",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 396,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 396,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 251
   },
   {
-    name: "Fried Tofu",
-    image: "fried_tofu.jpg",
-    ingredients: [
-      "Tofu",
+    "name": "Fried Tofu",
+    "image": "fried_tofu.jpg",
+    "ingredients": [
+      "Tofu"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Nut oil",
       "Herb oil",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Side",
-    price: 267,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 267,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 267
   },
   {
-    name: "Miso Glazed Eggplant",
-    image: "miso_glazed_eggplant.jpg",
-    ingredients: [
+    "name": "Miso Glazed Eggplant",
+    "image": "miso_glazed_eggplant.jpg",
+    "ingredients": [
       "Eggplant",
-      "Miso",
+      "Miso"
     ],
-    arrangements: [
+    "arrangements": [
       "Soy sauce",
       "Sugar",
-      "Oil",
+      "Oil"
     ],
-    category: "Side",
-    price: 246,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 246,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 156
   },
   {
-    name: "Toast",
-    image: "toast.jpg",
-    ingredients: [
-      ["Bread", "White bread"],
+    "name": "Toast",
+    "image": "toast.jpg",
+    "ingredients": [
+      [
+        "Bread",
+        "White bread"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
       "Mayonaise",
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Side",
-    price: 234,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 234,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 234
   },
   {
-    name: "Tofu",
-    image: "tofu.jpg",
-    ingredients: [
+    "name": "Tofu",
+    "image": "tofu.jpg",
+    "ingredients": [
       "Soybean",
-      "Soy milk",
+      "Soy milk"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Soy sauce",
       "Salt",
       "Oil",
       "Seaweed",
-      "Urchin",
+      "Urchin"
     ],
-    category: "Side",
-    price: 205,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 205,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 130
   },
   {
-    name: "Fried Mushrooms",
-    image: "fried_mushrooms.jpg",
-    ingredients: [
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+    "name": "Fried Mushrooms",
+    "image": "fried_mushrooms.jpg",
+    "ingredients": [
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Salt",
       "Pepper",
       "Nut oil",
       "Herb oil",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Side",
-    price: 195,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 195,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 195
   },
   {
-    name: "Boiled Egg",
-    image: "boiled_egg.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
+    "name": "Boiled Egg",
+    "image": "boiled_egg.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Broccoli",
       "Mayonaise",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 117,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 117,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 117
   },
   {
-    name: "Tofu Skin",
-    image: "tofu_skin.jpg",
-    ingredients: [
-      "Soy milk",
+    "name": "Tofu Skin",
+    "image": "tofu_skin.jpg",
+    "ingredients": [
+      "Soy milk"
     ],
-    arrangements: [
+    "arrangements": [
       "Tofu",
       "Soy sauce",
       "Salt",
-      "Seaweed",
+      "Seaweed"
     ],
-    category: "Side",
-    price: 111,
-    bonus: "Max stamina up Lv1"
+    "category": "Side",
+    "price": 111,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 111
   },
   {
-    name: "Shumai Dumplings",
-    image: "shumai_dumplings.jpg",
-    ingredients: [
+    "name": "Shumai Dumplings",
+    "image": "shumai_dumplings.jpg",
+    "ingredients": [
       "Wheat flour",
       "Onion",
-      ["Blugill", "Willow shiner", "Killifish", "Stone moroko", "Pond smelt", "Sweetfish", "Eel", "Eel", "Goldfish", "Crucian carp"],
+      [
+        "Blugill",
+        "Willow shiner",
+        "Killifish",
+        "Stone moroko",
+        "Pond smelt",
+        "Sweetfish",
+        "Eel",
+        "Eel",
+        "Goldfish",
+        "Crucian carp"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Soybean",
       "Sugar",
       "Soy sauce",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 924,
-    bonus: "Fishing rod durability up Lv2"
+    "category": "Side",
+    "price": 924,
+    "bonus": "Fishing rod durability up Lv2",
+    "profitability": 597
   },
   {
-    name: "Sashimi",
-    image: "sashimi.jpg",
-    ingredients: [
-      ["Amur minnow", "Dace", "Pale chub", "Sculpin", "Dark chub", "Bitterling", "Tamoroko", "Rainbow trout", "Silver carp", "Basa"],
+    "name": "Sashimi",
+    "image": "sashimi.jpg",
+    "ingredients": [
+      [
+        "Amur minnow",
+        "Dace",
+        "Pale chub",
+        "Sculpin",
+        "Dark chub",
+        "Bitterling",
+        "Tamoroko",
+        "Rainbow trout",
+        "Silver carp",
+        "Basa"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Radish",
       "Carrot",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Side",
-    price: 195,
-    bonus: "Fishing rod durability up Lv1"
+    "category": "Side",
+    "price": 195,
+    "bonus": "Fishing rod durability up Lv1",
+    "profitability": 195
   },
   {
-    name: "Fish Cake",
-    image: "fish_cake.jpg",
-    ingredients: [
-      ["Amur minnow", "Dace", "Pale chub", "Sculpin", "Dark chub", "Bitterling", "Tamoroko", "Rainbow trout", "Silver carp", "Basa"],
+    "name": "Fish Cake",
+    "image": "fish_cake.jpg",
+    "ingredients": [
+      [
+        "Amur minnow",
+        "Dace",
+        "Pale chub",
+        "Sculpin",
+        "Dark chub",
+        "Bitterling",
+        "Tamoroko",
+        "Rainbow trout",
+        "Silver carp",
+        "Basa"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Avocado",
       "Cheese",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Side",
-    price: 195,
-    bonus: "Fishing rod durability up Lv1"
+    "category": "Side",
+    "price": 195,
+    "bonus": "Fishing rod durability up Lv1",
+    "profitability": 195
   },
   {
-    name: "Babaocai",
-    image: "babaocai.jpg",
-    ingredients: [
+    "name": "Babaocai",
+    "image": "babaocai.jpg",
+    "ingredients": [
       "Napa cabbage",
       "Carrot",
       "Green Pepper",
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Cabbage",
       "Onion",
       "Bok choy",
       "Burdock",
-      "Red Pepper",
+      "Red Pepper"
     ],
-    category: "Side",
-    price: 1509,
-    bonus: "Watering rare crop % Lv3"
+    "category": "Side",
+    "price": 1509,
+    "bonus": "Watering rare crop % Lv3",
+    "profitability": 881
   },
   {
-    name: "Grilled Corn",
-    image: "grilled_corn.jpg",
-    ingredients: [
+    "name": "Grilled Corn",
+    "image": "grilled_corn.jpg",
+    "ingredients": [
       "Corn",
       "Soy sauce",
-      "Sugar",
+      "Sugar"
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Butter",
-      "Oil",
+      "Oil"
     ],
-    category: "Side",
-    price: 886,
-    bonus: "Watering rare crop % Lv2"
+    "category": "Side",
+    "price": 886,
+    "bonus": "Watering rare crop % Lv2",
+    "profitability": 503
   },
   {
-    name: "Curry Bun",
-    image: "curry_bun.jpg",
-    ingredients: [
+    "name": "Curry Bun",
+    "image": "curry_bun.jpg",
+    "ingredients": [
       "Wheat flour",
       "Curry powder",
       "Onion",
-      "Carrot",
+      "Carrot"
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Milk",
       "Buffalo milk",
@@ -1218,43 +1542,55 @@ export const recipes = [
       "Sugar",
       "Salt",
       "Pepper",
-      "Oil",
+      "Oil"
     ],
-    category: "Side",
-    price: 1920,
-    bonus: "Chat friendship boost Lv4"
+    "category": "Side",
+    "price": 1920,
+    "bonus": "Chat friendship boost Lv4",
+    "profitability": 1170
   },
   {
-    name: "Cheese Croquettes",
-    image: "cheese_croquettes.jpg",
-    ingredients: [
+    "name": "Cheese Croquettes",
+    "image": "cheese_croquettes.jpg",
+    "ingredients": [
       "Potato",
-      ["Breadcrumbs", "White breadcrumbs"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
-      "Cheese",
+      [
+        "Breadcrumbs",
+        "White breadcrumbs"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ],
+      "Cheese"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Cabbage",
       "Egg",
       "Silkie egg",
       "Sugar",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 1844,
-    bonus: "Chat friendship boost Lv4"
+    "category": "Side",
+    "price": 1844,
+    "bonus": "Chat friendship boost Lv4",
+    "profitability": 1081
   },
   {
-    name: "Cheese Bun",
-    image: "cheese_bun.jpg",
-    ingredients: [
+    "name": "Cheese Bun",
+    "image": "cheese_bun.jpg",
+    "ingredients": [
       "Wheat flour",
       "Cheese",
-      "Buffalo milk",
+      "Buffalo milk"
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Milk",
       "Buffalo milk",
@@ -1263,101 +1599,161 @@ export const recipes = [
       "Sugar",
       "Salt",
       "Pepper",
-      "Oil",
+      "Oil"
     ],
-    category: "Side",
-    price: 1320,
-    bonus: "Chat friendship boost Lv3"
+    "category": "Side",
+    "price": 1320,
+    "bonus": "Chat friendship boost Lv3",
+    "profitability": 753
   },
   {
-    name: "Cream Croquettes",
-    image: "cream_croquettes.jpg",
-    ingredients: [
+    "name": "Cream Croquettes",
+    "image": "cream_croquettes.jpg",
+    "ingredients": [
       "Potato",
-      ["Breadcrumbs", "White breadcrumbs"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Breadcrumbs",
+        "White breadcrumbs"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Cabbage",
       "Egg",
       "Silkie egg",
       "Sugar",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 1098,
-    bonus: "Chat friendship boost Lv3"
+    "category": "Side",
+    "price": 1098,
+    "bonus": "Chat friendship boost Lv3",
+    "profitability": 597
   },
   {
-    name: "Stew",
-    image: "stew.jpg",
-    ingredients: [
+    "name": "Stew",
+    "image": "stew.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      ["Potato", "Asparagus", "Carrot", "Cabbage", "Turnip", "Cauliflower"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      [
+        "Potato",
+        "Asparagus",
+        "Carrot",
+        "Cabbage",
+        "Turnip",
+        "Cauliflower"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Cheese",
       "Butter",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 770,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Side",
+    "price": 770,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 530
   },
   {
-    name: "Croquettes",
-    image: "croquettes.jpg",
-    ingredients: [
+    "name": "Croquettes",
+    "image": "croquettes.jpg",
+    "ingredients": [
       "Potato",
-      ["Breadcrumbs", "White breadcrumbs"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Breadcrumbs",
+        "White breadcrumbs"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Cabbage",
       "Egg",
       "Silkie egg",
       "Sugar",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 709,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Side",
+    "price": 709,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 364
   },
   {
-    name: "French Toast",
-    image: "french_toast.jpg",
-    ingredients: [
-      ["Bread", "White bread"],
-      ["Egg", "Silkie egg"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    "name": "French Toast",
+    "image": "french_toast.jpg",
+    "ingredients": [
+      [
+        "Bread",
+        "White bread"
+      ],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Side",
-    price: 647,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Side",
+    "price": 647,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 366
   },
   {
-    name: "Popcorn",
-    image: "popcorn.jpg",
-    ingredients: [
+    "name": "Popcorn",
+    "image": "popcorn.jpg",
+    "ingredients": [
       "Corn",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
       "Soy sauce",
       "Salt",
@@ -1365,55 +1761,68 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Side",
-    price: 508,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Side",
+    "price": 508,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 336
   },
   {
-    name: "French Fries",
-    image: "french_fries.jpg",
-    ingredients: [
+    "name": "French Fries",
+    "image": "french_fries.jpg",
+    "ingredients": [
       "Potato",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Mayonaise",
       "Wheat flour",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Side",
-    price: 355,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Side",
+    "price": 355,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 225
   },
   {
-    name: "Poached Egg",
-    image: "poached_egg.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
-      "Soy sauce",
+    "name": "Poached Egg",
+    "image": "poached_egg.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Soy sauce"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Nut oil",
       "Herb oil",
       "Olive oil",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 301,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Side",
+    "price": 301,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 191
   },
   {
-    name: "Baked Sweet Potato",
-    image: "baked_sweet_potato.jpg",
-    ingredients: [
-      "Sweet potato",
+    "name": "Baked Sweet Potato",
+    "image": "baked_sweet_potato.jpg",
+    "ingredients": [
+      "Sweet potato"
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
       "Butter",
       "Honey",
@@ -1421,131 +1830,138 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
       "Soy sauce",
-      "Oil",
+      "Oil"
     ],
-    category: "Side",
-    price: 202,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Side",
+    "price": 202,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 202
   },
   {
-    name: "Bread",
-    image: "bread.jpg",
-    ingredients: [
-      "Wheat flour",
+    "name": "Bread",
+    "image": "bread.jpg",
+    "ingredients": [
+      "Wheat flour"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Butter",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 195,
-    bonus: "None"
+    "category": "Side",
+    "price": 195,
+    "bonus": "None",
+    "profitability": 195
   },
   {
-    name: "White Bread",
-    image: "white_bread.jpg",
-    ingredients: [
-      "Rice flour",
+    "name": "White Bread",
+    "image": "white_bread.jpg",
+    "ingredients": [
+      "Rice flour"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Butter",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Side",
-    price: 182,
-    bonus: "None"
+    "category": "Side",
+    "price": 182,
+    "bonus": "None",
+    "profitability": 182
   },
   {
-    name: "Cooked Rice",
-    image: "cooked_rice.jpg",
-    ingredients: [
-      "Rice",
+    "name": "Cooked Rice",
+    "image": "cooked_rice.jpg",
+    "ingredients": [
+      "Rice"
     ],
-    arrangements: [
+    "arrangements": [
       "Salt",
-      "Boiled seaweed",
+      "Simmered Seaweed"
     ],
-    category: "Side",
-    price: 91,
-    bonus: "None"
+    "category": "Side",
+    "price": 91,
+    "bonus": "None",
+    "profitability": 91
   },
   {
-    name: "Ultimate Curry",
-    image: "ultimate_curry.jpg",
-    ingredients: [
+    "name": "Ultimate Curry",
+    "image": "ultimate_curry.jpg",
+    "ingredients": [
       "Supreme curry",
       "Giant tomato",
       "Curled chili Pepper",
-      "Yogurt+",
+      "Yogurt+"
     ],
-    arrangements: [
+    "arrangements": [
       "Star potato",
       "Brawny onion",
       "Three-forked carrot",
-      "Golden apple",
+      "Golden apple"
     ],
-    category: "Main",
-    price: 12353,
-    bonus: "None"
+    "category": "Main",
+    "price": 12353,
+    "bonus": "None",
+    "profitability": 7812
   },
   {
-    name: "Fried rice noodle",
-    image: "fried_rice_noodle.jpg",
-    ingredients: [
+    "name": "Fried rice noodle",
+    "image": "fried_rice_noodle.jpg",
+    "ingredients": [
       "Rice flour",
       "Monarch mushroom",
       "Cabbage",
-      "Carrot",
+      "Carrot"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Green Pepper",
       "Soy sauce",
       "Pepper",
-      "Oil",
+      "Oil"
     ],
-    category: "Main",
-    price: 7508,
-    bonus: "None"
+    "category": "Main",
+    "price": 7508,
+    "bonus": "None",
+    "profitability": 4576
   },
   {
-    name: "Farmer's Breakfast",
-    image: "farmer's_breakfast.jpg",
-    ingredients: [
+    "name": "Farmer's Breakfast",
+    "image": "farmer's_breakfast.jpg",
+    "ingredients": [
       "Potato",
       "Onion",
       "Cheese+",
-      "Mayonaise+",
+      "Mayonaise+"
     ],
-    arrangements: [
+    "arrangements": [
       "Nut oil",
       "Olive oil",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Main",
-    price: 6957,
-    bonus: "None"
+    "category": "Main",
+    "price": 6957,
+    "bonus": "None",
+    "profitability": 4400
   },
   {
-    name: "Supreme curry",
-    image: "supreme_curry.jpg",
-    ingredients: [
+    "name": "Supreme curry",
+    "image": "supreme_curry.jpg",
+    "ingredients": [
       "Curry rice",
       "Star potato",
-      "Three-forked carrot",
+      "Three-forked carrot"
     ],
-    arrangements: [
+    "arrangements": [
       "Giant tomato",
       "Brawny onion",
       "Golden apple",
@@ -1556,78 +1972,87 @@ export const recipes = [
       "Milk",
       "Buffalo milk",
       "Milk+",
-      "Buffalo milk+",
+      "Buffalo milk+"
     ],
-    category: "Main",
-    price: 3724,
-    bonus: "None"
+    "category": "Main",
+    "price": 3724,
+    "bonus": "None",
+    "profitability": 2397
   },
   {
-    name: "Pizzoccheri",
-    image: "pizzoccheri.jpg",
-    ingredients: [
+    "name": "Pizzoccheri",
+    "image": "pizzoccheri.jpg",
+    "ingredients": [
       "Buckweat",
       "Cheese",
       "Cabbage",
-      "Potato",
+      "Potato"
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Butter",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 2784,
-    bonus: "None"
+    "category": "Main",
+    "price": 2784,
+    "bonus": "None",
+    "profitability": 1787
   },
   {
-    name: "Tempura Soba",
-    image: "tempura_soba.jpg",
-    ingredients: [
+    "name": "Tempura Soba",
+    "image": "tempura_soba.jpg",
+    "ingredients": [
       "Buckweat",
-      "Tempura",
+      "Tempura"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Spinach",
       "Egg",
       "Silkie egg",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Main",
-    price: 2641,
-    bonus: "None"
+    "category": "Main",
+    "price": 2641,
+    "bonus": "None",
+    "profitability": 1915
   },
   {
-    name: "Milk Hot Pot",
-    image: "milk_hot_pot.jpg",
-    ingredients: [
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    "name": "Milk Hot Pot",
+    "image": "milk_hot_pot.jpg",
+    "ingredients": [
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
       "Carrot",
       "Napa cabbage",
-      "Spinach",
+      "Spinach"
     ],
-    arrangements: [
+    "arrangements": [
       "Potato",
       "Cabbage",
       "Green onion",
       "Shimeji mushroom",
-      "Butter",
+      "Butter"
     ],
-    category: "Main",
-    price: 2640,
-    bonus: "None"
+    "category": "Main",
+    "price": 2640,
+    "bonus": "None",
+    "profitability": 1834
   },
   {
-    name: "Macaroni & Cheese",
-    image: "macaroni_&_cheese.jpg",
-    ingredients: [
+    "name": "Macaroni & Cheese",
+    "image": "macaroni_&_cheese.jpg",
+    "ingredients": [
       "Wheat flour",
       "Cheese",
       "Butter",
-      "Mayonaise",
+      "Mayonaise"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Shimeji mushroom",
       "Shiitake mushroom",
@@ -1644,63 +2069,90 @@ export const recipes = [
       "Milk+",
       "Buffalo milk+",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 2592,
-    bonus: "None"
+    "category": "Main",
+    "price": 2592,
+    "bonus": "None",
+    "profitability": 1580
   },
   {
-    name: "Hot Pot",
-    image: "hot_pot.jpg",
-    ingredients: [
-      "Radish",
+    "name": "Hot Pot",
+    "image": "hot_pot.jpg",
+    "ingredients": [
+      "Daikon Radish",
       "Napa cabbage",
       "Green onion",
-      ["Nile perch", "Salmon", "Masu trout", "Cherry salmon", "Brown trout", "Yellow perch", "Sweetfish"],
+      [
+        "Nile perch",
+        "Salmon",
+        "Masu trout",
+        "Cherry salmon",
+        "Brown trout",
+        "Yellow perch",
+        "Sweetfish"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Carrot",
       "Spinach",
       "Bok choy",
       "Chili Pepper",
       "Soy milk",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Main",
-    price: 2487,
-    bonus: "None"
+    "category": "Main",
+    "price": 2487,
+    "bonus": "None",
+    "profitability": 1876
   },
   {
-    name: "Ukha",
-    image: "ukha.jpg",
-    ingredients: [
-      ["Nile perch", "Salmon", "Masu trout", "Cherry salmon", "Brown trout", "Yellow perch", "Sweetfish"],
+    "name": "Ukha",
+    "image": "ukha.jpg",
+    "ingredients": [
+      [
+        "Nile perch",
+        "Salmon",
+        "Masu trout",
+        "Cherry salmon",
+        "Brown trout",
+        "Yellow perch",
+        "Sweetfish"
+      ],
       "Carrot",
       "Potato",
-      "Onion",
+      "Onion"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Butter",
       "Salmon",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 2324,
-    bonus: "None"
+    "category": "Main",
+    "price": 2324,
+    "bonus": "None",
+    "profitability": 1777
   },
   {
-    name: "Mushroom Polenta",
-    image: "mushroom_polenta.jpg",
-    ingredients: [
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+    "name": "Mushroom Polenta",
+    "image": "mushroom_polenta.jpg",
+    "ingredients": [
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ],
       "Corn",
       "Butter",
-      "Cheese",
+      "Cheese"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
@@ -1708,77 +2160,89 @@ export const recipes = [
       "Salt",
       "Pepper",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Main",
-    price: 2295,
-    bonus: "None"
+    "category": "Main",
+    "price": 2295,
+    "bonus": "None",
+    "profitability": 1399
   },
   {
-    name: "Tempura Udon",
-    image: "tempura_udon.jpg",
-    ingredients: [
+    "name": "Tempura Udon",
+    "image": "tempura_udon.jpg",
+    "ingredients": [
       "Wheat flour",
-      "Tempura",
+      "Tempura"
     ],
-    arrangements: [
+    "arrangements": [
       "Egg",
       "Silkie egg",
       "Seaweed",
       "Fried tofu",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Main",
-    price: 2188,
-    bonus: "None"
+    "category": "Main",
+    "price": 2188,
+    "bonus": "None",
+    "profitability": 1537
   },
   {
-    name: "Marinated Fish",
-    image: "marinated_fish.jpg",
-    ingredients: [
-      ["Nile perch", "Salmon", "Masu trout", "Cherry salmon", "Brown trout", "Yellow perch", "Sweetfish"],
+    "name": "Marinated Fish",
+    "image": "marinated_fish.jpg",
+    "ingredients": [
+      [
+        "Nile perch",
+        "Salmon",
+        "Masu trout",
+        "Cherry salmon",
+        "Brown trout",
+        "Yellow perch",
+        "Sweetfish"
+      ],
       "Onion",
       "Vinegar",
-      "Lemon",
+      "Lemon"
     ],
-    arrangements: [
+    "arrangements": [
       "Salt",
       "Pepper",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Main",
-    price: 2160,
-    bonus: "None"
+    "category": "Main",
+    "price": 2160,
+    "bonus": "None",
+    "profitability": 1676
   },
   {
-    name: "Tempura Rice Bowl",
-    image: "tempura_rice_bowl.jpg",
-    ingredients: [
+    "name": "Tempura Rice Bowl",
+    "image": "tempura_rice_bowl.jpg",
+    "ingredients": [
       "Tempura",
-      "Rice",
+      "Rice"
     ],
-    arrangements: [
+    "arrangements": [
       "Egg",
       "Silkie egg",
       "Soy sauce",
       "Salt",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Main",
-    price: 2089,
-    bonus: "None"
+    "category": "Main",
+    "price": 2089,
+    "bonus": "None",
+    "profitability": 1478
   },
   {
-    name: "Raclette Cheese",
-    image: "raclette_cheese.jpg",
-    ingredients: [
+    "name": "Raclette Cheese",
+    "image": "raclette_cheese.jpg",
+    "ingredients": [
       "Cheese",
       "Corn",
       "Carrot",
-      "Broccoli",
+      "Broccoli"
     ],
-    arrangements: [
+    "arrangements": [
       "Asparagus",
       "French fries",
       "Toast",
@@ -1786,21 +2250,22 @@ export const recipes = [
       "Salt",
       "Pepper",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Main",
-    price: 1901,
-    bonus: "None"
+    "category": "Main",
+    "price": 1901,
+    "bonus": "None",
+    "profitability": 1159
   },
   {
-    name: "Pasta Salad",
-    image: "pasta_salad.jpg",
-    ingredients: [
+    "name": "Pasta Salad",
+    "image": "pasta_salad.jpg",
+    "ingredients": [
       "Pasta",
       "Mixed salad",
-      "Mayonaise",
+      "Mayonaise"
     ],
-    arrangements: [
+    "arrangements": [
       "Penne pasta",
       "Herb pasta",
       "Milk",
@@ -1811,39 +2276,41 @@ export const recipes = [
       "Salt",
       "Pepper",
       "Vinegar",
-      "Hot spring eggs",
+      "Hot spring eggs"
     ],
-    category: "Main",
-    price: 1617,
-    bonus: "None"
+    "category": "Main",
+    "price": 1617,
+    "bonus": "None",
+    "profitability": 929
   },
   {
-    name: "Matsutake Rice",
-    image: "matsutake_rice.jpg",
-    ingredients: [
+    "name": "Matsutake Rice",
+    "image": "matsutake_rice.jpg",
+    "ingredients": [
       "Rice",
       "Matsutake mushroom",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    arrangements: [
+    "arrangements": [
       "Carrot",
       "Pumpkin",
       "Fried tofu",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 1760,
-    bonus: "None"
+    "category": "Main",
+    "price": 1760,
+    "bonus": "None",
+    "profitability": 1093
   },
   {
-    name: "Gratin",
-    image: "gratin.jpg",
-    ingredients: [
+    "name": "Gratin",
+    "image": "gratin.jpg",
+    "ingredients": [
       "Wheat flour",
       "Cheese",
-      "Mayonaise",
+      "Mayonaise"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Shiitake mushroom",
       "Shimeji mushroom",
@@ -1855,22 +2322,39 @@ export const recipes = [
       "Pasta",
       "Butter",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 1568,
-    bonus: "None"
+    "category": "Main",
+    "price": 1568,
+    "bonus": "None",
+    "profitability": 935
   },
   {
-    name: "Spaghetti Soup",
-    image: "spaghetti_soup.jpg",
-    ingredients: [
+    "name": "Spaghetti Soup",
+    "image": "spaghetti_soup.jpg",
+    "ingredients": [
       "Pasta",
       "Tomato",
-      ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Grayling",
+        "Bighead carp",
+        "Nile perch",
+        "Barbel steed",
+        "Three-lips carp",
+        "Brown trout",
+        "Black bass",
+        "Mugistuki"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Cabbage",
       "Soybean",
@@ -1878,22 +2362,23 @@ export const recipes = [
       "Mint",
       "Nut oil",
       "Herb oil",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Main",
-    price: 1566,
-    bonus: "None"
+    "category": "Main",
+    "price": 1566,
+    "bonus": "None",
+    "profitability": 1026
   },
   {
-    name: "Risotto",
-    image: "risotto.jpg",
-    ingredients: [
+    "name": "Risotto",
+    "image": "risotto.jpg",
+    "ingredients": [
       "Rice",
       "Cheese",
       "Tomato",
-      "Onion",
+      "Onion"
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Milk",
       "Buffalo milk",
@@ -1902,77 +2387,110 @@ export const recipes = [
       "Butter",
       "Olive oil",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 1552,
-    bonus: "None"
+    "category": "Main",
+    "price": 1552,
+    "bonus": "None",
+    "profitability": 906
   },
   {
-    name: "Carpaccio",
-    image: "carpaccio.jpg",
-    ingredients: [
-      ["Yellow perch", "Snakehead", "Masu trout", "Char", "Salmon", "Icefish", "Cherry salmon"],
+    "name": "Carpaccio",
+    "image": "carpaccio.jpg",
+    "ingredients": [
+      [
+        "Yellow perch",
+        "Snakehead",
+        "Masu trout",
+        "Char",
+        "Salmon",
+        "Icefish",
+        "Cherry salmon"
+      ],
       "Onion",
-      "Vinegar",
+      "Vinegar"
     ],
-    arrangements: [
+    "arrangements": [
       "Salt",
       "Pepper",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Main",
-    price: 1469,
-    bonus: "None"
+    "category": "Main",
+    "price": 1469,
+    "bonus": "None",
+    "profitability": 1089
   },
   {
-    name: "Cheese Fondue",
-    image: "cheese_fondue.jpg",
-    ingredients: [
+    "name": "Cheese Fondue",
+    "image": "cheese_fondue.jpg",
+    "ingredients": [
       "Cheese",
-      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      ["Broccoli", "Potato", "Asparagus", "Red Pepper", "Carrot", "Common Mushroom", "Pumpkin"],
+      [
+        "Bread",
+        "White bread",
+        "Baguette",
+        "Focaccia Bread"
+      ],
+      [
+        "Broccoli",
+        "Potato",
+        "Asparagus",
+        "Red Pepper",
+        "Carrot",
+        "Common Mushroom",
+        "Pumpkin"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 1452,
-    bonus: "None"
+    "category": "Main",
+    "price": 1452,
+    "bonus": "None",
+    "profitability": 967
   },
   {
-    name: "Mushroom Pasta",
-    image: "mushroom_pasta.jpg",
-    ingredients: [
+    "name": "Mushroom Pasta",
+    "image": "mushroom_pasta.jpg",
+    "ingredients": [
       "Pasta",
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
-      "Butter",
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ],
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Garlic",
       "Salt",
       "Pepper",
       "Soy sauce",
       "Olive oil",
-      "Cheese",
+      "Cheese"
     ],
-    category: "Main",
-    price: 1449,
-    bonus: "None"
+    "category": "Main",
+    "price": 1449,
+    "bonus": "None",
+    "profitability": 864
   },
   {
-    name: "Fried Udon",
-    image: "fried_udon.jpg",
-    ingredients: [
+    "name": "Fried Udon",
+    "image": "fried_udon.jpg",
+    "ingredients": [
       "Wheat flour",
       "Cabbage",
       "Green Pepper",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    arrangements: [
+    "arrangements": [
       "Carrot",
       "Green onion",
       "Shiitake mushroom",
@@ -1984,22 +2502,23 @@ export const recipes = [
       "Monarch mushroom",
       "Fish cake",
       "Sugar",
-      "Oil",
+      "Oil"
     ],
-    category: "Main",
-    price: 1437,
-    bonus: "None"
+    "category": "Main",
+    "price": 1437,
+    "bonus": "None",
+    "profitability": 839
   },
   {
-    name: "Inari Sushi",
-    image: "inari_sushi.jpg",
-    ingredients: [
+    "name": "Inari Sushi",
+    "image": "inari_sushi.jpg",
+    "ingredients": [
       "Rice",
       "Fried tofu",
       "Vinegar",
-      "Sugar",
+      "Sugar"
     ],
-    arrangements: [
+    "arrangements": [
       "Carrot",
       "Burdock",
       "Soybean",
@@ -2010,38 +2529,44 @@ export const recipes = [
       "Morel mushroom",
       "Matsutake mushroom",
       "Monarch mushroom",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Main",
-    price: 1437,
-    bonus: "None"
+    "category": "Main",
+    "price": 1437,
+    "bonus": "None",
+    "profitability": 854
   },
   {
-    name: "Spicy Curry",
-    image: "spicy_curry.jpg",
-    ingredients: [
+    "name": "Spicy Curry",
+    "image": "spicy_curry.jpg",
+    "ingredients": [
       "Rice",
       "Curry powder",
       "Spice",
-      ["Potato", "Carrot", "Onion"],
+      [
+        "Potato",
+        "Carrot",
+        "Onion"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Garlic",
-      "Apple",
+      "Apple"
     ],
-    category: "Main",
-    price: 1424,
-    bonus: "None"
+    "category": "Main",
+    "price": 1424,
+    "bonus": "None",
+    "profitability": 952
   },
   {
-    name: "Omelet Rice",
-    image: "omelet_rice.jpg",
-    ingredients: [
+    "name": "Omelet Rice",
+    "image": "omelet_rice.jpg",
+    "ingredients": [
       "Omelet",
-      "Rice",
+      "Rice"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Tomato",
       "Milk",
@@ -2051,22 +2576,30 @@ export const recipes = [
       "Butter",
       "Salt",
       "Pepper",
-      "Oil",
+      "Oil"
     ],
-    category: "Main",
-    price: 1410,
-    bonus: "None"
+    "category": "Main",
+    "price": 1410,
+    "bonus": "None",
+    "profitability": 1015
   },
   {
-    name: "Spaghetti Peperoncino",
-    image: "spaghetti_peperoncino.jpg",
-    ingredients: [
+    "name": "Spaghetti Peperoncino",
+    "image": "spaghetti_peperoncino.jpg",
+    "ingredients": [
       "Pasta",
       "Chili Pepper",
       "Garlic",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Shimeji mushroom",
       "Shiitake mushroom",
       "Shimeji mushroom",
@@ -2077,135 +2610,184 @@ export const recipes = [
       "Monarch mushroom",
       "Salt",
       "Pepper",
-      "Cheese",
+      "Cheese"
     ],
-    category: "Main",
-    price: 1410,
-    bonus: "None"
+    "category": "Main",
+    "price": 1410,
+    "bonus": "None",
+    "profitability": 823
   },
   {
-    name: "Seaweed Curry",
-    image: "seaweed_curry.jpg",
-    ingredients: [
+    "name": "Seaweed Curry",
+    "image": "seaweed_curry.jpg",
+    "ingredients": [
       "Rice",
       "Curry powder",
       "Seaweed",
-      ["Potato", "Carrot", "Onion"],
+      [
+        "Potato",
+        "Carrot",
+        "Onion"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Garlic",
-      "Apple",
+      "Apple"
     ],
-    category: "Main",
-    price: 1388,
-    bonus: "None"
+    "category": "Main",
+    "price": 1388,
+    "bonus": "None",
+    "profitability": 931
   },
   {
-    name: "Jam-Filled Bun",
-    image: "jam-filled_bun.jpg",
-    ingredients: [
+    "name": "Jam-Filled Bun",
+    "image": "jam-filled_bun.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Grape jam", "Apple jam", "Blueberry jam", "Strawberry jam"],
+      [
+        "Grape jam",
+        "Apple jam",
+        "Blueberry jam",
+        "Strawberry jam"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Butter",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 1339,
-    bonus: "None"
+    "category": "Main",
+    "price": 1339,
+    "bonus": "None",
+    "profitability": 837
   },
   {
-    name: "Milk Curry",
-    image: "milk_curry.jpg",
-    ingredients: [
+    "name": "Milk Curry",
+    "image": "milk_curry.jpg",
+    "ingredients": [
       "Rice",
       "Curry powder",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      ["Potato", "Carrot", "Onion"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      [
+        "Potato",
+        "Carrot",
+        "Onion"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Garlic",
       "Apple",
       "Butter",
-      "Cheese",
+      "Cheese"
     ],
-    category: "Main",
-    price: 1334,
-    bonus: "None"
+    "category": "Main",
+    "price": 1334,
+    "bonus": "None",
+    "profitability": 899
   },
   {
-    name: "Burgandy Fondue",
-    image: "burgandy_fondue.jpg",
-    ingredients: [
+    "name": "Burgandy Fondue",
+    "image": "burgandy_fondue.jpg",
+    "ingredients": [
       "Olive oil",
-      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      ["Broccoli", "Potato", "Asparagus", "Red Pepper", "Carrot", "Common Mushroom", "Pumpkin"],
+      [
+        "Bread",
+        "White bread",
+        "Baguette",
+        "Focaccia Bread"
+      ],
+      [
+        "Broccoli",
+        "Potato",
+        "Asparagus",
+        "Red Pepper",
+        "Carrot",
+        "Common Mushroom",
+        "Pumpkin"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 1325,
-    bonus: "None"
+    "category": "Main",
+    "price": 1325,
+    "bonus": "None",
+    "profitability": 892
   },
   {
-    name: "Fried Rice",
-    image: "fried_rice.jpg",
-    ingredients: [
+    "name": "Fried Rice",
+    "image": "fried_rice.jpg",
+    "ingredients": [
       "Rice",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Onion",
-      "Carrot",
+      "Carrot"
     ],
-    arrangements: [
+    "arrangements": [
       "Cabbage",
       "Green Pepper",
       "Green onion",
       "Soy sauce",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 1316,
-    bonus: "None"
+    "category": "Main",
+    "price": 1316,
+    "bonus": "None",
+    "profitability": 784
   },
   {
-    name: "Rainbow Curry",
-    image: "rainbow_curry.jpg",
-    ingredients: [
+    "name": "Rainbow Curry",
+    "image": "rainbow_curry.jpg",
+    "ingredients": [
       "Rice",
       "Curry powder",
       "Spinach",
-      "Red Pepper",
+      "Red Pepper"
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Garlic",
-      "Apple",
+      "Apple"
     ],
-    category: "Main",
-    price: 1304,
-    bonus: "None"
+    "category": "Main",
+    "price": 1304,
+    "bonus": "None",
+    "profitability": 777
   },
   {
-    name: "Yakisoba",
-    image: "yakisoba.jpg",
-    ingredients: [
+    "name": "Yakisoba",
+    "image": "yakisoba.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
-      "Cabbage",
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ],
+      "Cabbage"
     ],
-    arrangements: [
+    "arrangements": [
       "Carrot",
       "Green onion",
       "Shiitake mushroom",
@@ -2218,55 +2800,58 @@ export const recipes = [
       "Shimeji mushroom",
       "Soy sauce",
       "Sugar",
-      "Oil",
+      "Oil"
     ],
-    category: "Main",
-    price: 1271,
-    bonus: "None"
+    "category": "Main",
+    "price": 1271,
+    "bonus": "None",
+    "profitability": 758
   },
   {
-    name: "Unadon",
-    image: "unadon.jpg",
-    ingredients: [
+    "name": "Unadon",
+    "image": "unadon.jpg",
+    "ingredients": [
       "Rice",
       "Eel",
       "Soy sauce",
-      "Sugar",
+      "Sugar"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Seaweed",
-      "Sencha",
+      "Sencha"
     ],
-    category: "Main",
-    price: 1262,
-    bonus: "None"
+    "category": "Main",
+    "price": 1262,
+    "bonus": "None",
+    "profitability": 752
   },
   {
-    name: "Fried Matsutake Mushrooms",
-    image: "fried_matsutake_mushrooms.jpg",
-    ingredients: [
-      "Matsutake mushroom",
+    "name": "Fried Matsutake Mushrooms",
+    "image": "fried_matsutake_mushrooms.jpg",
+    "ingredients": [
+      "Matsutake mushroom"
     ],
-    arrangements: [
+    "arrangements": [
       "Salt",
       "Pepper",
       "Pumpkin oil",
-      "Grape oil",
+      "Grape oil"
     ],
-    category: "Main",
-    price: 1200,
-    bonus: "None"
+    "category": "Main",
+    "price": 1200,
+    "bonus": "None",
+    "profitability": 1200
   },
   {
-    name: "Rice Gratin",
-    image: "rice_gratin.jpg",
-    ingredients: [
+    "name": "Rice Gratin",
+    "image": "rice_gratin.jpg",
+    "ingredients": [
       "Rice",
       "Cheese",
-      "Buffalo milk",
+      "Buffalo milk"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Shimeji mushroom",
       "Shiitake mushroom",
@@ -2280,78 +2865,111 @@ export const recipes = [
       "Morel mushroom",
       "Butter",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 1188,
-    bonus: "None"
+    "category": "Main",
+    "price": 1188,
+    "bonus": "None",
+    "profitability": 675
   },
   {
-    name: "Herb Bread",
-    image: "herb_bread.jpg",
-    ingredients: [
+    "name": "Herb Bread",
+    "image": "herb_bread.jpg",
+    "ingredients": [
       "Wheat flour",
-      "Herb butter",
+      "Herb butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Butter",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 1182,
-    bonus: "None"
+    "category": "Main",
+    "price": 1182,
+    "bonus": "None",
+    "profitability": 807
   },
   {
-    name: "Okonomikaki",
-    image: "okonomikaki.jpg",
-    ingredients: [
+    "name": "Okonomikaki",
+    "image": "okonomikaki.jpg",
+    "ingredients": [
       "Wheat flour",
       "Cabbage",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Mayonaise",
       "Mochi",
       "Fried egg",
-      "Pasta",
+      "Pasta"
     ],
-    category: "Main",
-    price: 1172,
-    bonus: "None"
+    "category": "Main",
+    "price": 1172,
+    "bonus": "None",
+    "profitability": 699
   },
   {
-    name: "Tempura",
-    image: "tempura.jpg",
-    ingredients: [
+    "name": "Tempura",
+    "image": "tempura.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
-      ["Egg", "Silkie egg"],
-      ["Shiitake mushroom", "Pumpkin", "Eggplant", "Sweet potato", "Icefish", "Pond smelt"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Shiitake mushroom",
+        "Pumpkin",
+        "Eggplant",
+        "Sweet potato",
+        "Icefish",
+        "Pond smelt"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Radish",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 1152,
-    bonus: "None"
+    "category": "Main",
+    "price": 1152,
+    "bonus": "None",
+    "profitability": 785
   },
   {
-    name: "Paella",
-    image: "paella.jpg",
-    ingredients: [
+    "name": "Paella",
+    "image": "paella.jpg",
+    "ingredients": [
       "Rice",
-      ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
+      [
+        "Grayling",
+        "Bighead carp",
+        "Nile perch",
+        "Barbel steed",
+        "Three-lips carp",
+        "Brown trout",
+        "Black bass",
+        "Mugistuki"
+      ],
       "Red Pepper",
-      "Spice",
+      "Spice"
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Shiitake mushroom",
       "Shimeji mushroom",
@@ -2364,114 +2982,151 @@ export const recipes = [
       "Morel mushroom",
       "Olive oil",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 1151,
-    bonus: "None"
+    "category": "Main",
+    "price": 1151,
+    "bonus": "None",
+    "profitability": 800
   },
   {
-    name: "Boiled Tofu",
-    image: "boiled_tofu.jpg",
-    ingredients: [
+    "name": "Boiled Tofu",
+    "image": "boiled_tofu.jpg",
+    "ingredients": [
       "Tofu",
       "Napa cabbage",
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Spinach",
       "Bok choy",
       "Radish",
       "Green onion",
       "Soy sauce",
-      "Vinegar",
+      "Vinegar"
     ],
-    category: "Main",
-    price: 1147,
-    bonus: "None"
+    "category": "Main",
+    "price": 1147,
+    "bonus": "None",
+    "profitability": 684
   },
   {
-    name: "Pizza",
-    image: "pizza.jpg",
-    ingredients: [
+    "name": "Pizza",
+    "image": "pizza.jpg",
+    "ingredients": [
       "Wheat flour",
       "Tomato",
-      "Cheese",
+      "Cheese"
     ],
-    arrangements: [
+    "arrangements": [
       "Green Pepper",
       "Onion",
       "Asparagus",
       "Corn",
-      "Pineapple",
+      "Pineapple"
     ],
-    category: "Main",
-    price: 1142,
-    bonus: "None"
+    "category": "Main",
+    "price": 1142,
+    "bonus": "None",
+    "profitability": 681
   },
   {
-    name: "Bok Choy Soy Cream Stew",
-    image: "bok_choy_soy_cream_stew.jpg",
-    ingredients: [
+    "name": "Bok Choy Soy Cream Stew",
+    "image": "bok_choy_soy_cream_stew.jpg",
+    "ingredients": [
       "Bok choy",
       "Soy milk",
-      "Butter",
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
       "Salt",
       "Pepper",
       "Oil",
-      "Shimeji mushroom",
+      "Shimeji mushroom"
     ],
-    category: "Main",
-    price: 1131,
-    bonus: "None"
+    "category": "Main",
+    "price": 1131,
+    "bonus": "None",
+    "profitability": 674
   },
   {
-    name: "Curry Bread",
-    image: "curry_bread.jpg",
-    ingredients: [
+    "name": "Curry Bread",
+    "image": "curry_bread.jpg",
+    "ingredients": [
       "Wheat flour",
       "Curry powder",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Egg",
       "Silkie egg",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 1073,
-    bonus: "None"
+    "category": "Main",
+    "price": 1073,
+    "bonus": "None",
+    "profitability": 640
   },
   {
-    name: "Meuniere Fish",
-    image: "meuniere_fish.jpg",
-    ingredients: [
-      ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
+    "name": "Meuniere Fish",
+    "image": "meuniere_fish.jpg",
+    "ingredients": [
+      [
+        "Grayling",
+        "Bighead carp",
+        "Nile perch",
+        "Barbel steed",
+        "Three-lips carp",
+        "Brown trout",
+        "Black bass",
+        "Mugistuki"
+      ],
       "Wheat flour",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Butter",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Main",
-    price: 1073,
-    bonus: "None"
+    "category": "Main",
+    "price": 1073,
+    "bonus": "None",
+    "profitability": 740
   },
   {
-    name: "Rice & Mixed Vegetables",
-    image: "rice_&_mixed_vegetables.jpg",
-    ingredients: [
+    "name": "Rice & Mixed Vegetables",
+    "image": "rice_&_mixed_vegetables.jpg",
+    "ingredients": [
       "Rice",
       "Fried tofu",
-      "Carrot",
+      "Carrot"
     ],
-    arrangements: [
+    "arrangements": [
       "Radish",
       "Burdock",
       "Shimeji mushroom",
@@ -2483,91 +3138,151 @@ export const recipes = [
       "Matsutake mushroom",
       "Monarch mushroom",
       "Soy sauce",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 1052,
-    bonus: "None"
+    "category": "Main",
+    "price": 1052,
+    "bonus": "None",
+    "profitability": 627
   },
   {
-    name: "Pink Fondue",
-    image: "pink_fondue.jpg",
-    ingredients: [
+    "name": "Pink Fondue",
+    "image": "pink_fondue.jpg",
+    "ingredients": [
       "Red grape",
-      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      ["Broccoli", "Potato", "Asparagus", "Red Pepper", "Carrot", "Common Mushroom", "Pumpkin"],
+      [
+        "Bread",
+        "White bread",
+        "Baguette",
+        "Focaccia Bread"
+      ],
+      [
+        "Broccoli",
+        "Potato",
+        "Asparagus",
+        "Red Pepper",
+        "Carrot",
+        "Common Mushroom",
+        "Pumpkin"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 937,
-    bonus: "None"
+    "category": "Main",
+    "price": 937,
+    "bonus": "None",
+    "profitability": 669
   },
   {
-    name: "Curry Rice",
-    image: "curry_rice.jpg",
-    ingredients: [
+    "name": "Curry Rice",
+    "image": "curry_rice.jpg",
+    "ingredients": [
       "Rice",
       "Curry powder",
-      ["Potato", "Carrot", "Onion"],
+      [
+        "Potato",
+        "Carrot",
+        "Onion"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Garlic",
-      "Apple",
+      "Apple"
     ],
-    category: "Main",
-    price: 911,
-    bonus: "None"
+    "category": "Main",
+    "price": 911,
+    "bonus": "None",
+    "profitability": 624
   },
   {
-    name: "Vegetable Curry",
-    image: "vegetable_curry.jpg",
-    ingredients: [
+    "name": "Vegetable Curry",
+    "image": "vegetable_curry.jpg",
+    "ingredients": [
       "Rice",
       "Curry powder",
-      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red Pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
+      [
+        "Cucumber",
+        "Onion",
+        "Asparagus",
+        "Tomato",
+        "Red Pepper",
+        "Carrot",
+        "Turnip",
+        "Sweet potato",
+        "Pumpkin",
+        "Eggplant"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
-      "Apple",
+      "Apple"
     ],
-    category: "Main",
-    price: 911,
-    bonus: "None"
+    "category": "Main",
+    "price": 911,
+    "bonus": "None",
+    "profitability": 638
   },
   {
-    name: "Mushroom Rice",
-    image: "mushroom_rice.jpg",
-    ingredients: [
+    "name": "Mushroom Rice",
+    "image": "mushroom_rice.jpg",
+    "ingredients": [
       "Rice",
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ],
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ],
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Fried tofu",
       "Soy sauce",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 874,
-    bonus: "None"
+    "category": "Main",
+    "price": 874,
+    "bonus": "None",
+    "profitability": 709
   },
   {
-    name: "Chirashi Sushi",
-    image: "chirashi_sushi.jpg",
-    ingredients: [
+    "name": "Chirashi Sushi",
+    "image": "chirashi_sushi.jpg",
+    "ingredients": [
       "Sashimi",
       "Rice",
       "Vinegar",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Carrot",
       "Shiitake mushroom",
       "Shimeji mushroom",
@@ -2580,134 +3295,189 @@ export const recipes = [
       "Soy sauce",
       "Sugar",
       "Salt",
-      "Seaweed",
+      "Seaweed"
     ],
-    category: "Main",
-    price: 867,
-    bonus: "None"
+    "category": "Main",
+    "price": 867,
+    "bonus": "None",
+    "profitability": 496
   },
   {
-    name: "Zaru Soba",
-    image: "zaru_soba.jpg",
-    ingredients: [
+    "name": "Zaru Soba",
+    "image": "zaru_soba.jpg",
+    "ingredients": [
       "Buckweat",
-      "Wheat flour",
+      "Wheat flour"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Seaweed",
       "Soy sauce",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Main",
-    price: 838,
-    bonus: "None"
+    "category": "Main",
+    "price": 838,
+    "bonus": "None",
+    "profitability": 613
   },
   {
-    name: "Dry curry",
-    image: "dry_curry.jpg",
-    ingredients: [
+    "name": "Dry curry",
+    "image": "dry_curry.jpg",
+    "ingredients": [
       "Rice",
       "Curry powder",
       "Tomato",
-      "Soybean",
+      "Soybean"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Garlic",
       "Carrot",
       "Green Pepper",
-      "Boiled egg",
+      "Boiled egg"
     ],
-    category: "Main",
-    price: 837,
-    bonus: "None"
+    "category": "Main",
+    "price": 837,
+    "bonus": "None",
+    "profitability": 479
   },
   {
-    name: "Bouillabaisse",
-    image: "bouillabaisse.jpg",
-    ingredients: [
+    "name": "Bouillabaisse",
+    "image": "bouillabaisse.jpg",
+    "ingredients": [
       "Tomato",
-      ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Grayling",
+        "Bighead carp",
+        "Nile perch",
+        "Barbel steed",
+        "Three-lips carp",
+        "Brown trout",
+        "Black bass",
+        "Mugistuki"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Garlic",
       "Salt",
       "Pepper",
       "Nut oil",
       "Herb oil",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Main",
-    price: 835,
-    bonus: "None"
+    "category": "Main",
+    "price": 835,
+    "bonus": "None",
+    "profitability": 574
   },
   {
-    name: "Herb Sandwich",
-    image: "herb_sandwich.jpg",
-    ingredients: [
-      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      ["Mint", "Chamomile", "Lavender"],
-      "Mayonaise",
+    "name": "Herb Sandwich",
+    "image": "herb_sandwich.jpg",
+    "ingredients": [
+      [
+        "Bread",
+        "White bread",
+        "Baguette",
+        "Focaccia Bread"
+      ],
+      [
+        "Mint",
+        "Chamomile",
+        "Lavender"
+      ],
+      "Mayonaise"
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Onion",
       "Mayonaise",
       "Nut oil",
       "Herb oil",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Main",
-    price: 817,
-    bonus: "None"
+    "category": "Main",
+    "price": 817,
+    "bonus": "None",
+    "profitability": 462
   },
   {
-    name: "Steamed Mushrooms",
-    image: "steamed_mushrooms.jpg",
-    ingredients: [
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
-      "Butter",
+    "name": "Steamed Mushrooms",
+    "image": "steamed_mushrooms.jpg",
+    "ingredients": [
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ],
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Salt",
       "Pepper",
       "Nut oil",
       "Herb oil",
-      "Olive oil",
+      "Olive oil"
     ],
-    category: "Main",
-    price: 809,
-    bonus: "None"
+    "category": "Main",
+    "price": 809,
+    "bonus": "None",
+    "profitability": 534
   },
   {
-    name: "Tofu Steak",
-    image: "tofu_steak.jpg",
-    ingredients: [
+    "name": "Tofu Steak",
+    "image": "tofu_steak.jpg",
+    "ingredients": [
       "Tofu",
-      ["Wheat flour", "Rice flour"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Wheat flour",
+        "Rice flour"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Soy sauce",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Main",
-    price: 809,
-    bonus: "None"
+    "category": "Main",
+    "price": 809,
+    "bonus": "None",
+    "profitability": 446
   },
   {
-    name: "Milk Rice Porridge",
-    image: "milk_rice_porridge.jpg",
-    ingredients: [
+    "name": "Milk Rice Porridge",
+    "image": "milk_rice_porridge.jpg",
+    "ingredients": [
       "Rice",
       "Salt",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Shiitake mushroom",
       "Shimeji mushroom",
@@ -2719,36 +3489,41 @@ export const recipes = [
       "Shimeji mushroom",
       "Butter",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 801,
-    bonus: "None"
+    "category": "Main",
+    "price": 801,
+    "bonus": "None",
+    "profitability": 454
   },
   {
-    name: "Fried Onigiri",
-    image: "fried_onigiri.jpg",
-    ingredients: [
+    "name": "Fried Onigiri",
+    "image": "fried_onigiri.jpg",
+    "ingredients": [
       "Onigiri",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    arrangements: [
+    "arrangements": [
       "Seaweed",
       "Green Tea",
-      "Sencha",
+      "Sencha"
     ],
-    category: "Main",
-    price: 735,
-    bonus: "None"
+    "category": "Main",
+    "price": 735,
+    "bonus": "None",
+    "profitability": 485
   },
   {
-    name: "Omelet",
-    image: "omelet.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
-      "Butter",
+    "name": "Omelet",
+    "image": "omelet.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Onion",
       "Tomato",
       "Milk",
@@ -2756,75 +3531,95 @@ export const recipes = [
       "Milk+",
       "Buffalo milk+",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 721,
-    bonus: "None"
+    "category": "Main",
+    "price": 721,
+    "bonus": "None",
+    "profitability": 476
   },
   {
-    name: "Donburi Rice Bowl",
-    image: "donburi_rice_bowl.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
+    "name": "Donburi Rice Bowl",
+    "image": "donburi_rice_bowl.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Onion",
-      "Rice",
+      "Rice"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Soy sauce",
       "Sugar",
-      "Seaweed",
+      "Seaweed"
     ],
-    category: "Main",
-    price: 664,
-    bonus: "None"
+    "category": "Main",
+    "price": 664,
+    "bonus": "None",
+    "profitability": 391
   },
   {
-    name: "Sushi",
-    image: "sushi.jpg",
-    ingredients: [
+    "name": "Sushi",
+    "image": "sushi.jpg",
+    "ingredients": [
       "Sashimi",
       "Rice",
-      "Vinegar",
+      "Vinegar"
     ],
-    arrangements: [
+    "arrangements": [
       "Cucumber",
       "Soy sauce",
       "Sugar",
       "Salt",
-      "Seaweed",
+      "Seaweed"
     ],
-    category: "Main",
-    price: 657,
-    bonus: "None"
+    "category": "Main",
+    "price": 657,
+    "bonus": "None",
+    "profitability": 387
   },
   {
-    name: "Tomato Fondue",
-    image: "tomato_fondue.jpg",
-    ingredients: [
+    "name": "Tomato Fondue",
+    "image": "tomato_fondue.jpg",
+    "ingredients": [
       "Tomato",
-      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      ["Broccoli", "Potato", "Asparagus", "Red Pepper", "Carrot", "Common Mushroom", "Pumpkin"],
+      [
+        "Bread",
+        "White bread",
+        "Baguette",
+        "Focaccia Bread"
+      ],
+      [
+        "Broccoli",
+        "Potato",
+        "Asparagus",
+        "Red Pepper",
+        "Carrot",
+        "Common Mushroom",
+        "Pumpkin"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Garlic",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 650,
-    bonus: "None"
+    "category": "Main",
+    "price": 650,
+    "bonus": "None",
+    "profitability": 471
   },
   {
-    name: "Udon",
-    image: "udon.jpg",
-    ingredients: [
+    "name": "Udon",
+    "image": "udon.jpg",
+    "ingredients": [
       "Wheat flour",
       "Fish cake",
-      "Green onion",
+      "Green onion"
     ],
-    arrangements: [
+    "arrangements": [
       "Egg",
       "Silkie egg",
       "Shiitake mushroom",
@@ -2836,494 +3631,680 @@ export const recipes = [
       "Monarch mushroom",
       "Seaweed",
       "Fried tofu",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Main",
-    price: 647,
-    bonus: "None"
+    "category": "Main",
+    "price": 647,
+    "bonus": "None",
+    "profitability": 367
   },
   {
-    name: "Herb Rice Porridge",
-    image: "herb_rice_porridge.jpg",
-    ingredients: [
+    "name": "Herb Rice Porridge",
+    "image": "herb_rice_porridge.jpg",
+    "ingredients": [
       "Rice",
       "Salt",
-      ["Mint", "Chamomile", "Lavender"],
+      [
+        "Mint",
+        "Chamomile",
+        "Lavender"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Egg",
-      "Silkie egg",
+      "Silkie egg"
     ],
-    category: "Main",
-    price: 647,
-    bonus: "None"
+    "category": "Main",
+    "price": 647,
+    "bonus": "None",
+    "profitability": 367
   },
   {
-    name: "Fruit Sandwich",
-    image: "fruit_sandwich.jpg",
-    ingredients: [
-      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
-      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+    "name": "Fruit Sandwich",
+    "image": "fruit_sandwich.jpg",
+    "ingredients": [
+      [
+        "Bread",
+        "White bread",
+        "Baguette",
+        "Focaccia Bread"
+      ],
+      [
+        "Cherry",
+        "Blueberry",
+        "Green grape",
+        "Strawberry",
+        "Mango",
+        "Pineapple",
+        "Banana",
+        "Peach",
+        "Orange",
+        "Melon"
+      ],
+      [
+        "Cherry",
+        "Blueberry",
+        "Green grape",
+        "Strawberry",
+        "Mango",
+        "Pineapple",
+        "Banana",
+        "Peach",
+        "Orange",
+        "Melon"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Mint",
       "Chocolate",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Main",
-    price: 647,
-    bonus: "None"
+    "category": "Main",
+    "price": 647,
+    "bonus": "None",
+    "profitability": 446
   },
   {
-    name: "Herb Pasta",
-    image: "herb_pasta.jpg",
-    ingredients: [
+    "name": "Herb Pasta",
+    "image": "herb_pasta.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Mint", "Chamomile", "Lavender"],
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Mint",
+        "Chamomile",
+        "Lavender"
+      ],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Cucumber",
       "Garlic",
       "Avocado",
-      "Cheese",
+      "Cheese"
     ],
-    category: "Main",
-    price: 616,
-    bonus: "None"
+    "category": "Main",
+    "price": 616,
+    "bonus": "None",
+    "profitability": 349
   },
   {
-    name: "Penne Pasta",
-    image: "penne_pasta.jpg",
-    ingredients: [
+    "name": "Penne Pasta",
+    "image": "penne_pasta.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
-      "Tomato",
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ],
+      "Tomato"
     ],
-    arrangements: [
+    "arrangements": [
       "Avocado",
-      "Cheese",
+      "Cheese"
     ],
-    category: "Main",
-    price: 604,
-    bonus: "None"
+    "category": "Main",
+    "price": 604,
+    "bonus": "None",
+    "profitability": 343
   },
   {
-    name: "Rice Porridge",
-    image: "rice_porridge.jpg",
-    ingredients: [
+    "name": "Rice Porridge",
+    "image": "rice_porridge.jpg",
+    "ingredients": [
       "Rice",
-      "Salt",
+      "Salt"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Egg",
-      "Silkie egg",
+      "Silkie egg"
     ],
-    category: "Main",
-    price: 544,
-    bonus: "None"
+    "category": "Main",
+    "price": 544,
+    "bonus": "None",
+    "profitability": 359
   },
   {
-    name: "Simmered Fish",
-    image: "simmered_fish.jpg",
-    ingredients: [
-      ["Blugill", "Willow shiner", "Killifish", "Stone moroko", "Pond smelt", "Sweetfish", "Eel", "Eel", "Goldfish", "Crucian carp"],
-      "Soy sauce",
+    "name": "Simmered Fish",
+    "image": "simmered_fish.jpg",
+    "ingredients": [
+      [
+        "Blugill",
+        "Willow shiner",
+        "Killifish",
+        "Stone moroko",
+        "Pond smelt",
+        "Sweetfish",
+        "Eel",
+        "Eel",
+        "Goldfish",
+        "Crucian carp"
+      ],
+      "Soy sauce"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Burdock",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Main",
-    price: 451,
-    bonus: "None"
+    "category": "Main",
+    "price": 451,
+    "bonus": "None",
+    "profitability": 341
   },
   {
-    name: "Raisin Bread",
-    image: "raisin_bread.jpg",
-    ingredients: [
+    "name": "Raisin Bread",
+    "image": "raisin_bread.jpg",
+    "ingredients": [
       "Wheat flour",
-      "Red grape",
+      "Red grape"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Butter",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 444,
-    bonus: "None"
+    "category": "Main",
+    "price": 444,
+    "bonus": "None",
+    "profitability": 282
   },
   {
-    name: "Sandwich",
-    image: "sandwich.jpg",
-    ingredients: [
-      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
+    "name": "Sandwich",
+    "image": "sandwich.jpg",
+    "ingredients": [
+      [
+        "Bread",
+        "White bread",
+        "Baguette",
+        "Focaccia Bread"
+      ],
       "Tomato",
-      "Cucumber",
+      "Cucumber"
     ],
-    arrangements: [
+    "arrangements": [
       "Boiled egg",
       "Cheese",
       "Butter",
-      "Mayonaise",
+      "Mayonaise"
     ],
-    category: "Main",
-    price: 375,
-    bonus: "None"
+    "category": "Main",
+    "price": 375,
+    "bonus": "None",
+    "profitability": 199
   },
   {
-    name: "Onigiri",
-    image: "onigiri.jpg",
-    ingredients: [
+    "name": "Onigiri",
+    "image": "onigiri.jpg",
+    "ingredients": [
       "Rice",
-      "Seaweed",
+      "Seaweed"
     ],
-    arrangements: [
+    "arrangements": [
       "Soybean",
       "Shimeji mushroom",
       "Matsutake mushroom",
       "Salmon",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 370,
-    bonus: "None"
+    "category": "Main",
+    "price": 370,
+    "bonus": "None",
+    "profitability": 245
   },
   {
-    name: "Fried Eggplant",
-    image: "fried_eggplant.jpg",
-    ingredients: [
+    "name": "Fried Eggplant",
+    "image": "fried_eggplant.jpg",
+    "ingredients": [
       "Eggplant",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Soy sauce",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 342,
-    bonus: "None"
+    "category": "Main",
+    "price": 342,
+    "bonus": "None",
+    "profitability": 217
   },
   {
-    name: "Chestnut Rice",
-    image: "chestnut_rice.jpg",
-    ingredients: [
+    "name": "Chestnut Rice",
+    "image": "chestnut_rice.jpg",
+    "ingredients": [
       "Rice",
-      "Chestnut",
+      "Chestnut"
     ],
-    arrangements: [
+    "arrangements": [
       "Sweet potato",
       "Chestnut powder",
-      "Salt",
+      "Salt"
     ],
-    category: "Main",
-    price: 329,
-    bonus: "None"
+    "category": "Main",
+    "price": 329,
+    "bonus": "None",
+    "profitability": 219
   },
   {
-    name: "Pasta",
-    image: "pasta.jpg",
-    ingredients: [
+    "name": "Pasta",
+    "image": "pasta.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Tomato",
       "Cucumber",
       "Garlic",
       "Eggplant",
-      "Cheese",
+      "Cheese"
     ],
-    category: "Main",
-    price: 328,
-    bonus: "None"
+    "category": "Main",
+    "price": 328,
+    "bonus": "None",
+    "profitability": 208
   },
   {
-    name: "Egg Over Rice",
-    image: "egg_over_rice.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
-      "Rice",
+    "name": "Egg Over Rice",
+    "image": "egg_over_rice.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Rice"
     ],
-    arrangements: [
+    "arrangements": [
       "Green onion",
       "Cheese",
       "Soy sauce",
       "Salt",
-      "Pepper",
+      "Pepper"
     ],
-    category: "Main",
-    price: 246,
-    bonus: "None"
+    "category": "Main",
+    "price": 246,
+    "bonus": "None",
+    "profitability": 166
   },
   {
-    name: "Grilled Fish",
-    image: "grilled_fish.jpg",
-    ingredients: [
-      ["Amur minnow", "Dace", "Pale chub", "Sculpin", "Dark chub", "Bitterling", "Tamoroko", "Rainbow trout", "Silver carp", "Basa"],
+    "name": "Grilled Fish",
+    "image": "grilled_fish.jpg",
+    "ingredients": [
+      [
+        "Amur minnow",
+        "Dace",
+        "Pale chub",
+        "Sculpin",
+        "Dark chub",
+        "Bitterling",
+        "Tamoroko",
+        "Rainbow trout",
+        "Silver carp",
+        "Basa"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Radish",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Main",
-    price: 195,
-    bonus: "None"
+    "category": "Main",
+    "price": 195,
+    "bonus": "None",
+    "profitability": 195
   },
   {
-    name: "Rüeblitorte",
-    image: "rüeblitorte.jpg",
-    ingredients: [
+    "name": "Rüeblitorte",
+    "image": "rüeblitorte.jpg",
+    "ingredients": [
       "Wheat flour",
       "Silkie egg",
       "Three-forked carrot",
-      "Lemon",
+      "Lemon"
     ],
-    arrangements: [
+    "arrangements": [
       "Almond",
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Breadcrumbs",
-      "White breadcrumbs",
+      "White breadcrumbs"
     ],
-    category: "Dessert",
-    price: 2506,
-    bonus: "Jump distance up"
+    "category": "Dessert",
+    "price": 2506,
+    "bonus": "Jump distance up",
+    "profitability": 1527
   },
   {
-    name: "Trifle",
-    image: "trifle.jpg",
-    ingredients: [
+    "name": "Trifle",
+    "image": "trifle.jpg",
+    "ingredients": [
       "Castella",
       "Silkie egg+",
       "Yogurt+",
-      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+      [
+        "Cherry",
+        "Blueberry",
+        "Green grape",
+        "Strawberry",
+        "Mango",
+        "Pineapple",
+        "Banana",
+        "Peach",
+        "Orange",
+        "Melon"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Cookies",
       "Herb cookies",
       "Walnut cookies",
-      "Chocolate cookies",
+      "Chocolate cookies"
     ],
-    category: "Dessert",
-    price: 6192,
-    bonus: "Petting happiness Lv4"
+    "category": "Dessert",
+    "price": 6192,
+    "bonus": "Petting happiness Lv4",
+    "profitability": 3881
   },
   {
-    name: "Pineapple pie",
-    image: "pineapple_pie.jpg",
-    ingredients: [
+    "name": "Pineapple pie",
+    "image": "pineapple_pie.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Butter",
-      "Jewej pineapple",
+      "Jewej pineapple"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Dessert",
-    price: 3130,
-    bonus: "Petting happiness Lv4"
+    "category": "Dessert",
+    "price": 3130,
+    "bonus": "Petting happiness Lv4",
+    "profitability": 1908
   },
   {
-    name: "Cheese Cake",
-    image: "cheese_cake.jpg",
-    ingredients: [
+    "name": "Cheese Cake",
+    "image": "cheese_cake.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Buffalo milk",
-      "Cheese",
+      "Cheese"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Butter",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 1602,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1602,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 897
   },
   {
-    name: "Steamed Cake",
-    image: "steamed_cake.jpg",
-    ingredients: [
+    "name": "Steamed Cake",
+    "image": "steamed_cake.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      "Pumpkin",
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Pumpkin"
     ],
-    arrangements: [
+    "arrangements": [
       "Sweet potato",
       "Butter",
       "Rice flour",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 1422,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1422,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 830
   },
   {
-    name: "Cherry Pie",
-    image: "cherry_pie.jpg",
-    ingredients: [
+    "name": "Cherry Pie",
+    "image": "cherry_pie.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Butter",
-      "Cherry",
+      "Cherry"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Dessert",
-    price: 1404,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1404,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 819
   },
   {
-    name: "Blueberry Pie",
-    image: "blueberry_pie.jpg",
-    ingredients: [
+    "name": "Blueberry Pie",
+    "image": "blueberry_pie.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Butter",
-      "Blueberry",
+      "Blueberry"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Dessert",
-    price: 1377,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1377,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 803
   },
   {
-    name: "Strawberry Pie",
-    image: "strawberry_pie.jpg",
-    ingredients: [
+    "name": "Strawberry Pie",
+    "image": "strawberry_pie.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Butter",
-      "Strawberry",
+      "Strawberry"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Dessert",
-    price: 1368,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1368,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 798
   },
   {
-    name: "Donuts",
-    image: "donuts.jpg",
-    ingredients: [
+    "name": "Donuts",
+    "image": "donuts.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Sugar",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
-      "Butter",
+      "Butter"
     ],
-    category: "Dessert",
-    price: 1332,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1332,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 777
   },
   {
-    name: "Churros",
-    image: "churros.jpg",
-    ingredients: [
+    "name": "Churros",
+    "image": "churros.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Sugar",
-      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
+      [
+        "Oil",
+        "Nut oil",
+        "Herb oil",
+        "Olive oil",
+        "Pumpkin oil",
+        "Grape oil"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
       "Butter",
-      "Chocolate",
+      "Chocolate"
     ],
-    category: "Dessert",
-    price: 1332,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1332,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 777
   },
   {
-    name: "Chocolate Cake",
-    image: "chocolate_cake.jpg",
-    ingredients: [
+    "name": "Chocolate Cake",
+    "image": "chocolate_cake.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      "Chocolate",
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Chocolate"
     ],
-    arrangements: [
+    "arrangements": [
       "Cocoa",
       "Butter",
-      "Matcha tea tin",
+      "Matcha tea tin"
     ],
-    category: "Dessert",
-    price: 1242,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1242,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 725
   },
   {
-    name: "Baumkuchen",
-    image: "baumkuchen.jpg",
-    ingredients: [
+    "name": "Baumkuchen",
+    "image": "baumkuchen.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      "Sugar",
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Sugar"
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Butter",
+      "Butter"
     ],
-    category: "Dessert",
-    price: 1242,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1242,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 725
   },
   {
-    name: "Engadiner Nusstorte",
-    image: "engadiner_nusstorte.jpg",
-    ingredients: [
+    "name": "Engadiner Nusstorte",
+    "image": "engadiner_nusstorte.jpg",
+    "ingredients": [
       "Wheat flour",
       "Silkie egg",
       "Sugar",
-      "Walnut",
+      "Walnut"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
@@ -3332,212 +4313,309 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Dessert",
-    price: 1206,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1206,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 704
   },
   {
-    name: "Pancakes",
-    image: "pancakes.jpg",
-    ingredients: [
+    "name": "Pancakes",
+    "image": "pancakes.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      ["Honey", "Invigorating honey", "Mellow honey", "Royal honey"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      [
+        "Honey",
+        "Invigorating honey",
+        "Mellow honey",
+        "Royal honey"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 1152,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1152,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 635
   },
   {
-    name: "Fruit Dumplings",
-    image: "fruit_dumplings.jpg",
-    ingredients: [
+    "name": "Fruit Dumplings",
+    "image": "fruit_dumplings.jpg",
+    "ingredients": [
       "Refined Rice Flour",
-      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
-      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+      [
+        "Cherry",
+        "Blueberry",
+        "Green grape",
+        "Strawberry",
+        "Mango",
+        "Pineapple",
+        "Banana",
+        "Peach",
+        "Orange",
+        "Melon"
+      ],
+      [
+        "Cherry",
+        "Blueberry",
+        "Green grape",
+        "Strawberry",
+        "Mango",
+        "Pineapple",
+        "Banana",
+        "Peach",
+        "Orange",
+        "Melon"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Mint",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 1089,
-    bonus: "Petting happiness Lv3"
+    "category": "Dessert",
+    "price": 1089,
+    "bonus": "Petting happiness Lv3",
+    "profitability": 617
   },
   {
-    name: "Sweet Potato Cakes",
-    image: "sweet_potato_cakes.jpg",
-    ingredients: [
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    "name": "Sweet Potato Cakes",
+    "image": "sweet_potato_cakes.jpg",
+    "ingredients": [
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
       "Sugar",
-      "Sweet potato",
+      "Sweet potato"
     ],
-    arrangements: [
+    "arrangements": [
       "Egg",
       "Silkie egg",
       "Butter",
-      "Salt",
+      "Salt"
     ],
-    category: "Dessert",
-    price: 932,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 932,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 529
   },
   {
-    name: "Chocolate Fondue",
-    image: "chocolate_fondue.jpg",
-    ingredients: [
+    "name": "Chocolate Fondue",
+    "image": "chocolate_fondue.jpg",
+    "ingredients": [
       "Chocolate",
-      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      ["Apple", "Red grape", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+      [
+        "Bread",
+        "White bread",
+        "Baguette",
+        "Focaccia Bread"
+      ],
+      [
+        "Apple",
+        "Red grape",
+        "Green grape",
+        "Strawberry",
+        "Mango",
+        "Pineapple",
+        "Banana",
+        "Peach",
+        "Orange",
+        "Melon"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 924,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 924,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 523
   },
   {
-    name: "Baked Apple",
-    image: "baked_apple.jpg",
-    ingredients: [
+    "name": "Baked Apple",
+    "image": "baked_apple.jpg",
+    "ingredients": [
       "Apple",
-      "Butter",
+      "Butter"
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 838,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 838,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 553
   },
   {
-    name: "Ice Cream",
-    image: "ice_cream.jpg",
-    ingredients: [
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      ["Egg", "Silkie egg"],
-      "Sugar",
+    "name": "Ice Cream",
+    "image": "ice_cream.jpg",
+    "ingredients": [
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Sugar"
     ],
-    arrangements: [
+    "arrangements": [
       "Mint",
       "Chocolate",
-      "Black Tea",
+      "Black Tea"
     ],
-    category: "Dessert",
-    price: 832,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 832,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 472
   },
   {
-    name: "Castella",
-    image: "castella.jpg",
-    ingredients: [
+    "name": "Castella",
+    "image": "castella.jpg",
+    "ingredients": [
       "Wheat flour",
       "Silkie egg",
-      ["Honey", "Invigorating honey", "Mellow honey", "Royal honey"],
+      [
+        "Honey",
+        "Invigorating honey",
+        "Mellow honey",
+        "Royal honey"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Rice flour",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 801,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 801,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 421
   },
   {
-    name: "Strawberry Mochi",
-    image: "strawberry_mochi.jpg",
-    ingredients: [
+    "name": "Strawberry Mochi",
+    "image": "strawberry_mochi.jpg",
+    "ingredients": [
       "Mochi",
-      "Strawberry",
+      "Strawberry"
     ],
-    arrangements: [
+    "arrangements": [
       "Refined Rice Flour",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Dessert",
-    price: 618,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 618,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 408
   },
   {
-    name: "Cake",
-    image: "cake.jpg",
-    ingredients: [
+    "name": "Cake",
+    "image": "cake.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Strawberry",
       "Lemon",
       "Mango",
       "Cheese",
-      "Butter",
+      "Butter"
     ],
-    category: "Dessert",
-    price: 601,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 601,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 341
   },
   {
-    name: "Egg Tart",
-    image: "egg_tart.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      "Wheat flour",
+    "name": "Egg Tart",
+    "image": "egg_tart.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Wheat flour"
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
       "Butter",
-      "Almond",
+      "Almond"
     ],
-    category: "Dessert",
-    price: 601,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 601,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 341
   },
   {
-    name: "Dango",
-    image: "dango.jpg",
-    ingredients: [
-      "Refined Rice Flour",
+    "name": "Dango",
+    "image": "dango.jpg",
+    "ingredients": [
+      "Refined Rice Flour"
     ],
-    arrangements: [
+    "arrangements": [
       "Rice flour",
       "Soy flour",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 588,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 588,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 588
   },
   {
-    name: "Wrapped Rice Cakes",
-    image: "wrapped_rice_cakes.jpg",
-    ingredients: [
+    "name": "Wrapped Rice Cakes",
+    "image": "wrapped_rice_cakes.jpg",
+    "ingredients": [
       "Mochi",
-      "Summer blend tea tin",
+      "Summer blend tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Carrot",
       "Egg",
       "Silkie egg",
@@ -3549,112 +4627,144 @@ export const recipes = [
       "Matsutake mushroom",
       "Monarch mushroom",
       "Sugar",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    category: "Dessert",
-    price: 544,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 544,
+    "bonus": "Petting happiness Lv2",
+    "profitability": -35
   },
   {
-    name: "Walnut Cookies",
-    image: "walnut_cookies.jpg",
-    ingredients: [
+    "name": "Walnut Cookies",
+    "image": "walnut_cookies.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      "Walnut",
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Walnut"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Butter",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 524,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 524,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 297
   },
   {
-    name: "Soy Milk Pudding",
-    image: "soy_milk_pudding.jpg",
-    ingredients: [
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      ["Egg", "Silkie egg"],
-      "Soy milk",
+    "name": "Soy Milk Pudding",
+    "image": "soy_milk_pudding.jpg",
+    "ingredients": [
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Soy milk"
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 501,
-    bonus: "Petting happiness Lv2"
+    "category": "Dessert",
+    "price": 501,
+    "bonus": "Petting happiness Lv2",
+    "profitability": 284
   },
   {
-    name: "Herb Cookies",
-    image: "herb_cookies.jpg",
-    ingredients: [
+    "name": "Herb Cookies",
+    "image": "herb_cookies.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      ["Mint", "Chamomile", "Lavender"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Mint",
+        "Chamomile",
+        "Lavender"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Butter",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 415,
-    bonus: "Petting happiness Lv1"
+    "category": "Dessert",
+    "price": 415,
+    "bonus": "Petting happiness Lv1",
+    "profitability": 222
   },
   {
-    name: "Toasted Mochi",
-    image: "toasted_mochi.jpg",
-    ingredients: [
-      "Mochi",
+    "name": "Toasted Mochi",
+    "image": "toasted_mochi.jpg",
+    "ingredients": [
+      "Mochi"
     ],
-    arrangements: [
+    "arrangements": [
       "Soy flour",
       "Sugar",
       "Soy sauce",
-      "Seaweed",
+      "Seaweed"
     ],
-    category: "Dessert",
-    price: 390,
-    bonus: "Petting happiness Lv1"
+    "category": "Dessert",
+    "price": 390,
+    "bonus": "Petting happiness Lv1",
+    "profitability": 390
   },
   {
-    name: "Chestnut Paste",
-    image: "chestnut_paste.jpg",
-    ingredients: [
-      "Chestnut powder",
+    "name": "Chestnut Paste",
+    "image": "chestnut_paste.jpg",
+    "ingredients": [
+      "Chestnut powder"
     ],
-    arrangements: [
+    "arrangements": [
       "Sweet potato",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Dessert",
-    price: 390,
-    bonus: "Petting happiness Lv1"
+    "category": "Dessert",
+    "price": 390,
+    "bonus": "Petting happiness Lv1",
+    "profitability": 390
   },
   {
-    name: "Whole Cheesecake",
-    image: "whole_cheesecake.jpg",
-    ingredients: [
+    "name": "Whole Cheesecake",
+    "image": "whole_cheesecake.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg+", "Silkie egg+"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      "Cheese",
+      [
+        "Egg+",
+        "Silkie egg+"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Cheese"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Honey",
       "Invigorating honey",
@@ -3662,195 +4772,259 @@ export const recipes = [
       "Royal honey",
       "Butter",
       "Sugar",
-      "Cookies",
+      "Cookies"
     ],
-    category: "Dessert",
-    price: 2746,
-    bonus: "Petting rare item % Lv4"
+    "category": "Dessert",
+    "price": 2746,
+    "bonus": "Petting rare item % Lv4",
+    "profitability": 1944
   },
   {
-    name: "Whole chocolate cake",
-    image: "whole_chocolate_cake.jpg",
-    ingredients: [
+    "name": "Whole chocolate cake",
+    "image": "whole_chocolate_cake.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg+", "Silkie egg+"],
-      ["Milk+", "Buffalo milk+"],
-      "Chocolate",
+      [
+        "Egg+",
+        "Silkie egg+"
+      ],
+      [
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Chocolate"
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
       "Sugar",
-      "Chocolate cookies",
+      "Chocolate cookies"
     ],
-    category: "Dessert",
-    price: 1786,
-    bonus: "Petting rare item % Lv4"
+    "category": "Dessert",
+    "price": 1786,
+    "bonus": "Petting rare item % Lv4",
+    "profitability": 909
   },
   {
-    name: "Apple Pie",
-    image: "apple_pie.jpg",
-    ingredients: [
+    "name": "Apple Pie",
+    "image": "apple_pie.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Butter",
-      "Apple",
+      "Apple"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Sugar",
-      "Salt",
+      "Salt"
     ],
-    category: "Dessert",
-    price: 1458,
-    bonus: "Petting rare item % Lv3"
+    "category": "Dessert",
+    "price": 1458,
+    "bonus": "Petting rare item % Lv3",
+    "profitability": 851
   },
   {
-    name: "Whole Cake",
-    image: "whole_cake.jpg",
-    ingredients: [
+    "name": "Whole Cake",
+    "image": "whole_cake.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg+", "Silkie egg+"],
-      ["Milk+", "Buffalo milk+"],
-      "Strawberry",
+      [
+        "Egg+",
+        "Silkie egg+"
+      ],
+      [
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Strawberry"
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
       "Sugar",
-      "Chocolate",
+      "Chocolate"
     ],
-    category: "Dessert",
-    price: 1350,
-    bonus: "Petting rare item % Lv3"
+    "category": "Dessert",
+    "price": 1350,
+    "bonus": "Petting rare item % Lv3",
+    "profitability": 608
   },
   {
-    name: "Mont Blanc Cake",
-    image: "mont_blanc_cake.jpg",
-    ingredients: [
+    "name": "Mont Blanc Cake",
+    "image": "mont_blanc_cake.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      "Chestnut powder",
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      "Chestnut powder"
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 1242,
-    bonus: "Petting rare item % Lv3"
+    "category": "Dessert",
+    "price": 1242,
+    "bonus": "Petting rare item % Lv3",
+    "profitability": 725
   },
   {
-    name: "Pumpkin Pudding",
-    image: "pumpkin_pudding.jpg",
-    ingredients: [
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      ["Egg", "Silkie egg"],
-      "Pumpkin",
+    "name": "Pumpkin Pudding",
+    "image": "pumpkin_pudding.jpg",
+    "ingredients": [
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Pumpkin"
     ],
-    arrangements: [
+    "arrangements": [
       "Pumpkin seeds",
       "Sugar",
-      "Butter",
+      "Butter"
     ],
-    category: "Dessert",
-    price: 986,
-    bonus: "Petting rare item % Lv2"
+    "category": "Dessert",
+    "price": 986,
+    "bonus": "Petting rare item % Lv2",
+    "profitability": 559
   },
   {
-    name: "Chocolate Cookies",
-    image: "chocolate_cookies.jpg",
-    ingredients: [
+    "name": "Chocolate Cookies",
+    "image": "chocolate_cookies.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      "Chocolate",
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      "Chocolate"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Butter",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 832,
-    bonus: "Petting rare item % Lv2"
+    "category": "Dessert",
+    "price": 832,
+    "bonus": "Petting rare item % Lv2",
+    "profitability": 472
   },
   {
-    name: "Honey Cake",
-    image: "honey_cake.jpg",
-    ingredients: [
+    "name": "Honey Cake",
+    "image": "honey_cake.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
-      ["Honey", "Invigorating honey", "Mellow honey", "Royal honey"],
+      [
+        "Egg",
+        "Silkie egg"
+      ],
+      [
+        "Honey",
+        "Invigorating honey",
+        "Mellow honey",
+        "Royal honey"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Chamomile",
+      "Chamomile"
     ],
-    category: "Dessert",
-    price: 755,
-    bonus: "Petting rare item % Lv2"
+    "category": "Dessert",
+    "price": 755,
+    "bonus": "Petting rare item % Lv2",
+    "profitability": 395
   },
   {
-    name: "Chocolate-Covered Banana",
-    image: "chocolate-covered_banana.jpg",
-    ingredients: [
+    "name": "Chocolate-Covered Banana",
+    "image": "chocolate-covered_banana.jpg",
+    "ingredients": [
       "Banana",
-      "Chocolate",
+      "Chocolate"
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
-      "Oil",
+      "Oil"
     ],
-    category: "Dessert",
-    price: 735,
-    bonus: "Petting rare item % Lv2"
+    "category": "Dessert",
+    "price": 735,
+    "bonus": "Petting rare item % Lv2",
+    "profitability": 485
   },
   {
-    name: "Pudding",
-    image: "pudding.jpg",
-    ingredients: [
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      ["Egg", "Silkie egg"],
+    "name": "Pudding",
+    "image": "pudding.jpg",
+    "ingredients": [
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ],
+      [
+        "Egg",
+        "Silkie egg"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
-      "Butter",
+      "Butter"
     ],
-    category: "Dessert",
-    price: 328,
-    bonus: "Petting rare item % Lv1"
+    "category": "Dessert",
+    "price": 328,
+    "bonus": "Petting rare item % Lv1",
+    "profitability": 208
   },
   {
-    name: "Cookies",
-    image: "cookies.jpg",
-    ingredients: [
+    "name": "Cookies",
+    "image": "cookies.jpg",
+    "ingredients": [
       "Wheat flour",
-      ["Egg", "Silkie egg"],
+      [
+        "Egg",
+        "Silkie egg"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Butter",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Dessert",
-    price: 328,
-    bonus: "Petting rare item % Lv1"
+    "category": "Dessert",
+    "price": 328,
+    "bonus": "Petting rare item % Lv1",
+    "profitability": 208
   },
   {
-    name: "Soy Milk",
-    image: "soy_milk.jpg",
-    ingredients: [
-      "Soybean",
+    "name": "Soy Milk",
+    "image": "soy_milk.jpg",
+    "ingredients": [
+      "Soybean"
     ],
-    arrangements: [
+    "arrangements": [
       "Banana",
       "Honey",
       "Invigorating honey",
@@ -3858,38 +5032,45 @@ export const recipes = [
       "Royal honey",
       "Black tea tin",
       "Sugar",
-      "Soy flour",
+      "Soy flour"
     ],
-    category: "Other",
-    price: 85,
-    bonus: "Max stamina up Lv1"
+    "category": "Other",
+    "price": 85,
+    "bonus": "Max stamina up Lv1",
+    "profitability": 85
   },
   {
-    name: "Honey Juice",
-    image: "honey_juice.jpg",
-    ingredients: [
-      ["Honey", "Invigorating honey", "Mellow honey", "Royal honey"],
+    "name": "Honey Juice",
+    "image": "honey_juice.jpg",
+    "ingredients": [
+      [
+        "Honey",
+        "Invigorating honey",
+        "Mellow honey",
+        "Royal honey"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
-      "Yogurt",
+      "Yogurt"
     ],
-    category: "Other Juice",
-    price: 325,
-    bonus: "Stamina saver Lv1"
+    "category": "Other Juice",
+    "price": 325,
+    "bonus": "Stamina saver Lv1",
+    "profitability": 325
   },
   {
-    name: "Simmered Seaweed",
-    image: "simmered_seaweed.jpg",
-    ingredients: [
+    "name": "Simmered Seaweed",
+    "image": "simmered_seaweed.jpg",
+    "ingredients": [
       "Seaweed",
-      "Soy sauce",
+      "Soy sauce"
     ],
-    arrangements: [
+    "arrangements": [
       "Shiitake mushroom",
       "Shimeji mushroom",
       "Common mushroom",
@@ -3898,19 +5079,20 @@ export const recipes = [
       "Matsutake mushroom",
       "Monarch mushroom",
       "Soy sauce",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other",
-    price: 424,
-    bonus: "Fishing rod durability up Lv1"
+    "category": "Other",
+    "price": 424,
+    "bonus": "Fishing rod durability up Lv1",
+    "profitability": 269
   },
   {
-    name: "Summer Blend Tea",
-    image: "summer_blend_tea.jpg",
-    ingredients: [
-      "Summer blend tea tin",
+    "name": "Summer Blend Tea",
+    "image": "summer_blend_tea.jpg",
+    "ingredients": [
+      "Summer blend tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -3920,21 +5102,22 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 1287,
-    bonus: "Movement speed up Lv3"
+    "category": "Other Tea",
+    "price": 1287,
+    "bonus": "Movement speed up Lv3",
+    "profitability": 1287
   },
   {
-    name: "Summer Juice",
-    image: "summer_juice.jpg",
-    ingredients: [
+    "name": "Summer Juice",
+    "image": "summer_juice.jpg",
+    "ingredients": [
       "Banana",
       "Peach",
-      "Lemon",
+      "Lemon"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
@@ -3943,19 +5126,20 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 1020,
-    bonus: "Movement speed up Lv3"
+    "category": "Other Juice",
+    "price": 1020,
+    "bonus": "Movement speed up Lv3",
+    "profitability": 703
   },
   {
-    name: "Black Tea",
-    image: "black_tea.jpg",
-    ingredients: [
-      "Black tea tin",
+    "name": "Black Tea",
+    "image": "black_tea.jpg",
+    "ingredients": [
+      "Black tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -3965,37 +5149,39 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 401,
-    bonus: "Watering rare crop % Lv1"
+    "category": "Other Tea",
+    "price": 401,
+    "bonus": "Watering rare crop % Lv1",
+    "profitability": 401
   },
   {
-    name: "Golden blend Tea",
-    image: "golden_blend_tea.jpg",
-    ingredients: [
-      "Golden blend tea tin",
+    "name": "Golden blend Tea",
+    "image": "golden_blend_tea.jpg",
+    "ingredients": [
+      "Golden blend tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Heart lemon",
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Tea",
-    price: 13031,
-    bonus: "Chat friendship boost Lv4"
+    "category": "Other Tea",
+    "price": 13031,
+    "bonus": "Chat friendship boost Lv4",
+    "profitability": 13031
   },
   {
-    name: "Watermelon Tea",
-    image: "watermelon_tea.jpg",
-    ingredients: [
-      "Watermelon tea tin",
+    "name": "Watermelon Tea",
+    "image": "watermelon_tea.jpg",
+    "ingredients": [
+      "Watermelon tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4005,19 +5191,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 2148,
-    bonus: "Chat friendship boost Lv4"
+    "category": "Other Tea",
+    "price": 2148,
+    "bonus": "Chat friendship boost Lv4",
+    "profitability": 2148
   },
   {
-    name: "Melon Tea",
-    image: "melon_tea.jpg",
-    ingredients: [
-      "Melon tea tin",
+    "name": "Melon Tea",
+    "image": "melon_tea.jpg",
+    "ingredients": [
+      "Melon tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4027,38 +5214,45 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 1901,
-    bonus: "Chat friendship boost Lv4"
+    "category": "Other Tea",
+    "price": 1901,
+    "bonus": "Chat friendship boost Lv4",
+    "profitability": 1901
   },
   {
-    name: "Jam Tea",
-    image: "jam_tea.jpg",
-    ingredients: [
+    "name": "Jam Tea",
+    "image": "jam_tea.jpg",
+    "ingredients": [
       "Black Tea",
-      ["Grape jam", "Apple jam", "Blueberry jam", "Strawberry jam"],
+      [
+        "Grape jam",
+        "Apple jam",
+        "Blueberry jam",
+        "Strawberry jam"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 1850,
-    bonus: "Chat friendship boost Lv4"
+    "category": "Other Tea",
+    "price": 1850,
+    "bonus": "Chat friendship boost Lv4",
+    "profitability": 1222
   },
   {
-    name: "Pineapple Tea",
-    image: "pineapple_tea.jpg",
-    ingredients: [
-      "Pineapple tea tin",
+    "name": "Pineapple Tea",
+    "image": "pineapple_tea.jpg",
+    "ingredients": [
+      "Pineapple tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4068,19 +5262,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 1320,
-    bonus: "Chat friendship boost Lv3"
+    "category": "Other Tea",
+    "price": 1320,
+    "bonus": "Chat friendship boost Lv3",
+    "profitability": 1320
   },
   {
-    name: "Spring Blend Tea",
-    image: "spring_blend_tea.jpg",
-    ingredients: [
-      "Sping blend tea tin",
+    "name": "Spring Blend Tea",
+    "image": "spring_blend_tea.jpg",
+    "ingredients": [
+      "Sping blend tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4090,36 +5285,43 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 1287,
-    bonus: "Chat friendship boost Lv3"
+    "category": "Other Tea",
+    "price": 1287,
+    "bonus": "Chat friendship boost Lv3",
+    "profitability": 1287
   },
   {
-    name: "Royal Milk Tea",
-    image: "royal_milk_tea.jpg",
-    ingredients: [
+    "name": "Royal Milk Tea",
+    "image": "royal_milk_tea.jpg",
+    "ingredients": [
       "Black tea tin",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 1194,
-    bonus: "Chat friendship boost Lv3"
+    "category": "Other Tea",
+    "price": 1194,
+    "bonus": "Chat friendship boost Lv3",
+    "profitability": 965
   },
   {
-    name: "Spring Juice",
-    image: "spring_juice.jpg",
-    ingredients: [
+    "name": "Spring Juice",
+    "image": "spring_juice.jpg",
+    "ingredients": [
       "Strawberry",
       "Orange",
-      "Cherry",
+      "Cherry"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
@@ -4128,88 +5330,103 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 935,
-    bonus: "Chat friendship boost Lv3"
+    "category": "Other Juice",
+    "price": 935,
+    "bonus": "Chat friendship boost Lv3",
+    "profitability": 670
   },
   {
-    name: "Strawberry Jam",
-    image: "strawberry_jam.jpg",
-    ingredients: [
+    "name": "Strawberry Jam",
+    "image": "strawberry_jam.jpg",
+    "ingredients": [
       "Strawberry",
       "Sugar",
-      "Lemon",
+      "Lemon"
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other",
-    price: 855,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Other",
+    "price": 855,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 485
   },
   {
-    name: "Fruit Juice",
-    image: "fruit_juice.jpg",
-    ingredients: [
+    "name": "Fruit Juice",
+    "image": "fruit_juice.jpg",
+    "ingredients": [
       "Red grape",
       "Apple",
-      "Orange",
+      "Orange"
     ],
-    arrangements: [
+    "arrangements": [
       "Strawberry",
       "Cherry",
       "Peach",
-      "Blueberry",
+      "Blueberry"
     ],
-    category: "Other Juice",
-    price: 826,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Other Juice",
+    "price": 826,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 504
   },
   {
-    name: "Cappuccino",
-    image: "cappuccino.jpg",
-    ingredients: [
+    "name": "Cappuccino",
+    "image": "cappuccino.jpg",
+    "ingredients": [
       "Hot coffee",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Cocoa",
-      "Walnut",
+      "Walnut"
     ],
-    category: "Other",
-    price: 780,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Other",
+    "price": 780,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 515
   },
   {
-    name: "Cafe au Lait",
-    image: "cafe_au_lait.jpg",
-    ingredients: [
+    "name": "Cafe au Lait",
+    "image": "cafe_au_lait.jpg",
+    "ingredients": [
       "Hot coffee",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
       "Sugar",
       "Chocolate",
       "Soy milk",
-      "Ice cream",
+      "Ice cream"
     ],
-    category: "Other",
-    price: 780,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Other",
+    "price": 780,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 515
   },
   {
-    name: "Watermelon Juice",
-    image: "watermelon_juice.jpg",
-    ingredients: [
-      "Watermelon",
+    "name": "Watermelon Juice",
+    "image": "watermelon_juice.jpg",
+    "ingredients": [
+      "Watermelon"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4219,37 +5436,44 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 756,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Other Juice",
+    "price": 756,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 756
   },
   {
-    name: "Milk Tea",
-    image: "milk_tea.jpg",
-    ingredients: [
+    "name": "Milk Tea",
+    "image": "milk_tea.jpg",
+    "ingredients": [
       "Black tea tin",
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 674,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Other Tea",
+    "price": 674,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 445
   },
   {
-    name: "Melon Juice",
-    image: "melon_juice.jpg",
-    ingredients: [
-      "Melon",
+    "name": "Melon Juice",
+    "image": "melon_juice.jpg",
+    "ingredients": [
+      "Melon"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4259,19 +5483,20 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 658,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Other Juice",
+    "price": 658,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 658
   },
   {
-    name: "Strawberry Tea",
-    image: "strawberry_tea.jpg",
-    ingredients: [
-      "Strawberry tea tin",
+    "name": "Strawberry Tea",
+    "image": "strawberry_tea.jpg",
+    "ingredients": [
+      "Strawberry tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4281,19 +5506,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 586,
-    bonus: "Chat friendship boost Lv2"
+    "category": "Other Tea",
+    "price": 586,
+    "bonus": "Chat friendship boost Lv2",
+    "profitability": 586
   },
   {
-    name: "Pineapple Juice",
-    image: "pineapple_juice.jpg",
-    ingredients: [
-      "Pineapple",
+    "name": "Pineapple Juice",
+    "image": "pineapple_juice.jpg",
+    "ingredients": [
+      "Pineapple"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4303,179 +5529,189 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 429,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Juice",
+    "price": 429,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 429
   },
   {
-    name: "Sencha Tea",
-    image: "sencha_tea.jpg",
-    ingredients: [
-      "Sencha tea tin",
+    "name": "Sencha Tea",
+    "image": "sencha_tea.jpg",
+    "ingredients": [
+      "Sencha tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 401,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Tea",
+    "price": 401,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 401
   },
   {
-    name: "Pu'er Tea",
-    image: "pu'er_tea.jpg",
-    ingredients: [
-      "Pu'er tea tin",
+    "name": "Pu'er Tea",
+    "image": "pu'er_tea.jpg",
+    "ingredients": [
+      "Pu'er tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 401,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Tea",
+    "price": 401,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 401
   },
   {
-    name: "Oolong Tea",
-    image: "oolong_tea.jpg",
-    ingredients: [
-      "Oolong tea tin",
+    "name": "Oolong Tea",
+    "image": "oolong_tea.jpg",
+    "ingredients": [
+      "Oolong tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Sugar",
       "Mint",
-      "Chamomile",
+      "Chamomile"
     ],
-    category: "Other Tea",
-    price: 401,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Tea",
+    "price": 401,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 401
   },
   {
-    name: "Chestnut Juice",
-    image: "chestnut_juice.jpg",
-    ingredients: [
-      "Chestnut powder",
+    "name": "Chestnut Juice",
+    "image": "chestnut_juice.jpg",
+    "ingredients": [
+      "Chestnut powder"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Sugar",
       "Chocolate",
-      "Soy flour",
+      "Soy flour"
     ],
-    category: "Other Juice",
-    price: 390,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Juice",
+    "price": 390,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 390
   },
   {
-    name: "Hot Coffee",
-    image: "hot_coffee.jpg",
-    ingredients: [
-      "Coffee pack",
+    "name": "Hot Coffee",
+    "image": "hot_coffee.jpg",
+    "ingredients": [
+      "Coffee pack"
     ],
-    arrangements: [
+    "arrangements": [
       "Butter",
       "Sugar",
       "Chocolate",
       "Soy milk",
-      "Ice cream",
+      "Ice cream"
     ],
-    category: "Other",
-    price: 380,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other",
+    "price": 380,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 380
   },
   {
-    name: "Matcha Tea",
-    image: "matcha_tea.jpg",
-    ingredients: [
-      "Matcha tea tin",
+    "name": "Matcha Tea",
+    "image": "matcha_tea.jpg",
+    "ingredients": [
+      "Matcha tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 364,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Tea",
+    "price": 364,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 364
   },
   {
-    name: "Mint Tea",
-    image: "mint_tea.jpg",
-    ingredients: [
-      "Mint tea tin",
+    "name": "Mint Tea",
+    "image": "mint_tea.jpg",
+    "ingredients": [
+      "Mint tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 344,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Tea",
+    "price": 344,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 344
   },
   {
-    name: "Chamomile Tea",
-    image: "chamomile_tea.jpg",
-    ingredients: [
-      "Chamomile tea tin",
+    "name": "Chamomile Tea",
+    "image": "chamomile_tea.jpg",
+    "ingredients": [
+      "Chamomile tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 344,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Tea",
+    "price": 344,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 344
   },
   {
-    name: "Lavender Tea",
-    image: "lavender_tea.jpg",
-    ingredients: [
-      "Lavender tea tin",
+    "name": "Lavender Tea",
+    "image": "lavender_tea.jpg",
+    "ingredients": [
+      "Lavender tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 344,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Tea",
+    "price": 344,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 344
   },
   {
-    name: "Walnut Juice",
-    image: "walnut_juice.jpg",
-    ingredients: [
-      "Walnut powder",
+    "name": "Walnut Juice",
+    "image": "walnut_juice.jpg",
+    "ingredients": [
+      "Walnut powder"
     ],
-    arrangements: [
+    "arrangements": [
       "Banana",
       "Milk",
       "Buffalo milk",
@@ -4485,55 +5721,63 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 260,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Juice",
+    "price": 260,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 260
   },
   {
-    name: "Warm Milk",
-    image: "warm_milk.jpg",
-    ingredients: [
-      ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
+    "name": "Warm Milk",
+    "image": "warm_milk.jpg",
+    "ingredients": [
+      [
+        "Milk",
+        "Buffalo milk",
+        "Milk+",
+        "Buffalo milk+"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Banana",
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
       "Chocolate",
-      "Soy flour",
+      "Soy flour"
     ],
-    category: "Other",
-    price: 195,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other",
+    "price": 195,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 195
   },
   {
-    name: "Green Tea",
-    image: "green_tea.jpg",
-    ingredients: [
-      "Green tea tin",
+    "name": "Green Tea",
+    "image": "green_tea.jpg",
+    "ingredients": [
+      "Green tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 182,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Tea",
+    "price": 182,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 182
   },
   {
-    name: "Strawberry Juice",
-    image: "strawberry_juice.jpg",
-    ingredients: [
-      "Strawberry",
+    "name": "Strawberry Juice",
+    "image": "strawberry_juice.jpg",
+    "ingredients": [
+      "Strawberry"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4543,55 +5787,58 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 156,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Juice",
+    "price": 156,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 156
   },
   {
-    name: "Tomato Juice",
-    image: "tomato_juice.jpg",
-    ingredients: [
-      "Tomato",
+    "name": "Tomato Juice",
+    "image": "tomato_juice.jpg",
+    "ingredients": [
+      "Tomato"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Mint",
-      "Salt",
+      "Salt"
     ],
-    category: "Other Juice",
-    price: 55,
-    bonus: "Chat friendship boost Lv1"
+    "category": "Other Juice",
+    "price": 55,
+    "bonus": "Chat friendship boost Lv1",
+    "profitability": 55
   },
   {
-    name: "Speciality Juice",
-    image: "speciality_juice.jpg",
-    ingredients: [
+    "name": "Speciality Juice",
+    "image": "speciality_juice.jpg",
+    "ingredients": [
       "Spring Juice",
       "Summer Juice",
       "Autumn Juice",
-      "Royal honey",
+      "Royal honey"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Fruit yogurt",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 9511,
-    bonus: "Pet training up Lv4"
+    "category": "Other Juice",
+    "price": 9511,
+    "bonus": "Pet training up Lv4",
+    "profitability": 6687
   },
   {
-    name: "Autumn blend Tea",
-    image: "autumn_blend_tea.jpg",
-    ingredients: [
-      "Automn blend tea tin",
+    "name": "Autumn blend Tea",
+    "image": "autumn_blend_tea.jpg",
+    "ingredients": [
+      "Automn blend tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4601,21 +5848,22 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 1452,
-    bonus: "Pet training up Lv3"
+    "category": "Other Tea",
+    "price": 1452,
+    "bonus": "Pet training up Lv3",
+    "profitability": 1452
   },
   {
-    name: "Autumn Juice",
-    image: "autumn_juice.jpg",
-    ingredients: [
+    "name": "Autumn Juice",
+    "image": "autumn_juice.jpg",
+    "ingredients": [
       "Blueberry",
       "Red grape",
-      "Apple",
+      "Apple"
     ],
-    arrangements: [
+    "arrangements": [
       "Milk",
       "Buffalo milk",
       "Milk+",
@@ -4624,95 +5872,77 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 1010,
-    bonus: "Pet training up Lv3"
+    "category": "Other Juice",
+    "price": 1010,
+    "bonus": "Pet training up Lv3",
+    "profitability": 697
   },
   {
-    name: "Grape Jam",
-    image: "grape_jam.jpg",
-    ingredients: [
+    "name": "Grape Jam",
+    "image": "grape_jam.jpg",
+    "ingredients": [
       "Red grape",
       "Sugar",
-      "Lemon",
+      "Lemon"
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other",
-    price: 1007,
-    bonus: "Pet training up Lv3"
+    "category": "Other",
+    "price": 1007,
+    "bonus": "Pet training up Lv3",
+    "profitability": 600
   },
   {
-    name: "Apple Jam",
-    image: "apple_jam.jpg",
-    ingredients: [
+    "name": "Apple Jam",
+    "image": "apple_jam.jpg",
+    "ingredients": [
       "Apple",
       "Sugar",
-      "Lemon",
+      "Lemon"
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other",
-    price: 932,
-    bonus: "Pet training up Lv3"
+    "category": "Other",
+    "price": 932,
+    "bonus": "Pet training up Lv3",
+    "profitability": 529
   },
   {
-    name: "Blueberry Jam",
-    image: "blueberry_jam.jpg",
-    ingredients: [
+    "name": "Blueberry Jam",
+    "image": "blueberry_jam.jpg",
+    "ingredients": [
       "Blueberry",
       "Sugar",
-      "Lemon",
+      "Lemon"
     ],
-    arrangements: [
+    "arrangements": [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other",
-    price: 863,
-    bonus: "Pet training up Lv3"
+    "category": "Other",
+    "price": 863,
+    "bonus": "Pet training up Lv3",
+    "profitability": 490
   },
   {
-    name: "Banana Tea",
-    image: "banana_tea.jpg",
-    ingredients: [
-      "Banana tea tin",
+    "name": "Banana Tea",
+    "image": "banana_tea.jpg",
+    "ingredients": [
+      "Banana tea tin"
     ],
-    arrangements: [
-      "Lemon",
-      "Milk",
-      "Buffalo milk",
-      "Milk+",
-      "Buffalo milk+",
-      "Honey",
-      "Invigorating honey",
-      "Mellow honey",
-      "Royal honey",
-      "Sugar",
-    ],
-    category: "Other Tea",
-    price: 832,
-    bonus: "Pet training up Lv2"
-  },
-  {
-    name: "Mango Tea",
-    image: "mango_tea.jpg",
-    ingredients: [
-      "Mango tea tin",
-    ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4722,19 +5952,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 832,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 832,
+    "bonus": "Pet training up Lv2",
+    "profitability": 832
   },
   {
-    name: "Green Grape Tea",
-    image: "green_grape_tea.jpg",
-    ingredients: [
-      "Green grape tea tin",
+    "name": "Mango Tea",
+    "image": "mango_tea.jpg",
+    "ingredients": [
+      "Mango tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4744,19 +5975,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 777,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 832,
+    "bonus": "Pet training up Lv2",
+    "profitability": 832
   },
   {
-    name: "Red Grape Tea",
-    image: "red_grape_tea.jpg",
-    ingredients: [
-      "Red grape tea tin",
+    "name": "Green Grape Tea",
+    "image": "green_grape_tea.jpg",
+    "ingredients": [
+      "Green grape tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4766,19 +5998,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 755,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 777,
+    "bonus": "Pet training up Lv2",
+    "profitability": 777
   },
   {
-    name: "Apple Tea",
-    image: "apple_tea.jpg",
-    ingredients: [
-      "Apple tea tin",
+    "name": "Red Grape Tea",
+    "image": "red_grape_tea.jpg",
+    "ingredients": [
+      "Red grape tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4788,19 +6021,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 740,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 755,
+    "bonus": "Pet training up Lv2",
+    "profitability": 755
   },
   {
-    name: "Cherry Tea",
-    image: "cherry_tea.jpg",
-    ingredients: [
-      "Cherry tea tin",
+    "name": "Apple Tea",
+    "image": "apple_tea.jpg",
+    "ingredients": [
+      "Apple tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4810,19 +6044,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 647,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 740,
+    "bonus": "Pet training up Lv2",
+    "profitability": 740
   },
   {
-    name: "Peach Tea",
-    image: "peach_tea.jpg",
-    ingredients: [
-      "Peach tea tin",
+    "name": "Cherry Tea",
+    "image": "cherry_tea.jpg",
+    "ingredients": [
+      "Cherry tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4832,19 +6067,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 647,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 647,
+    "bonus": "Pet training up Lv2",
+    "profitability": 647
   },
   {
-    name: "Orange Tea",
-    image: "orange_tea.jpg",
-    ingredients: [
-      "Orange tea tin",
+    "name": "Peach Tea",
+    "image": "peach_tea.jpg",
+    "ingredients": [
+      "Peach tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4854,19 +6090,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 642,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 647,
+    "bonus": "Pet training up Lv2",
+    "profitability": 647
   },
   {
-    name: "Lemon Tea",
-    image: "lemon_tea.jpg",
-    ingredients: [
-      "Lemon tea tin",
+    "name": "Orange Tea",
+    "image": "orange_tea.jpg",
+    "ingredients": [
+      "Orange tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4876,19 +6113,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 632,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 642,
+    "bonus": "Pet training up Lv2",
+    "profitability": 642
   },
   {
-    name: "Blueberry Tea",
-    image: "blueberry_tea.jpg",
-    ingredients: [
-      "Blueberry tea tin",
+    "name": "Lemon Tea",
+    "image": "lemon_tea.jpg",
+    "ingredients": [
+      "Lemon tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4898,19 +6136,20 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 601,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 632,
+    "bonus": "Pet training up Lv2",
+    "profitability": 632
   },
   {
-    name: "Olive Tea",
-    image: "olive_tea.jpg",
-    ingredients: [
-      "Olive tea tin",
+    "name": "Blueberry Tea",
+    "image": "blueberry_tea.jpg",
+    "ingredients": [
+      "Blueberry tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4920,41 +6159,43 @@ export const recipes = [
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
-      "Sugar",
+      "Sugar"
     ],
-    category: "Other Tea",
-    price: 586,
-    bonus: "Pet training up Lv2"
+    "category": "Other Tea",
+    "price": 601,
+    "bonus": "Pet training up Lv2",
+    "profitability": 601
   },
   {
-    name: "Banana Juice",
-    image: "banana_juice.jpg",
-    ingredients: [
-      "Banana",
+    "name": "Olive Tea",
+    "image": "olive_tea.jpg",
+    "ingredients": [
+      "Olive tea tin"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
-      "Yogurt",
       "Honey",
       "Invigorating honey",
       "Mellow honey",
       "Royal honey",
+      "Sugar"
     ],
-    category: "Other Juice",
-    price: 260,
-    bonus: "Pet training up Lv1"
+    "category": "Other Tea",
+    "price": 586,
+    "bonus": "Pet training up Lv2",
+    "profitability": 586
   },
   {
-    name: "Mango Juice",
-    image: "mango_juice.jpg",
-    ingredients: [
-      "Mango",
+    "name": "Banana Juice",
+    "image": "banana_juice.jpg",
+    "ingredients": [
+      "Banana"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4964,19 +6205,20 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 260,
-    bonus: "Pet training up Lv1"
+    "category": "Other Juice",
+    "price": 260,
+    "bonus": "Pet training up Lv1",
+    "profitability": 260
   },
   {
-    name: "Grape Juice",
-    image: "grape_juice.jpg",
-    ingredients: [
-      "Red grape",
+    "name": "Mango Juice",
+    "image": "mango_juice.jpg",
+    "ingredients": [
+      "Mango"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -4986,19 +6228,20 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 228,
-    bonus: "Pet training up Lv1"
+    "category": "Other Juice",
+    "price": 260,
+    "bonus": "Pet training up Lv1",
+    "profitability": 260
   },
   {
-    name: "Apple Juice",
-    image: "apple_juice.jpg",
-    ingredients: [
-      "Apple",
+    "name": "Grape Juice",
+    "image": "grape_juice.jpg",
+    "ingredients": [
+      "Red grape"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -5008,19 +6251,20 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 221,
-    bonus: "Pet training up Lv1"
+    "category": "Other Juice",
+    "price": 228,
+    "bonus": "Pet training up Lv1",
+    "profitability": 228
   },
   {
-    name: "Cherry Juice",
-    image: "cherry_juice.jpg",
-    ingredients: [
-      "Cherry",
+    "name": "Apple Juice",
+    "image": "apple_juice.jpg",
+    "ingredients": [
+      "Apple"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -5030,19 +6274,20 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 182,
-    bonus: "Pet training up Lv1"
+    "category": "Other Juice",
+    "price": 221,
+    "bonus": "Pet training up Lv1",
+    "profitability": 221
   },
   {
-    name: "Peach Juice",
-    image: "peach_juice.jpg",
-    ingredients: [
-      "Peach",
+    "name": "Cherry Juice",
+    "image": "cherry_juice.jpg",
+    "ingredients": [
+      "Cherry"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -5052,19 +6297,20 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 182,
-    bonus: "Pet training up Lv1"
+    "category": "Other Juice",
+    "price": 182,
+    "bonus": "Pet training up Lv1",
+    "profitability": 182
   },
   {
-    name: "Orange Juice",
-    image: "orange_juice.jpg",
-    ingredients: [
-      "Orange",
+    "name": "Peach Juice",
+    "image": "peach_juice.jpg",
+    "ingredients": [
+      "Peach"
     ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -5074,41 +6320,20 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 180,
-    bonus: "Pet training up Lv1"
+    "category": "Other Juice",
+    "price": 182,
+    "bonus": "Pet training up Lv1",
+    "profitability": 182
   },
   {
-    name: "Lemon Juice",
-    image: "lemon_juice.jpg",
-    ingredients: [
-      "Lemon",
+    "name": "Orange Juice",
+    "image": "orange_juice.jpg",
+    "ingredients": [
+      "Orange"
     ],
-    arrangements: [
-      "Lemon",
-      "Milk",
-      "Buffalo milk",
-      "Milk+",
-      "Buffalo milk+",
-      "Yogurt",
-      "Honey",
-      "Invigorating honey",
-      "Mellow honey",
-      "Royal honey",
-    ],
-    category: "Other Juice",
-    price: 176,
-    bonus: "Pet training up Lv1"
-  },
-  {
-    name: "Blueberry Juice",
-    image: "blueberry_juice.jpg",
-    ingredients: [
-      "Blueberry",
-    ],
-    arrangements: [
+    "arrangements": [
       "Lemon",
       "Milk",
       "Buffalo milk",
@@ -5118,21 +6343,90 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other Juice",
-    price: 163,
-    bonus: "Pet training up Lv1"
+    "category": "Other Juice",
+    "price": 180,
+    "bonus": "Pet training up Lv1",
+    "profitability": 180
   },
   {
-    name: "Happy Fruit Platter",
-    image: "happy_fruit_platter.jpg",
-    ingredients: [
+    "name": "Lemon Juice",
+    "image": "lemon_juice.jpg",
+    "ingredients": [
+      "Lemon"
+    ],
+    "arrangements": [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey"
+    ],
+    "category": "Other Juice",
+    "price": 176,
+    "bonus": "Pet training up Lv1",
+    "profitability": 176
+  },
+  {
+    "name": "Blueberry Juice",
+    "image": "blueberry_juice.jpg",
+    "ingredients": [
+      "Blueberry"
+    ],
+    "arrangements": [
+      "Lemon",
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Yogurt",
+      "Honey",
+      "Invigorating honey",
+      "Mellow honey",
+      "Royal honey"
+    ],
+    "category": "Other Juice",
+    "price": 163,
+    "bonus": "Pet training up Lv1",
+    "profitability": 163
+  },
+  {
+    "name": "Happy Fruit Platter",
+    "image": "happy_fruit_platter.jpg",
+    "ingredients": [
       "Heart watermelon",
-      ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
-      ["Apple", "Red grape", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
+      [
+        "Cherry",
+        "Blueberry",
+        "Green grape",
+        "Strawberry",
+        "Mango",
+        "Pineapple",
+        "Banana",
+        "Peach",
+        "Orange",
+        "Melon"
+      ],
+      [
+        "Apple",
+        "Red grape",
+        "Green grape",
+        "Strawberry",
+        "Mango",
+        "Pineapple",
+        "Banana",
+        "Peach",
+        "Orange",
+        "Melon"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
       "Salt",
       "Walnut",
@@ -5143,22 +6437,37 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other",
-    price: 3274,
-    bonus: "Happy Energy up Lv4"
+    "category": "Other",
+    "price": 3274,
+    "bonus": "Happy Energy up Lv4",
+    "profitability": 2114
   },
   {
-    name: "Happy Chef Salad",
-    image: "happy_chef_salad.jpg",
-    ingredients: [
-      ["Egg", "Silkie egg"],
+    "name": "Happy Chef Salad",
+    "image": "happy_chef_salad.jpg",
+    "ingredients": [
+      [
+        "Egg",
+        "Silkie egg"
+      ],
       "Corn",
       "Onion",
-      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red Pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
+      [
+        "Cucumber",
+        "Onion",
+        "Asparagus",
+        "Tomato",
+        "Red Pepper",
+        "Carrot",
+        "Turnip",
+        "Sweet potato",
+        "Pumpkin",
+        "Eggplant"
+      ]
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
       "Salt",
       "Walnut",
@@ -5169,20 +6478,29 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other",
-    price: 1233,
-    bonus: "Happy Energy up Lv3"
+    "category": "Other",
+    "price": 1233,
+    "bonus": "Happy Energy up Lv3",
+    "profitability": 902
   },
   {
-    name: "Happy Mushroom Fry",
-    image: "happy_mushroom_fry.jpg",
-    ingredients: [
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
-      "Salt",
+    "name": "Happy Mushroom Fry",
+    "image": "happy_mushroom_fry.jpg",
+    "ingredients": [
+      [
+        "Shiitake mushroom",
+        "Shimeji mushroom",
+        "Common mushroom",
+        "Porcini mushroom",
+        "Morel mushroom",
+        "Matsutake mushroom",
+        "Monarch mushroom"
+      ],
+      "Salt"
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
       "Salt",
       "Walnut",
@@ -5193,19 +6511,20 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other",
-    price: 662,
-    bonus: "Happy Energy up Lv2"
+    "category": "Other",
+    "price": 662,
+    "bonus": "Happy Energy up Lv2",
+    "profitability": 437
   },
   {
-    name: "Happy Forest Mix",
-    image: "happy_forest_mix.jpg",
-    ingredients: [
-      "Walnut",
+    "name": "Happy Forest Mix",
+    "image": "happy_forest_mix.jpg",
+    "ingredients": [
+      "Walnut"
     ],
-    arrangements: [
+    "arrangements": [
       "Sugar",
       "Salt",
       "Walnut",
@@ -5216,14 +6535,13 @@ export const recipes = [
       "Honey",
       "Invigorating honey",
       "Mellow honey",
-      "Royal honey",
+      "Royal honey"
     ],
-    category: "Other",
-    price: 130,
-    bonus: "Happy Energy up Lv1"
+    "category": "Other",
+    "price": 130,
+    "bonus": "Happy Energy up Lv1",
+    "profitability": 130
   }
-    
-  
 ];
 
 export default recipes;

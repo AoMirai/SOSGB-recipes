@@ -13,6 +13,12 @@ function Tabs({ activeTab, onTabChange }) {
       >
         Ingredients
       </button>
+      <button 
+        className={activeTab === 'search' ? 'tab active' : 'tab'}
+        onClick={() => onTabChange('search')}
+      >
+        Recipe Search
+      </button>
     </div>
   );
 }
