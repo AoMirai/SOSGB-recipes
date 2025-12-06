@@ -32,7 +32,7 @@ export const ingredients = [
   },
   {
     name: "Automn Blend Tea Tin",
-    image: "automn_blend_tea_tin.avif",
+    image: "automn_blend_tea_tin.jpg",
     filename: "automn_blend_tea_tin"
   },
   {
@@ -187,7 +187,7 @@ export const ingredients = [
   },
   {
     name: "Chamomile",
-    image: "chamomile.png",
+    image: "chamomile.jpg",
     filename: "chamomile"
   },
   {
@@ -301,14 +301,14 @@ export const ingredients = [
     filename: "daikon_radish"
   },
   {
-    name: "Dancing Green Bell Pepper",
-    image: "dancing_green_bell_pepper.jpg",
-    filename: "dancing_green_bell_pepper"
+    name: "Dancing Green Pepper",
+    image: "dancing_green_pepper.jpg",
+    filename: "dancing_green_pepper"
   },
   {
-    name: "Dancing Red Bell Pepper",
-    image: "dancing_red_bell_pepper.jpg",
-    filename: "dancing_red_bell_pepper"
+    name: "Dancing Red Pepper",
+    image: "dancing_red_pepper.jpg",
+    filename: "dancing_red_pepper"
   },
   {
     name: "Dark Chub",
@@ -471,9 +471,9 @@ export const ingredients = [
     filename: "gree_grape"
   },
   {
-    name: "Green Bell Pepper",
-    image: "green_bell_pepper.jpg",
-    filename: "green_bell_pepper"
+    name: "Green Pepper",
+    image: "green_pepper.jpg",
+    filename: "green_pepper"
   },
   {
     name: "Green Grape Tea Tin",
@@ -532,7 +532,7 @@ export const ingredients = [
   },
   {
     name: "Honey",
-    image: "honey.png",
+    image: "honey.jpg",
     filename: "honey"
   },
   {
@@ -567,7 +567,7 @@ export const ingredients = [
   },
   {
     name: "Lavender",
-    image: "lavender.png",
+    image: "lavender.jpg",
     filename: "lavender"
   },
   {
@@ -652,7 +652,7 @@ export const ingredients = [
   },
   {
     name: "Mint",
-    image: "mint.png",
+    image: "mint.jpg",
     filename: "mint"
   },
   {
@@ -821,9 +821,9 @@ export const ingredients = [
     filename: "rainbow_trout"
   },
   {
-    name: "Red Bell Pepper",
-    image: "red_bell_pepper.jpg",
-    filename: "red_bell_pepper"
+    name: "Red Pepper",
+    image: "red_pepper.jpg",
+    filename: "red_pepper"
   },
   {
     name: "Red Grape",
@@ -882,12 +882,12 @@ export const ingredients = [
   },
   {
     name: "Shiitake Mushroom",
-    image: "shiitake_mushroom.png",
+    image: "shiitake_mushroom.jpg",
     filename: "shiitake_mushroom"
   },
   {
     name: "Shimeji Mushroom",
-    image: "shimeji_mushroom.png",
+    image: "shimeji_mushroom.jpg",
     filename: "shimeji_mushroom"
   },
   {
@@ -1027,7 +1027,7 @@ export const ingredients = [
   },
   {
     name: "Walnut",
-    image: "walnut.png",
+    image: "walnut.jpg",
     filename: "walnut"
   },
   {

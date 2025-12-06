@@ -2,7 +2,7 @@
 export const recipes = [
   {
     name: "Macaroni Salad",
-    image: "Macaroni_Salad.avif",
+    image: "macaroni_salad.jpg",
     ingredients: [
       "Pasta",
       "Cucumber",
@@ -11,10 +11,10 @@ export const recipes = [
     ],
     arrangements: [
       "Penne pasta",
-      "Herbal pasta",
+      "Herb pasta",
       "Onion",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "salad",
     price: 1859,
@@ -22,7 +22,7 @@ export const recipes = [
   },
   {
     name: "Guacamole Salad",
-    image: "Guacamole_Salad.avif",
+    image: "guacamole_salad.jpg",
     ingredients: [
       "Avocado",
       "Onion",
@@ -32,7 +32,7 @@ export const recipes = [
     arrangements: [
       "Lemon",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "salad",
     price: 1309,
@@ -40,11 +40,11 @@ export const recipes = [
   },
   {
     name: "Kinpira Gobo",
-    image: "Kinpira_Gobo.avif",
+    image: "kinpira_gobo.jpg",
     ingredients: [
       "Burdock",
       "Carrot",
-      "Chili pepper",
+      "Chili Pepper",
       "Salt",
     ],
     arrangements: [
@@ -58,9 +58,9 @@ export const recipes = [
   },
   {
     name: "Marinated Peppers",
-    image: "Marinated_Peppers.avif",
+    image: "marinated_peppers.jpg",
     ingredients: [
-      "Red bell pepper",
+      "Red Pepper",
       "Vinegar",
       "Oil",
     ],
@@ -76,11 +76,11 @@ export const recipes = [
   },
   {
     name: "Mixed Salad",
-    image: "Mixed_Salad.avif",
+    image: "mixed_salad.jpg",
     ingredients: [
       "Tomato",
       "Cucumber",
-      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red bell pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
+      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red Pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
     ],
     arrangements: [
       "Avocado",
@@ -93,14 +93,14 @@ export const recipes = [
   },
   {
     name: "Turnip Salad",
-    image: "Turnip_Salad.avif",
+    image: "turnip_salad.jpg",
     ingredients: [
       "Turnip",
     ],
     arrangements: [
       "Cucumber",
       "Tomato",
-      "Red bell pepper",
+      "Red Pepper",
     ],
     category: "salad",
     price: 260,
@@ -108,10 +108,10 @@ export const recipes = [
   },
   {
     name: "Herb Salad",
-    image: "Herb_Salad.avif",
+    image: "herb_salad.jpg",
     ingredients: [
-      "Herb",
-      "Herb",
+      ["Mint", "Chamomile", "Lavender"],
+      ["Mint", "Chamomile", "Lavender"],
     ],
     arrangements: [
       "Broccoli",
@@ -119,7 +119,7 @@ export const recipes = [
       "Boiled egg",
       "Olive oil",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "salad",
     price: 137,
@@ -127,14 +127,14 @@ export const recipes = [
   },
   {
     name: "Tomato Salad",
-    image: "Tomato_Salad.avif",
+    image: "tomato_salad.jpg",
     ingredients: [
       "Tomato",
-      "Herb",
+      ["Mint", "Chamomile", "Lavender"],
     ],
     arrangements: [
       "Cucumber",
-      "Red bell pepper",
+      "Red Pepper",
       "Cheese",
     ],
     category: "salad",
@@ -143,7 +143,7 @@ export const recipes = [
   },
   {
     name: "Caprese Salad",
-    image: "Caprese_Salad.avif",
+    image: "caprese_salad.jpg",
     ingredients: [
       "Tomato",
       "Cheese",
@@ -166,7 +166,7 @@ export const recipes = [
   },
   {
     name: "Poke",
-    image: "Poke.avif",
+    image: "poke.jpg",
     ingredients: [
       "Avocado",
       "Salmon",
@@ -183,7 +183,7 @@ export const recipes = [
   },
   {
     name: "Mashed Potatoes",
-    image: "Mashed_Potatoes.avif",
+    image: "mashed_potatoes.jpg",
     ingredients: [
       "Potato",
       "Butter",
@@ -195,7 +195,7 @@ export const recipes = [
       "Buffalo milk+",
       "Mint",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "salad",
     price: 677,
@@ -203,7 +203,7 @@ export const recipes = [
   },
   {
     name: "Onion Salad",
-    image: "Onion_Salad.avif",
+    image: "onion_salad.jpg",
     ingredients: [
       "Onion",
     ],
@@ -214,7 +214,7 @@ export const recipes = [
       "Buffalo milk+",
       "Mint",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "salad",
     price: 325,
@@ -222,7 +222,7 @@ export const recipes = [
   },
   {
     name: "Asparagus Soup",
-    image: "Asparagus_Soup.avif",
+    image: "asparagus_soup.jpg",
     ingredients: [
       "Asparagus",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -233,7 +233,7 @@ export const recipes = [
       "Porcini mushroom",
       "Morel mushroom",
       "Salt",
-      "pepper",
+      "Pepper",
       "Olive oil",
       "Pumpkin oil",
       "Grape oil",
@@ -244,7 +244,7 @@ export const recipes = [
   },
   {
     name: "Onion Soup",
-    image: "Onion_Soup.avif",
+    image: "onion_soup.jpg",
     ingredients: [
       "Onion",
       "Butter",
@@ -252,7 +252,7 @@ export const recipes = [
     arrangements: [
       "Garlic",
       "Salt",
-      "pepper",
+      "Pepper",
       "Baguette",
     ],
     category: "soup",
@@ -261,7 +261,7 @@ export const recipes = [
   },
   {
     name: "Radish Soup",
-    image: "Radish_Soup.avif",
+    image: "radish_soup.jpg",
     ingredients: [
       "Radish",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -270,7 +270,7 @@ export const recipes = [
     arrangements: [
       "Onion",
       "Butter",
-      "pepper",
+      "Pepper",
     ],
     category: "soup",
     price: 770,
@@ -278,7 +278,7 @@ export const recipes = [
   },
   {
     name: "Miso Soup",
-    image: "Miso_Soup.avif",
+    image: "miso_soup.jpg",
     ingredients: [
       "Miso",
       ["Tofu", "Green onion", "Oil", "Potato", "Shimeji mushroom"],
@@ -296,7 +296,7 @@ export const recipes = [
   },
   {
     name: "Corn soup",
-    image: "Corn_soup.avif",
+    image: "corn_soup.jpg",
     ingredients: [
       "Corn",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -315,7 +315,7 @@ export const recipes = [
   },
   {
     name: "Pumpkin Soup",
-    image: "Pumpkin_Soup.avif",
+    image: "pumpkin_soup.jpg",
     ingredients: [
       "Pumpkin",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -324,7 +324,7 @@ export const recipes = [
     arrangements: [
       "Butter",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "soup",
     price: 1320,
@@ -332,7 +332,7 @@ export const recipes = [
   },
   {
     name: "Vichyssoise Soup",
-    image: "Vichyssoise_Soup.avif",
+    image: "vichyssoise_soup.jpg",
     ingredients: [
       "Potato",
       "Onion",
@@ -341,7 +341,7 @@ export const recipes = [
     arrangements: [
       "Butter",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "soup",
     price: 709,
@@ -349,16 +349,16 @@ export const recipes = [
   },
   {
     name: "Gazpacho Salad",
-    image: "Gazpacho_Salad.avif",
+    image: "gazpacho_salad.jpg",
     ingredients: [
       "Tomato",
       "Garlic",
-      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
     ],
     arrangements: [
       "Cucumber",
       "Onion",
-      "Green bell pepper",
+      "Green Pepper",
       "Olive oil",
       "Salt",
     ],
@@ -368,10 +368,10 @@ export const recipes = [
   },
   {
     name: "Herb Soup",
-    image: "Herb_Soup.avif",
+    image: "herb_soup.jpg",
     ingredients: [
-      "Herb",
-      "Herb",
+      ["Mint", "Chamomile", "Lavender"],
+      ["Mint", "Chamomile", "Lavender"],
     ],
     arrangements: [
       "Onion",
@@ -387,7 +387,7 @@ export const recipes = [
   },
   {
     name: "Egg Drop Soup",
-    image: "Egg_Drop_Soup.avif",
+    image: "egg_drop_soup.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
     ],
@@ -395,7 +395,7 @@ export const recipes = [
       "Green onion",
       "Soy sauce",
       "Salt",
-      "pepper",
+      "Pepper",
       "Oil",
     ],
     category: "soup",
@@ -404,7 +404,7 @@ export const recipes = [
   },
   {
     name: "Khachapuri",
-    image: "Khachapuri.avif",
+    image: "khachapuri.jpg",
     ingredients: [
       "Wheat flour",
       "Cheese+",
@@ -427,7 +427,7 @@ export const recipes = [
   },
   {
     name: "Morel Cream Stew",
-    image: "Morel_Cream_Stew.avif",
+    image: "morel_cream_stew.jpg",
     ingredients: [
       "Morel mushroom",
       "Buffalo milk",
@@ -439,7 +439,7 @@ export const recipes = [
       "Garlic",
       "Pasta",
       "Salt",
-      "pepper",
+      "Pepper",
       "Nut oil",
       "Herb oil",
       "Olive oil",
@@ -450,7 +450,7 @@ export const recipes = [
   },
   {
     name: "Quiche",
-    image: "Quiche.avif",
+    image: "quiche.jpg",
     ingredients: [
       "Wheat flour",
       "Spinach",
@@ -461,7 +461,7 @@ export const recipes = [
       "Onion",
       "Cheese",
       "Salt",
-      "pepper",
+      "Pepper",
       "Pumpkin oil",
       "Grape oil",
     ],
@@ -471,7 +471,7 @@ export const recipes = [
   },
   {
     name: "Fish & Chips",
-    image: "Fish_&_Chips.avif",
+    image: "fish_&_chips.jpg",
     ingredients: [
       ["Yellow perch", "Snakehead", "Masu trout", "Char", "Salmon", "Icefish", "Cherry salmon"],
       "Potato",
@@ -479,12 +479,12 @@ export const recipes = [
       "Oil",
     ],
     arrangements: [
-      "Chili pepper",
+      "Chili Pepper",
       "Mayonaise",
       "Mayonaise+",
       "Vinegar",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 1584,
@@ -492,10 +492,10 @@ export const recipes = [
   },
   {
     name: "Spring Roll",
-    image: "Spring_Roll.avif",
+    image: "spring_roll.jpg",
     ingredients: [
       "Wheat flour",
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
+      "Shiitake mushroom",
       "Carrot",
       "Oil",
     ],
@@ -512,7 +512,7 @@ export const recipes = [
   },
   {
     name: "Steamed Bun",
-    image: "Steamed_Bun.avif",
+    image: "steamed_bun.jpg",
     ingredients: [
       "Wheat flour",
       "Napa cabbage",
@@ -531,26 +531,7 @@ export const recipes = [
   },
   {
     name: "Gyoza",
-    image: "Gyoza.avif",
-    ingredients: [
-      "Wheat flour",
-      "Napa cabbage",
-      ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
-      "Green onion",
-    ],
-    arrangements: [
-      "Sugar",
-      "Salt",
-      "pepper",
-      "Oil",
-    ],
-    category: "side",
-    price: 1377,
-    bonus: "Max stamina up Lv3"
-  },
-  {
-    name: "Stir-Fried Vegetables",
-    image: "Stir-Fried_Vegetables.avif",
+    image: "gyoza.jpg",
     ingredients: [
       "Wheat flour",
       "Cabbage",
@@ -561,7 +542,7 @@ export const recipes = [
       "Soy sauce",
       "Sugar",
       "Salt",
-      "pepper",
+      "Pepper",
       "Miso",
       "Vinegar",
     ],
@@ -570,34 +551,34 @@ export const recipes = [
     bonus: "Max stamina up Lv3"
   },
   {
-    name: "Stuffed Cabbage",
-    image: "Stuffed_Cabbage.avif",
+    name: "Stir-Fried Vegetables",
+    image: "stir-fried_vegetables.jpg",
     ingredients: [
       "Cabbage",
       "Napa cabbage",
     ],
     arrangements: [
       "Carrot",
-      "Green bell pepper",
+      "Green Pepper",
       "Asparagus",
       "Pumpkin",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 1276,
     bonus: "Max stamina up Lv3"
   },
   {
-    name: "Scones",
-    image: "Scones.avif",
+    name: "Stuffed Cabbage",
+    image: "stuffed_cabbage.jpg",
     ingredients: [
       "Cabbage",
       "Carrot",
     ],
     arrangements: [
       "Salt",
-      "pepper",
+      "Pepper",
       "Nut oil",
       "Herb oil",
       "Olive oil",
@@ -609,8 +590,8 @@ export const recipes = [
     bonus: "Max stamina up Lv3"
   },
   {
-    name: "Galette",
-    image: "Galette.avif",
+    name: "Scones",
+    image: "scones.jpg",
     ingredients: [
       "Wheat flour",
       "Butter",
@@ -627,8 +608,8 @@ export const recipes = [
     bonus: "Max stamina up Lv3"
   },
   {
-    name: "Buttered Roll",
-    image: "Buttered_Roll.avif",
+    name: "Galette",
+    image: "galette.jpg",
     ingredients: [
       "Buckweat",
       "Potato",
@@ -642,15 +623,15 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 1122,
     bonus: "Max stamina up Lv3"
   },
   {
-    name: "Chili con Carne",
-    image: "Chili_con_Carne.avif",
+    name: "Buttered Roll",
+    image: "buttered_roll.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -669,13 +650,13 @@ export const recipes = [
     bonus: "Max stamina up Lv3"
   },
   {
-    name: "Sauteed Turnips",
-    image: "Sauteed_Turnips.avif",
+    name: "Chili con Carne",
+    image: "chili_con_carne.jpg",
     ingredients: [
       "Tomato",
       "Soybean",
-      "Chili pepper",
-      "pepper",
+      "Chili Pepper",
+      "Pepper",
     ],
     arrangements: [
       "Cheese",
@@ -685,8 +666,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Focaccia Bread",
-    image: "Focaccia_Bread.avif",
+    name: "Sauteed Turnips",
+    image: "sauteed_turnips.jpg",
     ingredients: [
       "Turnip",
       "Butter",
@@ -694,7 +675,7 @@ export const recipes = [
     arrangements: [
       "Garlic",
       "Salt",
-      "pepper",
+      "Pepper",
       "Oil",
       "Nut oil",
       "Herb oil",
@@ -706,8 +687,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Freeze-Dried Tofu",
-    image: "Freeze-Dried_Tofu.avif",
+    name: "Focaccia Bread",
+    image: "focaccia_bread.jpg",
     ingredients: [
       "Wheat flour",
       "Olive oil",
@@ -723,8 +704,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Lightly Fried Tofu",
-    image: "Lightly_Fried_Tofu.avif",
+    name: "Freeze-Dried Tofu",
+    image: "freeze-dried_tofu.jpg",
     ingredients: [
       "Tofu",
       "Soy sauce",
@@ -747,8 +728,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Rolled Egg",
-    image: "Rolled_Egg.avif",
+    name: "Lightly Fried Tofu",
+    image: "lightly_fried_tofu.jpg",
     ingredients: [
       "Tofu",
       ["Wheat flour", "Rice flour"],
@@ -764,8 +745,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Steamed Egg Custard",
-    image: "Steamed_Egg_Custard.avif",
+    name: "Rolled Egg",
+    image: "rolled_egg.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
       "Soy sauce",
@@ -781,8 +762,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Soy Okara",
-    image: "Soy_Okara.avif",
+    name: "Steamed Egg Custard",
+    image: "steamed_egg_custard.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
@@ -801,8 +782,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Buttered Potato",
-    image: "Buttered_Potato.avif",
+    name: "Soy Okara",
+    image: "soy_okara.jpg",
     ingredients: [
       "Tofu",
       "Carrot",
@@ -826,8 +807,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Baguettes",
-    image: "Baguettes.avif",
+    name: "Buttered Potato",
+    image: "buttered_potato.jpg",
     ingredients: [
       "Potato",
       "Butter",
@@ -845,8 +826,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Hash Browns",
-    image: "Hash_Browns.avif",
+    name: "Baguette",
+    image: "baguette.jpg",
     ingredients: [
       "Wheat flour",
       "Salt",
@@ -863,8 +844,8 @@ export const recipes = [
     bonus: "Max stamina up Lv2"
   },
   {
-    name: "Steamed Muffin",
-    image: "Steamed_Muffin.avif",
+    name: "Hash Browns",
+    image: "hash_browns.jpg",
     ingredients: [
       "Potato",
       "Wheat flour",
@@ -875,15 +856,35 @@ export const recipes = [
       "Mayonaise",
       "Wheat flour",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 632,
     bonus: "Max stamina up Lv2"
   },
   {
+    name: "Steamed Muffin",
+    image: "steamed_muffin.jpg",
+    ingredients: [
+      "Wheat flour",
+      ["Egg", "Silkie egg"],
+      "Sweet potato",
+    ],
+    arrangements: [
+      "Milk",
+      "Buffalo milk",
+      "Milk+",
+      "Buffalo milk+",
+      "Sugar",
+      "Salt",
+    ],
+    category: "side",
+    price: 609,
+    bonus: "Max stamina up Lv2"
+  },
+  {
     name: "Sauteed Cauliflower",
-    image: "Sauteed_Cauliflower.avif",
+    image: "sauteed_cauliflower.jpg",
     ingredients: [
       "Cauliflower",
     ],
@@ -893,7 +894,7 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 602,
@@ -901,7 +902,7 @@ export const recipes = [
   },
   {
     name: "Broccoli & Garlic Saute",
-    image: "Broccoli_&_Garlic_Saute.avif",
+    image: "broccoli_&_garlic_saute.jpg",
     ingredients: [
       "Broccoli",
       "Garlic",
@@ -910,7 +911,7 @@ export const recipes = [
     arrangements: [
       "Soy sauce",
       "Salt",
-      "pepper",
+      "Pepper",
       "Nut oil",
       "Herb oil",
       "Olive oil",
@@ -923,7 +924,7 @@ export const recipes = [
   },
   {
     name: "Chilled Tofu",
-    image: "Chilled_Tofu.avif",
+    image: "chilled_tofu.jpg",
     ingredients: [
       "Tofu",
       "Soy sauce",
@@ -941,7 +942,7 @@ export const recipes = [
   },
   {
     name: "Potato Pancakes",
-    image: "Potato_Pancakes.avif",
+    image: "potato_pancakes.jpg",
     ingredients: [
       "Potato",
       "Wheat flour",
@@ -961,7 +962,7 @@ export const recipes = [
   },
   {
     name: "Corn Flakes Cereal",
-    image: "Corn_Flakes_Cereal.avif",
+    image: "corn_flakes_cereal.jpg",
     ingredients: [
       "Corn",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -980,7 +981,7 @@ export const recipes = [
   },
   {
     name: "Fried Egg",
-    image: "Fried_Egg.avif",
+    image: "fried_egg.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
       "Oil",
@@ -990,7 +991,7 @@ export const recipes = [
       "Mayonaise",
       "Soy sauce",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 396,
@@ -998,7 +999,7 @@ export const recipes = [
   },
   {
     name: "Fried Tofu",
-    image: "Fried_Tofu.avif",
+    image: "fried_tofu.jpg",
     ingredients: [
       "Tofu",
     ],
@@ -1014,7 +1015,7 @@ export const recipes = [
   },
   {
     name: "Miso Glazed Eggplant",
-    image: "Miso_Glazed_Eggplant.avif",
+    image: "miso_glazed_eggplant.jpg",
     ingredients: [
       "Eggplant",
       "Miso",
@@ -1030,7 +1031,7 @@ export const recipes = [
   },
   {
     name: "Toast",
-    image: "Toast.avif",
+    image: "toast.jpg",
     ingredients: [
       ["Bread", "White bread"],
     ],
@@ -1048,7 +1049,7 @@ export const recipes = [
   },
   {
     name: "Tofu",
-    image: "Tofu.avif",
+    image: "tofu.jpg",
     ingredients: [
       "Soybean",
       "Soy milk",
@@ -1067,13 +1068,13 @@ export const recipes = [
   },
   {
     name: "Fried Mushrooms",
-    image: "Fried_Mushrooms.avif",
+    image: "fried_mushrooms.jpg",
     ingredients: [
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
     ],
     arrangements: [
       "Salt",
-      "pepper",
+      "Pepper",
       "Nut oil",
       "Herb oil",
       "Olive oil",
@@ -1084,7 +1085,7 @@ export const recipes = [
   },
   {
     name: "Boiled Egg",
-    image: "Boiled_Egg.avif",
+    image: "boiled_egg.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
     ],
@@ -1099,7 +1100,7 @@ export const recipes = [
   },
   {
     name: "Tofu Skin",
-    image: "Tofu_Skin.avif",
+    image: "tofu_skin.jpg",
     ingredients: [
       "Soy milk",
     ],
@@ -1115,7 +1116,7 @@ export const recipes = [
   },
   {
     name: "Shumai Dumplings",
-    image: "Shumai_Dumplings.avif",
+    image: "shumai_dumplings.jpg",
     ingredients: [
       "Wheat flour",
       "Onion",
@@ -1126,7 +1127,7 @@ export const recipes = [
       "Sugar",
       "Soy sauce",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 924,
@@ -1134,7 +1135,7 @@ export const recipes = [
   },
   {
     name: "Sashimi",
-    image: "Sashimi.avif",
+    image: "sashimi.jpg",
     ingredients: [
       ["Amur minnow", "Dace", "Pale chub", "Sculpin", "Dark chub", "Bitterling", "Tamoroko", "Rainbow trout", "Silver carp", "Basa"],
     ],
@@ -1149,7 +1150,7 @@ export const recipes = [
   },
   {
     name: "Fish Cake",
-    image: "Fish_Cake.avif",
+    image: "fish_cake.jpg",
     ingredients: [
       ["Amur minnow", "Dace", "Pale chub", "Sculpin", "Dark chub", "Bitterling", "Tamoroko", "Rainbow trout", "Silver carp", "Basa"],
     ],
@@ -1164,11 +1165,11 @@ export const recipes = [
   },
   {
     name: "Babaocai",
-    image: "Babaocai.avif",
+    image: "babaocai.jpg",
     ingredients: [
       "Napa cabbage",
       "Carrot",
-      "Green bell pepper",
+      "Green Pepper",
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
     ],
     arrangements: [
@@ -1176,7 +1177,7 @@ export const recipes = [
       "Onion",
       "Bok choy",
       "Burdock",
-      "Red bell pepper",
+      "Red Pepper",
     ],
     category: "side",
     price: 1509,
@@ -1184,7 +1185,7 @@ export const recipes = [
   },
   {
     name: "Grilled Corn",
-    image: "Grilled_Corn.avif",
+    image: "grilled_corn.jpg",
     ingredients: [
       "Corn",
       "Soy sauce",
@@ -1201,7 +1202,7 @@ export const recipes = [
   },
   {
     name: "Curry Bun",
-    image: "Curry_Bun.avif",
+    image: "curry_bun.jpg",
     ingredients: [
       "Wheat flour",
       "Curry powder",
@@ -1216,7 +1217,7 @@ export const recipes = [
       "Buffalo milk+",
       "Sugar",
       "Salt",
-      "pepper",
+      "Pepper",
       "Oil",
     ],
     category: "side",
@@ -1225,7 +1226,7 @@ export const recipes = [
   },
   {
     name: "Cheese Croquettes",
-    image: "Cheese_Croquettes.avif",
+    image: "cheese_croquettes.jpg",
     ingredients: [
       "Potato",
       ["Breadcrumbs", "White breadcrumbs"],
@@ -1239,7 +1240,7 @@ export const recipes = [
       "Silkie egg",
       "Sugar",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 1844,
@@ -1247,7 +1248,7 @@ export const recipes = [
   },
   {
     name: "Cheese Bun",
-    image: "Cheese_Bun.avif",
+    image: "cheese_bun.jpg",
     ingredients: [
       "Wheat flour",
       "Cheese",
@@ -1261,7 +1262,7 @@ export const recipes = [
       "Buffalo milk+",
       "Sugar",
       "Salt",
-      "pepper",
+      "Pepper",
       "Oil",
     ],
     category: "side",
@@ -1270,7 +1271,7 @@ export const recipes = [
   },
   {
     name: "Cream Croquettes",
-    image: "Cream_Croquettes.avif",
+    image: "cream_croquettes.jpg",
     ingredients: [
       "Potato",
       ["Breadcrumbs", "White breadcrumbs"],
@@ -1284,7 +1285,7 @@ export const recipes = [
       "Silkie egg",
       "Sugar",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 1098,
@@ -1292,7 +1293,7 @@ export const recipes = [
   },
   {
     name: "Stew",
-    image: "Stew.avif",
+    image: "stew.jpg",
     ingredients: [
       "Wheat flour",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -1302,7 +1303,7 @@ export const recipes = [
       "Cheese",
       "Butter",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 770,
@@ -1310,7 +1311,7 @@ export const recipes = [
   },
   {
     name: "Croquettes",
-    image: "Croquettes.avif",
+    image: "croquettes.jpg",
     ingredients: [
       "Potato",
       ["Breadcrumbs", "White breadcrumbs"],
@@ -1323,7 +1324,7 @@ export const recipes = [
       "Silkie egg",
       "Sugar",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 709,
@@ -1331,7 +1332,7 @@ export const recipes = [
   },
   {
     name: "French Toast",
-    image: "French_Toast.avif",
+    image: "french_toast.jpg",
     ingredients: [
       ["Bread", "White bread"],
       ["Egg", "Silkie egg"],
@@ -1351,7 +1352,7 @@ export const recipes = [
   },
   {
     name: "Popcorn",
-    image: "Popcorn.avif",
+    image: "popcorn.jpg",
     ingredients: [
       "Corn",
       "Oil",
@@ -1372,7 +1373,7 @@ export const recipes = [
   },
   {
     name: "French Fries",
-    image: "French_Fries.avif",
+    image: "french_fries.jpg",
     ingredients: [
       "Potato",
       "Oil",
@@ -1382,7 +1383,7 @@ export const recipes = [
       "Mayonaise",
       "Wheat flour",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "side",
     price: 355,
@@ -1390,7 +1391,7 @@ export const recipes = [
   },
   {
     name: "Poached Egg",
-    image: "Poached_Egg.avif",
+    image: "poached_egg.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
       "Soy sauce",
@@ -1408,7 +1409,7 @@ export const recipes = [
   },
   {
     name: "Baked Sweet Potato",
-    image: "Baked_Sweet_Potato.avif",
+    image: "baked_sweet_potato.jpg",
     ingredients: [
       "Sweet potato",
     ],
@@ -1428,7 +1429,7 @@ export const recipes = [
   },
   {
     name: "Bread",
-    image: "Bread.avif",
+    image: "bread.jpg",
     ingredients: [
       "Wheat flour",
     ],
@@ -1447,7 +1448,7 @@ export const recipes = [
   },
   {
     name: "White Bread",
-    image: "White_Bread.avif",
+    image: "white_bread.jpg",
     ingredients: [
       "Rice flour",
     ],
@@ -1466,7 +1467,7 @@ export const recipes = [
   },
   {
     name: "Cooked Rice",
-    image: "Cooked_Rice.avif",
+    image: "cooked_rice.jpg",
     ingredients: [
       "Rice",
     ],
@@ -1480,11 +1481,11 @@ export const recipes = [
   },
   {
     name: "Ultimate Curry",
-    image: "Ultimate_Curry.avif",
+    image: "ultimate_curry.jpg",
     ingredients: [
       "The ultimate curry",
       "Giant tomato",
-      "Curled chili pepper",
+      "Curled chili Pepper",
       "Yogurt+",
     ],
     arrangements: [
@@ -1499,7 +1500,7 @@ export const recipes = [
   },
   {
     name: "Fried rice noodle",
-    image: "Fried_rice_noodle.avif",
+    image: "fried_rice_noodle.jpg",
     ingredients: [
       "Rice flour",
       "Monarch mushroom",
@@ -1508,9 +1509,9 @@ export const recipes = [
     ],
     arrangements: [
       "Onion",
-      "Green bell pepper",
+      "Green Pepper",
       "Soy sauce",
-      "pepper",
+      "Pepper",
       "Oil",
     ],
     category: "main",
@@ -1519,7 +1520,7 @@ export const recipes = [
   },
   {
     name: "Farmer's Breakfast",
-    image: "Farmer's_Breakfast.avif",
+    image: "farmer's_breakfast.jpg",
     ingredients: [
       "Potato",
       "Onion",
@@ -1538,7 +1539,7 @@ export const recipes = [
   },
   {
     name: "Supreme curry",
-    image: "Supreme_curry.avif",
+    image: "supreme_curry.jpg",
     ingredients: [
       "Curry rice",
       "Star potato",
@@ -1563,7 +1564,7 @@ export const recipes = [
   },
   {
     name: "Pizzoccheri",
-    image: "Pizzoccheri.avif",
+    image: "pizzoccheri.jpg",
     ingredients: [
       "Buckweat",
       "Cheese",
@@ -1581,7 +1582,7 @@ export const recipes = [
   },
   {
     name: "Tempura Soba",
-    image: "Tempura_Soba.avif",
+    image: "tempura_soba.jpg",
     ingredients: [
       "Buckweat",
       "Tempura",
@@ -1599,7 +1600,7 @@ export const recipes = [
   },
   {
     name: "Milk Hot Pot",
-    image: "Milk_Hot_Pot.avif",
+    image: "milk_hot_pot.jpg",
     ingredients: [
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
       "Carrot",
@@ -1619,7 +1620,7 @@ export const recipes = [
   },
   {
     name: "Macaroni & Cheese",
-    image: "Macaroni_&_Cheese.avif",
+    image: "macaroni_&_cheese.jpg",
     ingredients: [
       "Wheat flour",
       "Cheese",
@@ -1643,7 +1644,7 @@ export const recipes = [
       "Milk+",
       "Buffalo milk+",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 2592,
@@ -1651,7 +1652,7 @@ export const recipes = [
   },
   {
     name: "Hot Pot",
-    image: "Hot_Pot.avif",
+    image: "hot_pot.jpg",
     ingredients: [
       "Radish",
       "Napa cabbage",
@@ -1662,7 +1663,7 @@ export const recipes = [
       "Carrot",
       "Spinach",
       "Bok choy",
-      "Chili pepper",
+      "Chili Pepper",
       "Soy milk",
       "Soy sauce",
     ],
@@ -1672,7 +1673,7 @@ export const recipes = [
   },
   {
     name: "Ukha",
-    image: "Ukha.avif",
+    image: "ukha.jpg",
     ingredients: [
       ["Nile perch", "Salmon", "Masu trout", "Cherry salmon", "Brown trout", "Yellow perch", "Sweetfish"],
       "Carrot",
@@ -1684,7 +1685,7 @@ export const recipes = [
       "Butter",
       "Salmon",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 2324,
@@ -1692,7 +1693,7 @@ export const recipes = [
   },
   {
     name: "Mushroom Polenta",
-    image: "Mushroom_Polenta.avif",
+    image: "mushroom_polenta.jpg",
     ingredients: [
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
       "Corn",
@@ -1705,7 +1706,7 @@ export const recipes = [
       "Milk+",
       "Buffalo milk+",
       "Salt",
-      "pepper",
+      "Pepper",
       "Pumpkin oil",
       "Grape oil",
     ],
@@ -1715,7 +1716,7 @@ export const recipes = [
   },
   {
     name: "Tempura Udon",
-    image: "Tempura_Udon.avif",
+    image: "tempura_udon.jpg",
     ingredients: [
       "Wheat flour",
       "Tempura",
@@ -1733,7 +1734,7 @@ export const recipes = [
   },
   {
     name: "Marinated Fish",
-    image: "Marinated_Fish.avif",
+    image: "marinated_fish.jpg",
     ingredients: [
       ["Nile perch", "Salmon", "Masu trout", "Cherry salmon", "Brown trout", "Yellow perch", "Sweetfish"],
       "Onion",
@@ -1742,7 +1743,7 @@ export const recipes = [
     ],
     arrangements: [
       "Salt",
-      "pepper",
+      "Pepper",
       "Pumpkin oil",
       "Grape oil",
     ],
@@ -1752,7 +1753,7 @@ export const recipes = [
   },
   {
     name: "Tempura Rice Bowl",
-    image: "Tempura_Rice_Bowl.avif",
+    image: "tempura_rice_bowl.jpg",
     ingredients: [
       "Tempura",
       "Rice",
@@ -1770,7 +1771,7 @@ export const recipes = [
   },
   {
     name: "Raclette Cheese",
-    image: "Raclette_Cheese.avif",
+    image: "raclette_cheese.jpg",
     ingredients: [
       "Cheese",
       "Corn",
@@ -1783,7 +1784,7 @@ export const recipes = [
       "Toast",
       "Butter",
       "Salt",
-      "pepper",
+      "Pepper",
       "Pumpkin oil",
       "Grape oil",
     ],
@@ -1793,7 +1794,7 @@ export const recipes = [
   },
   {
     name: "Pasta Salad",
-    image: "Pasta_Salad.avif",
+    image: "pasta_salad.jpg",
     ingredients: [
       "Pasta",
       "Mixed salad",
@@ -1801,14 +1802,14 @@ export const recipes = [
     ],
     arrangements: [
       "Penne pasta",
-      "Herbal pasta",
+      "Herb pasta",
       "Milk",
       "Buffalo milk",
       "Milk+",
       "Buffalo milk+",
       "Olive oil",
       "Salt",
-      "pepper",
+      "Pepper",
       "Vinegar",
       "Hot spring eggs",
     ],
@@ -1818,7 +1819,7 @@ export const recipes = [
   },
   {
     name: "Matsutake Rice",
-    image: "Matsutake_Rice.avif",
+    image: "matsutake_rice.jpg",
     ingredients: [
       "Rice",
       "Matsutake mushroom",
@@ -1836,7 +1837,7 @@ export const recipes = [
   },
   {
     name: "Gratin",
-    image: "Gratin.avif",
+    image: "gratin.jpg",
     ingredients: [
       "Wheat flour",
       "Cheese",
@@ -1854,7 +1855,7 @@ export const recipes = [
       "Pasta",
       "Butter",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 1568,
@@ -1862,7 +1863,7 @@ export const recipes = [
   },
   {
     name: "Spaghetti Soup",
-    image: "Spaghetti_Soup.avif",
+    image: "spaghetti_soup.jpg",
     ingredients: [
       "Pasta",
       "Tomato",
@@ -1885,7 +1886,7 @@ export const recipes = [
   },
   {
     name: "Risotto",
-    image: "Risotto.avif",
+    image: "risotto.jpg",
     ingredients: [
       "Rice",
       "Cheese",
@@ -1901,7 +1902,7 @@ export const recipes = [
       "Butter",
       "Olive oil",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 1552,
@@ -1909,7 +1910,7 @@ export const recipes = [
   },
   {
     name: "Carpaccio",
-    image: "Carpaccio.avif",
+    image: "carpaccio.jpg",
     ingredients: [
       ["Yellow perch", "Snakehead", "Masu trout", "Char", "Salmon", "Icefish", "Cherry salmon"],
       "Onion",
@@ -1917,7 +1918,7 @@ export const recipes = [
     ],
     arrangements: [
       "Salt",
-      "pepper",
+      "Pepper",
       "Olive oil",
     ],
     category: "main",
@@ -1926,16 +1927,16 @@ export const recipes = [
   },
   {
     name: "Cheese Fondue",
-    image: "Cheese_Fondue.avif",
+    image: "cheese_fondue.jpg",
     ingredients: [
       "Cheese",
-      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
       "Fondue",
     ],
     arrangements: [
       "Garlic",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 1452,
@@ -1943,7 +1944,7 @@ export const recipes = [
   },
   {
     name: "Mushroom Pasta",
-    image: "Mushroom_Pasta.avif",
+    image: "mushroom_pasta.jpg",
     ingredients: [
       "Pasta",
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
@@ -1953,7 +1954,7 @@ export const recipes = [
       "Green onion",
       "Garlic",
       "Salt",
-      "pepper",
+      "Pepper",
       "Soy sauce",
       "Olive oil",
       "Cheese",
@@ -1964,11 +1965,11 @@ export const recipes = [
   },
   {
     name: "Fried Udon",
-    image: "Fried_Udon.avif",
+    image: "fried_udon.jpg",
     ingredients: [
       "Wheat flour",
       "Cabbage",
-      "Green bell pepper",
+      "Green Pepper",
       "Soy sauce",
     ],
     arrangements: [
@@ -1991,7 +1992,7 @@ export const recipes = [
   },
   {
     name: "Inari Sushi",
-    image: "Inari_Sushi.avif",
+    image: "inari_sushi.jpg",
     ingredients: [
       "Rice",
       "Fried tofu",
@@ -2017,7 +2018,7 @@ export const recipes = [
   },
   {
     name: "Spicy Curry",
-    image: "Spicy_Curry.avif",
+    image: "spicy_curry.jpg",
     ingredients: [
       "Rice",
       "Curry powder",
@@ -2035,7 +2036,7 @@ export const recipes = [
   },
   {
     name: "Omelet Rice",
-    image: "Omelet_Rice.avif",
+    image: "omelet_rice.jpg",
     ingredients: [
       "Omelet",
       "Rice",
@@ -2049,7 +2050,7 @@ export const recipes = [
       "Buffalo milk+",
       "Butter",
       "Salt",
-      "pepper",
+      "Pepper",
       "Oil",
     ],
     category: "main",
@@ -2058,10 +2059,10 @@ export const recipes = [
   },
   {
     name: "Spaghetti Peperoncino",
-    image: "Spaghetti_Peperoncino.avif",
+    image: "spaghetti_peperoncino.jpg",
     ingredients: [
       "Pasta",
-      "Chili pepper",
+      "Chili Pepper",
       "Garlic",
       "Oil",
     ],
@@ -2075,7 +2076,7 @@ export const recipes = [
       "Matsutake mushroom",
       "Monarch mushroom",
       "Salt",
-      "pepper",
+      "Pepper",
       "Cheese",
     ],
     category: "main",
@@ -2084,7 +2085,7 @@ export const recipes = [
   },
   {
     name: "Seaweed Curry",
-    image: "Seaweed_Curry.avif",
+    image: "seaweed_curry.jpg",
     ingredients: [
       "Rice",
       "Curry powder",
@@ -2102,7 +2103,7 @@ export const recipes = [
   },
   {
     name: "Jam-Filled Bun",
-    image: "Jam-Filled_Bun.avif",
+    image: "jam-filled_bun.jpg",
     ingredients: [
       "Wheat flour",
       ["Grape jam", "Apple jam", "Blueberry jam", "Strawberry jam"],
@@ -2122,7 +2123,7 @@ export const recipes = [
   },
   {
     name: "Milk Curry",
-    image: "Milk_Curry.avif",
+    image: "milk_curry.jpg",
     ingredients: [
       "Rice",
       "Curry powder",
@@ -2142,16 +2143,16 @@ export const recipes = [
   },
   {
     name: "Burgandy Fondue",
-    image: "Burgandy_Fondue.avif",
+    image: "burgandy_fondue.jpg",
     ingredients: [
       "Olive oil",
-      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
       "Fondue",
     ],
     arrangements: [
       "Garlic",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 1325,
@@ -2159,7 +2160,7 @@ export const recipes = [
   },
   {
     name: "Fried Rice",
-    image: "Fried_Rice.avif",
+    image: "fried_rice.jpg",
     ingredients: [
       "Rice",
       ["Egg", "Silkie egg"],
@@ -2168,11 +2169,11 @@ export const recipes = [
     ],
     arrangements: [
       "Cabbage",
-      "Green bell pepper",
+      "Green Pepper",
       "Green onion",
       "Soy sauce",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 1316,
@@ -2180,12 +2181,12 @@ export const recipes = [
   },
   {
     name: "Rainbow Curry",
-    image: "Rainbow_Curry.avif",
+    image: "rainbow_curry.jpg",
     ingredients: [
       "Rice",
       "Curry powder",
       "Spinach",
-      "Red bell pepper",
+      "Red Pepper",
     ],
     arrangements: [
       "Tomato",
@@ -2198,7 +2199,7 @@ export const recipes = [
   },
   {
     name: "Yakisoba",
-    image: "Yakisoba.avif",
+    image: "yakisoba.jpg",
     ingredients: [
       "Wheat flour",
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
@@ -2225,7 +2226,7 @@ export const recipes = [
   },
   {
     name: "Unadon",
-    image: "Unadon.avif",
+    image: "unadon.jpg",
     ingredients: [
       "Rice",
       "Eel",
@@ -2243,13 +2244,13 @@ export const recipes = [
   },
   {
     name: "Fried Matsutake Mushrooms",
-    image: "Fried_Matsutake_Mushrooms.avif",
+    image: "fried_matsutake_mushrooms.jpg",
     ingredients: [
       "Matsutake mushroom",
     ],
     arrangements: [
       "Salt",
-      "pepper",
+      "Pepper",
       "Pumpkin oil",
       "Grape oil",
     ],
@@ -2259,7 +2260,7 @@ export const recipes = [
   },
   {
     name: "Rice Gratin",
-    image: "Rice_Gratin.avif",
+    image: "rice_gratin.jpg",
     ingredients: [
       "Rice",
       "Cheese",
@@ -2279,7 +2280,7 @@ export const recipes = [
       "Morel mushroom",
       "Butter",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 1188,
@@ -2287,10 +2288,10 @@ export const recipes = [
   },
   {
     name: "Herb Bread",
-    image: "Herb_Bread.avif",
+    image: "herb_bread.jpg",
     ingredients: [
       "Wheat flour",
-      "Herbal butter",
+      "Herb butter",
     ],
     arrangements: [
       "Milk",
@@ -2307,7 +2308,7 @@ export const recipes = [
   },
   {
     name: "Okonomikaki",
-    image: "Okonomikaki.avif",
+    image: "okonomikaki.jpg",
     ingredients: [
       "Wheat flour",
       "Cabbage",
@@ -2326,7 +2327,7 @@ export const recipes = [
   },
   {
     name: "Tempura",
-    image: "Tempura.avif",
+    image: "tempura.jpg",
     ingredients: [
       "Wheat flour",
       "Oil",
@@ -2343,11 +2344,11 @@ export const recipes = [
   },
   {
     name: "Paella",
-    image: "Paella.avif",
+    image: "paella.jpg",
     ingredients: [
       "Rice",
       ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
-      "Red bell pepper",
+      "Red Pepper",
       "Spice",
     ],
     arrangements: [
@@ -2363,7 +2364,7 @@ export const recipes = [
       "Morel mushroom",
       "Olive oil",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 1151,
@@ -2371,7 +2372,7 @@ export const recipes = [
   },
   {
     name: "Boiled Tofu",
-    image: "Boiled_Tofu.avif",
+    image: "boiled_tofu.jpg",
     ingredients: [
       "Tofu",
       "Napa cabbage",
@@ -2391,14 +2392,14 @@ export const recipes = [
   },
   {
     name: "Pizza",
-    image: "Pizza.avif",
+    image: "pizza.jpg",
     ingredients: [
       "Wheat flour",
       "Tomato",
       "Cheese",
     ],
     arrangements: [
-      "Green bell pepper",
+      "Green Pepper",
       "Onion",
       "Asparagus",
       "Corn",
@@ -2410,7 +2411,7 @@ export const recipes = [
   },
   {
     name: "Bok Choy Soy Cream Stew",
-    image: "Bok_Choy_Soy_Cream_Stew.avif",
+    image: "bok_choy_soy_cream_stew.jpg",
     ingredients: [
       "Bok choy",
       "Soy milk",
@@ -2419,7 +2420,7 @@ export const recipes = [
     arrangements: [
       "Sugar",
       "Salt",
-      "pepper",
+      "Pepper",
       "Oil",
       "Shimeji mushroom",
     ],
@@ -2429,7 +2430,7 @@ export const recipes = [
   },
   {
     name: "Curry Bread",
-    image: "Curry_Bread.avif",
+    image: "curry_bread.jpg",
     ingredients: [
       "Wheat flour",
       "Curry powder",
@@ -2447,7 +2448,7 @@ export const recipes = [
   },
   {
     name: "Meuniere Fish",
-    image: "Meuniere_Fish.avif",
+    image: "meuniere_fish.jpg",
     ingredients: [
       ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
       "Wheat flour",
@@ -2464,7 +2465,7 @@ export const recipes = [
   },
   {
     name: "Rice & Mixed Vegetables",
-    image: "Rice_&_Mixed_Vegetables.avif",
+    image: "rice_&_mixed_vegetables.jpg",
     ingredients: [
       "Rice",
       "Fried tofu",
@@ -2490,16 +2491,16 @@ export const recipes = [
   },
   {
     name: "Pink Fondue",
-    image: "Pink_Fondue.avif",
+    image: "pink_fondue.jpg",
     ingredients: [
       "Red grape",
-      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
       "Fondue",
     ],
     arrangements: [
       "Garlic",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 937,
@@ -2507,7 +2508,7 @@ export const recipes = [
   },
   {
     name: "Curry Rice",
-    image: "Curry_Rice.avif",
+    image: "curry_rice.jpg",
     ingredients: [
       "Rice",
       "Curry powder",
@@ -2524,11 +2525,11 @@ export const recipes = [
   },
   {
     name: "Vegetable Curry",
-    image: "Vegetable_Curry.avif",
+    image: "vegetable_curry.jpg",
     ingredients: [
       "Rice",
       "Curry powder",
-      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red bell pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
+      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red Pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
     ],
     arrangements: [
       "Garlic",
@@ -2540,7 +2541,7 @@ export const recipes = [
   },
   {
     name: "Mushroom Rice",
-    image: "Mushroom_Rice.avif",
+    image: "mushroom_rice.jpg",
     ingredients: [
       "Rice",
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
@@ -2559,7 +2560,7 @@ export const recipes = [
   },
   {
     name: "Chirashi Sushi",
-    image: "Chirashi_Sushi.avif",
+    image: "chirashi_sushi.jpg",
     ingredients: [
       "Sashimi",
       "Rice",
@@ -2587,7 +2588,7 @@ export const recipes = [
   },
   {
     name: "Zaru Soba",
-    image: "Zaru_Soba.avif",
+    image: "zaru_soba.jpg",
     ingredients: [
       "Buckweat",
       "Wheat flour",
@@ -2604,7 +2605,7 @@ export const recipes = [
   },
   {
     name: "Dry curry",
-    image: "Dry_curry.avif",
+    image: "dry_curry.jpg",
     ingredients: [
       "Rice",
       "Curry powder",
@@ -2615,7 +2616,7 @@ export const recipes = [
       "Onion",
       "Garlic",
       "Carrot",
-      "Green bell pepper",
+      "Green Pepper",
       "Boiled egg",
     ],
     category: "main",
@@ -2624,7 +2625,7 @@ export const recipes = [
   },
   {
     name: "Bouillabaisse",
-    image: "Bouillabaisse.avif",
+    image: "bouillabaisse.jpg",
     ingredients: [
       "Tomato",
       ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
@@ -2634,7 +2635,7 @@ export const recipes = [
       "Onion",
       "Garlic",
       "Salt",
-      "pepper",
+      "Pepper",
       "Nut oil",
       "Herb oil",
       "Olive oil",
@@ -2645,10 +2646,10 @@ export const recipes = [
   },
   {
     name: "Herb Sandwich",
-    image: "Herb_Sandwich.avif",
+    image: "herb_sandwich.jpg",
     ingredients: [
-      ["Bread", "White bread", "Bucket", "Focaccia"],
-      "Herb",
+      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
+      ["Mint", "Chamomile", "Lavender"],
       "Mayonaise",
     ],
     arrangements: [
@@ -2665,14 +2666,14 @@ export const recipes = [
   },
   {
     name: "Steamed Mushrooms",
-    image: "Steamed_Mushrooms.avif",
+    image: "steamed_mushrooms.jpg",
     ingredients: [
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
       "Butter",
     ],
     arrangements: [
       "Salt",
-      "pepper",
+      "Pepper",
       "Nut oil",
       "Herb oil",
       "Olive oil",
@@ -2683,7 +2684,7 @@ export const recipes = [
   },
   {
     name: "Tofu Steak",
-    image: "Tofu_Steak.avif",
+    image: "tofu_steak.jpg",
     ingredients: [
       "Tofu",
       ["Wheat flour", "Rice flour"],
@@ -2700,7 +2701,7 @@ export const recipes = [
   },
   {
     name: "Milk Rice Porridge",
-    image: "Milk_Rice_Porridge.avif",
+    image: "milk_rice_porridge.jpg",
     ingredients: [
       "Rice",
       "Salt",
@@ -2718,7 +2719,7 @@ export const recipes = [
       "Shimeji mushroom",
       "Butter",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 801,
@@ -2726,7 +2727,7 @@ export const recipes = [
   },
   {
     name: "Fried Onigiri",
-    image: "Fried_Onigiri.avif",
+    image: "fried_onigiri.jpg",
     ingredients: [
       "Onigiri",
       "Soy sauce",
@@ -2742,7 +2743,7 @@ export const recipes = [
   },
   {
     name: "Omelet",
-    image: "Omelet.avif",
+    image: "omelet.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
       "Butter",
@@ -2755,7 +2756,7 @@ export const recipes = [
       "Milk+",
       "Buffalo milk+",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 721,
@@ -2763,7 +2764,7 @@ export const recipes = [
   },
   {
     name: "Donburi Rice Bowl",
-    image: "Donburi_Rice_Bowl.avif",
+    image: "donburi_rice_bowl.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
       "Onion",
@@ -2781,7 +2782,7 @@ export const recipes = [
   },
   {
     name: "Sushi",
-    image: "Sushi.avif",
+    image: "sushi.jpg",
     ingredients: [
       "Sashimi",
       "Rice",
@@ -2800,16 +2801,16 @@ export const recipes = [
   },
   {
     name: "Tomato Fondue",
-    image: "Tomato_Fondue.avif",
+    image: "tomato_fondue.jpg",
     ingredients: [
       "Tomato",
-      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
       "Fondue",
     ],
     arrangements: [
       "Garlic",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 650,
@@ -2817,7 +2818,7 @@ export const recipes = [
   },
   {
     name: "Udon",
-    image: "Udon.avif",
+    image: "udon.jpg",
     ingredients: [
       "Wheat flour",
       "Fish cake",
@@ -2843,11 +2844,11 @@ export const recipes = [
   },
   {
     name: "Herb Rice Porridge",
-    image: "Herb_Rice_Porridge.avif",
+    image: "herb_rice_porridge.jpg",
     ingredients: [
       "Rice",
       "Salt",
-      "Herb",
+      ["Mint", "Chamomile", "Lavender"],
     ],
     arrangements: [
       "Green onion",
@@ -2860,9 +2861,9 @@ export const recipes = [
   },
   {
     name: "Fruit Sandwich",
-    image: "Fruit_Sandwich.avif",
+    image: "fruit_sandwich.jpg",
     ingredients: [
-      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
       ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
       ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
     ],
@@ -2881,10 +2882,10 @@ export const recipes = [
   },
   {
     name: "Herb Pasta",
-    image: "Herb_Pasta.avif",
+    image: "herb_pasta.jpg",
     ingredients: [
       "Wheat flour",
-      "Herb",
+      ["Mint", "Chamomile", "Lavender"],
       "Oil",
     ],
     arrangements: [
@@ -2900,7 +2901,7 @@ export const recipes = [
   },
   {
     name: "Penne Pasta",
-    image: "Penne_Pasta.avif",
+    image: "penne_pasta.jpg",
     ingredients: [
       "Wheat flour",
       "Oil",
@@ -2916,7 +2917,7 @@ export const recipes = [
   },
   {
     name: "Rice Porridge",
-    image: "Rice_Porridge.avif",
+    image: "rice_porridge.jpg",
     ingredients: [
       "Rice",
       "Salt",
@@ -2932,7 +2933,7 @@ export const recipes = [
   },
   {
     name: "Simmered Fish",
-    image: "Simmered_Fish.avif",
+    image: "simmered_fish.jpg",
     ingredients: [
       ["Blugill", "Willow shiner", "Killifish", "Stone moroko", "Pond smelt", "Sweetfish", "Eel", "Eel", "Goldfish", "Crucian carp"],
       "Soy sauce",
@@ -2948,7 +2949,7 @@ export const recipes = [
   },
   {
     name: "Raisin Bread",
-    image: "Raisin_Bread.avif",
+    image: "raisin_bread.jpg",
     ingredients: [
       "Wheat flour",
       "Red grape",
@@ -2968,9 +2969,9 @@ export const recipes = [
   },
   {
     name: "Sandwich",
-    image: "Sandwich.avif",
+    image: "sandwich.jpg",
     ingredients: [
-      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
       "Tomato",
       "Cucumber",
     ],
@@ -2986,7 +2987,7 @@ export const recipes = [
   },
   {
     name: "Onigiri",
-    image: "Onigiri.avif",
+    image: "onigiri.jpg",
     ingredients: [
       "Rice",
       "Seaweed",
@@ -3004,7 +3005,7 @@ export const recipes = [
   },
   {
     name: "Fried Eggplant",
-    image: "Fried_Eggplant.avif",
+    image: "fried_eggplant.jpg",
     ingredients: [
       "Eggplant",
       "Oil",
@@ -3020,7 +3021,7 @@ export const recipes = [
   },
   {
     name: "Chestnut Rice",
-    image: "Chestnut_Rice.avif",
+    image: "chestnut_rice.jpg",
     ingredients: [
       "Rice",
       "Chestnut",
@@ -3036,7 +3037,7 @@ export const recipes = [
   },
   {
     name: "Pasta",
-    image: "Pasta.avif",
+    image: "pasta.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3054,7 +3055,7 @@ export const recipes = [
   },
   {
     name: "Egg Over Rice",
-    image: "Egg_Over_Rice.avif",
+    image: "egg_over_rice.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
       "Rice",
@@ -3064,7 +3065,7 @@ export const recipes = [
       "Cheese",
       "Soy sauce",
       "Salt",
-      "pepper",
+      "Pepper",
     ],
     category: "main",
     price: 246,
@@ -3072,7 +3073,7 @@ export const recipes = [
   },
   {
     name: "Grilled Fish",
-    image: "Grilled_Fish.avif",
+    image: "grilled_fish.jpg",
     ingredients: [
       ["Amur minnow", "Dace", "Pale chub", "Sculpin", "Dark chub", "Bitterling", "Tamoroko", "Rainbow trout", "Silver carp", "Basa"],
     ],
@@ -3086,7 +3087,7 @@ export const recipes = [
   },
   {
     name: "Rüeblitorte",
-    image: "Rüeblitorte.avif",
+    image: "rüeblitorte.jpg",
     ingredients: [
       "Wheat flour",
       "Silkie egg",
@@ -3108,7 +3109,7 @@ export const recipes = [
   },
   {
     name: "Trifle",
-    image: "Trifle.avif",
+    image: "trifle.jpg",
     ingredients: [
       "Castella",
       "Silkie egg+",
@@ -3117,7 +3118,7 @@ export const recipes = [
     ],
     arrangements: [
       "Cookies",
-      "Herbal cookies",
+      "Herb cookies",
       "Walnut cookies",
       "Chocolate cookies",
     ],
@@ -3127,7 +3128,7 @@ export const recipes = [
   },
   {
     name: "Pineapple pie",
-    image: "Pineapple_pie.avif",
+    image: "pineapple_pie.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3145,7 +3146,7 @@ export const recipes = [
   },
   {
     name: "Cheese Cake",
-    image: "Cheese_Cake.avif",
+    image: "cheese_cake.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3163,7 +3164,7 @@ export const recipes = [
   },
   {
     name: "Steamed Cake",
-    image: "Steamed_Cake.avif",
+    image: "steamed_cake.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3182,7 +3183,7 @@ export const recipes = [
   },
   {
     name: "Cherry Pie",
-    image: "Cherry_Pie.avif",
+    image: "cherry_pie.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3200,7 +3201,7 @@ export const recipes = [
   },
   {
     name: "Blueberry Pie",
-    image: "Blueberry_Pie.avif",
+    image: "blueberry_pie.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3218,7 +3219,7 @@ export const recipes = [
   },
   {
     name: "Strawberry Pie",
-    image: "Strawberry_Pie.avif",
+    image: "strawberry_pie.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3236,7 +3237,7 @@ export const recipes = [
   },
   {
     name: "Donuts",
-    image: "Donuts.avif",
+    image: "donuts.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3256,7 +3257,7 @@ export const recipes = [
   },
   {
     name: "Churros",
-    image: "Churros.avif",
+    image: "churros.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3277,7 +3278,7 @@ export const recipes = [
   },
   {
     name: "Chocolate Cake",
-    image: "Chocolate_Cake.avif",
+    image: "chocolate_cake.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3295,7 +3296,7 @@ export const recipes = [
   },
   {
     name: "Baumkuchen",
-    image: "Baumkuchen.avif",
+    image: "baumkuchen.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3315,7 +3316,7 @@ export const recipes = [
   },
   {
     name: "Engadiner Nusstorte",
-    image: "Engadiner_Nusstorte.avif",
+    image: "engadiner_nusstorte.jpg",
     ingredients: [
       "Wheat flour",
       "Silkie egg",
@@ -3339,7 +3340,7 @@ export const recipes = [
   },
   {
     name: "Pancakes",
-    image: "Pancakes.avif",
+    image: "pancakes.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3356,7 +3357,7 @@ export const recipes = [
   },
   {
     name: "Fruit Dumplings",
-    image: "Fruit_Dumplings.avif",
+    image: "fruit_dumplings.jpg",
     ingredients: [
       "Shiratama powder",
       ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
@@ -3372,7 +3373,7 @@ export const recipes = [
   },
   {
     name: "Sweet Potato Cakes",
-    image: "Sweet_Potato_Cakes.avif",
+    image: "sweet_potato_cakes.jpg",
     ingredients: [
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
       "Sugar",
@@ -3390,10 +3391,10 @@ export const recipes = [
   },
   {
     name: "Chocolate Fondue",
-    image: "Chocolate_Fondue.avif",
+    image: "chocolate_fondue.jpg",
     ingredients: [
       "Chocolate",
-      ["Bread", "White bread", "Bucket", "Focaccia"],
+      ["Bread", "White bread", "Baguette", "Focaccia Bread"],
       ["Apple", "Red grape", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
     ],
     arrangements: [
@@ -3409,7 +3410,7 @@ export const recipes = [
   },
   {
     name: "Baked Apple",
-    image: "Baked_Apple.avif",
+    image: "baked_apple.jpg",
     ingredients: [
       "Apple",
       "Butter",
@@ -3427,7 +3428,7 @@ export const recipes = [
   },
   {
     name: "Ice Cream",
-    image: "Ice_Cream.avif",
+    image: "ice_cream.jpg",
     ingredients: [
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
       ["Egg", "Silkie egg"],
@@ -3444,7 +3445,7 @@ export const recipes = [
   },
   {
     name: "Castella",
-    image: "Castella.avif",
+    image: "castella.jpg",
     ingredients: [
       "Wheat flour",
       "Silkie egg",
@@ -3464,7 +3465,7 @@ export const recipes = [
   },
   {
     name: "Strawberry Mochi",
-    image: "Strawberry_Mochi.avif",
+    image: "strawberry_mochi.jpg",
     ingredients: [
       "Mochi",
       "Strawberry",
@@ -3480,7 +3481,7 @@ export const recipes = [
   },
   {
     name: "Cake",
-    image: "Cake.avif",
+    image: "cake.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3499,7 +3500,7 @@ export const recipes = [
   },
   {
     name: "Egg Tart",
-    image: "Egg_Tart.avif",
+    image: "egg_tart.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -3516,7 +3517,7 @@ export const recipes = [
   },
   {
     name: "Dango",
-    image: "Dango.avif",
+    image: "dango.jpg",
     ingredients: [
       "Shiratama powder",
     ],
@@ -3531,7 +3532,7 @@ export const recipes = [
   },
   {
     name: "Wrapped Rice Cakes",
-    image: "Wrapped_Rice_Cakes.avif",
+    image: "wrapped_rice_cakes.jpg",
     ingredients: [
       "Mochi",
       "Summer blend tea tin",
@@ -3556,7 +3557,7 @@ export const recipes = [
   },
   {
     name: "Walnut Cookies",
-    image: "Walnut_Cookies.avif",
+    image: "walnut_cookies.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3576,7 +3577,7 @@ export const recipes = [
   },
   {
     name: "Soy Milk Pudding",
-    image: "Soy_Milk_Pudding.avif",
+    image: "soy_milk_pudding.jpg",
     ingredients: [
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
       ["Egg", "Silkie egg"],
@@ -3595,11 +3596,11 @@ export const recipes = [
   },
   {
     name: "Herb Cookies",
-    image: "Herb_Cookies.avif",
+    image: "herb_cookies.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
-      "Herb",
+      ["Mint", "Chamomile", "Lavender"],
     ],
     arrangements: [
       "Milk",
@@ -3615,7 +3616,7 @@ export const recipes = [
   },
   {
     name: "Toasted Mochi",
-    image: "Toasted_Mochi.avif",
+    image: "toasted_mochi.jpg",
     ingredients: [
       "Mochi",
     ],
@@ -3631,7 +3632,7 @@ export const recipes = [
   },
   {
     name: "Chestnut Paste",
-    image: "Chestnut_Paste.avif",
+    image: "chestnut_paste.jpg",
     ingredients: [
       "Chestnut powder",
     ],
@@ -3646,7 +3647,7 @@ export const recipes = [
   },
   {
     name: "Whole Cheesecake",
-    image: "Whole_Cheesecake.avif",
+    image: "whole_cheesecake.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg+", "Silkie egg+"],
@@ -3669,7 +3670,7 @@ export const recipes = [
   },
   {
     name: "Whole chocolate cake",
-    image: "Whole_chocolate_cake.avif",
+    image: "whole_chocolate_cake.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg+", "Silkie egg+"],
@@ -3687,7 +3688,7 @@ export const recipes = [
   },
   {
     name: "Apple Pie",
-    image: "Apple_Pie.avif",
+    image: "apple_pie.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3705,7 +3706,7 @@ export const recipes = [
   },
   {
     name: "Whole Cake",
-    image: "Whole_Cake.avif",
+    image: "whole_cake.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg+", "Silkie egg+"],
@@ -3723,7 +3724,7 @@ export const recipes = [
   },
   {
     name: "Mont Blanc Cake",
-    image: "Mont_Blanc_Cake.avif",
+    image: "mont_blanc_cake.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3740,7 +3741,7 @@ export const recipes = [
   },
   {
     name: "Pumpkin Pudding",
-    image: "Pumpkin_Pudding.avif",
+    image: "pumpkin_pudding.jpg",
     ingredients: [
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
       ["Egg", "Silkie egg"],
@@ -3757,7 +3758,7 @@ export const recipes = [
   },
   {
     name: "Chocolate Cookies",
-    image: "Chocolate_Cookies.avif",
+    image: "chocolate_cookies.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3777,7 +3778,7 @@ export const recipes = [
   },
   {
     name: "Honey Cake",
-    image: "Honey_Cake.avif",
+    image: "honey_cake.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3796,7 +3797,7 @@ export const recipes = [
   },
   {
     name: "Chocolate-Covered Banana",
-    image: "Chocolate-Covered_Banana.avif",
+    image: "chocolate-covered_banana.jpg",
     ingredients: [
       "Banana",
       "Chocolate",
@@ -3811,7 +3812,7 @@ export const recipes = [
   },
   {
     name: "Pudding",
-    image: "Pudding.avif",
+    image: "pudding.jpg",
     ingredients: [
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
       ["Egg", "Silkie egg"],
@@ -3826,7 +3827,7 @@ export const recipes = [
   },
   {
     name: "Cookies",
-    image: "Cookies.avif",
+    image: "cookies.jpg",
     ingredients: [
       "Wheat flour",
       ["Egg", "Silkie egg"],
@@ -3845,7 +3846,7 @@ export const recipes = [
   },
   {
     name: "Soy Milk",
-    image: "Soy_Milk.avif",
+    image: "soy_milk.jpg",
     ingredients: [
       "Soybean",
     ],
@@ -3865,7 +3866,7 @@ export const recipes = [
   },
   {
     name: "Honey Juice",
-    image: "Honey_Juice.avif",
+    image: "honey_juice.jpg",
     ingredients: [
       ["Honey", "Invigorating honey", "Mellow honey", "Royal honey"],
     ],
@@ -3883,7 +3884,7 @@ export const recipes = [
   },
   {
     name: "Simmered Seaweed",
-    image: "Simmered_Seaweed.avif",
+    image: "simmered_seaweed.jpg",
     ingredients: [
       "Seaweed",
       "Soy sauce",
@@ -3905,7 +3906,7 @@ export const recipes = [
   },
   {
     name: "Summer Blend Tea",
-    image: "Summer_Blend_Tea.avif",
+    image: "summer_blend_tea.jpg",
     ingredients: [
       "Summer blend tea tin",
     ],
@@ -3927,7 +3928,7 @@ export const recipes = [
   },
   {
     name: "Summer Juice",
-    image: "Summer_Juice.avif",
+    image: "summer_juice.jpg",
     ingredients: [
       "Banana",
       "Peach",
@@ -3950,7 +3951,7 @@ export const recipes = [
   },
   {
     name: "Black Tea",
-    image: "Black_Tea.avif",
+    image: "black_tea.jpg",
     ingredients: [
       "Black tea tin",
     ],
@@ -3972,7 +3973,7 @@ export const recipes = [
   },
   {
     name: "Golden blend tea",
-    image: "Golden_blend_tea.avif",
+    image: "golden_blend_tea.jpg",
     ingredients: [
       "Golden blend tea tin",
     ],
@@ -3990,7 +3991,7 @@ export const recipes = [
   },
   {
     name: "Watermelon Tea",
-    image: "Watermelon_Tea.avif",
+    image: "watermelon_tea.jpg",
     ingredients: [
       "Watermelon tea tin",
     ],
@@ -4012,7 +4013,7 @@ export const recipes = [
   },
   {
     name: "Melon Tea",
-    image: "Melon_Tea.avif",
+    image: "melon_tea.jpg",
     ingredients: [
       "Melon tea tin",
     ],
@@ -4034,7 +4035,7 @@ export const recipes = [
   },
   {
     name: "Jam Tea",
-    image: "Jam_Tea.avif",
+    image: "jam_tea.jpg",
     ingredients: [
       "Straight tea",
       ["Grape jam", "Apple jam", "Blueberry jam", "Strawberry jam"],
@@ -4053,7 +4054,7 @@ export const recipes = [
   },
   {
     name: "Pineapple Tea",
-    image: "Pineapple_Tea.avif",
+    image: "pineapple_tea.jpg",
     ingredients: [
       "Pineapple tea tin",
     ],
@@ -4075,7 +4076,7 @@ export const recipes = [
   },
   {
     name: "Spring Blend Tea",
-    image: "Spring_Blend_Tea.avif",
+    image: "spring_blend_tea.jpg",
     ingredients: [
       "Sping blend tea tin",
     ],
@@ -4097,7 +4098,7 @@ export const recipes = [
   },
   {
     name: "Royal Milk Tea",
-    image: "Royal_Milk_Tea.avif",
+    image: "royal_milk_tea.jpg",
     ingredients: [
       "Black tea tin",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -4112,7 +4113,7 @@ export const recipes = [
   },
   {
     name: "Spring Juice",
-    image: "Spring_Juice.avif",
+    image: "spring_juice.jpg",
     ingredients: [
       "Strawberry",
       "Orange",
@@ -4135,7 +4136,7 @@ export const recipes = [
   },
   {
     name: "Strawberry Jam",
-    image: "Strawberry_Jam.avif",
+    image: "strawberry_jam.jpg",
     ingredients: [
       "Strawberry",
       "Sugar",
@@ -4153,7 +4154,7 @@ export const recipes = [
   },
   {
     name: "Fruit Juice",
-    image: "Fruit_Juice.avif",
+    image: "fruit_juice.jpg",
     ingredients: [
       "Red grape",
       "Apple",
@@ -4171,7 +4172,7 @@ export const recipes = [
   },
   {
     name: "Cappuccino",
-    image: "Cappuccino.avif",
+    image: "cappuccino.jpg",
     ingredients: [
       "Hot coffee",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -4186,7 +4187,7 @@ export const recipes = [
   },
   {
     name: "Cafe au Lait",
-    image: "Cafe_au_Lait.avif",
+    image: "cafe_au_lait.jpg",
     ingredients: [
       "Hot coffee",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -4204,7 +4205,7 @@ export const recipes = [
   },
   {
     name: "Watermelon Juice",
-    image: "Watermelon_Juice.avif",
+    image: "watermelon_juice.jpg",
     ingredients: [
       "Watermelon",
     ],
@@ -4226,7 +4227,7 @@ export const recipes = [
   },
   {
     name: "Milk Tea",
-    image: "Milk_Tea.avif",
+    image: "milk_tea.jpg",
     ingredients: [
       "Black tea tin",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
@@ -4244,7 +4245,7 @@ export const recipes = [
   },
   {
     name: "Melon Juice",
-    image: "Melon_Juice.avif",
+    image: "melon_juice.jpg",
     ingredients: [
       "Melon",
     ],
@@ -4266,7 +4267,7 @@ export const recipes = [
   },
   {
     name: "Strawberry Tea",
-    image: "Strawberry_Tea.avif",
+    image: "strawberry_tea.jpg",
     ingredients: [
       "Strawberry tea tin",
     ],
@@ -4288,7 +4289,7 @@ export const recipes = [
   },
   {
     name: "Pineapple Juice",
-    image: "Pineapple_Juice.avif",
+    image: "pineapple_juice.jpg",
     ingredients: [
       "Pineapple",
     ],
@@ -4310,7 +4311,7 @@ export const recipes = [
   },
   {
     name: "Sencha Tea",
-    image: "Sencha_Tea.avif",
+    image: "sencha_tea.jpg",
     ingredients: [
       "Sencha tea tin",
     ],
@@ -4327,7 +4328,7 @@ export const recipes = [
   },
   {
     name: "Pu'er Tea",
-    image: "Pu'er_Tea.avif",
+    image: "pu'er_tea.jpg",
     ingredients: [
       "Pu'er tea tin",
     ],
@@ -4344,7 +4345,7 @@ export const recipes = [
   },
   {
     name: "Oolong Tea",
-    image: "Oolong_Tea.avif",
+    image: "oolong_tea.jpg",
     ingredients: [
       "Oolong tea tin",
     ],
@@ -4363,7 +4364,7 @@ export const recipes = [
   },
   {
     name: "Chestnut Juice",
-    image: "Chestnut_Juice.avif",
+    image: "chestnut_juice.jpg",
     ingredients: [
       "Chestnut powder",
     ],
@@ -4382,7 +4383,7 @@ export const recipes = [
   },
   {
     name: "Hot Coffee",
-    image: "Hot_Coffee.avif",
+    image: "hot_coffee.jpg",
     ingredients: [
       "Coffee pack",
     ],
@@ -4399,7 +4400,7 @@ export const recipes = [
   },
   {
     name: "Matcha Tea",
-    image: "Matcha_Tea.avif",
+    image: "matcha_tea.jpg",
     ingredients: [
       "Matcha tea tin",
     ],
@@ -4416,7 +4417,7 @@ export const recipes = [
   },
   {
     name: "Mint Tea",
-    image: "Mint_Tea.avif",
+    image: "mint_tea.jpg",
     ingredients: [
       "Mint tea tin",
     ],
@@ -4434,7 +4435,7 @@ export const recipes = [
   },
   {
     name: "Chamomile Tea",
-    image: "Chamomile_Tea.avif",
+    image: "chamomile_tea.jpg",
     ingredients: [
       "Chamomile tea tin",
     ],
@@ -4452,7 +4453,7 @@ export const recipes = [
   },
   {
     name: "Lavender Tea",
-    image: "Lavender_Tea.avif",
+    image: "lavender_tea.jpg",
     ingredients: [
       "Lavender tea tin",
     ],
@@ -4470,7 +4471,7 @@ export const recipes = [
   },
   {
     name: "Walnut Juice",
-    image: "Walnut_Juice.avif",
+    image: "walnut_juice.jpg",
     ingredients: [
       "Walnut powder",
     ],
@@ -4492,7 +4493,7 @@ export const recipes = [
   },
   {
     name: "Warm Milk",
-    image: "Warm_Milk.avif",
+    image: "warm_milk.jpg",
     ingredients: [
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
     ],
@@ -4511,7 +4512,7 @@ export const recipes = [
   },
   {
     name: "Green Tea",
-    image: "Green_Tea.avif",
+    image: "green_tea.jpg",
     ingredients: [
       "Green tea tin",
     ],
@@ -4528,7 +4529,7 @@ export const recipes = [
   },
   {
     name: "Strawberry Juice",
-    image: "Strawberry_Juice.avif",
+    image: "strawberry_juice.jpg",
     ingredients: [
       "Strawberry",
     ],
@@ -4550,7 +4551,7 @@ export const recipes = [
   },
   {
     name: "Tomato Juice",
-    image: "Tomato_Juice.avif",
+    image: "tomato_juice.jpg",
     ingredients: [
       "Tomato",
     ],
@@ -4565,7 +4566,7 @@ export const recipes = [
   },
   {
     name: "Speciality Juice",
-    image: "Speciality_Juice.avif",
+    image: "speciality_juice.jpg",
     ingredients: [
       "Spring juice",
       "Summer juice",
@@ -4586,7 +4587,7 @@ export const recipes = [
   },
   {
     name: "Autumn blend tea",
-    image: "Autumn_blend_tea.avif",
+    image: "autumn_blend_tea.jpg",
     ingredients: [
       "Automn blend tea tin",
     ],
@@ -4608,7 +4609,7 @@ export const recipes = [
   },
   {
     name: "Autumn Juice",
-    image: "Autumn_Juice.avif",
+    image: "autumn_juice.jpg",
     ingredients: [
       "Blueberry",
       "Red grape",
@@ -4631,7 +4632,7 @@ export const recipes = [
   },
   {
     name: "Grape Jam",
-    image: "Grape_Jam.avif",
+    image: "grape_jam.jpg",
     ingredients: [
       "Red grape",
       "Sugar",
@@ -4649,7 +4650,7 @@ export const recipes = [
   },
   {
     name: "Apple Jam",
-    image: "Apple_Jam.avif",
+    image: "apple_jam.jpg",
     ingredients: [
       "Apple",
       "Sugar",
@@ -4667,7 +4668,7 @@ export const recipes = [
   },
   {
     name: "Blueberry Jam",
-    image: "Blueberry_Jam.avif",
+    image: "blueberry_jam.jpg",
     ingredients: [
       "Blueberry",
       "Sugar",
@@ -4685,7 +4686,7 @@ export const recipes = [
   },
   {
     name: "Banana Tea",
-    image: "Banana_Tea.avif",
+    image: "banana_tea.jpg",
     ingredients: [
       "Banana tea tin",
     ],
@@ -4707,7 +4708,7 @@ export const recipes = [
   },
   {
     name: "Mango Tea",
-    image: "Mango_Tea.avif",
+    image: "mango_tea.jpg",
     ingredients: [
       "Mango tea tin",
     ],
@@ -4729,7 +4730,7 @@ export const recipes = [
   },
   {
     name: "Green Grape Tea",
-    image: "Green_Grape_Tea.avif",
+    image: "green_grape_tea.jpg",
     ingredients: [
       "Green grape tea tin",
     ],
@@ -4751,7 +4752,7 @@ export const recipes = [
   },
   {
     name: "Red Grape Tea",
-    image: "Red_Grape_Tea.avif",
+    image: "red_grape_tea.jpg",
     ingredients: [
       "Red grape tea tin",
     ],
@@ -4773,7 +4774,7 @@ export const recipes = [
   },
   {
     name: "Apple Tea",
-    image: "Apple_Tea.avif",
+    image: "apple_tea.jpg",
     ingredients: [
       "Apple tea tin",
     ],
@@ -4795,7 +4796,7 @@ export const recipes = [
   },
   {
     name: "Cherry Tea",
-    image: "Cherry_Tea.avif",
+    image: "cherry_tea.jpg",
     ingredients: [
       "Cherry tea tin",
     ],
@@ -4817,7 +4818,7 @@ export const recipes = [
   },
   {
     name: "Peach Tea",
-    image: "Peach_Tea.avif",
+    image: "peach_tea.jpg",
     ingredients: [
       "Peach tea tin",
     ],
@@ -4839,7 +4840,7 @@ export const recipes = [
   },
   {
     name: "Orange Tea",
-    image: "Orange_Tea.avif",
+    image: "orange_tea.jpg",
     ingredients: [
       "Orange tea tin",
     ],
@@ -4861,7 +4862,7 @@ export const recipes = [
   },
   {
     name: "Lemon Tea",
-    image: "Lemon_Tea.avif",
+    image: "lemon_tea.jpg",
     ingredients: [
       "Lemon tea tin",
     ],
@@ -4883,7 +4884,7 @@ export const recipes = [
   },
   {
     name: "Blueberry Tea",
-    image: "Blueberry_Tea.avif",
+    image: "blueberry_tea.jpg",
     ingredients: [
       "Blueberry tea tin",
     ],
@@ -4905,7 +4906,7 @@ export const recipes = [
   },
   {
     name: "Olive Tea",
-    image: "Olive_Tea.avif",
+    image: "olive_tea.jpg",
     ingredients: [
       "Olive tea tin",
     ],
@@ -4927,7 +4928,7 @@ export const recipes = [
   },
   {
     name: "Banana Juice",
-    image: "Banana_Juice.avif",
+    image: "banana_juice.jpg",
     ingredients: [
       "Banana",
     ],
@@ -4949,7 +4950,7 @@ export const recipes = [
   },
   {
     name: "Mango Juice",
-    image: "Mango_Juice.avif",
+    image: "mango_juice.jpg",
     ingredients: [
       "Mango",
     ],
@@ -4971,7 +4972,7 @@ export const recipes = [
   },
   {
     name: "Grape Juice",
-    image: "Grape_Juice.avif",
+    image: "grape_juice.jpg",
     ingredients: [
       "Red grape",
     ],
@@ -4993,7 +4994,7 @@ export const recipes = [
   },
   {
     name: "Apple Juice",
-    image: "Apple_Juice.avif",
+    image: "apple_juice.jpg",
     ingredients: [
       "Apple",
     ],
@@ -5015,7 +5016,7 @@ export const recipes = [
   },
   {
     name: "Cherry Juice",
-    image: "Cherry_Juice.avif",
+    image: "cherry_juice.jpg",
     ingredients: [
       "Cherry",
     ],
@@ -5037,7 +5038,7 @@ export const recipes = [
   },
   {
     name: "Peach Juice",
-    image: "Peach_Juice.avif",
+    image: "peach_juice.jpg",
     ingredients: [
       "Peach",
     ],
@@ -5059,7 +5060,7 @@ export const recipes = [
   },
   {
     name: "Orange Juice",
-    image: "Orange_Juice.avif",
+    image: "orange_juice.jpg",
     ingredients: [
       "Orange",
     ],
@@ -5081,7 +5082,7 @@ export const recipes = [
   },
   {
     name: "Lemon Juice",
-    image: "Lemon_Juice.avif",
+    image: "lemon_juice.jpg",
     ingredients: [
       "Lemon",
     ],
@@ -5103,7 +5104,7 @@ export const recipes = [
   },
   {
     name: "Blueberry Juice",
-    image: "Blueberry_Juice.avif",
+    image: "blueberry_juice.jpg",
     ingredients: [
       "Blueberry",
     ],
@@ -5125,7 +5126,7 @@ export const recipes = [
   },
   {
     name: "Happy Fruit Platter",
-    image: "Happy_Fruit_Platter.avif",
+    image: "happy_fruit_platter.jpg",
     ingredients: [
       "Heart watermelon",
       ["Cherry", "Blueberry", "Green grape", "Strawberry", "Mango", "Pineapple", "Banana", "Peach", "Orange", "Melon"],
@@ -5150,12 +5151,12 @@ export const recipes = [
   },
   {
     name: "Happy Chef Salad",
-    image: "Happy_Chef_Salad.avif",
+    image: "happy_chef_salad.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
       "Corn",
       "Onion",
-      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red bell pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
+      ["Cucumber", "Onion", "Asparagus", "Tomato", "Red Pepper", "Carrot", "Turnip", "Sweet potato", "Pumpkin", "Eggplant"],
     ],
     arrangements: [
       "Sugar",
@@ -5176,7 +5177,7 @@ export const recipes = [
   },
   {
     name: "Happy Forest Mix",
-    image: "Happy_Forest_Mix.avif",
+    image: "happy_forest_mix.jpg",
     ingredients: [
       ["Shiitake mushroom", "Shimeji mushroom", "Common mushroom", "Porcini mushroom", "Morel mushroom", "Matsutake mushroom", "Monarch mushroom"],
       "Salt",
@@ -5200,7 +5201,7 @@ export const recipes = [
   },
   {
     name: "Happy Mushroom Fry",
-    image: "Happy_Mushroom_Fry.avif",
+    image: "happy_mushroom_fry.jpg",
     ingredients: [
       "Walnut",
     ],

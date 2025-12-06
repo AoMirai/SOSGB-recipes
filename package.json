@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "convert-images": "node convert-images.js",
+    "rename-images": "node rename-images.js"
   },
   "dependencies": {
     "react": "^19.2.0",
