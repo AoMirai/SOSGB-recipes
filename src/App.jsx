@@ -1,74 +1,75 @@
 import { useState } from 'react'
 import './App.css'
 import recipies from './assets/recipes';
-import Ingredient from './components/Ingredient';
+import { ingredients } from './assets/ingredients';
+import Gallery from './components/Gallery';
+import RecipeDetails from './components/RecipeDetails';
+import IngredientDetails from './components/IngredientDetails';
+import Tabs from './components/Tabs';
 
 function App() {
   const [selectedRecipe, setSelectedRecipe] = useState(null);
+  const [selectedIngredient, setSelectedIngredient] = useState(null);
+  const [activeTab, setActiveTab] = useState('recipes');
+
+  const getRecipesAsIngredient = (ingredientName) => {
+    return recipies.filter(recipe => {
+      return recipe.ingredients.some(ing => {
+        if (typeof ing === 'string') {
+          return ing.toLowerCase() === ingredientName.toLowerCase();
+        } else {
+          return ing.some(i => i.toLowerCase() === ingredientName.toLowerCase());
+        }
+      });
+    });
+  };
+
+  const getRecipesAsArrangement = (ingredientName) => {
+    return recipies.filter(recipe => {
+      return recipe.arrangements.some(arr => 
+        arr.toLowerCase() === ingredientName.toLowerCase()
+      );
+    });
+  };
+
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+    setSelectedRecipe(null);
+    setSelectedIngredient(null);
+  };
 
   return (
-    <>
-      <div className="App">
-        <h1>Recipe List</h1>
-        <div className='app-container'>
-          <div className='recipes-gallery'>
-            {recipies.map((recipe, index) => (
-              <div 
-                key={index} 
-                className='recipe-thumbnail'
-                onClick={() => setSelectedRecipe(recipe)}
-              >
-                <div className='image'>
-                  <img src={`/pictures/${recipe.image}`} alt={recipe.name} />
-                </div>
-                <span className='tooltip'>{recipe.name}</span>
-              </div>
-            ))}
-          </div>
-          
-          {selectedRecipe && (
-            <div className='recipe-details'>
-              <div className='recipe-header'>
-                <div className='image-large'>
-                  <img src={`/pictures/${selectedRecipe.image}`} alt={selectedRecipe.name} />
-                </div>
-                <h2>{selectedRecipe.name}</h2>
-              </div>
-              
-              <div className='title'>Ingredients: </div>
-              <div className='ingredients'>
-                {selectedRecipe.ingredients.map((ingredient, idx) => {
-                  if (typeof ingredient === 'string') { 
-                    return <Ingredient key={ingredient} name={ingredient} />
-                  } else {
-                    return (
-                      <div key={idx} className='choices'>
-                        {ingredient.map(ingr => 
-                          <Ingredient key={ingr} name={ingr} />
-                        )}
-                      </div>
-                    )
-                  }
-                })}
-              </div>
-              
-              <div className='title'>Arrangements: </div>
-              <div className='arrangements'>
-                {selectedRecipe.arrangements.map(arrangement => (
-                  <Ingredient key={arrangement} name={arrangement} type='arrangement' />
-                ))}
-              </div>
-              
-              <div className='recipe-info'>
-                <div>Category: {selectedRecipe.category}</div>
-                <div>Price: {selectedRecipe.price}</div>
-                <div>Bonus: {selectedRecipe.bonus}</div>
-              </div>
-            </div>
-          )}
-        </div>
+    <div className="App">
+      <h1>Recipe List</h1>
+      
+      <Tabs activeTab={activeTab} onTabChange={handleTabChange} />
+
+      <div className='app-container'>
+        {activeTab === 'recipes' ? (
+          <>
+            <Gallery 
+              items={recipies} 
+              onItemClick={setSelectedRecipe}
+              imagePath='/pictures/'
+            />
+            <RecipeDetails recipe={selectedRecipe} />
+          </>
+        ) : (
+          <>
+            <Gallery 
+              items={ingredients} 
+              onItemClick={setSelectedIngredient}
+              imagePath='/pictures/'
+            />
+            <IngredientDetails 
+              ingredient={selectedIngredient}
+              recipesAsIngredient={selectedIngredient ? getRecipesAsIngredient(selectedIngredient.name) : []}
+              recipesAsArrangement={selectedIngredient ? getRecipesAsArrangement(selectedIngredient.name) : []}
+            />
+          </>
+        )}
       </div>
-    </>
+    </div>
   )
 }
 
