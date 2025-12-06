@@ -16,7 +16,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "salad",
+    category: "Salad",
     price: 1859,
     bonus: "Stamina saver Lv4"
   },
@@ -34,7 +34,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "salad",
+    category: "Salad",
     price: 1309,
     bonus: "Stamina saver Lv3"
   },
@@ -52,7 +52,7 @@ export const recipes = [
       "Soy sauce",
       "Oil",
     ],
-    category: "salad",
+    category: "Salad",
     price: 909,
     bonus: "Stamina saver Lv2"
   },
@@ -62,7 +62,7 @@ export const recipes = [
     ingredients: [
       "Red Pepper",
       "Vinegar",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Radish",
@@ -70,7 +70,7 @@ export const recipes = [
       "Olive oil",
       "Honey",
     ],
-    category: "salad",
+    category: "Salad",
     price: 598,
     bonus: "Stamina saver Lv2"
   },
@@ -87,7 +87,7 @@ export const recipes = [
       "Corn",
       "Cheese",
     ],
-    category: "salad",
+    category: "Salad",
     price: 404,
     bonus: "Stamina saver Lv1"
   },
@@ -102,7 +102,7 @@ export const recipes = [
       "Tomato",
       "Red Pepper",
     ],
-    category: "salad",
+    category: "Salad",
     price: 260,
     bonus: "Stamina saver Lv1"
   },
@@ -121,7 +121,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "salad",
+    category: "Salad",
     price: 137,
     bonus: "Stamina saver Lv1"
   },
@@ -137,7 +137,7 @@ export const recipes = [
       "Red Pepper",
       "Cheese",
     ],
-    category: "salad",
+    category: "Salad",
     price: 126,
     bonus: "Stamina saver Lv1"
   },
@@ -160,7 +160,7 @@ export const recipes = [
       "Grape oil",
       "Salt",
     ],
-    category: "salad",
+    category: "Salad",
     price: 2429,
     bonus: "Watering rare crop % Lv4"
   },
@@ -177,7 +177,7 @@ export const recipes = [
       "Green onion",
       "Oil",
     ],
-    category: "salad",
+    category: "Salad",
     price: 1197,
     bonus: "Watering rare crop % Lv3"
   },
@@ -197,7 +197,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "salad",
+    category: "Salad",
     price: 677,
     bonus: "Watering rare crop % Lv2"
   },
@@ -216,7 +216,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "salad",
+    category: "Salad",
     price: 325,
     bonus: "Watering rare crop % Lv1"
   },
@@ -226,7 +226,7 @@ export const recipes = [
     ingredients: [
       "Asparagus",
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
       "Onion",
     ],
     arrangements: [
@@ -421,7 +421,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "side",
+    category: "Side",
     price: 10098,
     bonus: "Double the amount obtained during collection"
   },
@@ -444,7 +444,7 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
     ],
-    category: "side",
+    category: "Side",
     price: 2592,
     bonus: "Max stamina up Lv4"
   },
@@ -465,7 +465,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "side",
+    category: "Side",
     price: 1892,
     bonus: "Max stamina up Lv4"
   },
@@ -476,7 +476,7 @@ export const recipes = [
       ["Yellow perch", "Snakehead", "Masu trout", "Char", "Salmon", "Icefish", "Cherry salmon"],
       "Potato",
       ["Wheat flour", "Rice flour"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Chili Pepper",
@@ -486,7 +486,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 1584,
     bonus: "Max stamina up Lv3"
   },
@@ -497,7 +497,7 @@ export const recipes = [
       "Wheat flour",
       "Shiitake mushroom",
       "Carrot",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Cabbage",
@@ -506,7 +506,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 1530,
     bonus: "Max stamina up Lv3"
   },
@@ -525,7 +525,7 @@ export const recipes = [
       "Pepper",
       "Oil",
     ],
-    category: "side",
+    category: "Side",
     price: 1377,
     bonus: "Max stamina up Lv3"
   },
@@ -535,7 +535,7 @@ export const recipes = [
     ingredients: [
       "Wheat flour",
       "Cabbage",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Napa cabbage",
@@ -546,7 +546,7 @@ export const recipes = [
       "Miso",
       "Vinegar",
     ],
-    category: "side",
+    category: "Side",
     price: 1353,
     bonus: "Max stamina up Lv3"
   },
@@ -565,7 +565,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 1276,
     bonus: "Max stamina up Lv3"
   },
@@ -585,7 +585,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "side",
+    category: "Side",
     price: 1213,
     bonus: "Max stamina up Lv3"
   },
@@ -603,7 +603,7 @@ export const recipes = [
       "Blueberry jam",
       "Strawberry jam",
     ],
-    category: "side",
+    category: "Side",
     price: 1155,
     bonus: "Max stamina up Lv3"
   },
@@ -613,7 +613,7 @@ export const recipes = [
     ingredients: [
       "Buckweat",
       "Potato",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Egg",
@@ -625,7 +625,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 1122,
     bonus: "Max stamina up Lv3"
   },
@@ -645,7 +645,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 1056,
     bonus: "Max stamina up Lv3"
   },
@@ -661,7 +661,7 @@ export const recipes = [
     arrangements: [
       "Cheese",
     ],
-    category: "side",
+    category: "Side",
     price: 911,
     bonus: "Max stamina up Lv2"
   },
@@ -682,7 +682,7 @@ export const recipes = [
       "Olive oil",
       "Miso",
     ],
-    category: "side",
+    category: "Side",
     price: 882,
     bonus: "Max stamina up Lv2"
   },
@@ -699,7 +699,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 843,
     bonus: "Max stamina up Lv2"
   },
@@ -709,7 +709,7 @@ export const recipes = [
     ingredients: [
       "Tofu",
       "Soy sauce",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Soybean",
@@ -723,7 +723,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 824,
     bonus: "Max stamina up Lv2"
   },
@@ -733,14 +733,14 @@ export const recipes = [
     ingredients: [
       "Tofu",
       ["Wheat flour", "Rice flour"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Radish",
       "Green onion",
       "Soy sauce",
     ],
-    category: "side",
+    category: "Side",
     price: 809,
     bonus: "Max stamina up Lv2"
   },
@@ -757,7 +757,7 @@ export const recipes = [
       "Salt",
       "Oil",
     ],
-    category: "side",
+    category: "Side",
     price: 801,
     bonus: "Max stamina up Lv2"
   },
@@ -777,7 +777,7 @@ export const recipes = [
       "Shimeji mushroom",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 747,
     bonus: "Max stamina up Lv2"
   },
@@ -802,7 +802,7 @@ export const recipes = [
       "Soy sauce",
       "Sugar",
     ],
-    category: "side",
+    category: "Side",
     price: 743,
     bonus: "Max stamina up Lv2"
   },
@@ -821,7 +821,7 @@ export const recipes = [
       "Seaweed",
       "Urchin",
     ],
-    category: "side",
+    category: "Side",
     price: 677,
     bonus: "Max stamina up Lv2"
   },
@@ -839,7 +839,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "side",
+    category: "Side",
     price: 662,
     bonus: "Max stamina up Lv2"
   },
@@ -849,7 +849,7 @@ export const recipes = [
     ingredients: [
       "Potato",
       "Wheat flour",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Tomato",
@@ -858,7 +858,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 632,
     bonus: "Max stamina up Lv2"
   },
@@ -878,7 +878,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 609,
     bonus: "Max stamina up Lv2"
   },
@@ -896,7 +896,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 602,
     bonus: "Max stamina up Lv2"
   },
@@ -906,7 +906,7 @@ export const recipes = [
     ingredients: [
       "Broccoli",
       "Garlic",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Soy sauce",
@@ -918,7 +918,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "side",
+    category: "Side",
     price: 563,
     bonus: "Max stamina up Lv2"
   },
@@ -936,7 +936,7 @@ export const recipes = [
       "Seaweed",
       "Urchin",
     ],
-    category: "side",
+    category: "Side",
     price: 458,
     bonus: "Max stamina up Lv1"
   },
@@ -956,7 +956,7 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
     ],
-    category: "side",
+    category: "Side",
     price: 429,
     bonus: "Max stamina up Lv1"
   },
@@ -975,7 +975,7 @@ export const recipes = [
       "Sugar",
       "Chocolate",
     ],
-    category: "side",
+    category: "Side",
     price: 403,
     bonus: "Max stamina up Lv1"
   },
@@ -984,7 +984,7 @@ export const recipes = [
     image: "fried_egg.jpg",
     ingredients: [
       ["Egg", "Silkie egg"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Tomato",
@@ -993,7 +993,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 396,
     bonus: "Max stamina up Lv1"
   },
@@ -1009,7 +1009,7 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
     ],
-    category: "side",
+    category: "Side",
     price: 267,
     bonus: "Max stamina up Lv1"
   },
@@ -1025,7 +1025,7 @@ export const recipes = [
       "Sugar",
       "Oil",
     ],
-    category: "side",
+    category: "Side",
     price: 246,
     bonus: "Max stamina up Lv1"
   },
@@ -1043,7 +1043,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "side",
+    category: "Side",
     price: 234,
     bonus: "Max stamina up Lv1"
   },
@@ -1062,7 +1062,7 @@ export const recipes = [
       "Seaweed",
       "Urchin",
     ],
-    category: "side",
+    category: "Side",
     price: 205,
     bonus: "Max stamina up Lv1"
   },
@@ -1079,7 +1079,7 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
     ],
-    category: "side",
+    category: "Side",
     price: 195,
     bonus: "Max stamina up Lv1"
   },
@@ -1094,7 +1094,7 @@ export const recipes = [
       "Mayonaise",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 117,
     bonus: "Max stamina up Lv1"
   },
@@ -1110,7 +1110,7 @@ export const recipes = [
       "Salt",
       "Seaweed",
     ],
-    category: "side",
+    category: "Side",
     price: 111,
     bonus: "Max stamina up Lv1"
   },
@@ -1129,7 +1129,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 924,
     bonus: "Fishing rod durability up Lv2"
   },
@@ -1144,7 +1144,7 @@ export const recipes = [
       "Carrot",
       "Soy sauce",
     ],
-    category: "side",
+    category: "Side",
     price: 195,
     bonus: "Fishing rod durability up Lv1"
   },
@@ -1159,7 +1159,7 @@ export const recipes = [
       "Cheese",
       "Soy sauce",
     ],
-    category: "side",
+    category: "Side",
     price: 195,
     bonus: "Fishing rod durability up Lv1"
   },
@@ -1179,7 +1179,7 @@ export const recipes = [
       "Burdock",
       "Red Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 1509,
     bonus: "Watering rare crop % Lv3"
   },
@@ -1196,7 +1196,7 @@ export const recipes = [
       "Butter",
       "Oil",
     ],
-    category: "side",
+    category: "Side",
     price: 886,
     bonus: "Watering rare crop % Lv2"
   },
@@ -1220,7 +1220,7 @@ export const recipes = [
       "Pepper",
       "Oil",
     ],
-    category: "side",
+    category: "Side",
     price: 1920,
     bonus: "Chat friendship boost Lv4"
   },
@@ -1230,7 +1230,7 @@ export const recipes = [
     ingredients: [
       "Potato",
       ["Breadcrumbs", "White breadcrumbs"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
       "Cheese",
     ],
     arrangements: [
@@ -1242,7 +1242,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 1844,
     bonus: "Chat friendship boost Lv4"
   },
@@ -1265,7 +1265,7 @@ export const recipes = [
       "Pepper",
       "Oil",
     ],
-    category: "side",
+    category: "Side",
     price: 1320,
     bonus: "Chat friendship boost Lv3"
   },
@@ -1275,7 +1275,7 @@ export const recipes = [
     ingredients: [
       "Potato",
       ["Breadcrumbs", "White breadcrumbs"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
       ["Milk", "Buffalo milk", "Milk+", "Buffalo milk+"],
     ],
     arrangements: [
@@ -1287,7 +1287,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 1098,
     bonus: "Chat friendship boost Lv3"
   },
@@ -1305,7 +1305,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 770,
     bonus: "Chat friendship boost Lv2"
   },
@@ -1315,7 +1315,7 @@ export const recipes = [
     ingredients: [
       "Potato",
       ["Breadcrumbs", "White breadcrumbs"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Onion",
@@ -1326,7 +1326,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 709,
     bonus: "Chat friendship boost Lv2"
   },
@@ -1346,7 +1346,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "side",
+    category: "Side",
     price: 647,
     bonus: "Chat friendship boost Lv2"
   },
@@ -1355,7 +1355,7 @@ export const recipes = [
     image: "popcorn.jpg",
     ingredients: [
       "Corn",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Butter",
@@ -1367,7 +1367,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "side",
+    category: "Side",
     price: 508,
     bonus: "Chat friendship boost Lv2"
   },
@@ -1376,7 +1376,7 @@ export const recipes = [
     image: "french_fries.jpg",
     ingredients: [
       "Potato",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Tomato",
@@ -1385,7 +1385,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "side",
+    category: "Side",
     price: 355,
     bonus: "Chat friendship boost Lv1"
   },
@@ -1403,7 +1403,7 @@ export const recipes = [
       "Olive oil",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 301,
     bonus: "Chat friendship boost Lv1"
   },
@@ -1423,7 +1423,7 @@ export const recipes = [
       "Soy sauce",
       "Oil",
     ],
-    category: "side",
+    category: "Side",
     price: 202,
     bonus: "Chat friendship boost Lv1"
   },
@@ -1442,7 +1442,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 195,
     bonus: "None"
   },
@@ -1461,7 +1461,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "side",
+    category: "Side",
     price: 182,
     bonus: "None"
   },
@@ -1475,7 +1475,7 @@ export const recipes = [
       "Salt",
       "Boiled seaweed",
     ],
-    category: "side",
+    category: "Side",
     price: 91,
     bonus: "None"
   },
@@ -1494,7 +1494,7 @@ export const recipes = [
       "Three-forked carrot",
       "Golden apple",
     ],
-    category: "main",
+    category: "Main",
     price: 12353,
     bonus: "None"
   },
@@ -1514,7 +1514,7 @@ export const recipes = [
       "Pepper",
       "Oil",
     ],
-    category: "main",
+    category: "Main",
     price: 7508,
     bonus: "None"
   },
@@ -1533,7 +1533,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "main",
+    category: "Main",
     price: 6957,
     bonus: "None"
   },
@@ -1558,7 +1558,7 @@ export const recipes = [
       "Milk+",
       "Buffalo milk+",
     ],
-    category: "main",
+    category: "Main",
     price: 3724,
     bonus: "None"
   },
@@ -1576,7 +1576,7 @@ export const recipes = [
       "Butter",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 2784,
     bonus: "None"
   },
@@ -1594,7 +1594,7 @@ export const recipes = [
       "Silkie egg",
       "Soy sauce",
     ],
-    category: "main",
+    category: "Main",
     price: 2641,
     bonus: "None"
   },
@@ -1614,7 +1614,7 @@ export const recipes = [
       "Shimeji mushroom",
       "Butter",
     ],
-    category: "main",
+    category: "Main",
     price: 2640,
     bonus: "None"
   },
@@ -1646,7 +1646,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 2592,
     bonus: "None"
   },
@@ -1667,7 +1667,7 @@ export const recipes = [
       "Soy milk",
       "Soy sauce",
     ],
-    category: "main",
+    category: "Main",
     price: 2487,
     bonus: "None"
   },
@@ -1687,7 +1687,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 2324,
     bonus: "None"
   },
@@ -1710,7 +1710,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "main",
+    category: "Main",
     price: 2295,
     bonus: "None"
   },
@@ -1728,7 +1728,7 @@ export const recipes = [
       "Fried tofu",
       "Soy sauce",
     ],
-    category: "main",
+    category: "Main",
     price: 2188,
     bonus: "None"
   },
@@ -1747,7 +1747,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "main",
+    category: "Main",
     price: 2160,
     bonus: "None"
   },
@@ -1765,7 +1765,7 @@ export const recipes = [
       "Salt",
       "Sugar",
     ],
-    category: "main",
+    category: "Main",
     price: 2089,
     bonus: "None"
   },
@@ -1788,7 +1788,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "main",
+    category: "Main",
     price: 1901,
     bonus: "None"
   },
@@ -1813,7 +1813,7 @@ export const recipes = [
       "Vinegar",
       "Hot spring eggs",
     ],
-    category: "main",
+    category: "Main",
     price: 1617,
     bonus: "None"
   },
@@ -1831,7 +1831,7 @@ export const recipes = [
       "Fried tofu",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 1760,
     bonus: "None"
   },
@@ -1857,7 +1857,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 1568,
     bonus: "None"
   },
@@ -1868,7 +1868,7 @@ export const recipes = [
       "Pasta",
       "Tomato",
       ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Onion",
@@ -1880,7 +1880,7 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
     ],
-    category: "main",
+    category: "Main",
     price: 1566,
     bonus: "None"
   },
@@ -1904,7 +1904,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 1552,
     bonus: "None"
   },
@@ -1921,7 +1921,7 @@ export const recipes = [
       "Pepper",
       "Olive oil",
     ],
-    category: "main",
+    category: "Main",
     price: 1469,
     bonus: "None"
   },
@@ -1931,14 +1931,14 @@ export const recipes = [
     ingredients: [
       "Cheese",
       ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      "Fondue",
+      ["Broccoli", "Potato", "Asparagus", "Red Pepper", "Carrot", "Common Mushroom", "Pumpkin"],
     ],
     arrangements: [
       "Garlic",
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 1452,
     bonus: "None"
   },
@@ -1959,7 +1959,7 @@ export const recipes = [
       "Olive oil",
       "Cheese",
     ],
-    category: "main",
+    category: "Main",
     price: 1449,
     bonus: "None"
   },
@@ -1986,7 +1986,7 @@ export const recipes = [
       "Sugar",
       "Oil",
     ],
-    category: "main",
+    category: "Main",
     price: 1437,
     bonus: "None"
   },
@@ -2012,7 +2012,7 @@ export const recipes = [
       "Monarch mushroom",
       "Soy sauce",
     ],
-    category: "main",
+    category: "Main",
     price: 1437,
     bonus: "None"
   },
@@ -2030,7 +2030,7 @@ export const recipes = [
       "Garlic",
       "Apple",
     ],
-    category: "main",
+    category: "Main",
     price: 1424,
     bonus: "None"
   },
@@ -2053,7 +2053,7 @@ export const recipes = [
       "Pepper",
       "Oil",
     ],
-    category: "main",
+    category: "Main",
     price: 1410,
     bonus: "None"
   },
@@ -2064,7 +2064,7 @@ export const recipes = [
       "Pasta",
       "Chili Pepper",
       "Garlic",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Shimeji mushroom",
@@ -2079,7 +2079,7 @@ export const recipes = [
       "Pepper",
       "Cheese",
     ],
-    category: "main",
+    category: "Main",
     price: 1410,
     bonus: "None"
   },
@@ -2097,7 +2097,7 @@ export const recipes = [
       "Garlic",
       "Apple",
     ],
-    category: "main",
+    category: "Main",
     price: 1388,
     bonus: "None"
   },
@@ -2117,7 +2117,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 1339,
     bonus: "None"
   },
@@ -2137,7 +2137,7 @@ export const recipes = [
       "Butter",
       "Cheese",
     ],
-    category: "main",
+    category: "Main",
     price: 1334,
     bonus: "None"
   },
@@ -2147,14 +2147,14 @@ export const recipes = [
     ingredients: [
       "Olive oil",
       ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      "Fondue",
+      ["Broccoli", "Potato", "Asparagus", "Red Pepper", "Carrot", "Common Mushroom", "Pumpkin"],
     ],
     arrangements: [
       "Garlic",
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 1325,
     bonus: "None"
   },
@@ -2175,7 +2175,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 1316,
     bonus: "None"
   },
@@ -2193,7 +2193,7 @@ export const recipes = [
       "Garlic",
       "Apple",
     ],
-    category: "main",
+    category: "Main",
     price: 1304,
     bonus: "None"
   },
@@ -2220,7 +2220,7 @@ export const recipes = [
       "Sugar",
       "Oil",
     ],
-    category: "main",
+    category: "Main",
     price: 1271,
     bonus: "None"
   },
@@ -2238,7 +2238,7 @@ export const recipes = [
       "Seaweed",
       "Sencha",
     ],
-    category: "main",
+    category: "Main",
     price: 1262,
     bonus: "None"
   },
@@ -2254,7 +2254,7 @@ export const recipes = [
       "Pumpkin oil",
       "Grape oil",
     ],
-    category: "main",
+    category: "Main",
     price: 1200,
     bonus: "None"
   },
@@ -2282,7 +2282,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 1188,
     bonus: "None"
   },
@@ -2302,7 +2302,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 1182,
     bonus: "None"
   },
@@ -2321,7 +2321,7 @@ export const recipes = [
       "Fried egg",
       "Pasta",
     ],
-    category: "main",
+    category: "Main",
     price: 1172,
     bonus: "None"
   },
@@ -2330,7 +2330,7 @@ export const recipes = [
     image: "tempura.jpg",
     ingredients: [
       "Wheat flour",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
       ["Egg", "Silkie egg"],
       ["Shiitake mushroom", "Pumpkin", "Eggplant", "Sweet potato", "Icefish", "Pond smelt"],
     ],
@@ -2338,7 +2338,7 @@ export const recipes = [
       "Radish",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 1152,
     bonus: "None"
   },
@@ -2366,7 +2366,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 1151,
     bonus: "None"
   },
@@ -2386,7 +2386,7 @@ export const recipes = [
       "Soy sauce",
       "Vinegar",
     ],
-    category: "main",
+    category: "Main",
     price: 1147,
     bonus: "None"
   },
@@ -2405,7 +2405,7 @@ export const recipes = [
       "Corn",
       "Pineapple",
     ],
-    category: "main",
+    category: "Main",
     price: 1142,
     bonus: "None"
   },
@@ -2424,7 +2424,7 @@ export const recipes = [
       "Oil",
       "Shimeji mushroom",
     ],
-    category: "main",
+    category: "Main",
     price: 1131,
     bonus: "None"
   },
@@ -2434,7 +2434,7 @@ export const recipes = [
     ingredients: [
       "Wheat flour",
       "Curry powder",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Egg",
@@ -2442,7 +2442,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 1073,
     bonus: "None"
   },
@@ -2452,14 +2452,14 @@ export const recipes = [
     ingredients: [
       ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
       "Wheat flour",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Lemon",
       "Butter",
       "Olive oil",
     ],
-    category: "main",
+    category: "Main",
     price: 1073,
     bonus: "None"
   },
@@ -2485,7 +2485,7 @@ export const recipes = [
       "Soy sauce",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 1052,
     bonus: "None"
   },
@@ -2495,14 +2495,14 @@ export const recipes = [
     ingredients: [
       "Red grape",
       ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      "Fondue",
+      ["Broccoli", "Potato", "Asparagus", "Red Pepper", "Carrot", "Common Mushroom", "Pumpkin"],
     ],
     arrangements: [
       "Garlic",
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 937,
     bonus: "None"
   },
@@ -2519,7 +2519,7 @@ export const recipes = [
       "Garlic",
       "Apple",
     ],
-    category: "main",
+    category: "Main",
     price: 911,
     bonus: "None"
   },
@@ -2535,7 +2535,7 @@ export const recipes = [
       "Garlic",
       "Apple",
     ],
-    category: "main",
+    category: "Main",
     price: 911,
     bonus: "None"
   },
@@ -2554,7 +2554,7 @@ export const recipes = [
       "Soy sauce",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 874,
     bonus: "None"
   },
@@ -2582,7 +2582,7 @@ export const recipes = [
       "Salt",
       "Seaweed",
     ],
-    category: "main",
+    category: "Main",
     price: 867,
     bonus: "None"
   },
@@ -2599,7 +2599,7 @@ export const recipes = [
       "Soy sauce",
       "Sugar",
     ],
-    category: "main",
+    category: "Main",
     price: 838,
     bonus: "None"
   },
@@ -2619,7 +2619,7 @@ export const recipes = [
       "Green Pepper",
       "Boiled egg",
     ],
-    category: "main",
+    category: "Main",
     price: 837,
     bonus: "None"
   },
@@ -2629,7 +2629,7 @@ export const recipes = [
     ingredients: [
       "Tomato",
       ["Grayling", "Bighead carp", "Nile perch", "Barbel steed", "Three-lips carp", "Brown trout", "Black bass", "Mugistuki"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Onion",
@@ -2640,7 +2640,7 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
     ],
-    category: "main",
+    category: "Main",
     price: 835,
     bonus: "None"
   },
@@ -2660,7 +2660,7 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
     ],
-    category: "main",
+    category: "Main",
     price: 817,
     bonus: "None"
   },
@@ -2678,7 +2678,7 @@ export const recipes = [
       "Herb oil",
       "Olive oil",
     ],
-    category: "main",
+    category: "Main",
     price: 809,
     bonus: "None"
   },
@@ -2688,14 +2688,14 @@ export const recipes = [
     ingredients: [
       "Tofu",
       ["Wheat flour", "Rice flour"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Green onion",
       "Soy sauce",
       "Sugar",
     ],
-    category: "main",
+    category: "Main",
     price: 809,
     bonus: "None"
   },
@@ -2721,7 +2721,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 801,
     bonus: "None"
   },
@@ -2734,10 +2734,10 @@ export const recipes = [
     ],
     arrangements: [
       "Seaweed",
-      "Green tea",
+      "Green Tea",
       "Sencha",
     ],
-    category: "main",
+    category: "Main",
     price: 735,
     bonus: "None"
   },
@@ -2758,7 +2758,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 721,
     bonus: "None"
   },
@@ -2776,7 +2776,7 @@ export const recipes = [
       "Sugar",
       "Seaweed",
     ],
-    category: "main",
+    category: "Main",
     price: 664,
     bonus: "None"
   },
@@ -2795,7 +2795,7 @@ export const recipes = [
       "Salt",
       "Seaweed",
     ],
-    category: "main",
+    category: "Main",
     price: 657,
     bonus: "None"
   },
@@ -2805,14 +2805,14 @@ export const recipes = [
     ingredients: [
       "Tomato",
       ["Bread", "White bread", "Baguette", "Focaccia Bread"],
-      "Fondue",
+      ["Broccoli", "Potato", "Asparagus", "Red Pepper", "Carrot", "Common Mushroom", "Pumpkin"],
     ],
     arrangements: [
       "Garlic",
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 650,
     bonus: "None"
   },
@@ -2838,7 +2838,7 @@ export const recipes = [
       "Fried tofu",
       "Soy sauce",
     ],
-    category: "main",
+    category: "Main",
     price: 647,
     bonus: "None"
   },
@@ -2855,7 +2855,7 @@ export const recipes = [
       "Egg",
       "Silkie egg",
     ],
-    category: "main",
+    category: "Main",
     price: 647,
     bonus: "None"
   },
@@ -2876,7 +2876,7 @@ export const recipes = [
       "Chocolate",
       "Sugar",
     ],
-    category: "main",
+    category: "Main",
     price: 647,
     bonus: "None"
   },
@@ -2886,7 +2886,7 @@ export const recipes = [
     ingredients: [
       "Wheat flour",
       ["Mint", "Chamomile", "Lavender"],
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Tomato",
@@ -2895,7 +2895,7 @@ export const recipes = [
       "Avocado",
       "Cheese",
     ],
-    category: "main",
+    category: "Main",
     price: 616,
     bonus: "None"
   },
@@ -2904,14 +2904,14 @@ export const recipes = [
     image: "penne_pasta.jpg",
     ingredients: [
       "Wheat flour",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
       "Tomato",
     ],
     arrangements: [
       "Avocado",
       "Cheese",
     ],
-    category: "main",
+    category: "Main",
     price: 604,
     bonus: "None"
   },
@@ -2927,7 +2927,7 @@ export const recipes = [
       "Egg",
       "Silkie egg",
     ],
-    category: "main",
+    category: "Main",
     price: 544,
     bonus: "None"
   },
@@ -2943,7 +2943,7 @@ export const recipes = [
       "Burdock",
       "Sugar",
     ],
-    category: "main",
+    category: "Main",
     price: 451,
     bonus: "None"
   },
@@ -2963,7 +2963,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 444,
     bonus: "None"
   },
@@ -2981,7 +2981,7 @@ export const recipes = [
       "Butter",
       "Mayonaise",
     ],
-    category: "main",
+    category: "Main",
     price: 375,
     bonus: "None"
   },
@@ -2999,7 +2999,7 @@ export const recipes = [
       "Salmon",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 370,
     bonus: "None"
   },
@@ -3008,14 +3008,14 @@ export const recipes = [
     image: "fried_eggplant.jpg",
     ingredients: [
       "Eggplant",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Green onion",
       "Soy sauce",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 342,
     bonus: "None"
   },
@@ -3031,7 +3031,7 @@ export const recipes = [
       "Chestnut powder",
       "Salt",
     ],
-    category: "main",
+    category: "Main",
     price: 329,
     bonus: "None"
   },
@@ -3049,7 +3049,7 @@ export const recipes = [
       "Eggplant",
       "Cheese",
     ],
-    category: "main",
+    category: "Main",
     price: 328,
     bonus: "None"
   },
@@ -3067,7 +3067,7 @@ export const recipes = [
       "Salt",
       "Pepper",
     ],
-    category: "main",
+    category: "Main",
     price: 246,
     bonus: "None"
   },
@@ -3081,7 +3081,7 @@ export const recipes = [
       "Radish",
       "Soy sauce",
     ],
-    category: "main",
+    category: "Main",
     price: 195,
     bonus: "None"
   },
@@ -3103,7 +3103,7 @@ export const recipes = [
       "Breadcrumbs",
       "White breadcrumbs",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 2506,
     bonus: "Jump distance up"
   },
@@ -3122,7 +3122,7 @@ export const recipes = [
       "Walnut cookies",
       "Chocolate cookies",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 6192,
     bonus: "Petting happiness Lv4"
   },
@@ -3140,7 +3140,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 3130,
     bonus: "Petting happiness Lv4"
   },
@@ -3158,7 +3158,7 @@ export const recipes = [
       "Butter",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1602,
     bonus: "Petting happiness Lv3"
   },
@@ -3177,7 +3177,7 @@ export const recipes = [
       "Rice flour",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1422,
     bonus: "Petting happiness Lv3"
   },
@@ -3195,7 +3195,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1404,
     bonus: "Petting happiness Lv3"
   },
@@ -3213,7 +3213,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1377,
     bonus: "Petting happiness Lv3"
   },
@@ -3231,7 +3231,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1368,
     bonus: "Petting happiness Lv3"
   },
@@ -3242,7 +3242,7 @@ export const recipes = [
       "Wheat flour",
       ["Egg", "Silkie egg"],
       "Sugar",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Milk",
@@ -3251,7 +3251,7 @@ export const recipes = [
       "Buffalo milk+",
       "Butter",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1332,
     bonus: "Petting happiness Lv3"
   },
@@ -3262,7 +3262,7 @@ export const recipes = [
       "Wheat flour",
       ["Egg", "Silkie egg"],
       "Sugar",
-      "Oil",
+      ["Oil", "Nut oil","Herb oil","Olive oil","Pumpkin oil", "Grape oil"],
     ],
     arrangements: [
       "Honey",
@@ -3272,7 +3272,7 @@ export const recipes = [
       "Butter",
       "Chocolate",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1332,
     bonus: "Petting happiness Lv3"
   },
@@ -3290,7 +3290,7 @@ export const recipes = [
       "Butter",
       "Matcha tea tin",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1242,
     bonus: "Petting happiness Lv3"
   },
@@ -3310,7 +3310,7 @@ export const recipes = [
       "Royal honey",
       "Butter",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1242,
     bonus: "Petting happiness Lv3"
   },
@@ -3334,7 +3334,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1206,
     bonus: "Petting happiness Lv3"
   },
@@ -3351,7 +3351,7 @@ export const recipes = [
       "Butter",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1152,
     bonus: "Petting happiness Lv3"
   },
@@ -3367,7 +3367,7 @@ export const recipes = [
       "Mint",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1089,
     bonus: "Petting happiness Lv3"
   },
@@ -3385,7 +3385,7 @@ export const recipes = [
       "Butter",
       "Salt",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 932,
     bonus: "Petting happiness Lv2"
   },
@@ -3404,7 +3404,7 @@ export const recipes = [
       "Buffalo milk+",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 924,
     bonus: "Petting happiness Lv2"
   },
@@ -3422,7 +3422,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 838,
     bonus: "Petting happiness Lv2"
   },
@@ -3439,7 +3439,7 @@ export const recipes = [
       "Chocolate",
       "Black Tea",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 832,
     bonus: "Petting happiness Lv2"
   },
@@ -3459,7 +3459,7 @@ export const recipes = [
       "Rice flour",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 801,
     bonus: "Petting happiness Lv2"
   },
@@ -3475,7 +3475,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 618,
     bonus: "Petting happiness Lv2"
   },
@@ -3494,7 +3494,7 @@ export const recipes = [
       "Cheese",
       "Butter",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 601,
     bonus: "Petting happiness Lv2"
   },
@@ -3511,7 +3511,7 @@ export const recipes = [
       "Butter",
       "Almond",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 601,
     bonus: "Petting happiness Lv2"
   },
@@ -3526,7 +3526,7 @@ export const recipes = [
       "Soy flour",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 588,
     bonus: "Petting happiness Lv2"
   },
@@ -3551,7 +3551,7 @@ export const recipes = [
       "Sugar",
       "Soy sauce",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 544,
     bonus: "Petting happiness Lv2"
   },
@@ -3571,7 +3571,7 @@ export const recipes = [
       "Butter",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 524,
     bonus: "Petting happiness Lv2"
   },
@@ -3590,7 +3590,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 501,
     bonus: "Petting happiness Lv2"
   },
@@ -3610,7 +3610,7 @@ export const recipes = [
       "Butter",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 415,
     bonus: "Petting happiness Lv1"
   },
@@ -3626,7 +3626,7 @@ export const recipes = [
       "Soy sauce",
       "Seaweed",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 390,
     bonus: "Petting happiness Lv1"
   },
@@ -3641,7 +3641,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 390,
     bonus: "Petting happiness Lv1"
   },
@@ -3664,7 +3664,7 @@ export const recipes = [
       "Sugar",
       "Cookies",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 2746,
     bonus: "Petting rare item % Lv4"
   },
@@ -3682,7 +3682,7 @@ export const recipes = [
       "Sugar",
       "Chocolate cookies",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1786,
     bonus: "Petting rare item % Lv4"
   },
@@ -3700,7 +3700,7 @@ export const recipes = [
       "Sugar",
       "Salt",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1458,
     bonus: "Petting rare item % Lv3"
   },
@@ -3718,7 +3718,7 @@ export const recipes = [
       "Sugar",
       "Chocolate",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1350,
     bonus: "Petting rare item % Lv3"
   },
@@ -3735,7 +3735,7 @@ export const recipes = [
       "Butter",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 1242,
     bonus: "Petting rare item % Lv3"
   },
@@ -3752,7 +3752,7 @@ export const recipes = [
       "Sugar",
       "Butter",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 986,
     bonus: "Petting rare item % Lv2"
   },
@@ -3772,7 +3772,7 @@ export const recipes = [
       "Butter",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 832,
     bonus: "Petting rare item % Lv2"
   },
@@ -3791,7 +3791,7 @@ export const recipes = [
       "Royal honey",
       "Chamomile",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 755,
     bonus: "Petting rare item % Lv2"
   },
@@ -3806,7 +3806,7 @@ export const recipes = [
       "Sugar",
       "Oil",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 735,
     bonus: "Petting rare item % Lv2"
   },
@@ -3821,7 +3821,7 @@ export const recipes = [
       "Sugar",
       "Butter",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 328,
     bonus: "Petting rare item % Lv1"
   },
@@ -3840,7 +3840,7 @@ export const recipes = [
       "Butter",
       "Sugar",
     ],
-    category: "dessert",
+    category: "Dessert",
     price: 328,
     bonus: "Petting rare item % Lv1"
   },
@@ -3860,7 +3860,7 @@ export const recipes = [
       "Sugar",
       "Soy flour",
     ],
-    category: "other",
+    category: "Other",
     price: 85,
     bonus: "Max stamina up Lv1"
   },
@@ -3878,7 +3878,7 @@ export const recipes = [
       "Buffalo milk+",
       "Yogurt",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 325,
     bonus: "Stamina saver Lv1"
   },
@@ -3900,7 +3900,7 @@ export const recipes = [
       "Soy sauce",
       "Sugar",
     ],
-    category: "other",
+    category: "Other",
     price: 424,
     bonus: "Fishing rod durability up Lv1"
   },
@@ -3922,7 +3922,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 1287,
     bonus: "Movement speed up Lv3"
   },
@@ -3945,7 +3945,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 1020,
     bonus: "Movement speed up Lv3"
   },
@@ -3967,12 +3967,12 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 401,
     bonus: "Watering rare crop % Lv1"
   },
   {
-    name: "Golden blend tea",
+    name: "Golden blend Tea",
     image: "golden_blend_tea.jpg",
     ingredients: [
       "Golden blend tea tin",
@@ -3985,7 +3985,7 @@ export const recipes = [
       "Buffalo milk+",
       "Royal honey",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 13031,
     bonus: "Chat friendship boost Lv4"
   },
@@ -4007,7 +4007,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 2148,
     bonus: "Chat friendship boost Lv4"
   },
@@ -4029,7 +4029,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 1901,
     bonus: "Chat friendship boost Lv4"
   },
@@ -4048,7 +4048,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 1850,
     bonus: "Chat friendship boost Lv4"
   },
@@ -4070,7 +4070,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 1320,
     bonus: "Chat friendship boost Lv3"
   },
@@ -4092,7 +4092,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 1287,
     bonus: "Chat friendship boost Lv3"
   },
@@ -4107,7 +4107,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 1194,
     bonus: "Chat friendship boost Lv3"
   },
@@ -4130,7 +4130,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 935,
     bonus: "Chat friendship boost Lv3"
   },
@@ -4148,7 +4148,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other",
+    category: "Other",
     price: 855,
     bonus: "Chat friendship boost Lv2"
   },
@@ -4166,7 +4166,7 @@ export const recipes = [
       "Peach",
       "Blueberry",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 826,
     bonus: "Chat friendship boost Lv2"
   },
@@ -4181,7 +4181,7 @@ export const recipes = [
       "Cocoa",
       "Walnut",
     ],
-    category: "other",
+    category: "Other",
     price: 780,
     bonus: "Chat friendship boost Lv2"
   },
@@ -4199,7 +4199,7 @@ export const recipes = [
       "Soy milk",
       "Ice cream",
     ],
-    category: "other",
+    category: "Other",
     price: 780,
     bonus: "Chat friendship boost Lv2"
   },
@@ -4221,7 +4221,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 756,
     bonus: "Chat friendship boost Lv2"
   },
@@ -4239,7 +4239,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 674,
     bonus: "Chat friendship boost Lv2"
   },
@@ -4261,7 +4261,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 658,
     bonus: "Chat friendship boost Lv2"
   },
@@ -4283,7 +4283,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 586,
     bonus: "Chat friendship boost Lv2"
   },
@@ -4305,7 +4305,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 429,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4322,7 +4322,7 @@ export const recipes = [
       "Buffalo milk+",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 401,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4339,7 +4339,7 @@ export const recipes = [
       "Buffalo milk+",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 401,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4358,7 +4358,7 @@ export const recipes = [
       "Mint",
       "Chamomile",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 401,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4377,7 +4377,7 @@ export const recipes = [
       "Chocolate",
       "Soy flour",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 390,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4394,7 +4394,7 @@ export const recipes = [
       "Soy milk",
       "Ice cream",
     ],
-    category: "other",
+    category: "Other",
     price: 380,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4411,7 +4411,7 @@ export const recipes = [
       "Buffalo milk+",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 364,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4429,7 +4429,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 344,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4447,7 +4447,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 344,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4465,7 +4465,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 344,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4487,7 +4487,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 260,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4506,7 +4506,7 @@ export const recipes = [
       "Chocolate",
       "Soy flour",
     ],
-    category: "other",
+    category: "Other",
     price: 195,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4523,7 +4523,7 @@ export const recipes = [
       "Buffalo milk+",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 182,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4545,7 +4545,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 156,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4560,7 +4560,7 @@ export const recipes = [
       "Mint",
       "Salt",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 55,
     bonus: "Chat friendship boost Lv1"
   },
@@ -4568,9 +4568,9 @@ export const recipes = [
     name: "Speciality Juice",
     image: "speciality_juice.jpg",
     ingredients: [
-      "Spring juice",
-      "Summer juice",
-      "Autumn juice",
+      "Spring Juice",
+      "Summer Juice",
+      "Autumn Juice",
       "Royal honey",
     ],
     arrangements: [
@@ -4581,12 +4581,12 @@ export const recipes = [
       "Fruit yogurt",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 9511,
     bonus: "Pet training up Lv4"
   },
   {
-    name: "Autumn blend tea",
+    name: "Autumn blend Tea",
     image: "autumn_blend_tea.jpg",
     ingredients: [
       "Automn blend tea tin",
@@ -4603,7 +4603,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 1452,
     bonus: "Pet training up Lv3"
   },
@@ -4626,7 +4626,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 1010,
     bonus: "Pet training up Lv3"
   },
@@ -4644,7 +4644,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other",
+    category: "Other",
     price: 1007,
     bonus: "Pet training up Lv3"
   },
@@ -4662,7 +4662,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other",
+    category: "Other",
     price: 932,
     bonus: "Pet training up Lv3"
   },
@@ -4680,7 +4680,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other",
+    category: "Other",
     price: 863,
     bonus: "Pet training up Lv3"
   },
@@ -4702,7 +4702,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 832,
     bonus: "Pet training up Lv2"
   },
@@ -4724,7 +4724,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 832,
     bonus: "Pet training up Lv2"
   },
@@ -4746,7 +4746,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 777,
     bonus: "Pet training up Lv2"
   },
@@ -4768,7 +4768,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 755,
     bonus: "Pet training up Lv2"
   },
@@ -4790,7 +4790,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 740,
     bonus: "Pet training up Lv2"
   },
@@ -4812,7 +4812,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 647,
     bonus: "Pet training up Lv2"
   },
@@ -4834,7 +4834,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 647,
     bonus: "Pet training up Lv2"
   },
@@ -4856,7 +4856,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 642,
     bonus: "Pet training up Lv2"
   },
@@ -4878,7 +4878,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 632,
     bonus: "Pet training up Lv2"
   },
@@ -4900,7 +4900,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 601,
     bonus: "Pet training up Lv2"
   },
@@ -4922,7 +4922,7 @@ export const recipes = [
       "Royal honey",
       "Sugar",
     ],
-    category: "other tea",
+    category: "Other Tea",
     price: 586,
     bonus: "Pet training up Lv2"
   },
@@ -4944,7 +4944,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 260,
     bonus: "Pet training up Lv1"
   },
@@ -4966,7 +4966,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 260,
     bonus: "Pet training up Lv1"
   },
@@ -4988,7 +4988,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 228,
     bonus: "Pet training up Lv1"
   },
@@ -5010,7 +5010,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 221,
     bonus: "Pet training up Lv1"
   },
@@ -5032,7 +5032,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 182,
     bonus: "Pet training up Lv1"
   },
@@ -5054,7 +5054,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 182,
     bonus: "Pet training up Lv1"
   },
@@ -5076,7 +5076,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 180,
     bonus: "Pet training up Lv1"
   },
@@ -5098,7 +5098,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 176,
     bonus: "Pet training up Lv1"
   },
@@ -5120,7 +5120,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other juice",
+    category: "Other Juice",
     price: 163,
     bonus: "Pet training up Lv1"
   },
@@ -5145,7 +5145,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other",
+    category: "Other",
     price: 3274,
     bonus: "Happy Energy up Lv4"
   },
@@ -5171,7 +5171,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other",
+    category: "Other",
     price: 1233,
     bonus: "Happy Energy up Lv3"
   },
@@ -5195,7 +5195,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other",
+    category: "Other",
     price: 662,
     bonus: "Happy Energy up Lv2"
   },
@@ -5218,7 +5218,7 @@ export const recipes = [
       "Mellow honey",
       "Royal honey",
     ],
-    category: "other",
+    category: "Other",
     price: 130,
     bonus: "Happy Energy up Lv1"
   }

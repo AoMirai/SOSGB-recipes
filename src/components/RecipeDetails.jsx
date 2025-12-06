@@ -1,6 +1,6 @@
 import Ingredient from './Ingredient';
 
-function RecipeDetails({ recipe }) {
+function RecipeDetails({ recipe, onIngredientClick }) {
   if (!recipe) {
     return (
       <div className='recipe-details placeholder'>
@@ -22,13 +22,19 @@ function RecipeDetails({ recipe }) {
       <div className='ingredients'>
         {recipe.ingredients.map((ingredient, idx) => {
           if (typeof ingredient === 'string') { 
-            return <Ingredient key={ingredient} name={ingredient} />
+            return (
+              <div key={ingredient} onClick={() => onIngredientClick(ingredient)} style={{cursor: 'pointer'}}>
+                <Ingredient name={ingredient} />
+              </div>
+            )
           } else {
             return (
               <div key={idx} className='choices'>
-                {ingredient.map(ingr => 
-                  <Ingredient key={ingr} name={ingr} />
-                )}
+                {ingredient.map(ingr => (
+                  <div key={ingr} onClick={() => onIngredientClick(ingr)} style={{cursor: 'pointer'}}>
+                    <Ingredient name={ingr} />
+                  </div>
+                ))}
               </div>
             )
           }
@@ -38,7 +44,9 @@ function RecipeDetails({ recipe }) {
       <div className='title'>Arrangements: </div>
       <div className='arrangements'>
         {recipe.arrangements.map(arrangement => (
-          <Ingredient key={arrangement} name={arrangement} type='arrangement' />
+          <div key={arrangement} onClick={() => onIngredientClick(arrangement)} style={{cursor: 'pointer'}}>
+            <Ingredient name={arrangement} type='arrangement' />
+          </div>
         ))}
       </div>
       

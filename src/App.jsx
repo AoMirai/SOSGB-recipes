@@ -12,14 +12,20 @@ function App() {
   const [selectedIngredient, setSelectedIngredient] = useState(null);
   const [activeTab, setActiveTab] = useState('recipes');
 
-  const getRecipesAsIngredient = (ingredientName) => {
+  const getRecipesAsSpecificIngredient = (ingredientName) => {
     return recipies.filter(recipe => {
       return recipe.ingredients.some(ing => {
-        if (typeof ing === 'string') {
-          return ing.toLowerCase() === ingredientName.toLowerCase();
-        } else {
-          return ing.some(i => i.toLowerCase() === ingredientName.toLowerCase());
-        }
+        // Seulement les ingrédients spécifiques (string), pas les arrays
+        return typeof ing === 'string' && ing.toLowerCase() === ingredientName.toLowerCase();
+      });
+    });
+  };
+
+  const getRecipesAsChoiceIngredient = (ingredientName) => {
+    return recipies.filter(recipe => {
+      return recipe.ingredients.some(ing => {
+        // Seulement les choix (arrays)
+        return Array.isArray(ing) && ing.some(i => i.toLowerCase() === ingredientName.toLowerCase());
       });
     });
   };
@@ -38,6 +44,31 @@ function App() {
     setSelectedIngredient(null);
   };
 
+  const handleIngredientClick = (ingredientName) => {
+    // D'abord vérifier si c'est une recette
+    const recipe = recipies.find(r => r.name.toLowerCase() === ingredientName.toLowerCase());
+    if (recipe) {
+      setActiveTab('recipes');
+      setSelectedRecipe(recipe);
+      setSelectedIngredient(null);
+      return;
+    }
+    
+    // Sinon chercher dans les ingrédients
+    const ingredient = ingredients.find(ing => ing.name.toLowerCase() === ingredientName.toLowerCase());
+    if (ingredient) {
+      setActiveTab('ingredients');
+      setSelectedIngredient(ingredient);
+      setSelectedRecipe(null);
+    }
+  };
+
+  const handleRecipeClick = (recipe) => {
+    setActiveTab('recipes');
+    setSelectedRecipe(recipe);
+    setSelectedIngredient(null);
+  };
+
   return (
     <div className="App">
       <h1>Recipe List</h1>
@@ -52,7 +83,7 @@ function App() {
               onItemClick={setSelectedRecipe}
               imagePath='/pictures/'
             />
-            <RecipeDetails recipe={selectedRecipe} />
+            <RecipeDetails recipe={selectedRecipe} onIngredientClick={handleIngredientClick} />
           </>
         ) : (
           <>
@@ -63,8 +94,10 @@ function App() {
             />
             <IngredientDetails 
               ingredient={selectedIngredient}
-              recipesAsIngredient={selectedIngredient ? getRecipesAsIngredient(selectedIngredient.name) : []}
+              recipesAsSpecific={selectedIngredient ? getRecipesAsSpecificIngredient(selectedIngredient.name) : []}
+              recipesAsChoice={selectedIngredient ? getRecipesAsChoiceIngredient(selectedIngredient.name) : []}
               recipesAsArrangement={selectedIngredient ? getRecipesAsArrangement(selectedIngredient.name) : []}
+              onRecipeClick={handleRecipeClick}
             />
           </>
         )}

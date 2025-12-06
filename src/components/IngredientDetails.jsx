@@ -1,4 +1,4 @@
-function IngredientDetails({ ingredient, recipesAsIngredient, recipesAsArrangement }) {
+function IngredientDetails({ ingredient, recipesAsSpecific, recipesAsChoice, recipesAsArrangement, onRecipeClick }) {
   if (!ingredient) {
     return (
       <div className='recipe-details placeholder'>
@@ -7,7 +7,8 @@ function IngredientDetails({ ingredient, recipesAsIngredient, recipesAsArrangeme
     );
   }
 
-  const hasIngredientRecipes = recipesAsIngredient.length > 0;
+  const hasSpecificRecipes = recipesAsSpecific.length > 0;
+  const hasChoiceRecipes = recipesAsChoice.length > 0;
   const hasArrangementRecipes = recipesAsArrangement.length > 0;
 
   return (
@@ -19,12 +20,38 @@ function IngredientDetails({ ingredient, recipesAsIngredient, recipesAsArrangeme
         <h2>{ingredient.name}</h2>
       </div>
       
-      {hasIngredientRecipes && (
+      {hasSpecificRecipes && (
         <>
-          <div className='title'>Used as ingredient: </div>
+          <div className='title'>Used as specific ingredient: </div>
           <div className='recipes-list'>
-            {recipesAsIngredient.map(recipe => (
-              <div key={recipe.name} className='ingredient'>
+            {recipesAsSpecific.map(recipe => (
+              <div 
+                key={recipe.name} 
+                className='ingredient' 
+                onClick={() => onRecipeClick(recipe)}
+                style={{cursor: 'pointer'}}
+              >
+                <div className='image'>
+                  <img src={`/pictures/${recipe.image}`} alt={recipe.name} />
+                </div>
+                <span className='tooltip'>{recipe.name}</span>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+      
+      {hasChoiceRecipes && (
+        <>
+          <div className='title'>Used as ingredient choice: </div>
+          <div className='recipes-list'>
+            {recipesAsChoice.map(recipe => (
+              <div 
+                key={recipe.name} 
+                className='ingredient' 
+                onClick={() => onRecipeClick(recipe)}
+                style={{cursor: 'pointer'}}
+              >
                 <div className='image'>
                   <img src={`/pictures/${recipe.image}`} alt={recipe.name} />
                 </div>
@@ -40,7 +67,12 @@ function IngredientDetails({ ingredient, recipesAsIngredient, recipesAsArrangeme
           <div className='title'>Used as arrangement: </div>
           <div className='recipes-list'>
             {recipesAsArrangement.map(recipe => (
-              <div key={recipe.name} className='ingredient'>
+              <div 
+                key={recipe.name} 
+                className='ingredient'
+                onClick={() => onRecipeClick(recipe)}
+                style={{cursor: 'pointer'}}
+              >
                 <div className='image'>
                   <img src={`/pictures/${recipe.image}`} alt={recipe.name} />
                 </div>
@@ -51,7 +83,7 @@ function IngredientDetails({ ingredient, recipesAsIngredient, recipesAsArrangeme
         </>
       )}
       
-      {!hasIngredientRecipes && !hasArrangementRecipes && (
+      {!hasSpecificRecipes && !hasChoiceRecipes && !hasArrangementRecipes && (
         <p>No recipes use this ingredient</p>
       )}
     </div>
