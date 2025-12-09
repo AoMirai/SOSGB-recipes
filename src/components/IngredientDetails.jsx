@@ -15,7 +15,7 @@ function IngredientDetails({ ingredient, recipesAsSpecific, recipesAsChoice, rec
     <div className='recipe-details'>
       <div className='recipe-header'>
         <div className='image-large'>
-          <img src={`/pictures/${ingredient.image}`} alt={ingredient.name} />
+          <img src={import.meta.env.BASE_URL +`/pictures/${ingredient.image}`} alt={ingredient.name} />
         </div>
         <h2>{ingredient.name}</h2>
       </div>
@@ -32,7 +32,7 @@ function IngredientDetails({ ingredient, recipesAsSpecific, recipesAsChoice, rec
                 style={{cursor: 'pointer'}}
               >
                 <div className='image'>
-                  <img src={`/pictures/${recipe.image}`} alt={recipe.name} />
+                  <img src={import.meta.env.BASE_URL +`/pictures/${recipe.image}`} alt={recipe.name} />
                 </div>
                 <span className='tooltip'>{recipe.name}</span>
               </div>
@@ -53,7 +53,7 @@ function IngredientDetails({ ingredient, recipesAsSpecific, recipesAsChoice, rec
                 style={{cursor: 'pointer'}}
               >
                 <div className='image'>
-                  <img src={`/pictures/${recipe.image}`} alt={recipe.name} />
+                  <img src={import.meta.env.BASE_URL +`/pictures/${recipe.image}`} alt={recipe.name} />
                 </div>
                 <span className='tooltip'>{recipe.name}</span>
               </div>
@@ -74,7 +74,7 @@ function IngredientDetails({ ingredient, recipesAsSpecific, recipesAsChoice, rec
                 style={{cursor: 'pointer'}}
               >
                 <div className='image'>
-                  <img src={`/pictures/${recipe.image}`} alt={recipe.name} />
+                  <img src={import.meta.env.BASE_URL +`/pictures/${recipe.image}`} alt={recipe.name} />
                 </div>
                 <span className='tooltip'>{recipe.name}</span>
               </div>

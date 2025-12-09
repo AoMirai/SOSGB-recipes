@@ -13,7 +13,7 @@ function RecipeDetails({ recipe, onIngredientClick }) {
     <div className='recipe-details'>
       <div className='recipe-header'>
         <div className='image-large'>
-          <img src={`/pictures/${recipe.image}`} alt={recipe.name} />
+          <img src={import.meta.env.BASE_URL +`/pictures/${recipe.image}`} alt={recipe.name} />
         </div>
         <h2>{recipe.name}</h2>
       </div>

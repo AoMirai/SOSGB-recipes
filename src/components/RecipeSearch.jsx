@@ -180,7 +180,7 @@ function RecipeSearch({ recipes, onRecipeClick, selectedIngredients = [], onIngr
                   onClick={() => toggleIngredient(ing)}
                 >
                   <div className='image'>
-                    <img src={`/pictures/${ing.image}`} alt={ing.name} />
+                    <img src={import.meta.env.BASE_URL +`/pictures/${ing.image}`} alt={ing.name} />
                   </div>
                   <span className='tooltip'>{ing.name}</span>
                 </div>
@@ -214,7 +214,7 @@ function RecipeSearch({ recipes, onRecipeClick, selectedIngredients = [], onIngr
               >
                 <div className='recipe-result-image'>
                   <div className='image'>
-                    <img src={`/pictures/${recipe.image}`} alt={recipe.name} />
+                    <img src={import.meta.env.BASE_URL +`/pictures/${recipe.image}`} alt={recipe.name} />
                   </div>
                 </div>
                 <div className='recipe-result-info'>
@@ -252,7 +252,7 @@ function RecipeSearch({ recipes, onRecipeClick, selectedIngredients = [], onIngr
                         return (
                           <div key={`used-ing-${idx}`} className='ingredient-mini'>
                             <div className='image-mini'>
-                              <img src={`/pictures/${imgSrc}`} alt={ing} />
+                              <img src={import.meta.env.BASE_URL +`/pictures/${imgSrc}`} alt={ing} />
                             </div>
                           </div>
                         );
@@ -264,7 +264,7 @@ function RecipeSearch({ recipes, onRecipeClick, selectedIngredients = [], onIngr
                         return (
                           <div key={`missing-ing-${idx}`} className='ingredient-mini missing'>
                             <div className='image-mini'>
-                              <img src={`/pictures/${imgSrc}`} alt={ing} />
+                              <img src={import.meta.env.BASE_URL +`/pictures/${imgSrc}`} alt={ing} />
                             </div>
                           </div>
                         );
@@ -280,7 +280,7 @@ function RecipeSearch({ recipes, onRecipeClick, selectedIngredients = [], onIngr
                           return (
                             <div key={`used-arr-${idx}`} className='ingredient-mini'>
                               <div className='image-mini'>
-                                <img src={`/pictures/${imgSrc}`} alt={arr} />
+                                <img src={import.meta.env.BASE_URL +`/pictures/${imgSrc}`} alt={arr} />
                               </div>
                             </div>
                           );
@@ -292,7 +292,7 @@ function RecipeSearch({ recipes, onRecipeClick, selectedIngredients = [], onIngr
                           return (
                             <div key={`missing-arr-${idx}`} className='ingredient-mini missing'>
                               <div className='image-mini'>
-                                <img src={`/pictures/${imgSrc}`} alt={arr} />
+                                <img src={import.meta.env.BASE_URL +`/pictures/${imgSrc}`} alt={arr} />
                               </div>
                             </div>
                           );

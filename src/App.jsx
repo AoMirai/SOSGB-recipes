@@ -83,7 +83,7 @@ function App() {
             <Gallery 
               items={recipies} 
               onItemClick={setSelectedRecipe}
-              imagePath='/pictures/'
+              imagePath={import.meta.env.BASE_URL + '/pictures/'}
             />
             <RecipeDetails recipe={selectedRecipe} onIngredientClick={handleIngredientClick} />
           </>
@@ -92,7 +92,7 @@ function App() {
             <Gallery 
               items={ingredients} 
               onItemClick={setSelectedIngredient}
-              imagePath='/pictures/'
+              imagePath={import.meta.env.BASE_URL + '/pictures/'}
             />
             <IngredientDetails 
               ingredient={selectedIngredient}
