@@ -3,7 +3,7 @@ function Ingredient({ name, type = 'ingredient' }) {
     <div className={type}>
       <div className='image'>
         <img 
-          src={`/pictures/${name.toLowerCase().replaceAll(' ', '_')}.jpg`} 
+          src={`${import.meta.env.BASE_URL}/pictures/${name.toLowerCase().replaceAll(' ', '_')}.jpg`} 
           alt="" 
         />
       </div>
