@@ -1,4 +1,6 @@
 import { useState, useMemo } from 'react';
+import SearchInput from './SearchInput';
+import Thumbnail from './Thumbnail';
 
 function Gallery({ items, onItemClick, imagePath = '/pictures/' }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -11,32 +13,14 @@ function Gallery({ items, onItemClick, imagePath = '/pictures/' }) {
 
   return (
     <div className='recipes-gallery'>
-      <input
-        type='text'
-        placeholder='Search...'
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        style={{
-          width: '100%',
-          padding: '8px',
-          fontSize: '14px',
-          border: '1px solid #ccc',
-          borderRadius: '4px',
-          boxSizing: 'border-box',
-          marginBottom: '10px'
-        }}
-      />
+      <SearchInput value={searchTerm} onChange={setSearchTerm} />
       {filteredItems.map((item, index) => (
-        <div 
-          key={index} 
-          className='recipe-thumbnail'
-          onClick={() => onItemClick(item)}
-        >
-          <div className='image'>
-            <img src={`${imagePath}${item.image}`} alt={item.name} />
-          </div>
-          <span className='tooltip'>{item.name}</span>
-        </div>
+        <Thumbnail 
+          key={index}
+          item={item}
+          imagePath={imagePath}
+          onClick={onItemClick}
+        />
       ))}
     </div>
   );

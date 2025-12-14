@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { ingredients } from '../assets/ingredients';
+import IngredientMini from './IngredientMini';
 
 function RecipeSearch({ recipes, onRecipeClick, selectedIngredients = [], onIngredientsChange }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -245,58 +246,22 @@ function RecipeSearch({ recipes, onRecipeClick, selectedIngredients = [], onIngr
                   {/* Afficher les ingrédients utilisés */}
                   <div className='recipe-ingredients-display'>
                     <div className='ingredients-list'>
-                      {usedIngredientsList.map((ing, idx) => {
-                        const ingredient = ingredients.find(i => i.name.toLowerCase() === ing.toLowerCase());
-                        const isRecipe = recipes.find(r => r.name.toLowerCase() === ing.toLowerCase());
-                        const imgSrc = ingredient ? ingredient.image : isRecipe?.image;
-                        return (
-                          <div key={`used-ing-${idx}`} className='ingredient-mini'>
-                            <div className='image-mini'>
-                              <img src={import.meta.env.BASE_URL +`/pictures/${imgSrc}`} alt={ing} />
-                            </div>
-                          </div>
-                        );
-                      })}
-                      {missingIngredientsList.map((ing, idx) => {
-                        const ingredient = ingredients.find(i => i.name.toLowerCase() === ing.toLowerCase());
-                        const isRecipe = recipes.find(r => r.name.toLowerCase() === ing.toLowerCase());
-                        const imgSrc = ingredient ? ingredient.image : isRecipe?.image;
-                        return (
-                          <div key={`missing-ing-${idx}`} className='ingredient-mini missing'>
-                            <div className='image-mini'>
-                              <img src={import.meta.env.BASE_URL +`/pictures/${imgSrc}`} alt={ing} />
-                            </div>
-                          </div>
-                        );
-                      })}
+                      {usedIngredientsList.map((ing, idx) => (
+                        <IngredientMini key={`used-ing-${idx}`} name={ing} recipes={recipes} />
+                      ))}
+                      {missingIngredientsList.map((ing, idx) => (
+                        <IngredientMini key={`missing-ing-${idx}`} name={ing} recipes={recipes} missing />
+                      ))}
                     </div>
                     
                     {(usedArrangements.length > 0 || missingArrangements.length > 0) && (
                       <div className='arrangements-list'>
-                        {usedArrangements.map((arr, idx) => {
-                          const ingredient = ingredients.find(i => i.name.toLowerCase() === arr.toLowerCase());
-                          const isRecipe = recipes.find(r => r.name.toLowerCase() === arr.toLowerCase());
-                          const imgSrc = ingredient ? ingredient.image : isRecipe?.image;
-                          return (
-                            <div key={`used-arr-${idx}`} className='ingredient-mini'>
-                              <div className='image-mini'>
-                                <img src={import.meta.env.BASE_URL +`/pictures/${imgSrc}`} alt={arr} />
-                              </div>
-                            </div>
-                          );
-                        })}
-                        {missingArrangements.map((arr, idx) => {
-                          const ingredient = ingredients.find(i => i.name.toLowerCase() === arr.toLowerCase());
-                          const isRecipe = recipes.find(r => r.name.toLowerCase() === arr.toLowerCase());
-                          const imgSrc = ingredient ? ingredient.image : isRecipe?.image;
-                          return (
-                            <div key={`missing-arr-${idx}`} className='ingredient-mini missing'>
-                              <div className='image-mini'>
-                                <img src={import.meta.env.BASE_URL +`/pictures/${imgSrc}`} alt={arr} />
-                              </div>
-                            </div>
-                          );
-                        })}
+                        {usedArrangements.map((arr, idx) => (
+                          <IngredientMini key={`used-arr-${idx}`} name={arr} recipes={recipes} />
+                        ))}
+                        {missingArrangements.map((arr, idx) => (
+                          <IngredientMini key={`missing-arr-${idx}`} name={arr} recipes={recipes} missing />
+                        ))}
                       </div>
                     )}
                   </div>

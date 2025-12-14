@@ -1,3 +1,6 @@
+import { getImageUrl } from '../assets/helpers';
+import RecipeSection from './RecipeSection';
+
 function IngredientDetails({ ingredient, recipesAsSpecific, recipesAsChoice, recipesAsArrangement, onRecipeClick }) {
   if (!ingredient) {
     return (
@@ -15,72 +18,21 @@ function IngredientDetails({ ingredient, recipesAsSpecific, recipesAsChoice, rec
     <div className='recipe-details'>
       <div className='recipe-header'>
         <div className='image-large'>
-          <img src={import.meta.env.BASE_URL +`/pictures/${ingredient.image}`} alt={ingredient.name} />
+          <img src={getImageUrl(ingredient.image)} alt={ingredient.name} />
         </div>
         <h2>{ingredient.name}</h2>
       </div>
       
       {hasSpecificRecipes && (
-        <>
-          <div className='title'>Used as specific ingredient: </div>
-          <div className='recipes-list'>
-            {recipesAsSpecific.map(recipe => (
-              <div 
-                key={recipe.name} 
-                className='ingredient' 
-                onClick={() => onRecipeClick(recipe)}
-                style={{cursor: 'pointer'}}
-              >
-                <div className='image'>
-                  <img src={import.meta.env.BASE_URL +`/pictures/${recipe.image}`} alt={recipe.name} />
-                </div>
-                <span className='tooltip'>{recipe.name}</span>
-              </div>
-            ))}
-          </div>
-        </>
+        <RecipeSection title="Used as specific ingredient:" recipes={recipesAsSpecific} onRecipeClick={onRecipeClick} />
       )}
       
       {hasChoiceRecipes && (
-        <>
-          <div className='title'>Used as ingredient choice: </div>
-          <div className='recipes-list'>
-            {recipesAsChoice.map(recipe => (
-              <div 
-                key={recipe.name} 
-                className='ingredient' 
-                onClick={() => onRecipeClick(recipe)}
-                style={{cursor: 'pointer'}}
-              >
-                <div className='image'>
-                  <img src={import.meta.env.BASE_URL +`/pictures/${recipe.image}`} alt={recipe.name} />
-                </div>
-                <span className='tooltip'>{recipe.name}</span>
-              </div>
-            ))}
-          </div>
-        </>
+        <RecipeSection title="Used as ingredient choice:" recipes={recipesAsChoice} onRecipeClick={onRecipeClick} />
       )}
       
       {hasArrangementRecipes && (
-        <>
-          <div className='title'>Used as arrangement: </div>
-          <div className='recipes-list'>
-            {recipesAsArrangement.map(recipe => (
-              <div 
-                key={recipe.name} 
-                className='ingredient'
-                onClick={() => onRecipeClick(recipe)}
-                style={{cursor: 'pointer'}}
-              >
-                <div className='image'>
-                  <img src={import.meta.env.BASE_URL +`/pictures/${recipe.image}`} alt={recipe.name} />
-                </div>
-                <span className='tooltip'>{recipe.name}</span>
-              </div>
-            ))}
-          </div>
-        </>
+        <RecipeSection title="Used as arrangement:" recipes={recipesAsArrangement} onRecipeClick={onRecipeClick} />
       )}
       
       {!hasSpecificRecipes && !hasChoiceRecipes && !hasArrangementRecipes && (

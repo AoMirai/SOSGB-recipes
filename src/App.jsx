@@ -7,6 +7,14 @@ import RecipeDetails from './components/RecipeDetails';
 import IngredientDetails from './components/IngredientDetails';
 import RecipeSearch from './components/RecipeSearch';
 import Tabs from './components/Tabs';
+import { 
+  filterRecipesBySpecificIngredient, 
+  filterRecipesByChoiceIngredient, 
+  filterRecipesByArrangement,
+  findRecipeByName,
+  findIngredientByName,
+  getImageUrl
+} from './assets/helpers';
 
 function App() {
   const [selectedRecipe, setSelectedRecipe] = useState(null);
@@ -15,29 +23,15 @@ function App() {
   const [selectedSearchIngredients, setSelectedSearchIngredients] = useState([]);
 
   const getRecipesAsSpecificIngredient = (ingredientName) => {
-    return recipies.filter(recipe => {
-      return recipe.ingredients.some(ing => {
-        // Seulement les ingrédients spécifiques (string), pas les arrays
-        return typeof ing === 'string' && ing.toLowerCase() === ingredientName.toLowerCase();
-      });
-    });
+    return filterRecipesBySpecificIngredient(recipies, ingredientName);
   };
 
   const getRecipesAsChoiceIngredient = (ingredientName) => {
-    return recipies.filter(recipe => {
-      return recipe.ingredients.some(ing => {
-        // Seulement les choix (arrays)
-        return Array.isArray(ing) && ing.some(i => i.toLowerCase() === ingredientName.toLowerCase());
-      });
-    });
+    return filterRecipesByChoiceIngredient(recipies, ingredientName);
   };
 
   const getRecipesAsArrangement = (ingredientName) => {
-    return recipies.filter(recipe => {
-      return recipe.arrangements.some(arr => 
-        arr.toLowerCase() === ingredientName.toLowerCase()
-      );
-    });
+    return filterRecipesByArrangement(recipies, ingredientName);
   };
 
   const handleTabChange = (tab) => {
@@ -48,7 +42,7 @@ function App() {
 
   const handleIngredientClick = (ingredientName) => {
     // D'abord vérifier si c'est une recette
-    const recipe = recipies.find(r => r.name.toLowerCase() === ingredientName.toLowerCase());
+    const recipe = findRecipeByName(ingredientName, recipies);
     if (recipe) {
       setActiveTab('recipes');
       setSelectedRecipe(recipe);
@@ -57,7 +51,7 @@ function App() {
     }
     
     // Sinon chercher dans les ingrédients
-    const ingredient = ingredients.find(ing => ing.name.toLowerCase() === ingredientName.toLowerCase());
+    const ingredient = findIngredientByName(ingredientName);
     if (ingredient) {
       setActiveTab('ingredients');
       setSelectedIngredient(ingredient);
@@ -83,16 +77,20 @@ function App() {
             <Gallery 
               items={recipies} 
               onItemClick={setSelectedRecipe}
-              imagePath={import.meta.env.BASE_URL + '/pictures/'}
+              imagePath={getImageUrl('')}
             />
-            <RecipeDetails recipe={selectedRecipe} onIngredientClick={handleIngredientClick} />
+            <RecipeDetails 
+              recipe={selectedRecipe} 
+              onIngredientClick={handleIngredientClick}
+              onRecipeClick={handleRecipeClick}
+            />
           </>
         ) : activeTab === 'ingredients' ? (
           <>
             <Gallery 
               items={ingredients} 
               onItemClick={setSelectedIngredient}
-              imagePath={import.meta.env.BASE_URL + '/pictures/'}
+              imagePath={getImageUrl('')}
             />
             <IngredientDetails 
               ingredient={selectedIngredient}
